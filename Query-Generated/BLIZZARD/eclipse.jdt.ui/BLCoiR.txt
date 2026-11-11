@@ -1,0 +1,20 @@
+12996	file editor error jar build export multipage access example creation eclipse workspace finish thread project type mpe
+29531	javacolormanager refactoring press preview thread cu editor move workspace
+75843	display jdidebugmodel createmethodentrybreakpoint component iresourcechangeevent thread deadlock breakpoint workbenchcontentprovider resourcechanged process syncexec ui team solution chain execute rest folk situation creation snapshot processing freeze point reaction issue jdt method entry delay information
+79793	javaworkingsetupdater deadlock
+103450	fix statement synchronize block quick option
+125013	wait preferencesadapter firepropertychangeevent call deadlock syncexec preferenceforwarder javamodelmanager thread trace result lock reconciler
+179109	ast time dump editor type stack wait finish concurrently thread
+261198	txt javasynchronizationcontentprovider synchronize change problem model structure view project java node eclipse team repository
+272742	imagesonfilesystemregistry getnewfile thread time exception imageloader fimagecount view save bug problem javadoc editor type step concurrently
+291996	error access javamergeviewer method source dialog thread shell compilation
+296794	thread change access documentchange swtexception point position eclipse refactoring document code
+297709	synchronize item composite behavior tree opening change editor link result action jdt file java wizard autocomplete swt control error option moment resource
+300536	fix access error state thread code
+301242	searchpattern workbench lock editor undo attachment press validatematchrule beginning action detail stacktrace test ctrl space line save format ui dialog java user
+319689	problemmarkermanager access thread
+336841	file explorer view show java classpath synchronize
+347599	refactoring release call method checkfinalconditions dispose error performrefactoringhistoryoperation checkinitialconditions createchange patch lock cycle refactoringhistorywizard uncertainty solution possibility none place object check conditions index end life eclipse situation scope problem rafactoring time cdt
+411636	trace file explorer hang link cycle workspace action save project delay thread editor burn indigo stack java ui
+411841	launch test build thread trace result rerun freeze debuguitools view bug config process menu junit sample stack patch context eclipse project ui
+417765	access imagedescriptorregistry hookdisplay workspace bndtools project newjavaprojectwizardpagetwo eclipse kepler stack trace perspective osgi key swt thread invalid problem workaround brand

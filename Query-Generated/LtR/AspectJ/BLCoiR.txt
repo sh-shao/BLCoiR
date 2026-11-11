@@ -1,0 +1,8 @@
+59599	test condition ajctests xml contents wait suite pc desktop machine pointer environment fix race andy home compilation candidate linux directory
+59909	cflowstack thread getthreadstack removesthreads size store call scheme memory patch lateproblem code error implementation varaibles production method hashtable version running table project cycle
+155148	lock method trace information classloader deadlock thread server name workexecutorworkerthread policyclassloader identity tostring hashcode dump launcher java level oracle test system ctrl loader wait monitor object stack reason notice aj argument
+269867	weakhashmap stick ajtypesystem getajtype access thread instance system start dump synchronize clazz threaded application loop object line
+318878	aspect set method thread object ajc instance version target source advice vm problem code test compiler check size constructor sun application time value synchronize pertarget instantiation
+320468	modifierspattern getmodifierflag method modifierflags map non-synchronized
+340806	javalangtypetoresolvedtypeconverter aop race condition spring
+408721	aspectj exception thread concurrentmodificationexception state weaver

@@ -1,0 +1,42 @@
+545	arraylist codemost hive code vector unsynchronized
+3057	metastore hivemetastore rawstore variable function getms thread call threadlocalms object shutdown store
+3408	extractcounters hashset hashmap getentry updatecountersinqueryplan queryplan classhive thread problem execute condition concurrently race list person part dump mailing hive object
+4000	hashmaps thread stick condition client mapreduce job start progress race loop access lock cpu hive
+7011	generation hiveinputformat cache access inputformat concurrent tez parallel split
+7341	hcattable hcatclient schema resolve diff table dbname instance targettable serializetable hcatcreatetabledesc definition attribute updatetableschema patch sourcetable partition hcataddpartitiondesc metastore hcatpartition couple builder mechanism need deserializetable addpartitions source concern attempt change falcon condition
+8440	hiveserver wait block job number request map problem ql slot query situation cause etl hadoop cluster schedule task concurrent heap code client day queue environment
+9199	writeentity dummytxnmanager lock writetype lockmode ddl contention locking createtable database table operation output example
+9598	reentrantlock sync tryrelease resultset closed statement close illegalmonitorstateexception
+10483	dbtxnmanagerinsert overwrite join lock insert deadlock conflict xxxx part partition side xxx ta tb shared txn query
+11036	hangunder datanucleus deadlock concurrent condition metastore race workload query
+11616	delegationtokensecretmanager issue conf saslserver startdelegationtokensecretmanager basehandler getms servermode metastore objectstore start log exception analysis hivemetastore concurrency lead
+12238	error vectorudfdate thread safety vectorization
+12248	objectstore dbtokenstore rawstore datanuclues persistencemanager condition mdelegationtoken multi-thread objectdetachedexception non-thread-safe object race db error implementation pm root threadlocal dn thread backend type operation
+12266	lock release command start timeout acquire cli shell beeline issue client hook hive acid
+12409	sessionstate inittxnmgr synchronize thread hive method session
+12529	block lock time hivetxnmanager acquirelocks exception forevercurrently dbtxnmanager signature method timeout max wait client
+12620	lock txnhandler dblockmanger dblockmanager unlock metaexception interleave gettxnidfromlockid exception checklock improvement module timeoutlocks log apo logic read refactor amp timeout statement attempt misc acid transaction id tracking checkretryable auto mode debugging connection
+12768	buffer issue safety serde deserialization thread decimal
+12797	pool issue llap part change tez synchronization session hive
+12904	taskexecutorservice queryinfo block method synchronize sourcename handler sourcestateupdated unregisterforupdates logic total call deadlock executioncompletionthread finishablestateupdatehandler iswait lock issue server llap scheduling maybeunregisterforfinishedstatenotifications isinwaitqueue scope taskwrapper finishablestatetracker object sync org apache hadoop hive
+12926	pool issue llap part change tez synchronization session hive
+12927	getnextsequence metastore api increment hbase sequence presence concurrency ioexception row
+12996	table session statement definition functionality manager lock insert value thread query temp metastore acid
+13013	txnhandler operation number read_committed support isolation deadlock db update concurrency serializable
+13213	acquire dblockmanger table value lock resource acid example
+13395	lock recordvalidtxns update currenttransactionid driver row write change txn originaltransactionid problem table hive time hive_locks set snapshot acquire txnid compile readerkey tracking migration id start pk issue level block run version execute
+13458	heartbeat stopheartbeat query bug lock assumption heartbeater
+13512	id thread atomicinteger compilation tezwork object counter parallel query dag concurrent running
+13599	queue condition item exception handling update test pre-emption race llap state preemption
+13699	javadatamodel thread method compilation issue parallel time query
+13725	use call thread response synchronize client batch api method endpointcurrently endpoint heartbeat vice-versa streaming impl txn sequence synchronization acid rpc sample metastore
+13753	client response thread condition request message server synchronize dbtxnmanager method side error thrift fact solution race rpc metastore sequence
+13833	delay heartbeat start lock acquisition acquire time scheduling
+13858	interrupt block end future completeinitialization task hiveprocessor abort io level call middle deadlock code part interruptan status preempt thread executor slot cluster wait llap result execute hdfs
+14357	driver compileandrespond order checkcmdondriver testlocksinsubquery inspection jira somebody lock test branch
+14400	alreadyexistsexception partition query insert condition concurrently effect time statement race example table side concurrent session metastore user
+14463	hotspot taskqueue abstractqueuedsynchronizer conditionobject vm stick testmsgbusconnection test dump wait extension server problem thread lock parking day mode hcatalog java tm module environment
+14739	filesystem close lock deadlock hook hive order shutdownhookmanager execute runtime cli query nauroth khandelwal priority shutdown cache hadoop chris deepesh code runnable java
+14778	transactionbatch streamingconnection model heartbeat object thread document metastoreclients client metastoreclient reference threading apithe thrift rpc concurrently method
+14924	thread table exception order command mode pointer msck repair error
+15090	expiredtokenremover thread exception failure metastore removal db process loop fix token temporary hive

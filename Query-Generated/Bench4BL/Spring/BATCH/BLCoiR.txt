@@ -1,0 +1,18 @@
+170	staleobjectstateexception operationuse stepexecution hibernatejobdao modification operation step concurrent
+449	itemskippolicyitemhandler item reader writer error exception synchronization
+603	jobexecution field thread volatile
+782	exception synchronizer step abstractstep lock simpleasynctaskexecutor release execution issue error thread semaphore acquire processing optimisticlockingfailureexception itemorientedstep block persistence code problem access stuff api fatalexception locking processchunk id context concurrent execute fix synchronization
+912	list error arraylist collections synchronizedcollection issue thread problem arraylistexception exception jobregistrybackgroundjobrunner volatile context visibility initialization synchronization safety application implication performance collection code theory
+1272	faulttolerantchunkprocessor step thread multi-threaded
+1278	repeattemplate cause exception thread batch
+1362	thread spin scheduler wait step disparity count end loop chunk multi-threaded user effect jvm priority work worker
+1526	chunkmonitor leak threadlocal deal user detection application web re-deployment deployment fix thread memory tomcat
+1542	mapjobrepository jobexecution protection step collection safety copy execution stepexecution thread write effect job concurrency batch place
+1572	fatalexceptionclasses unexpectedrollbackexception retrypolicy simpleretryexceptionhandler add binaryexceptionclassifier fatalexceptionclassifier exception java step exceptionhandler chunk transaction constructor release level record manager lock reader problem batch debug rollback database throwable ity collection
+1709	beanwrapperfieldsetmapper bug setting condition limit property name message race concurrency caching distance column concurrent cache
+1724	chunk step failure thread bug critical outcome multi-threaded limit queue processing background multithreaded time
+1725	exception subclassclassifier concurrenthashmap concurrently concurrent modification
+2126	numberformat taskexecutor jobparametersconverter simpleasynctaskexecutor variable dateformat longnumberformat simplejoboperator setup usage instance asynchronous defaultjobparametersconverter thread
+2153	nullpointerexception hashmap springframework context batch scope core stepsynchronizationmanager threadsorg hashtable start teststepsynchronizationmanagermain project increment threadsafe thread variable maven decrement fix solution
+2156	updateexecutioncontext concurrencyfailureexception update failure stepexecution tableneed jdbcstepexecutiondao updatestepexecution execution synchronize jdbcexecutioncontextdao step_execution_context tasklet error multithreaded processing record context thread step line order method concurrency
+2313	batch synchronizationmanagersupport nullpointerexception re-run condition running synchronize number count bug gridsize race multithreading assumption line context couple end field datum step system release synchronization npe decrement month thread failure increment year code

@@ -1,0 +1,32 @@
+7392	exception suspend thread code frame startup state synch stack model jdithread
+8683	thread step frame signaldispatcher vm suspend npe code stack hit system
+12695	breakpoint set adapter thread event java list user top debug order suspend spot
+16930	invalidthreadstateexception tostring suspend thread message area error state step eval breakpoint user evaluation
+21801	group datum command client java implementation threadgroupreference library name parent number api jdi base jdwp time thread
+22005	display asynchexec synchexec performance ui thread call runnable review eclipse code
+24579	modalcontext development eclipse org thread bug checkout control lock box block syncexec resources perspective wait project java workspace build step fork check problem ui note core cvs deadlock preferences plugin path
+33297	error manager tostring evaluationlistener resolveformatter evaluationcomplete place user detail formatter evaluation thread suspend
+33712	lock step javadebugoptionsmanager tree project comment resource modification log java bug method
+43197	iconsolelinetracker call tracker event terminate method dispose term process race line lineappended message wait thread logic code termination worker condition debug listener console job launch time plugin care action mirror init
+52474	perspective module start number work block lock eclipse repository ui cvs dialog pattern scenario workbench workspace fact checkout platform project java note point
+57467	frame method currmethod equals lastmethod test computestackframes flastmethod issue condition exception index attempt tos jdithread time label thread info race transisent requestor debug ui background logic fix stack
+64951	tostring thread variable shot label breakpoint frame loop condition screen line detail stack debugging suspend ibm
+65107	classcastexception async thread debugview exception time stack frame code bug note watch processing queue
+65149	javadebugoptionsmanager initializeproblemhandling exception date cvs log project resource
+66413	condition time perspective problem exception workspace terminate state mode dialog startup error change java shutdown target thread re-launch log bp runtime
+78534	concurrentmodificationexception threadmonitormanager hashmap clone exception test
+88923	expression evaluation ievaluationengine thread method asynchronously processing ui evaluate
+101118	exception async thread code multithreaded application problem version eclipse queue source processing sdk
+125868	session launch start exception access head eclipse thread jdt debug
+148006	hotspot lock start consoledocument information deadlock vm execution thread wait java project autobuild dump level plug worker client mode build ant monitor object stack tm
+161781	status suspend eclipse suspend_status_suspended threadreference thread vm query resume waitfordebugger state call message socket connection suspendcount concept debugger count wait function idea jdwp port debug running time book order condition
+165174	monitor code view selection block screenshot sync show launch
+169542	threadgroup group thread view jvm build id workaround code start program mode debug variable bug parent hierarchy research opinion information
+178912	vm createvminstall type abstractvminstalltype ivminstalltype api condition block method thread setinstalllocation vmlocation setname vmname vmid fvms synchronize list getter member variable object access safety problem implementation impl runtime everyone instance race call
+182237	exception variable java thread access
+187000	step worker press window suspend stack tree focus selection thread java time wait stick machine co enviroment problem release start mouse debugger stacktrace information
+229394	jface view editor array npe code program value cell error type condition location thread entry problem breakpoint step plug race java check time debugging variable var
+312038	lock context manifest mf time haschildren treeviewer isexpandable ui directory file isfile process thread result stat lockup automounter automount start tree issue backtrace example strace src.zip/src.jar nfs hang jrecontainer jdt source eclipse
+343039	session race use option monitor person debugger time jdt deadlock debugging ability thread du
+446040	runtimeclasspathviewer preferencechange access thread
+506865	abstractvminstalltype createvminstall vm block race condition existence creation synchronize id

@@ -1,0 +1,18 @@
+125572	thread client line run timesyncinitiator app syncsoclientcontainer clientsocontainer killconnection lock interlock provider id initsyncservice closesyncservice sendtimesyncmessage timesynctask isconnected ecf problem iconnectcontext wait socontainer iconnection time mutex version suspend server
+223484	thread running docshare urlshare viewshare consoleshare screencaptureshare ichannelcontaineradapter dispatcher run server jmdns socketlistener manager level time file worker start xmpp repeat state data framework event bundle daemon discovery timer discoonect information
+229237	retrieveservices multirosterview addcontainer asyncexec view container call mrv syncexec xmppconnectwizard performfinish openview showview block setuptreeviewer provider execute display account view_id connection list deadlock time effect remy fix ipresenceservice ipresenceservices xmpp ui existence
+232530	exception idlethread chatsession read session problem ecf behavior method whitespace death message subclass
+265413	jmdnsdiscoverycontainer jmdns object call issue lock thread
+265415	jmdnsimpl unregisterservice serviceinfo lock object canceler synchronization jmdns
+267035	tostring replicasharedobjectdescription synchronize information
+273357	channelid thread sendmessage newchannelconfig createchannel createniochannel ichannellistener isopen socket sendrequest id invocation ichannelcontaineradapter store cycle api implementation ichannelconfig operation handshake problem work socketchannel file ichannelmessageevents connection property counterpart sense room improvement javadoc
+273819	start thread bug wizard container user dialog containers time
+299849	xmppcontainer getlocalcontainerid remoteserverid disconnect registrysharedobject npe id handleaddregistration xmppremoteserviceadapterfactory thread connection message method xmppregistrysharedobject container situation code packet
+321468	dispatch registrysharedobject iremoteservicelistener fireremoteservicelisteners deadlock service listener event synchronous result listenerqueue code call asynchronously fix
+321469	threadgroup discoveredservicetracker listenerqueue distribution bundle thread cleanup
+323208	limit exception attachment provider service workspace jmdn host detail distribution startup time sec eclipse ecf problem machine zookeeper consumer testcase
+326949	getremoteservicereferences invalidsyntaxexception idfilter iremoteservicereference containerconnectexception api target iremoteservicecontaineradapter string id clazz filter method service container adapter synchronous
+337973	readkeeper readroot process zookeepers watchedevent removezookeeper bug java syncconnected method watchmanager condition list exception build identifier code moment service race reason probability error idea state zoodiscovery synchronize thread undiscovery severity major effect
+341818	code provider time resource error r_osgi thread consumer loop system execute sample rs
+348487	thread shutdown hotspot lock wait vm idleconnectiontimeoutthread simplefifoqueue dump process referencequeue reference time java tid prio eclipse nid bundle start shoul server mode tm jmdns discovery daemon periodic task condition
+432662	ecfruntimeexception activator getlogservice httpclient cause printstacktrace problem exception period branch application multi-threaded method synchronize scheme startup master thread modifier bug

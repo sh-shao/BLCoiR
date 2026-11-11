@@ -1,0 +1,38 @@
+543	unassignedregions state change condition solution place collection access regionmanager pendingregions regionstoclose closingregions regionstodelete patch map trunk hbase possibility synchronize region hole race master hmaster structure
+659	block cacheflushlock region path hang close stick situation code log dump thread lock release split hlog
+663	write lock number updateslock cache update hregion reconstruction hstore flushan use acquire startup log sequence snapshot assumption
+699	hang testmigrate hudsonits process thread region relocateregion threaddump waiting unix scan address hbase table hudson
+818	information flushsomeregions deadlock regionserver uploading java level mr stack thread region
+950	rowlock htable commit rowlocks lock apiintroduced update hang row hbase
+1569	condition load hour shutdown race regionserver cluster
+1740	keyvalue condition code icv snapshot fix memstore production scan attempt timestamp su result memcache hfile issue value level race load start
+1840	rowlock indexedtable number exception fix test info load indextable unit debug line stacktrace sense row note
+1869	indexedtable test rowlock testindexedtable testing version conjunction exception packaging svn patch
+2023	block client region stick thread locateregioninmeta server lock issue access sync multi-threaded problem thrift request table solution wait multithreaded
+6565	result treemap htable java size code environment test coprocessor thread program exec map bug multithreading example
+8923	chaosmonkey recovery teardown exitcodeexception start race process rs status cluster test moment boom
+13606	assignmentmanager assign sync behavior comment async pathfrom testcreatetableprocedure
+13662	nextcallseq hasnextcallseq outoforderscannernextexception scan rsrpcservice request outoforder callseq failure patch exception discussion heartbeat error hbase outoforderscannernext failurewhile atomic stack scanner client concurrent id question date
+13959	split ten exhaust size file storefile concurrency setup notservingregionexception store threadpool splitting time region family environment workload thread number fix operation count tracing column client retry write table logic average phase reference
+13988	thread exception handler cluster server future prod region root debug lease log
+14178	block offsetlock cache rpc timeout jstack regionserver wait thread client detail infomation ps table
+14241	closecaught testmastermetricswrapper deadlock lock rpcclientimpl connection dump metaservershutdownhandler setupiostreams concurrent output thread root cause object branch shutdown markclosed level debug close stack cluster java
+14359	asyncprocess outofmemoryerror call tasksent taskdone dectaskcounter hang close error exception rejectedexecutionexception thread wait rpctimeout flushcommits go table env recommendation problem sendmultiaction waituntildone sendmultiactioncurrently htable task autoflush datum product rpc clause client hour
+14463	read bucketcache idreadwritelock ioenging lrucache feature issue cause reentrantreadwritelock lock problem worker synchronize downgrade idlock execute reading datum rowkey engine start learning getlockentry copy performance hundred getblock hbase item parallel operation key
+14555	tostring priorityrpcserver handler thread test deadlock mvcc branch queue port
+14812	resultboundedcompletionservice deadlock
+14926	thriftserver readingthrift thread socket crash side client hang hung thrift branch server worker log patch fb hbase timeout
+15001	hbaseinterclusterreplicationendpoint replicationsinkmanager sink size replicationsource arraylist edit operation issue thread code batch problem retry number part list verification safety walprovider time idea shipping success example
+15030	tablenamespacemanager integrationtestddlmasterfailover information reentrantreadwritelock procedureexecutor lock wait deadlock nonfairsync info jstack cluster master log java stack thread part synchronizer monitor object
+15093	metricssource setsizeoflogqueue size incrsizeoflogqueue incrementing queue world source synchronize decrsizeoflogqueue log multithreaded multiwal replication operation method
+15146	block queueblocking queue thread scheduler limit method reader blocking capacity dispatch ack epoll rpc
+15650	timerangetracker storefile thread point contention hbase store
+15957	connection markclosed rpcclientimpl close thread pool fix shouldcloseconnection start interrupt flag hbase time handling calling check bug circumstance writer parent result
+16081	completionservice remove_peer block replicationsourcemanager rollingwe executor removepeer condition wal hbaseinterclusterreplicationendpoint lock take recordlog race call object situation shutdown thread peer replication
+16144	claimqueues lock acquire queue prematurelyin usemulti crash rs node operation zk replication
+16304	updateslock synchronousqueue transferstack abstractqueuedsynchronizer conditionobject reentrantreadwritelock nonfairsync lock handlefilenotfoundexception deadlock jvm stack parking wait hregion regionscannerimpl write
+16367	race master hregionserver server snippet initializezookeeper log preregistrationinitialization id initialization thread line cluster start execution region hmaster hbase
+16429	rollwriter stick appendsrecently safepointreleasedlatch wait buffer replacewriter deadlock ringbuffer next safepointzigzaglatch waiting targeting thread resolve problem issue ringbuffereventhandler handler consumer releasesafepoint jira fshlog release ut jstack process sync ring append
+16699	overflow refill line bypass ratelimiters logic averageintervalratelimiter getwaitinterval issue check patch day concurrent behavior place
+16721	flush problem cluster seqid datum issue tracking split flusher region wal file hundred max log time limit force rs concurrency regionserver memstore fshlog production start
+16788	hstore closeandarchivecompactedfiles clearcompactedfiles archive hregionfilesystem removestorefiles close call defaultstorefilemanager lock file removecompactedfiles compactedfile threadb filenotfoundexception hfilearchiver archivestorefiles use cleanup change block threada service condition compactedhfilesdischarger readlock thread chore sequence operation removal option

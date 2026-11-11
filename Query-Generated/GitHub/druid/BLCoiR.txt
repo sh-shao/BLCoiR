@@ -1,0 +1,31 @@
+582	fs jar upload job start create exists file indexing overwrite jobhelper locking race mtime path solution cluster time directory druid hadoop workingpath/classpath/jarname.jar
+812	segment realtimeplumber callback thread push task service release abandonsegment merge race view merging indexing file lock server havoc node realtime
+1014	result lead time request filter system condition value message query node thread error dimension show race kafka problem regexp regex druid speed
+1210	condition node log coordinator coordniator broker race crazy
+1360	task terminate worker status scaling service condition manager replica node race situation auto indexing middle spawn check account
+1715	task acquire lock submit course failure issue request min execution hr overlord zombie
+2793	taskqueue error lock backlog addition entry attempt diff
+2842	npe thread assignment task rtr
+2991	incrementalindex addtofacts fact onheapincrementalindex condition incremetalindex index race mapping multi-thread aggregate
+3063	block request thread listen lookup time minute post make queue acquire load stuff coordinator query nonblocking concurrent lock number forward work druid jetty flight solution
+3393	channel nettyhttpclient go write httpclient handler channeldisconnected condition httprequest cluster instance callback retval hundred query time method future directdruidclient addlistener race exception broker druid pool shape chance side server trace
+3459	reentrantlock deadlock information wait atomicboolean object node lock topn_redacted nonfairsync issue cache java level synchronizer parking lookup stack thread query kill namespaceextractioncachemanager
+3593	reentrantlock information lock wait deadlock cache nonfairsync namespaceextractioncachemanager atomicboolean offheap qtl java stack thread synchronizer parking monitor object
+3600	metadata updatedatasourcemetadatawithhandle service datasource segment indexersqlmetadatastoragecoordinator java failure synchronize ise runtimeexception retrytransaction commit_metadata_payload method replication log task number issue condition equivalent count thread access db race partition kafka indexing transaction publishing aborting
+3608	ingestsegmentfirehosefactory task reindex condition datasource factory segment level id race locking time grain situation cross directory input toolbox
+3772	kafkalookupextractorfactory race condition issue order gvsmirnov
+4226	node lookup condition start log task realtime query aprox race spawn time segment druid tranquility storm
+4296	issue query task bufferunderflowexception middlemanger thread condition group middlemanagers node indexing corrupt configuration user application efficiency release fix segment hll trace log error peon realtime tranquility cluster druid event google datum interval
+4984	cachingcostbalancerstrategyfactory callback start cachingcost serverinventoryview number method balancerstrategyfactory balancer cluster race view segment inventory initialization constructor
+5338	datasource batch issue emit emitter tryaddevents servicemetricevent builder druidcoordinator setdimension concurrentbatch executor spin dump loop usage httppostemitter method suspicion build test thread bug deployment reference event cpu concurrency time
+6020	listener taskrunner optional druidleaderselector becomeleader taskmaster npe trace variable taskqueue race stack code overlord leader
+6028	sqlmetadatarulemanagertest lock deadlock error cycle waiter
+6139	testcheckpointforunknowntaskgroup kafkasupervisortest race
+6201	httpremotetaskrunner lock object lifecyclelock concurrenthashmap cluster deadlock overlord wait test
+6287	issue tasksequences verifyandmergecheckpoints service futures addcallback firstkey kafkasupervisor condition compareto race kafka indexing result
+6826	druidschema refreshsegmentsfordatasource bug concurrency
+6867	druidstatement information druidconnection deadlock connection java level exhaust stack thread
+7400	user passwordprovider password username name condition metadata passwordproviders druid credentials store database property provider race field implementation operation description motivation
+8622	task supervisorcapacity slot parallelindexsupervisortask middlemanagers deadlock issupervisor code cluster set spawn capacity pool supervisor remotetaskrunner work concept comment change test plan method middlemanager submit delegate start user configuration restriction subtask possibility parallel
+9292	concurrenthashmap coordinatorrulemanager atomicreference condition rules race hashmap fix action
+10005	segment api interval load datasource query forcemetadatarefresh time task week sqlsegmentsmetadatamanager cache start metadata coordinator timestamp datum poll use source percentage number value condition user memory ingestion information implementation loadstatus list replication

@@ -1,0 +1,12 @@
+bug_id	term	types	pagerank	degree	freq	first_sentence	surface	cr_degree
+311	class	OTN	0.517213	1	2	0	class	0
+311	abstractjaxbmessageconverter	COE	1.728061	4	2	0	abstractjaxbmessageconverter	1
+311	thread	CME,OTV	1.335728	3	3	0	thread	0
+311	jaxb	OTN	0.519327	1	1	1	jaxb	0
+311	marshaller	OTN	2.172513	5	2	1	marshallers	0
+311	unmarshaller	OTN	0.519327	1	2	1	unmarshallers	0
+311	create	OTV	0.528456	1	1	1	created	0
+311	cache	OTN	0.886540	2	1	2	caches	0
+311	cause	OTV	1.356779	3	1	2	cause	0
+311	arrayindexoutofboundsexceptions	EXC	0.901634	2	1	2	arrayindexoutofboundsexceptions	1
+311	other	OTN	0.534421	1	1	2	others	0

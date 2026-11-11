@@ -1,0 +1,33 @@
+1247	close httpclientimpl clientconnection vert httpclient lock handleclosed checkclosed deadlock acquire connection thread
+1302	vertx clusteredvertx eventloop thread block startup method application java
+1355	clientconnection httpclientrequestimpl deadlock
+1466	serverconnection httpclientrequestimpl deadlock
+1469	instance acquire connectionmanager queuemanager connqueue implementation getconnqueue createendpoint client map httpclientmetrics constructor leak resource http none thread queue spi time endpoint closeendpoint
+1573	opening asyncfile filesystem stack drive warning user twickle windows issue block thread example trace nbd network detail
+1598	write read block async issue thread asynchronous
+1633	executeblocking description block thread context
+1742	jar file data implementation verticle filesystem action filelengthverticle java fileresolver issue vert instance yield copy size cache problem readfileblocking cp resolvefile mb output payload async concurrently run resolution use copying resource directory
+1834	sockjssocket lock serverwebsocket websocket event handler request httpserverrequest httpserver schedule tick loop deadlock context netty synchronize connection reconnect motivation change
+1892	sethandler thread implementation future problem compositefuture compositefutureimpl condition test race completion verticle function composition futureimpl situation atomic intention junit project understanding difficulty handler
+2012	writesoutstanding asyncfileimpl thread atomiclong write condition race context counter state caller
+2370	resolver connectionprovider failure httpclient pool callback asynchronous synchronous host dns jvm connection
+2418	hazelcastclustermanager problem igniteclustermanager verticle deadlock lock consumer acuire code
+2670	thread connection notify loop bootstrap context globaleventexecutor event execute application vertx notification client netty boostrap failure
+2684	asyncresult runoncontext executeblocking thread future race callback execute trace resolution client hand stack mongo execution handler asynchronous worker
+2773	pool connection request httpclient context race tick condition close schedule fact situation client delivery multiple vertx solution moment re-check
+2916	handler lock event deadlock http
+2982	lock vert block httpclientrequestimpl deadlock client stuff http wait reproducer eventloop threaddump
+3064	operation mistake stream result method behaviour vert httpserverresponse synchronously improvement response synchronous future user programming asynchronously
+3140	asyncfile handler lock block implementation synchronize file synchronization
+3142	deadlock instance verticle start server regression
+3232	vertx close sync await future method sethandler pool wait thread handler blocking output work
+3335	filesystemimpl existsinternal block loop thread event
+3468	block vert httpclient issue connectionmanager getconnection thread connection loop halt warning milestone result request event host client
+3469	deadlock callback pool host failure client http self
+3658	compositefuture exception composite iscomplete vertxunitrunner method thread future condition execute failure number tryfail race runwith block gap situation docomplete version bug test result execution synchronize unit time context
+4024	tcpserverbase listener bindfuture addlistener sharednetservers put dobind id race listen port issue wait code volatile field notify effect method synchronize debugging term concurrency context future verticle
+4069	vertx workerexecutor vertximpl close closefuture workerexecutorimpl lock thread deadlock callback issue eventloop copy concurrently wait release instance information createsharedworkerexecutor sharedworkerpool code backtrace jstack self block list java synchronize vert level version acquire
+4104	executeblocking workerexecutor asyncresulthandler run thread deadlock test block call execute fut oncomplete workerexecuteimpl sleep workerexecutorimpl timing requirement trace option blockingcodehandler breakpoint line reproducer order intellij lock instance junit reproduction stack synchronize blocking
+4221	npe action connection pool execute httpclient race slot lease meantime post
+4275	connectionbase exception handler block synchronize
+4278	arraylist name error registerverticlefactory verticle deploymentmanager deploymentoptions rxdeployverticle method option exception collection startup problem application piece code information attempt string concurrency analysis

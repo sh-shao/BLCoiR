@@ -1,0 +1,11 @@
+bug_id	term	types	pagerank	degree	freq	first_sentence	surface	cr_degree
+7688	nullpointerexception	EXC	1.318547	4	1	0	nullpointerexception	3
+7688	throw	OTV	0.721551	2	1	0	thrown	0
+7688	synchronize	COP	2.056655	6	2	0	synchronized	1
+7688	pv	OTN	0.441359	1	1	0	pvs	0
+7688	injectionmetadata	COE	1.006815	3	1	0	injectionmetadata	1
+7688	checkpropertyskipping	COE	1.006815	3	1	0	checkpropertyskipping	1
+7688	ibm	OTN	0.583564	1	1	1	ibm	0
+7688	jvm	OTN	1.020150	2	1	1	jvm	0
+7688	do	OTV	0.524121	1	1	1	does	0
+7688	allow	OTV	1.320425	3	1	1	allow	0

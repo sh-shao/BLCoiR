@@ -1,0 +1,81 @@
+39769	servlet unload destroy thread standardcontext problem classloader standardwrapper standardcalssloader myservlet getloader directory currentthread webapp getclass code app getcontextclassloader webapploader getclassloader variable david gagnon loader execute application method window web instance understanding
+40380	expire standardsession problem syncro notify
+42530	session managerbase processexpires backgroundprocess nullpointerexception findsession acquire findsessions invalidate execute add operation hashmap concurrenthashmap line method manner synchronize lock string tomcat servlets time result testservletf
+45453	jdbcrealm hang getroles executequery stmt synchronization preparedstatement preparedroles thread setstring wait block driver username response digestauthenticator authentication object cache jdbc server digest db
+47158	accesslogvalve locking condition issue usage problem race pattern judging article
+47524	receiverbase mcastserviceimpl dispatch bug branch executor procedure proposal issue queue bugzilla trunk thread code event ariel
+48172	jspruntimecontext jspreloadcount value atomicinteger getjspreloadcount volatile synch constructor javadoc instance thread getter field codesource problem synchronize
+48234	containerbase logger getlogger logname access method javadoc unsynch consideration synch thread subclass parent
+48248	run messagedispatchinterceptor volatile thread
+48249	run blockpoller nioblockingselector volatile thread
+48399	deltasession difflock field lock patch
+48790	managerbase maxactive race condition java problem block snip manner execute statement fix synchronize detector field atomic tomcat code datum
+48843	getworkerthread worker thread request condition execute jioendpoint java maxthreads recycleworkerthread curthreadsbusy await wait instance sequence block createworkerthread processsocket database code statement list section archive port workerthread tomcat scope method loop race event
+48895	thread leak webappclassloader threadlocals threadlocalmap threadlocal clearreferencesthreadlocals remove instance problem clearthreadlocalmap issue state expungestaleentries load protection application task barrier concurrency structure clearing method detection memory request pool synchronization production worker webapp idea
+49129	digestauthenticator field volatile initialization compiler object initialisation findbugs method problem thread processor instruction unsynchronized non-volatile
+49144	bootstrap daemon contextconfig contextdigester field initialization method update bug thread findbugs object setting multithreading unsynchronized location value
+49567	startasync start error amount bug doposts thread status code testcase exception tomcat server time async
+49730	thread standardthreadexecutor page taskqueue issue resource connection minsparethreads call request parent getactivecount offer keepalivetimeout start keepalive browser safari poolsize task threadpoolexecutor pool leak getpoolsize java execute keep time wait source timeout condition
+49905	threadfactory deltamanager start thread leak standardcontext webappclassloader contextclassloader threadpoolexecutor method application bindthreads creation tomcat newthread setcontextclassloader classloader session instance redeployment message tribe memory apache jdk webapplication solution override context node web creditdev
+49985	astinteger getinteger astfloatingpoint aststring synchronization race getfloatingpoint getstring concurrent line write initialization datum init method lazy number
+49987	result concurrent applicationcontext race concurrenthashmap map parameter datum read write mergeparameters method
+50138	objectcache hashmap securityutil access thread synchronize map spin concurrenthashmap solution javadoc lack symptom synchronization implementation processor hash change concurrently
+50293	compositeelresolver add change synchronization issue synchronize
+50352	feature asynclistener oncomplete asynccontext complete async thread servlet method
+50353	asynccontext getresponse timeout thread servlet spec example npe async behavior reference illegalstateexception
+50459	standardcontext bindthread unbindthread thread
+50547	message change_session_id session_expired deltamanager session startup patch synchronization timestamp cluster
+50554	getclass javaurlcontextfactory getinitialcontext bug pattern plugin code lock block program subclass instance object use future concurrency java keshmesh eclipse source synchronize method hashtable behavior
+50629	bindthread start unbindthread method work loadonstartup code container tomcat thread listener filter initialization
+51185	createpool synchronize impact concern jdbc pool datasourceproxy synchronisation method component enhancement tomcat code getter grained synchro creation performance philippe
+51197	senderror sendredirect asynccontext
+51212	querystats atomic field failure approach slowqueryreport issue execute result test reason query number execution synchronize add load performance patch thread time synchornization use
+51467	thread run method join wait mistake start standardcontext usage line completion
+51545	extendedaccesslogvalve attachment threadname user mailinglist detail tomcat request thread
+51688	jrememoryleakpreventionlistener toolkit getdefaulttoolkit thread webapp creation awt windows contextclassloader addition xawt condition memory undeploy
+52055	chunkedinputfilter request code post endchunk inputstream flag nextrequest abstractinputbuffer server side buffer http chunking debugging servlet asynchronous result
+52091	taghandlerpool standardwrapper lock resolve test application field change getinitparameter block issue policy reentrantreadwritelock following log instance environment patch stress web profiler synchronize parameter concurrently
+52213	fastqueue enabled code volatile pattern plugin flag access program keshmesh concurrency bug field java eclipse source thread concurrently synchronize
+52259	file shutdown sh issue tomcat request wait script configuration application directory build info freeze startup process error log http port host web synchonization lock realm lib setup jar problem nuance
+52356	fastqueue remove size getsize channelmessage add interceptorpayload race synchronize condition access field bug developer tomcat datum member
+52777	version deployment parallel
+52999	firecontainerevent copy readwritelock context containerbase array request list standardsession loop getapplicationeventlisteners code issue problem access session map listener locking operation attribute place candidate container put tomcat helper enhancement dev event write performance
+53173	maxconnections hang jioendpoint rejectedexecutionexception fix configuration thread connector place handling scenario workaround patch usage nio jio acceptor administrator error use test edge connection system setting
+53450	containerbase java removecontainerlistener accessloglistener standardengine reentrantreadwritelock nonfairsync uninstall deployment context firecontainerevent application lock acquire parking wait call root hang write
+53498	concurrenthashmap tomcatattributes execute concurrent misusage violation bug thread code atomicity java/org/apache/catalina/core/applicationcontext.java collection contextname dose research java hashmap line file snapshot performance mining patch library tomcat java/org/apache/catalina/ha/context/replicatedcontext.java name java/org/apache/catalina/startup/hostconfig.java
+53624	dispatch page redirecta webappinitializer setupredirectscenario issue forwardingasyncservlet servlet servletcontext redirectc thread sendredirect asynccontext scenario call servletc dispatchingasyncservlet rendering output code repro forward source build detail redirectb application line jsp project tomcat log
+53843	dispatch isasyncstarted start thread call request asynccontext processing dispatchertype value container async operation period spec application
+54045	tcpfailuredetector channel membership performbasiccheck getmembers node memberalive getmember call issue check send_options_use_ack send_options_default abstractreplicatedmap replicatedmap heartbeat method performforcedcheck configuration code tomcat map value fix member side memberimpl hasmembers thread tcppinginterceptor checkmembers effect
+54086	concurrentmodificationexception nioreceiver use set method iterator selector replication thread issue code exception receiver key selectionkey javadoc briefly synchronize shutdown log cluster session node text access concurrent clustering remove
+54521	request nonceinfo length noncecountvalid client digestauthenticator overwrite generatenonce instance noncecount nonce authentication header cache method datum index thread digest key millisecond array multithreaded multi-threaded map asynchronous nc component scenario problem count conclusion
+55267	stick thread test user dump load nio lock
+55309	tagpluginmanager pageinfo servletcontext page issue concurrent patch
+55521	session invalidate sessionfixationprotectionstrategy condition httpservletrequest file httpsession request thread change message getsession parallel call java exec race flow fixation attack command protection security state issue code core log user id week spring
+55524	wsoutbound asyncop deadlock lock thread information websocket atmosphere dump write atmosphereresourceimpl operation issue scheduler framework java level tomcat application wait monitor object shared stack deadlocked
+55582	rctxt jspservletwrapper jspruntimecontext getwrapper ctxt getruntimecontext wrapper issue wrapperuri jsp tagfileprocessor line code runtimecontext instance concurrent scenario thread unsynchronized synchronize
+55684	threadgroup securityexception webappclassloader getthread access thread start tomcat method permission order root parent
+55799	send remoteendpoint websocket basic sendtext xhtml chatannotation call problem time synchronize chat connection illegalstateexception getbasicremote example thread javadoc tomcat issue method ioexception session connector closedchannelexceptions message attempt action browser concurrently corruption reply
+55996	client illegalstateexception processing request run problemservlet asynccontext timeout loop variant async servlet exception connector tomcat message stream method java implementation issue http codebase release context based start connection server thread nio apache
+56042	startasync response request illegalstateexception asynccontext setstatus httpservletresponse sc_bad_request trace issue error thread spec must_dispatch asynccomplete dispatch state stack scenario servlet async jetty reason
+56082	getloggernames logmanager logger getlogger classloaderlogmanager concurrentmodificationexception tomcat getlogmanager result copy webapp concurrentmodification download output test issue thread string system target run mvn source war instance start jdk maven
+56518	call maxconnections niochannel closedbyinterruptexception resp flushbuffer server xml thread webapp req startasync root war connector abstractendpoint countdownconnection logic limit config nioendpoint processsocket selectionkey code tomcat client bug hang limitlatch countdown ctx complete
+56577	sendhandler send timeoutexception wsservercontainer corepoolsize value thread remote maximumpoolsize parameter method sendasync executor service message issue context effect client session queue state
+56653	contextlist mapper context removecontextversion contexts nesting code removecontext issue foo field map request tomcat problem webapp test bar application list root delay behaviour trunk concurrency example
+56724	thread start containerbackgroundprocessor outofmemoryerror onoutofmemoryerror error backgroundprocess flag restart issue list stackoverflowerror script strategy oome death xx stack mailing time jmx tomcat admin effect log delay jvm container background
+56746	thread method loader resource secureiothreadfactory asyncchannelwrappersecure client websocket context webapp webssocket
+56857	hashmap thread applicationcontextfacade issue concurrenthashmap invokemethod singleton access hang servletcontext remedy member change non-threadsafe objectcache safety status cpu indicator dump synchronization map object webapp synchronize stack
+56907	connection wswebsocketcontainer thread executors newfixedthreadpool error asyncchannelwrappersecure executorservice secureiothreadfactory websocket attempt implementation clientendpointconfiguration endpoint issue source url program executor application time leak version creation method page situation jvisualvm leakage path result
+57265	usesendfile problem start hiden connector server rate nginx output condition occurre tomcat nio occurrence script file homepage code race
+57338	synchronize node cache state list discussion valve clustersinglesignon singlesignonentry startup sync action sign mailing tomcat session moment cluster start
+57340	close poller niochannel thread nioconnector actioncode comet_close java cache nioendpoint corrupt read abstractprotocol socketchannel connection channel process attachmentkey selectionkey atmosphere reference nginx code tomcat fork comet concurrent response object stuff closing request
+57420	url_encoder dircontexturlconnection name
+57681	loading implementation port file loader parallel object synchronize tomcat source patch classloading tc web application
+57683	async example log thread tomcat crash issue stockticker esc request indicator bug wait key page counter response exception console status connection behaviour handling file regression ise webapp progress browser keyboard jdk start
+57779	servletoutputstream thread lock abstractqueuedsynchronizer conditionobject code block object operation wait error write deadlock socketwrapper version client connection end output servlet synchronize source socket tomcat parking issue io example
+57943	thread nioendpoint tomcat log exception error connection request poller
+57959	filehandler java lock deadlock condition release acquire race tomcat code issue log file apache order org juli write comment
+57977	persistentvalve invoke loader thread bind method patch trunk request response webapp
+58179	execute violation line university fellow snippet guangdong java/org/apache/catalina/core/applicationcontext.java beforecontextattributeadded oldvalue beforecontextattributereplaced event name key fire problem file atomicity bug national singapore research code bai thread value situation attribute
+58522	entry wardircontext servletcontext getresourcepaths centos arrays java children problem file list call child trace corrupt project corruption code tomcat request jasperexception directory error array jsp method zip resource stack flow compliation test
+58946	jsp map javadoc application servletrequest getparametermap applicationhttprequest parametermap review list start issue request example tomcat dev response site message thread immutability behaviour oracle code user root web problem
+59138	threadlocal warning reference leak library message subclass checkthreadlocalmapforleaks positive threadlocalmap application key issue loader use output comment basis thread configuration name code value example bug compromise integer list time web instance heuristic

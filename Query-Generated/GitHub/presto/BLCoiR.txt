@@ -1,0 +1,19 @@
+1614	tasksource processnewsources driverlockresult close update hang race nomoresplits newsources design unlock stick message driver state machine call lock task query source
+1689	condition ci test issue stack trace race query
+3629	teststatemachine testsetif travis race
+3647	concurrenthashmap issue report tool race use blackholemetadata
+4869	scheduler join stage dependency graph edge deadlock schedule scheduling broadcast build
+5005	close statementclient queryrunner interruptedioexception call thread httpclient execute advance problem interrupt exception bug race async hook query issue client cli loop status flag presto http handler shutdown change synch
+5110	array_concat array version map exception race condition presto string type query
+5116	testtaskexecutor testtaskhandle assertionerror count race test invocation
+5735	setmemoryreservation memoryreservation operatorcontext thread freememory annotation threadsafe trysetmemoryreservation method transfermemorytotaskcontext resume reservation query atomiclongs problem atomiclong impact example scenario execute part code cc cberner hang memory caller change synchronization performance bug delta
+6196	lock information resourcegroup httpremotetask continuoustaskstatusfetcher start info deadlock rootresourcegroup stack sqlstageexecution level java resourcegroupmanager production query client trace task thread wait monitor object
+6319	indexlookup accumuloclient setauths gettabletsplits accumuloconfig store safety hashmap columncardinalitycache path instance singleton thread synchronization code
+6755	manager abstractresourceconfigurationmanager internalresourcegroup thread configurechangedgroups memory_change_listener_lambda configuregroup setsoftmemorylimit group clustermemorymanager situation generalpoolmemoryfraction lock cc cberner deadlock pool db file root resource config dbresourcegroupconfigurationmanager
+6923	outerlookupsource partitionedlookupsource synchronize regression usage outerpositiontracker problem method version cpu code task_concurrency query visitedpositions locking synchronization partitioning appendto time profiling performance outer join node core hash dain area factor array
+7667	testqueues testbasic check condition listener wait possibility machine test issue error change state waitforquerystate query race pattern log failure db line counter function assertion point
+7689	counter abstracttestdistributedqueries testqueryloggingcount listener callback change condition assertion execution issue test problem sleep query state race async variable
+8716	waitforcompletion copymonitor uploadmonitor uploadobject abstracttransfer sdk condition race upload hang call parallel setfuture loop aws proposal version load method aw
+9881	outerpositiontracker iterator count error race condition query limit position reference stack
+11253	bug queueddrivers node scheduling nomoresplits tasksource schedulingcomplete addexchangelocation pendingsplitsbyplannode stage finish completesources nodeassignmentstats gettotalsplitcount sqltaskexecution schedulepartitionedsource nodescheduler selectdistributionnodes task splits pipelinecontext getpipelinestatus order worker deadlock split schedule detail pressure outcome number scheduletask
+13142	querystatetimer backport race failure trino trinodb

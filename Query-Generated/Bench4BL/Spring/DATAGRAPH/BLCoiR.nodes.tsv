@@ -1,0 +1,11 @@
+bug_id	term	types	pagerank	degree	freq	first_sentence	surface	cr_degree
+876	derive	OTV	0.544783	1	1	0	derived	0
+876	finder	OTN	0.544783	1	1	0	finder	0
+876	filter	OTN	0.544783	1	2	0	filter	0
+876	value	OTN	2.786701	6	2	0	values	0
+876	thread	CME,OTV	1.369431	3	2	0	thread	0
+876	cypherfinderquery	COE	0.544783	1	1	1	cypherfinderquery	0
+876	share	OTV	0.932788	2	1	1	shared	0
+876	make	OTV	1.007560	2	1	1	making	0
+876	query	OTN	0.619555	1	1	1	query	0
+876	execution	OTN	1.104834	2	1	1	execution	0

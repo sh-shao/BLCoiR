@@ -1,0 +1,1 @@
+96	binaryencoder thread nullpointerexception codec instance support client user patch variable method common implementation commons usage code javadoc example regression

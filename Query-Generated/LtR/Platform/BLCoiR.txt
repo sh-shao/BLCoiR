@@ -1,0 +1,31 @@
+6623	abstractuiplugin refreshpluginactions thread startup problem plugin ui
+15379	listener workingsetmanager thread change resource
+33942	idecoratormanager update requirement thread javadoc threading swtexception ui restriction
+46562	view overwrite resource cvs lock dialog update sync deadlock dump
+48382	join work trace release test deadlock view worker job ilock stack marker pattern build
+54450	requestinui job feedbackmanager dialog nullpointerexception error development request execution api work call prompt impression user hint wait log info eclipsecon condition inui var technique tour debugger uijob logic top status process race
+59782	workspace dialog runbuild page eclipse perspective operation build preference explorer deadlock wait start java window packager project workbench user pref progress
+67053	lock exception code ioexception use workspace nature failure error message ui user location
+74185	join uijobtest backgroundthreadfinished test failure testjobran testjob volatile delayjob loop assertion wait flag copy processor job concurrency fix
+76378	thread notifyjob modalcontext deadlock operation notification uithread request test code change syncexec uilocklistener problem patch workspace lock background interaction junit timing ui
+84141	decorationscheduler lock ui
+108162	movefilesandfoldersoperation participant line deadlock resource actions plug refactoring code
+113582	problem dirtyregionqueue deadlock list lock framework party marker editor jobs build job john tod stacktrace
+114527	startup condition crash race workbench
+114813	listener getbundle dosetup dynamicplugins synchronization objectcontributiontest testviewercontributions failure event instance dynamictestcase mechanism registry removebundle dynamicpluginstestsuite begining junit addition wait method solution bundle work time chain
+118414	abstractworkingsetmanager deadlock start workspace startup
+136855	runfinalization ideidlehelper heapstatus thread deadlock ui
+164361	show isvisible progressmonitordialog handler condition iprogressmonitor begintask messagelabel swt dialog check name job progress setmessage configureshell race optimization message label user milestone task trimming
+168806	realm ensureworkerthreadisrunning start thread
+171452	syncexec deadlock handler trace couple startup splash
+230472	activity synchronize list expression
+248908	busyindicator application problem framework lock thread freeze ui deadlock bug rcp day eclipse editor time
+258352	progressmanager synchronization
+262032	deadlockdetector deadlock
+273752	syncexec navigatorcontentservice getsourceofcontribution deadlock suite object test
+296056	syncexec ijobmanager beginrulethe deadlock rule wait attempt ui scheduling thread
+296822	iscanceled setcanceled nullprogressmonitor implementation thread synchronize access field volatile usage work progress monitor method use synchronization poll
+302536	markersupportregistry locking
+306738	item state mtoolbar synchronize toolitem app application mtoolitem radio selection set change type delta renderer tool toolbar button result
+307405	navigatorcontentservicecontentprovider deadlock
+312063	selectionserviceimpl listenerlist hashsethashsets order event thread

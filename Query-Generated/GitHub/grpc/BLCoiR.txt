@@ -1,0 +1,32 @@
+17	cancel abstractclientstream okhttp stream thread race rst_stream allocation transport delay id synchronization sendcancel notify doc side max_concurrent_streams netty optimization issue problem header destruction server application comment expectation cancellation asynchronously creation wire
+120	eventloop block newstream issue thread blocking nettyclienttransport deadlock directexecutor frame call task cause oom part api person concurrent queue wait method client wire operation behavior asynchronous qps header scenario performance netty
+238	startasync initialization handler connection transport race client thread server
+330	ongoaway startpendingstreams goaway phase okhttpclienttransport call stream lock failpendingstreams transportreportstatus pendingstreams race terminate cleanup list
+583	finishstream rst_stream transportreportstatus okhttpclientstream sendcancel race frame thread synchronize okhttp lock cancellation stream usage datum code benefit data application transport synchronization
+605	channelinactive channel nettyclienthandler isactive onstreamclose nettyclienttransporttest bufferedstreamsshouldbeclosedwhentransportterminates basedecoder call stream closure handling effect condition fix shutdown race list inactivation check report side encoder grpc teardown
+696	lock channel shutdownnow deadlock transportshutdown information transport server accountserver shutdown listener java channelimpl inprocesstransport serverimpl inprocessserver level process time stack thread client wait monitor object
+887	sendframe sendcancel okhttp timeout start npe race stream example
+999	serverimpl threadsafe release start condition annotation executor race problem concurrently stop shutdown
+1253	sendmessage halfclose illegalstateexception race request clientcallimpl cancellation pr context operation stream
+1343	stream start notify timeout_on_sleeping_server nullpointerexception awaitcompletion schedule okhttp execute deadline carl mastrangelo timeout clientcallimpl listener test exception android cancellation race
+1408	listener call lock clienttransport order schedule issue layer servertransportlistener acquire code method base channel deadlock cost ordering transport locking reason need risk track requirement thread solution today rule turn executor hand option
+1510	delayedclienttransport inprocesstransport deadlock chance
+1549	rxjava deadlock add async change call stub streaming request operation language pressure synchronous streamobserver issue pattern block streamobserve caveat control onnext runtime implementation mechanism java response observables alternative extension grpc api flow
+1981	clientcallimpl call rejectedexecutionexception sharedresourceholder destroy_delay_seconds executor shutdown scheduledexecutor schedule channel newcall start test failingclienttransport solution state listener managedchannelimpl usage race npe timer person pool maybeterminatechannel release issue behavior deadline termination application reference
+2152	start transportset deadlock benchmark call detector client server
+2246	nameresolver roundrobinlb transportset deadlock side issue code grpc custom
+2388	transportset grpctimer deadlock cherry
+2453	statstracecontext threading
+2562	shutdown transport clienttransportprovider newstream loadbalancer delay step channel time managedchannelimpl clientcallimpl timing stream start selection response mode position subchannel solution race pick state
+2865	thread callback header race frame client execute stream delayedclienttransport okhttp clientcallimpl compression root cause decompression onheaders clientinterceptors message condition transport server rpc start interceptor channel executor network app data datum solution
+3084	clientcall servercall inprocessclientstream inprocessserverstream close lock callback safety deadlock channelexecutor serverstreamlistener acquire executor okhttpclientstream transportdatareceived issue thread messageread clientstreamlistener okhttp clientrequested serverrequested application order code object synchronize locking method care example
+3207	testserviceimpl race datum
+5015	helper synchronizationcontext subchannel createsubchannel race loadbalancer grpc guarantee path healthcheckingloadbalancerfactory requestconnection thread argument request loadbalancers caller model checking mindset health threading side work developer issue subchannelpicker handlesubchannelstate api benefit synchronization implementation fact
+5450	onerror nameresolve listener race concurrently thread code impl datum
+6601	start netserver serverimpl await grpc thread loop deadlock condition bug server synchronization lock channelzfuture block dump serverlistenerimpl transportcreated race connection initchannel schedule problem execute vertx channel synchronize wait ggpr file time client
+6641	serverimpl lock serverlistenerimpl transportcreated deadlock start execute nettyserver eventloop acquire transport await usecase runnable port server submit task mechanism
+8190	nameresolver thread hang placement method elg
+8536	transmitwindowfull acknowledgedoutgoingbytes bindertransport problem grpc stick interaction binderchannel start control transaction_bytes_window read process error update call message deadline_exceeded server telemetry transaction gettile java version numoutgoingbytes client resume handleacknowledgedbytes thread unsynchronized concurrent sendtransaction
+8565	threadsanitizer retriablestream onready messageframer java close isclosed framer closed trace race thread isready stack transport frame datum summary
+8642	xdsclient csdsservice version getsubscribedresourcesmetadata getcurrentversion issue code synchronize call method synchronization api atomic resource thread csds
+8914	transact outgoingbinder service binder instance handletransaction call bindertransport binderclienttransport binderservertransport deadlock process ontransact problem channel lock thread binderchannelbuilder client identity sendacknowledgebytes re-entrancy delivery transaction time locking peer assumption method server driver object

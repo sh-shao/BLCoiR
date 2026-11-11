@@ -1,0 +1,11 @@
+# Maven build output (includes ~460 MB of CoreNLP model jars; rebuilt by `mvn package`)
+target/
+
+# Outputs of `./blcoir.sh query/run` with non-default --queries directories
+Query-Generated-*/
+
+# Editors / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store

@@ -1,0 +1,7 @@
+29585	exception lock tree resource container java model core code modification
+58314	thread exception managment ast console cursor reader
+291322	test issue lock windows core exception call file pattern time jdt tear error
+327143	job call thread loop simulateexit simulaterestart manager number indexmanager file touch jar index processing wait await consequence
+421473	getannotations localvariablebinding annotation declaringscope type scope assignment condition block binding handle effect race patch holder argument array method client lvb creation setting side solution local parameter code source java
+431275	deadlock javamodelmanager deltaprocessor addpackagefragmentroot perprojectinfo deltaprocessingstate product start monitor code addtoparentinfo stack patch bugzilla http thread name trace lock master run path stream version call method blocked wait java mode adopter ibm
+464570	codestream novisiblelocals init showing arrayindexoutofboundsexception conflict condition jar field use source file aioobe bytecode race jdt multi-thread java method stack make jsp fix

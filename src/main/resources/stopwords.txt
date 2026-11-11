@@ -1,0 +1,23 @@
+# English stop words
+a about above after again against all almost also am an and any are aren as at
+be because been before being below between both but by can cannot could couldn
+did didn do does doesn doing don down during each either else etc even ever every
+few for from further get gets got had hadn has hasn have haven having he her here
+hers herself him himself his how however i if in into is isn it its itself just
+let ll me might more most much must mustn my myself no nor not now of off often on
+once only or other otherwise ought our ours ourselves out over own per please quite
+rather re really same shall shan she should shouldn since so some still such than
+thank thanks that the their theirs them themselves then there these they this those
+though through thus to too under until up upon us ve very via was wasn we were weren
+what whatever when where whether which while who whom whose why will with within
+without won would wouldn yet you your yours yourself yourselves
+# generic verbs / nouns without retrieval value in bug reports
+seem seems think thought know want wish like look looks say says said try tried
+see saw seen guess maybe perhaps probably something anything nothing everything
+someone anyone thing things way lot bit kind sort one two three first second
+hi hello regards cheers sorry
+# Java keywords
+abstract assert boolean break byte case catch char class const continue default
+double enum extends final finally float goto implements import instanceof int
+interface long native new null package private protected public return short static
+strictfp super switch this throw throws transient try void while true false

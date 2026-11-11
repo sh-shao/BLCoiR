@@ -1,0 +1,3 @@
+302	field support immutability setentryencoding method archivestreamfactorycompress volatile safety setting thread constuctor patch synch ctor encoding factory
+303	setdecompressconcatenated compressorstreamfactory field release thread decompressconcatenated immutability safety volatile preparation compress method future api technique
+357	method stream unsynchronized output

@@ -1,0 +1,694 @@
+project	bug_id	category	first_rank	gold_ranks	query
+BLIZZARD/ecf	125572	PE	90	90	ECF Generic provider thread interlock version 0 5 version 0 6 ECF generic provider client app interlocked on two mutexes SyncSOClientContainer connect line 162 TimeSyncTask initSyncService line 48 Client isConnected line 213 SyncSOClientContainer killConnection line 742 TimeSyncTask sendTimeSyncMessage line 67
+BLIZZARD/ecf	223484	PE	384	384,619,2140,2228,2240	disconnect XMPP server threads not disposing org eclipse ecf daemon thread
+BLIZZARD/ecf	229237	PE	1	1	XMPPS accounts contacts list view MultiRosterView addContainer asyncExec retrieveServices bug fix
+BLIZZARD/ecf	232530	STP	1	1,4,11	ECF 2 0 0 v20080514 ChatSession read method whitespace exception bug localization
+BLIZZARD/ecf	265413	PE	1	1	JMDNSDiscoveryContainer org eclipse ecf provider jmdns container JMDNSDiscoveryContainer dead-lock issues javax jmdns JmDNS lock objects threads
+BLIZZARD/ecf	265415	PE	1	1,2	dead-lock javax jmdns impl JmDNSImpl unregisterService(ServiceInfo) JMDNS 2 1 javax jmdns impl tasks Canceler synchronization object
+BLIZZARD/ecf	267035	STP	8	8	ReplicaSharedObjectDescription toString not thread safe Steps to reproduce synchronize toString method
+BLIZZARD/ecf	273357	PE	2	2,4,20,738,1000,2027,2159,2231	Datashare APIs implementation Java 1 4 NIO abstract attachment 132859 details known issues room for improvement
+BLIZZARD/ecf	273819	NL	7	7,46,690	containers instantiated every time wizard opens container not disposed  wizard closes  thread started  bug 266817
+BLIZZARD/ecf	299849	PE	14	14	RegistrySharedObject handleAddRegistration NPE XMPPRemoteServiceAdapterFactory XMPPRegistrySharedObject getLocalContainerID XMPPContainer remoteServerID disconnect packet thread A main thread
+BLIZZARD/ecf	321468	PE	30	30	RegistrySharedObject synchronous dispatch of remote service listener events leading to deadlock
+BLIZZARD/ecf	321469	PE	33	33,184	DiscoveredServiceTracker ListenerQueue Thread ThreadGroup services distribution bundle stopped cleanup clean up explicitly stopped bug localization
+BLIZZARD/ecf	323208	STN	49	49	Distribution Provider exceeds startup time limit Eclipse ECF jmdns Zookeeper exception multiple hosts
+BLIZZARD/ecf	326949	PE	2	2,3,12,19,31,36,41,80	getRemoteServiceReferences method in remote service container adapter api
+BLIZZARD/ecf	337973	STP	1	1,2193	zoodiscovery Remote service undiscovered concurrency bug ReadRoot this readKeeper is null line 70 ReadRoot java race condition process method synchronized thread safe WatchedEvent state Disconnected state Expired state SyncConnected connect method removeZooKeeper watchManager Severity Major reproducible sometimes
+BLIZZARD/ecf	341818	PE	145	145,1876	System out of thread resources unable to create new native thread bug localization org eclipse ecf examples remoteservices hello consumer rs org eclipse ecf examples remoteservices hello host rs internal error has occurred reproducible close loop
+BLIZZARD/ecf	348487	STN	35	35	slow JMDNS Discovery Thread Java process exit delay  daemon threads  waiting on reference queues  debug thread dump
+BLIZZARD/ecf	432662	STP	109	109,1230	ECFRuntimeException Unable to instantiate schemes for HttpClient multi-threaded application org eclipse ecf internal provider filetransfer httpclient4 Activator synchronized modifier org eclipse ecf provider filetransfer httpclient4_1 0 300 v20140228-1838
+BLIZZARD/eclipse.jdt.core	29585	STN	1	1,4,65	Core Exception resource tree is locked Java Model Exception Initializing classpath container
+BLIZZARD/eclipse.jdt.core	58314	STN	1	1,2,3,4,5,6,7,8,9,10,11,12,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,37,42,43,44,45,46,47,48,49,50,51,52,53,55,56,57,58,59,61,62,63,64,70,343	thread-safe AST multiple readers exception console cursor management not thread safe
+BLIZZARD/eclipse.jdt.core	291322	NL	634	634	JDT Core test errors Windows 7 exception tear down known issue lock file retry
+BLIZZARD/eclipse.jdt.core	327143	PE	1	1	IndexManager new jobs processing thread simulateExit touch simulateRestart jar file waiting jobs infinite loop number of awaiting jobs never run stop loop awaits job thread is null
+BLIZZARD/eclipse.jdt.core	421473	PE	6	6,14,119,138,200,1114,2002	race condition in LocalVariableBinding getAnnotations due to delayed assignment of declaring scope for arguments in BETA_JAVA8
+BLIZZARD/eclipse.jdt.core	431275	STP	15	15	Deadlock JavaModelManager PerProjectInfo DeltaProcessingState IBM headless JDT 3 6 50 v_B79_R36x_J7 3 6 4 v_A79_R36x bugzilla 338006 DeltaProcessor addPackageFragmentRoot stack traces
+BLIZZARD/eclipse.jdt.core	464570	STP	248	248,263	race condition static field CodeStream noVisibleLocals method CodeStream init weblogic JDT compile java source jsp files java bytecode multi-threads ArrayIndexOutOfBoundsException org eclipse jdt internal compiler codegen CodeStream noVisibleLocals reproduce fixes
+BLIZZARD/eclipse.jdt.debug	7392	NL	122	122	JDIThreads not responding at startup suspended incompatible thread state exception
+BLIZZARD/eclipse.jdt.debug	8683	STP	1	1	NPE in SignalDispatcher thread after suspending VM stepping over top stack frame assumption
+BLIZZARD/eclipse.jdt.debug	12695	NL	6	6,79,178	Java thread breakpoints hit suspend event temporary breakpoints super adapters Java debug adapter hidden list user breakpoint
+BLIZZARD/eclipse.jdt.debug	16930	NL	61	61	incompatible thread state InvalidThreadStateException better error message toString suspended after a step breakpoint bug localization
+BLIZZARD/eclipse.jdt.debug	21801	PE	1	1,3	ThreadGroupReference cached JDI client thread group name parent API java library reduce number of jdwp command
+BLIZZARD/eclipse.jdt.debug	22005	PE	14	14,23	review UI runnables Display asynchExec Display synchExec UI performance
+BLIZZARD/eclipse.jdt.debug	24579	PE	128	128	deadlock java project build 20021008 eclipse plugin development java build path control cvs perspective checkout org eclipse core resources ModalContext thread UI blocked on ModalContext 2
+BLIZZARD/eclipse.jdt.debug	33297	PE	1	1	detail formatter manager unnecessary error logging resolveFormatter EvaluationListener evaluationComplete
+BLIZZARD/eclipse.jdt.debug	33712	STP	1	1	Resource tree locked for modifications JavaDebugOptionsManager
+BLIZZARD/eclipse.jdt.debug	43197	PE	2	2,7,11,57,402,460,586,955	race condition console line tracker debug terminate event process termination event job worker thread main thread last line IConsoleLineTracker dispose method launch removed know if last line changed termination event wait IConsoleLineTracker lineAppended method return mirror init method what to do after termination logic
+BLIZZARD/eclipse.jdt.debug	52474	NL	146	146,147	UI blocked Java Perspective CVS check out Eclipse I20040218 Platform UI module workbench lock
+BLIZZARD/eclipse.jdt.debug	57467	NL	1	1,2	invalid stack frame race condition JDIThread computeStackFrames method preserving stack frames fLastMethod transient exception retrieving underlying method thread accessing stack frames background UI test methods comparing frames fix
+BLIZZARD/eclipse.jdt.debug	64951	NL	5	5,13	suspended thread evaluating condition no labels RC1 IBM1 4 2 for loop line breakpoint i 53 selected thread debugging paused labels appear update variables stack frame toString details not work screenshot
+BLIZZARD/eclipse.jdt.debug	65107	STN	418	418,636	ClassCastException processing async thread queue, DebugView stack frame switching between T1 T2 with watches on total i
+BLIZZARD/eclipse.jdt.debug	65149	STP	6	6	Resource exception Java DebugOptionsManager initializeProblemHandling org eclipse core internal resources ResourceException modifications CVS
+BLIZZARD/eclipse.jdt.debug	66413	STN	6	6,11,81	Illegal thread state debugging conditional breakpoint startup bug 64951 condition i 57 change Java perspective shutdown workspace restart workspace re-launch last debug mode Error dialog runtime exception occurred condition error dialog appears stacked 4-6 times log Terminating restarting target problem evaluating condition startup
+BLIZZARD/eclipse.jdt.debug	78534	STP	1	1	ConcurrentModificationException ThreadMonitorManager HashMap clone not thread safe
+BLIZZARD/eclipse.jdt.debug	88923	PE	14	14,15	evaluate method IEvaluationEngine compiled expression UI thread asynchronous evaluation
+BLIZZARD/eclipse.jdt.debug	101118	STN	20	20	eclipse rc3 win32 multithreaded application debug problem
+BLIZZARD/eclipse.jdt.debug	125868	STN	45	45	Invalid Thread Access launching Running HEAD restart eclipse jdt debug session exception first launch
+BLIZZARD/eclipse.jdt.debug	148006	STP	-1		deadlock ConsoleDocument ant execution autobuild
+BLIZZARD/eclipse.jdt.debug	161781	PE	33	33,79	Eclipse remote debug connection thread status suspension
+BLIZZARD/eclipse.jdt.debug	165174	NL	126	126	selection lost in launch view after stepping into sync block with show monitors turned on screenshot attachment
+BLIZZARD/eclipse.jdt.debug	169542	NL	8	8	debug view not displaying threadgroup threads, workaround found Debug View not showing ThreadGroup workaround to display thread group in debug view Build ID: M20060629-1905 Steps to reproduce creating nested threadgroups threads under them in IR
+BLIZZARD/eclipse.jdt.debug	178912	STN	2	2	Query: IVMInstallType AbstractVMInstallType thread safety problem race condition synchronization
+BLIZZARD/eclipse.jdt.debug	182237	STN	30	30,39	Invalid thread access exceptions Java Variables view updating to M6 exceptions when I first open the variables view bug localization
+BLIZZARD/eclipse.jdt.debug	187000	NL	12	12,67,281	debugger focus selection loss in thread stack during Java 6 debugging on Windows XP Linux machines
+BLIZZARD/eclipse.jdt.debug	229394	STN	340	340	NPE JFace cell editor variables view null check  dispose  race condition array of chars  breakpoint  var view  delete value  click outside of cell Invalid Type  org eclipse jface
+BLIZZARD/eclipse.jdt.debug	312038	STP	22	22	JREContainer hasChildren backtrace recursive stat Manifest MF lockup JDT source directory TreeViewer isExpandable NFS automount UI thread slow
+BLIZZARD/eclipse.jdt.debug	343039	NL	193	193	jdt debugger show monitors by default
+BLIZZARD/eclipse.jdt.debug	446040	STP	15	15	Invalid thread access RuntimeClasspathViewer 1 preferenceChange Eclipse bug error version: 4 4 1 M20140925-0400
+BLIZZARD/eclipse.jdt.debug	506865	PE	2	2	Race condition AbstractVMInstallType createVMInstall two VMs with the same id checking for existence synchronized block bug localization
+BLIZZARD/eclipse.jdt.ui	12996	NL	35	35,101	Invalid thread access error when exporting jar in Eclipse multipage editor
+BLIZZARD/eclipse.jdt.ui	29531	STP	2775	2775	bug localization Java ColorManager non-UI thread Workspace open CU selection without editor Move refactoring activation different package selection Preview button press
+BLIZZARD/eclipse.jdt.ui	75843	PE	270	270	Bug localization JDIDebugModel createMethodEntryBreakpoint deadlock UI thread
+BLIZZARD/eclipse.jdt.ui	79793	PE	461	461	Java deadlock in WorkingSetUpdater while using CTRL-Shift-T to open type progress dialog appeared; canceled retried; Workspace deadlocked resulting in thread dump
+BLIZZARD/eclipse.jdt.ui	103450	NL	2	2,133	Quick fix to remove synchronized block remove surrounding synchronized statement Quick Fix option for synchronized statement bug localization
+BLIZZARD/eclipse.jdt.ui	125013	STP	19	19	PreferencesAdapter firePropertyChangeEvent deadlock target workbench never came up selected threads from vm dump syncExec call from PreferenceForwarder waits forever JavaModelManager waited for by main thread main thread waits for lock reconciler waits forever not exactly a deadlock but similar in result org eclipse core launcher Main
+BLIZZARD/eclipse.jdt.ui	179109	NL	81	81,265,272,305,1068	 of Editor computing AST twice concurrently leading to slow Open Type multiple creation of same AST
+BLIZZARD/eclipse.jdt.ui	261198	PE	156	156	Java Model Synchronize view missing nodes Eclipse
+BLIZZARD/eclipse.jdt.ui	272742	STP	1	1	ImagesOnFileSystemRegistry not thread safe bug 223686 exception Javadoc view getNewFile concurrently ImageLoader save
+BLIZZARD/eclipse.jdt.ui	291996	STP	455	455	Invalid thread access JavaMergeViewer extracting method compilation error error dialog disappeared shell closed
+BLIZZARD/eclipse.jdt.ui	296794	PE	3	3,8,26,2528	Invalid thread access document is not thread safe DocumentChange fails refactoring changes in non ui thread Eclipse 3 5 org eclipse swt SWTException reproducible always final Point position
+BLIZZARD/eclipse.jdt.ui	297709	NL	220	220	JDT error behavior link with editor synchronize package tree reproducible steps to reproduce new java class wizard autocomplete result
+BLIZZARD/eclipse.jdt.ui	300536	STN	455	455	Invalid thread access undoing quick fix dead code error bug localization
+BLIZZARD/eclipse.jdt.ui	301242	PE	737	737	Java editor Undo repeated UI locked 2 dialogs Format all Save Action Eclipse org eclipse ui workbench SearchPattern validateMatchRule stacktrace attachment 157616
+BLIZZARD/eclipse.jdt.ui	319689	STP	18	18,812	Invalid thread access ProblemMarkerManager exception 4 0 SDK stacktrace bug localization
+BLIZZARD/eclipse.jdt.ui	336841	NL	6	6,703	bug localization IR Show In Synchronize view open  java file outside of classpath Package Explorer
+BLIZZARD/eclipse.jdt.ui	347599	PE	1	1,2,4,9,13,23,33,46,74,95,629,663,3011,3015	Refactoring dispose method implementation C index lock release CDT refactorings dispose calls Eclipse 3 8
+BLIZZARD/eclipse.jdt.ui	411636	NL	182	182	slow save UI unresponsive stack trace hung up project explorer Link With Editor workspace size Eclipse version Juno
+BLIZZARD/eclipse.jdt.ui	411841	STP	4	4,55	JUnit test UI thread build before launch Eclipse freeze patch stack trace
+BLIZZARD/eclipse.jdt.ui	417765	STP	1	1	ImageDescriptorRegistry hookDisplay SWT Invalid thread access NewJavaProjectWizardPageTwo Bndtools OSGi project stack trace
+BLIZZARD/eclipse.pde.ui	149900	NL	434	434,532,630,743,1024,1185,1438,1561,4757,4760,4769	UI responsiveness PDE UI locking required plugins ton of deps UI locking when adding plugins bug localization for PDE UI performance issues with PDE UI PDE UI unresponsive when adding dependencies PDE UI freezes when adding dependencies
+BLIZZARD/eclipse.pde.ui	158326	STN	134	134	build properties big plug-in org eclipse jdt ui tests refactoring UI cursor locked CheckboxTreeViewer children eagerly
+BLIZZARD/eclipse.pde.ui	186963	STN	160	160	ConcurrentModificationException Eclipse-SDK CDT-4 0RC0 EMF-2 3 0M7 Releng Tools workspace synchronize PDE Perspective subsystemconfigurations exsd PDE Schema Editor
+BLIZZARD/eclipse.pde.ui	281923	PE	1	1	Run in UI thread unchecked Headless Mode application Build ID 3 5 GA Steps To Reproduce JUnit Plug-in test IDE still comes up exception is thrown command line parameters org eclipse pde junit runtime coretestapplication unchecking the box should not break the tests
+BLIZZARD/eclipse.pde.ui	291528	NL	3	3,4,12,13,516	synchronize project warning error settings batch compiler bug 280784 PDE build build properties synchronize project specific settings
+BLIZZARD/tomcat70	39769	PE	1	1	class loader myServlet T5 shared directory Thread currentThread getContextClassLoader StandardClassLoader StandardContext getLoader StandardWrapper unload servlet destroy
+BLIZZARD/tomcat70	40380	PE	1	1	Syncro problem StandardSession expire expiring IR-based bug localization
+BLIZZARD/tomcat70	42530	STP	1	1	NullPointerException in ManagerBase backgroundProcess caused by concurrency issue with session manipulation in Tomcat6
+BLIZZARD/tomcat70	45453	STP	1	1	JDBCRealm getRoles bad synchronization causes hangs DIGEST authentication caches PreparedStatement preparedRoles missing synchronization two threads call getRoles simultaneously stmt executeQuery stmt setString 1 userName  executeQuery same PreparedStatement object worst case JDBC driver gets confused blocks forever waiting for server response all other threads try to access DB hang
+BLIZZARD/tomcat70	47158	PE	2	2	AccessLogValve race condition Double-Checked Locking volatile variables currentMillis currentDate
+BLIZZARD/tomcat70	47524	PE	4	4,13,22	McastServiceImpl executor dispatching events bug fix proposal code refactor ReceiverBase queue Trunk branch bug reporting procedure
+BLIZZARD/tomcat70	48172	PE	1	1	JspRuntimeContext synch  problems JspRuntimeContext jspReloadCount getJspReloadCount multiple threads stale value Javadoc getter synch  field volatile AtomicInteger fields not synchronized classpath codeSource final fields constructor IR-based bug localization
+BLIZZARD/tomcat70	48234	PE	4	4	org apache catalina core ContainerBase getLogger not thread-safe
+BLIZZARD/tomcat70	48248	PE	1	1,2,3,9	volatile tribes group interceptors MessageDispatchInterceptor run org apache catalina tribes group interceptors MessageDispatchInterceptor run communication between running threads bug
+BLIZZARD/tomcat70	48249	PE	3	3	org apache tomcat util net NioBlockingSelector BlockPoller run volatile
+BLIZZARD/tomcat70	48399	PE	1	1,122	lock fields that should be final patching mutable org apache catalina ha session DeltaSession diffLock
+BLIZZARD/tomcat70	48790	PE	1	1,27	org apache catalina session ManagerBase race condition maxActive tomcat 6 0 18 synchronized block
+BLIZZARD/tomcat70	48843	PE	1	1	Tomcat race condition acceptor thread non-responsive non-responsiveness bug localization
+BLIZZARD/tomcat70	48895	PE	1	1,17,51	WebAppClassLoader clearThreadLocalMap concurrency memory leak ThreadLocalMap remove expungeStaleEntries undeploying ThreadLocalMap instance worker threads safe clearing
+BLIZZARD/tomcat70	49129	PE	8	8	IR DigestAuthenticator md5Helper unsynchronized lazy initialization non-volatile static field compiler processor reorder instructions multiple threads field volatile
+BLIZZARD/tomcat70	49144	PE	2	2	incorrect lazy initialization update of static fields in org apache catalina startup Bootstrap daemon org apache catalina startup ContextConfig contextDigester using Findbugs
+BLIZZARD/tomcat70	49567	NL	1	1,17,70,379,849	startAsync Runnable infinite doPosts GET 500 Internal Server Error tomcat
+BLIZZARD/tomcat70	49730	PE	4	4,5	Race condition StandardThreadExecutor org apache catalina core in Tomcat 6 with minSpareThreads=0 resource loading issue with Safari Chrome Firefox StandardThreadExecutor TaskQueue offer Runnable  ThreadPoolExecutor activeCount poolSize Keep-Alive keepAliveTimeOut TCP connections tomcat 7 impact
+BLIZZARD/tomcat70	49905	STP	10	10,27	DeltaManager memory leak in Apache Tomcat with contextClassLoader set to WebAppClassLoader ThreadFactory implementation in MessageDispatch15Interceptor
+BLIZZARD/tomcat70	49985	PE	1	1,2,7	lazy initialization without synchronization data race AstInteger AstFloatingPoint AstString Tomcat getInteger getFloatingPoint getString variable number concurrent read concurrent write
+BLIZZARD/tomcat70	49987	PE	5	5,37	ApplicationContext java data race variable method
+BLIZZARD/tomcat70	50138	STP	6	6	SecurityUtil lack of synchronization ConcurrentHashMap
+BLIZZARD/tomcat70	50293	PE	2	2	CompositeELResolver synchronization issue  synchronize change in CompositeELResolver add  need to synchronize around the update to the resolvers  possible for both threads get past the size check  two threads call add  fails with an ArrayIndexOutOfBoundsException  increase the default size of the ELResolver array  proposing a default size of
+BLIZZARD/tomcat70	50352	PE	1	1,9	AsyncListener onComplete method not called after AsyncContext complete in servlet 3 async feature
+BLIZZARD/tomcat70	50353	PE	5	5	Searching for bugs in asynchronous servlets related to calling asyncContext getResponse after a timeout receiving a null reference NPE questioning whether the behavior should be an IllegalStateException
+BLIZZARD/tomcat70	50459	PE	3	3	Bug in StandardContext bindThread unbindThread methods in tomcat 6 7: lack of symmetry thread limitation
+BLIZZARD/tomcat70	50547	PE	1	1	CHANGE_SESSION_ID SESSION_EXPIRED cluster session synchronization timestamp DeltaManager startup patch
+BLIZZARD/tomcat70	50554	PE	1	1	using Keshmesh Eclipse plugin for Java programs analyzing getClass lock bug pattern in org apache naming java javaURLContextFactory getInitialContext method
+BLIZZARD/tomcat70	50629	NL	3	3	Tomcat bindThread unbindThread private to protected for initialization purposes in Latest codes
+BLIZZARD/tomcat70	51185	PE	1	1	DataSourceProxy createPool fine grained synchronization Tomcat JDBC POOL synchronized private method needed
+BLIZZARD/tomcat70	51197	PE	5	5,125,170	sendError sendRedirect AsyncContext response Tomcat timeout headers content thread dumps setStatus setHeader bug localization
+BLIZZARD/tomcat70	51212	NL	1	1	QueryStats synchronization issues Atomic approach performance
+BLIZZARD/tomcat70	51467	PE	60	60	method run instead of start to start a thread usage in StandardContext
+BLIZZARD/tomcat70	51545	PE	1	1	ExtendedAccessLogValve Threadname Tomcat-users mailinglist request served
+BLIZZARD/tomcat70	51688	PE	1	1	JreMemoryLeakPreventionListener AWT thread creation webapp java awt Toolkit getDefaultToolkit new thread AWT-Windows AWT-XAWT ContextClassLoader memory undeploy redeploy addition alleviate condition
+BLIZZARD/tomcat70	52055	PE	19	19,25,98,196	ChunkedInputFilter not recycled servlet 3 0 asynchronous request Tomcat 7 0 22 InputStream returns 0 bytes HTTP post
+BLIZZARD/tomcat70	52091	PE	1	1,19	TagHandlerPool being slow with high concurrency in Tomcat7 stress test occurred in version 7 0 19 caused by lock of log instance parameters field resolved by attached patch making changes to log field lock policy in StandardWrapper to improve performance
+BLIZZARD/tomcat70	52213	PE	2	2	org apache catalina tribes transport bio util FastQueue enabled volatile multiple threads synchronization Keshmesh Eclipse plugin
+BLIZZARD/tomcat70	52259	NL	21	21,91	Tomcat 7 0 23 startup freeze no errors in logs tomcat process cannot be shut down http request on port 80 wait forever multi host configuration previous builds including 7 0 22 are working jar files replacement fix the issue  synchronization issues deadlock   realm not presented in configuration configuration error
+BLIZZARD/tomcat70	52356	PE	3	3	The potential data race issue on org apache catalina tribes transport bio util FastQueue size its unsafe read access in org apache catalina tribes transport bio util FastQueue getSize in Tomcat FastQueue java
+BLIZZARD/tomcat70	52777	PE	1	1,5,23	automatic shutdown old versions parallel deployment tomcat session count zero
+BLIZZARD/tomcat70	52999	PE	2	2	ContainerBase fireContainerEvent performance issue locking issue  tomcat  CopyOnWriteArrayList  StandardSession  reported problem  request attributes  ReadWriteLock  helper class  enhancement request
+BLIZZARD/tomcat70	53173	STP	1	1,2,3,5,6,10	maxConnections feature hangs system fix missing count down for maxConnections latch JIO Acceptor thread hangs connections not counted down properly Thread dump yields state machine not considering rejected connections introducing maxConnections configuration Reproduced error with NIO connector handling of RejectedExecutionException in JioEndpoint
+BLIZZARD/tomcat70	53450	STP	80	80	Tomcat deployment with ROOT context hanging due to ReentrantReadWriteLock NonfairSync acquiring read lock but unable to upgrade to write lock causing AccessLogListener to call for write lock resulting in deployment hanging forever
+BLIZZARD/tomcat70	53498	PE	2	2,5	Java concurrent collection misusage atomicity violation bugs ConcurrentHashMap Tomcat 7 0 28 ApplicationContext java ReplicatedContext java HostConfig java
+BLIZZARD/tomcat70	53624	PE	37	37	sendRedirect doesnt work after AsyncContext dispatch in tomcat-issue-repro
+BLIZZARD/tomcat70	53843	PE	1	1,6	isAsyncStarted returning false in thread that started async processing then returning false after dispatch in Java application
+BLIZZARD/tomcat70	54045	PE	1	1	how to localize bugs in ReplicatedMap when using TcpFailureDetector in static configuration Tribes stack with TcpPingInterceptor TcpFailureDetector MessageDispatchInterceptor StaticMembershipInterceptor non-working static clusters? Possible issues include missing members in membership list wrong values returned by TcpFailureDetector getMembers message failures due to missing nodes when using Channel SEND_OPTIONS_USE_ACK  Possible fixes include overriding TcpFailureDetector heartbeat to call performForcedCheck instead of performBasicCheck adding a new method memberAlive MemberImpl  to Membership without side effects
+BLIZZARD/tomcat70	54086	STP	1	1,131	ConcurrentModificationException in NioReceiver on shutdown with tomcat clustering for session replication SelectionKey Iterator usage - potentially relevant text in Selector javadocs regarding thread safety fail-fast iterators
+BLIZZARD/tomcat70	54521	PE	2	2,4	DigestAuthenticator nonceCountValid failed with simultaneous asynchronous requests org apache catalina authenticator DigestAuthenticator
+BLIZZARD/tomcat70	55267	NL	8	8,73	load test stuck thread dump NIO
+BLIZZARD/tomcat70	55309	PE	1	1	TagPluginManager concurrent issue Patch ServletContext PageInfo parallel compile concurrent restart
+BLIZZARD/tomcat70	55521	PE	1	1,3	HttpSession invalidate race condition HttpServletRequest getSession true  thread parallel session fixation protection Spring Security SessionFixationProtectionStrategy session ID not changed session-expiring state detection
+BLIZZARD/tomcat70	55524	STP	2	2	deadlock Websocket write operation org apache catalina websocket WsOutbound Tomcat Atmosphere framework thread dump
+BLIZZARD/tomcat70	55582	PE	4	4	Concurrent issue TagFileProcessor Unsynchronized getting wrapper from RuntimeContext JspRuntimeContext JspServletWrapper synchronized duplicated JspServletWrapper A jsp B jsp two threads null from JspRuntimeContext two instances of JspServletWrapper
+BLIZZARD/tomcat70	55684	PE	3	3	WebappClassLoader getThread trying to access root ThreadGroup while starting Tomcat managing SecurityException
+BLIZZARD/tomcat70	55799	STP	43	43,61	debugging error diagnosis code analysis RemoteEndpoint Basic synchronization WebSocket thread Tomcat 8 stability sendText large messages
+BLIZZARD/tomcat70	55996	STN	5	5	async context timeout with HTTP NIO connector in Java Servlet using Java based client
+BLIZZARD/tomcat70	56042	STP	26	26,42	java lang IllegalStateException Calling asyncComplete request with Async state MUST_DISPATCH response setStatus HttpServletResponse SC_BAD_REQUEST AsyncContext asyncContext request startAsync request response  asyncContext dispatch Servlet spec startAsync not be allowed to proceed Jetty bug localization
+BLIZZARD/tomcat70	56082	PE	24	24,29	ConcurrentModificationException org apache juli ClassLoaderLogManager Tomcat getLoggerNames reproduction Maven Tomcat 7 0 42 JDK 1 7
+BLIZZARD/tomcat70	56518	PE	3	3,4,10,16,47,54,58,60,64,66,89,135,146,212,390,824,858,1462	NIO async servlet limit latch leak bug in Tomcat 7 0 53 with org apache coyote http11 Http11NioProtocol connector; problem with LimitLatch countDown not being called sometimes after user thread interruption resp flushBuffer call; leads to connection limit latch leak; reproducible with sample webapp in clean installation of Tomcat; solution: switch to stable BIO connector avoid resp flushBuffer call in user thread
+BLIZZARD/tomcat70	56577	STP	23	23	WsServerContainer executor service SendHandler unbounded queue corePoolSize maximumPoolSize context parameter session closing stack trace CountDownLatch Sync TimeoutException Remote send method
+BLIZZARD/tomcat70	56653	PE	1	1,7	Mapper in Tomcat 6 7 concurrency issue with Mapper$ContextList delay between contextList update context mapping problem
+BLIZZARD/tomcat70	56724	NL	1	1	ContainerBackgroundProcessor compounding OOME Background thread died no errors in log invoking backgroundProcess via JMX new background thread clean stack StackOverflowError OutOfMemoryError -XX:OnOutOfMemoryError flag script shuts down restarts Tomcat
+BLIZZARD/tomcat70	56746	PE	7	7	secure websocket client threads cannot access webapp resources AsyncChannelWrapperSecure SecureIOThreadFactory context class loader standard class loader restore access calling thread
+BLIZZARD/tomcat70	56857	STP	1	1	thread safety issue ApplicationContextFacade invokeMethod HashMap get Thread dumps threads hanging RUNNABLE status CPU high indicator non-threadsafe Maps stacks ApplicationContextFacade ServletContext singletons webapp private member objectCache accessed modified without synchronization suggested remedy change ConcurrentHashMap thread-safe performs better than synchronizing on every access
+BLIZZARD/tomcat70	56907	PE	3	3	WebSocket implementation threads leak AsyncChannelWrapperSecure Executors newFixedThreadPool 404 Not Found
+BLIZZARD/tomcat70	57265	STN	1	1,182	Tomcat 8 NGINX file sending NIO connector bug irregular occurrence useSendfile=false slow logging race condition problem
+BLIZZARD/tomcat70	57338	PE	1	1,21,82	ClusterSingleSignOn valve synchronized Tomcat startup bug localization
+BLIZZARD/tomcat70	57340	PE	1	1	NioConnector corruption caused by concurrent comet close in Tomcat 7 0 47 with nginx 1 6 2 atmosphere 2 2 3  Possible cause: SocketChannel becoming ready for read upon simultaneous closing by nginx atmosphere  Solution: check for invalidated SelectionKey in Thread D  before putting NioChannel AttachmentKey into caches  Consequence of bug: corrupt caches with duplicate object references leading to mixed up responses in subsequent requests
+BLIZZARD/tomcat70	57420	STP	2	2	DirContextURLConnection list error class name garbage URL_ENCODER thread safety concurrency issues DirContextURLConnection WEB-INF classes failure
+BLIZZARD/tomcat70	57681	NL	442	442	parallel class loading web application class loader synchronize class specific object parallel classloading port Tc8 0 Tc7 0 fix Tomcat8 0 web application class loader parallel loading web application classes source file patch
+BLIZZARD/tomcat70	57683	STN	1	1	Crash stockticker async example aborted client request error handling bug reproducible Tomcat 7 0 59
+BLIZZARD/tomcat70	57779	STP	15	15	Deadlock ServletOutputStream separate thread io-error socket-object Tomcat
+BLIZZARD/tomcat70	57943	STP	2	2	NioEndpoint Tomcat poller thread death with error log connection acceptance but no processing thread available
+BLIZZARD/tomcat70	57959	PE	1	1	deadlock in FileHandler java during log rotation in Tomcat 7 fixed in Tomcat 6 & 8 but not in Tomcat 7 code location in apache-tomcat-7 0 FileHandler java recommended solution in tomcat 6 8 is to acquire a read lock then release write lock to prevent race condition
+BLIZZARD/tomcat70	57977	PE	20	20	PersistentValve invoke original class loader re-bound thread patch trunk Webapp class loader
+BLIZZARD/tomcat70	58179	PE	6	6	atomicity violation bug 53498 java org apache catalina core ApplicationContext java code snippet threads T1 T2 name attributes oldValue line 791 line 794 line 817 line 823 value beforeContextAttributeAdded beforeContextAttributeReplaced Bai Guangdong National University of Singapore
+BLIZZARD/tomcat70	58522	PE	17	17	Tomcat WARDirContext concurrency ServletContext getResourcePaths Arrays sort thread-safe lost entries duplicate entries resource loading CentOS 6 5 Tomcat 7 0 52 Java 1 7 0_51 Test case project stack trace patch file
+BLIZZARD/tomcat70	58946	STP	8	8	immutability ApplicationHttpRequest ServletRequest getParameterMap org apache catalina core ApplicationHttpRequest org apache catalina util ParameterMap Tomcat 8 0-dev JSPs ROOT web application code review users mailing list
+BLIZZARD/tomcat70	59138	PE	-1		checkThreadLocalMapForLeaks false positives ThreadLocal$ThreadLocalMap keys weakly referenced values strongly referenced but check reports false positives subclass anonymous class value does not strongly reference class loader Integer int List SimpleDateFormatter etc  memory leak web applications third party libraries not adjusting use of ThreadLocal bug 50175 comment 6 heuristic compromise configuration per key class name basis suppress per-instance message single overall suppressing N ThreadLocal warnings based on config info warning message
+Bench4BL/Apache/CAMEL	140	PE	1	1	XsltBuilder thread unsafe resultHandler
+Bench4BL/Apache/CAMEL	510	PE	-1		Intermittent test failure MultiCastAggregatorTest race condition InAggregator copy exchange unused method patch
+Bench4BL/Apache/CAMEL	574	NL	2	2	inadequate thread creation during parallel processing in Multicast default executor loan broker example CAMEL-556 for Camel framework
+Bench4BL/Apache/CAMEL	715	STP	317	317	ConcurrentModificationException ThreadProcessor routing multicore systems
+Bench4BL/Apache/CAMEL	803	PE	37	37,242	ValidatingProcessor thread-safe org.apache.camel.processor.validation.ValidatingProcessor.process concurrent execution shared errorHandler error handling synchronized block serialization locally created error handler
+Bench4BL/Apache/CAMEL	1199	NL	1	1,7	Throttler throttle per thread multiple threads
+Bench4BL/Apache/CAMEL	1270	PE	13	13	hanging thread Camel run using Main class Countdown latch not completed in MainSupport
+Bench4BL/Apache/CAMEL	1401	PE	1	1,6	JaxbDataFormat thread-safe Marshaller Unmarshaller exceptions lazy-creating instances JAXBContext bug localization
+Bench4BL/Apache/CAMEL	1510	PE	1	1,3,34	BatchProcessor interrupt side effects Thread class enqueueExchange JMS connection SSL queuing asynchronous processor exceptions performance testing concurrency controls linked list mutexed queuing exchanges batch sender
+Bench4BL/Apache/CAMEL	1565	STN	15	15,1003	camel-validation thread-safe XSD schemas not loaded camel-validation endpoint first hit SchemaFactory not thread-safe exception backport fix 1.4
+Bench4BL/Apache/CAMEL	1583	NL	3	3	LDAP component thread-safety connection issues
+Bench4BL/Apache/CAMEL	1604	NL	25	25,36,75,135,342,616,688,764,2070,2972,11099,14449	UnitOfWork synchronization callbacks DSL for easy registering custom processor
+Bench4BL/Apache/CAMEL	1641	PE	1	1,5,6,42,59,85,164,650,778,1686,2411,3568	camel-ftp thread safe FTPClient new instance producer consumer http component
+Bench4BL/Apache/CAMEL	1650	PE	3	3,52,71	IdempotentConsumer race condition MessageIdRepository locking database
+Bench4BL/Apache/CAMEL	1670	PE	6	6,99,108,128,131,132,270,353,3486,7624,7853,9139,9798,10695,10700,14205	file components overlapping lock exception route multithreaded thread 10  multithread file components OverlappingFileLockException
+Bench4BL/Apache/CAMEL	1795	PE	4	4	camel-jms-wrong defaults JmsConfiguration bad default message listener DefaultMessageListenerContainer new thread maxMessagesPerTask
+Bench4BL/Apache/CAMEL	1930	PE	1	1,18	synchronized access to XPathExpression contention for multiple consumers Camel JMS message routing choice XPathBuilder thread safe ThreadLocal
+Bench4BL/Apache/CAMEL	1966	PE	599	599	CamelNamespaceHandler not thread safe mail thread discusses
+Bench4BL/Apache/CAMEL	2049	PE	1	1,7,14,1178	improper configuration of MINA acceptor connector instances causing producer to fail limit incoming threads to 15 standard Camel-MINA producer not being thread-safe using configuration rules thread pool-based reentrant version for TCP endpoints with lazySessionCreation sync set to true
+Bench4BL/Apache/CAMEL	2175	PE	43	43,532	camel-cxf initialization thread safety getCxfBinding multiple threads false sense getAndSet
+Bench4BL/Apache/CAMEL	2496	STP	43	43,164,208,10559	StreamCache Splitter race condition with seda queue multiple threads passing through Test patch showing symptoms logging for investigation.
+Bench4BL/Apache/CAMEL	2824	PE	59	59,1265	Deadlock org.apache.camel.util.DefaultTimeoutMap camel Aggregator processdump
+Bench4BL/Apache/CAMEL	2935	PE	72	72,98,472,3962,4276	Camel failure reporting DefaultProducerTemplate.asyncCallback Synchronization.onFailure ProducerCache.send.ProducerCache.java CamelExecutionException DefaultProducerTemplateAsyncTest bug fix
+Bench4BL/Apache/CAMEL	2986	STP	1	1,52	camel IllegalStateException under heavy load race between continuation.suspend continuation.resume async completion callback faster than if block fix according to Jetty recommendations
+Bench4BL/Apache/CAMEL	2994	STP	1	1,180,5241,8015	camel-cxf CXFClientCallback invoked twice race condition with 2 threads CXF should only invoke ClientCallback once
+Bench4BL/Apache/CAMEL	3216	PE	1	1,13195	if there are any bugs related to ScheduledPollConsumer causing threads to die stop polling due to uncaught exceptions.
+Bench4BL/Apache/CAMEL	3277	PE	11	11	threading issue type converter loading not threadsafe fail conversion error load method synchronized patch
+Bench4BL/Apache/CAMEL	3349	NL	14	14	Race condition CxfRsEndpoint getBinding method thread-safe bug localization.
+Bench4BL/Apache/CAMEL	3493	STP	103	103	ConcurrentModificationException DefaultCamelContext.removeRouteDefinitions removing route definitions multiple threads synchronization
+Bench4BL/Apache/CAMEL	3528	PE	1	1	HybridSourceDataBinding thread safety Camel CXF
+Bench4BL/Apache/CAMEL	7116	PE	5	5	JettyHttpProducer.doStop CamelContext not stopping client thread pool
+Bench4BL/Apache/CAMEL	7161	STN	1	1	camel-dozer spring deadlock init getBean defer loader service start|stop methods bug localization
+Bench4BL/Apache/CAMEL	7239	PE	15	15	SchemaFactory thread safe issue ValidatorProcessor thread issue avoidance
+Bench4BL/Apache/CAMEL	7318	PE	5	5,6,18,19,31,543,13280,13679	for HDFS Consumer concurrency issue
+Bench4BL/Apache/CAMEL	7321	PE	21	21	JcrConsumer freezes JcrConsumerTest fails environment fix to the pom.xml multi-threading issues synchronization issue bug localization
+Bench4BL/Apache/CAMEL	7364	PE	1	1,2,15,23,45,48,144,193,224,234,351,437,737,829,857,1374,1448,1602,1991,2029,2404,2422,2441,2442,3172,3817,3848,3892,4086,4088,4608,5941,6265,8889,9169,9942,10713,11147,13119,13120,13273,13530,13543,13811,14292,14502	JpaMessageIdRepository thread-safety issue causing strange behavior after version upgrade from 2.9.2 to 2.12.3 EntityManager assignment in constructor causing the issue. Solution may require assigning EntityManager in each method separately.
+Bench4BL/Apache/CAMEL	7556	NL	11	11,43,216	camel-rabbitmq Multiple concurrent consumer threads Allow multiple concurrent threads listening to a single queue JMS endpoint
+Bench4BL/Apache/CAMEL	7715	PE	6	6,10	SjmsConsumer SjmsProducer How to remove thread pool when stopping  removing the consumer producer endpoint in Camel context ExecutorServiceManager
+Bench4BL/Apache/CAMEL	7795	PE	1	1	MDC may lose values when async routing engine is used introduced regression CAMEL-6377 need MDCCallback to reset ALL MDC values underlying MDC implementations use InheritableThreadLocal odd behavior no MDC in async endpoint responses.
+Bench4BL/Apache/CAMEL	7968	PE	1	1	undefined concurrency behaviour ThreadSafe implementation of Container ContainerRegistry that can handle multiple Containers
+Bench4BL/Apache/CAMEL	7973	PE	1	1,2	CircuitBreakerLoadBalancer async processor misbehavior AsyncProcessorConverterHelper Exchange RejectedExecutionException solution patch.
+Bench4BL/Apache/CAMEL	7988	NL	2	2,5	file consumer  call abort  read lock cannot be acquired  exception was thrown  nabble  a.camelLock  phaned file  file not eligible for consuming on next poll
+Bench4BL/Apache/CAMEL	8088	PE	99	99	using IR  FTP  connection timeout  socket connection  ftpClient.defaultTimeout
+Bench4BL/Apache/CAMEL	8134	PE	1	1,22	synchronization CachedOutputStream  closedOnCompletion OOM error HttpProducer endpoint redelivery 
+Bench4BL/Apache/CAMEL	8146	STN	477	477,2843	starting routes stopping routes leak threads  identical consequence previous issue CAMEL-5677 file based route SFTP based route orphan threads suspend resume start stop issue 
+Bench4BL/Apache/CAMEL	8200	PE	2	2	JmsProducer race condition setting body to null ActiveMQ VM transport caused by invoking setMessageId after doSend
+Bench4BL/Apache/CAMEL	8241	PE	1	1,3,4,11,28	exec command failures Java 8 Unix race condition stream closed prematurely DefaultExecutor DefaultExecCommandExecutor commons-exec test case
+Bench4BL/Apache/CAMEL	8268	PE	1	1,5,259,449,768,1431,2114	scan method thread safety issue with filter list in camel-hbase its resolution using filter list cloning
+Bench4BL/Apache/CAMEL	8353	PE	1	1,4,1468	FileLockExclusiveReadLockStrategy issue with closing channel before release lock
+Bench4BL/Apache/CAMEL	8673	PE	14	14	ConcurrentModificationException creating dynamic routes CAMEL-7836 fix wrong removeRouteCollection addRouteCollection synchronize routes getRoutes
+Bench4BL/Apache/CAMEL	8713	PE	2	2	parallel mode parallel aggregate thread pool worker threads CAMEL-7521
+Bench4BL/Apache/CAMEL	8885	PE	2	2	ConsumeLockEntity condition lock function consumeDelete false select update entity locked
+Bench4BL/Apache/CAMEL	8954	PE	12	12,21,3992	Exchange file lock information lost during on-completion synchronizations
+Bench4BL/Apache/CAMEL	9199	PE	97	97,99,284	RabbitMQ Consumer thread crash partially serializable objects object implements Serializable non Serializable objects PR tests IR-based bug localization
+Bench4BL/Apache/CAMEL	9311	NL	4	4,40	concurrency issue dynamic router HTTP context endpoint dynamic router bean shared state sequential calls concurrent re-routing unit test case
+Bench4BL/Apache/CAMEL	9319	PE	23	23,27,65	ProducerTemplate SshClient resource leak not killed threads IR-based
+Bench4BL/Apache/CAMEL	9331	PE	10	10	Http4Endpoint thread leak doStop method httpClient close not working
+Bench4BL/Apache/CAMEL	9738	PE	40	40	camel-mina2 consumer thread leak IoAcceptor dispose not called in doStop method.
+Bench4BL/Apache/CAMEL	9951	PE	4	4,10,18	Default values for thread-connected properties in WebSocket component causing RuntimeCamelException websocket consumer not created
+Bench4BL/Apache/CAMEL	9970	PE	32	32,83,138,665,1577,10020	CamelFileLength header in slowfile.dat: exclusive read lock fails parameters  length lastModified  are wrong Solution involves checking parameters upon read lock grant Patch available
+Bench4BL/Apache/CAMEL	10024	PE	1	1,2,50,115,151,301,795,822,1910	Mina2Producer Mina2Consumer race condition close connections disconnect true await CloseFuture CamelMina2CloseSessionWhenComplete ExchangeTimedOutException IllegalStateException unit testing
+Bench4BL/Apache/CAMEL	10215	PE	1	1	thread safety issue EventDrivenPollingConsumer ConsumerCache race condition beforePoll poll afterPoll synchronization
+Bench4BL/Apache/CAMEL	10229	STP	1	1	camel-rabbitmq race condition stopping context autoack=false exception unacked state RabbitMQ console main thread channel.close channel basicCancel tag  channel.basicAck deliveryTag false  handleDelivery message duplicate destinationQueue sourceQueue consumer wait acks close channel bug localization
+Bench4BL/Apache/CAMEL	10273	PE	2	2	Jetty missing jmx object custom thread pool enableJmx method setThread method Endpoint level bug localization
+Bench4BL/Apache/HBASE	543	PE	39	39,113	Race conditions in region state in HBASE-534 found in multiple maps in RegionManager proposed solution is to create synchronized class encapsulating region state use synchronized collection for transitional states
+Bench4BL/Apache/HBASE	659	STP	40	40,600	HLog cacheFlushLock not cleared region hang code path not released
+Bench4BL/Apache/HBASE	663	PE	1	1	incorrect sequence number cache flush HRegion HStore updatesLock sequence number startup reconstruction updates skipped write lock read lock updates written updates not written flushed cache
+Bench4BL/Apache/HBASE	699	PE	648	648	Hudson hanging threaddump relocateRegion verify table second region old address.
+Bench4BL/Apache/HBASE	818	STP	231	231	deadlock regionserver
+Bench4BL/Apache/HBASE	950	PE	47	47,77,83	HTable.commit RowLocks API update hang HBASE-748
+Bench4BL/Apache/HBASE	1569	STN	17	17,233,597,2359	race condition regionserver import load shutdown
+Bench4BL/Apache/HBASE	1740	NL	1	1,10,18,777	ICV race condition under high load KeyValue duplicate timestamp memcache hfile get scan code arbitrary pick correct   incorrect snapshot deep permanently fix
+Bench4BL/Apache/HBASE	1840	STP	-1		RowLock IndexTable exception error update modify edit stacktrace debug info unit tests
+Bench4BL/Apache/HBASE	1869	STP	-1		IndexedTable delete fails RowLock TestIndexedTable exception Patch coded latest version SVN 0.21.0 final testing packaging attach shortly.
+Bench4BL/Apache/HBASE	2023	NL	-1		for blocking threads in sync block causing access issues in highly multithreaded clients potential solution to narrow remove lock
+Bench4BL/Apache/HBASE	6565	PE	2	2	Coprocessor exec result Map not thread safe repeated tests result size HTable.java TreeMap multithreading environment bug happened
+Bench4BL/Apache/HBASE	8923	PE	96	96,378	ChaosMonkey test teardown fail race restart last moment cluster recovery exitcodeexception
+Bench4BL/Apache/HBASE	13606	PE	213	213	AssignmentManager.assign not sync TestCreateTableProcedure flaky async behavior
+Bench4BL/Apache/HBASE	13662	PE	3	3	RSRpcService.scan OutOfOrderScannerNext while fixing HBASE-13651 with hasNextCallSeq nextCallSeq incremented not rolledback causing OutOfOrderScannerNextException. Recovery with scanner heartbeat patches HBASE-13090 Discussed with Stack proposing to decrement callSeq on exception questioning atomicity of nextCallSeq for preventing concurrent requests with same id Thoughts
+Bench4BL/Apache/HBASE	13959	NL	31	31	region splitting single thread storefiles region split threadpool column family write heavy workload storefile count reference file offline time fail fast concurrency NotServingRegionException.
+Bench4BL/Apache/HBASE	13988	NL	4	4	lease thread exception handler region server prod cluster thread not alive root cause log exclusion debug future
+Bench4BL/Apache/HBASE	14178	STN	28	28,29	regionserver blocks waiting for offsetLock client rpc timeout regionserver jstack blocked for waiting offsetLock table block cache off.
+Bench4BL/Apache/HBASE	14241	PE	-1		Java-level deadlock during cluster shutdown due to concurrent connection close RpcClientImpl Root cause RpcClientImpl close obtaining lock on connections first followed by markClosed attempting to obtain lock on connection object leading to deadlock
+Bench4BL/Apache/HBASE	14359	PE	4	4	query for HTable close hanging forever with unchecked error exception in AsyncProcess sendMultiAction recommendations issues observed errors.
+Bench4BL/Apache/HBASE	14463	PE	1	1,2,8	Severe performance downgrade when parallel reading a single key from BucketCache in HBase due to the lock in BucketCache getBlock. Proposed solution is to use ReentrantReadWriteLock in BucketCache introduce a new class called IdReadWriteLock.
+Bench4BL/Apache/HBASE	14555	STN	6	6	deadlock MVCC branch-1.2 toString Thread 75 PriorityRpcServer.handler queue port 16020
+Bench4BL/Apache/HBASE	14812	STP	2	2,3	Fix ResultBoundedCompletionService deadlock
+Bench4BL/Apache/HBASE	14926	STP	1	1,6,254	ThriftServer hung no timeout on client read worker thread stuck on read after client crashes potential relation to HBASE-4967 patch issue missing client side logs.
+Bench4BL/Apache/HBASE	15001	PE	1	1,6,9	thread safety issues in ReplicationSinkManager HBaseInterClusterReplicationEndpoint caused by non-thread-safe ArrayList incorrect assumption on sink size leading to retries
+Bench4BL/Apache/HBASE	15030	STP	6	6	Deadlock in master TableNamespaceManager while running IntegrationTestDDLMasterFailover  jstack ProcedureExecutor-3 waiting for ownable synchronizer  jstack ProcedureExecutor-1 waiting to lock monitor  Java stack information for the threads listed above  distributed cluster  logs not showing much
+Bench4BL/Apache/HBASE	15093	PE	1	1,5,270,278,292	MetricsSource setSizeofLogQueue multiwal replication incorrect size bug
+Bench4BL/Apache/HBASE	15146	NL	3	3,7,8,12,14,16,50,325,452,619	dispatch blocking queue reader tcp ack delay slow new rpc scheduler different queue capacity limit.
+Bench4BL/Apache/HBASE	15650	PE	1	1,13,16,17,21,23,77,88,120,135,217,336,382,448,462,488,505,677,865,1203,1552,1636,1982	Remove TimeRangeTracker point of contention many threads reading HBASE-12148
+Bench4BL/Apache/HBASE	15957	PE	187	187	RpcClientImpl.close never ending related to HBASE-14241 HBASE-13851 fixed by checking non alive connections issue with interrupt handling causing markClosed to set shouldCloseConnection flag preventing close connections pool removal.
+Bench4BL/Apache/HBASE	16081	PE	1	1,28,34	blocking take CompletionService HBase intercluster replication endpoint remove peer stuck blocks WAL rolling race condition ReplicationSourceManager not able to roll WALs
+Bench4BL/Apache/HBASE	16144	PE	2	2,44,45,257	RS lock crash claimQueues ZK queue replication bug
+Bench4BL/Apache/HBASE	16304	STP	3	3	HRegion RegionScannerImpl handleFileNotFoundException deadlock write lock SynchronousQueue TransferStack AbstractQueuedSynchronizer ConditionObject ReentrantReadWriteLock$NonfairSync
+Bench4BL/Apache/HBASE	16367	PE	1	1,3	for premature server abort in HBase initialization HRegionServer preRegistrationInitialization race with HMaster with cluster Id being null
+Bench4BL/Apache/HBASE	16429	STP	1	1,41	FSHLog deadlock rollWriter RingBuffer SafePointZigZagLatch handler threads JIRA bug localization
+Bench4BL/Apache/HBASE	16699	PE	1	1,2,3,5	AverageIntervalRateLimiter refill getWaitInterval overflow concurrent issue wrong behavior unconfigured RateLimiters
+Bench4BL/Apache/HBASE	16721	PE	2	2,4,26	concurrency issue  WAL  unflushed seqId tracking  accumulating WAL files  force flushes  max logs  periodic memstore flusher  not working  masked problem  RS restarted  region split  FSHLog unflushed data for region
+Bench4BL/Apache/HBASE	16788	PE	2	2	race in compacted file deletion HStore close closeAndArchiveCompactedFiles introduced by HBASE-13082
+Bench4BL/Apache/HIVE	545	NL	87	87,107,113,137,156,169,173,207,219,242,393,411,415,446,475,482,487,508,603,613,732,792,1042,1067,1091,1101,1162,1181,1311,1551,1593,1615,1642,1970,2075	ArrayList Vector single-threaded Hive code inefficient unsynchronized
+Bench4BL/Apache/HIVE	3057	PE	2	2	metastore.HiveMetaStore HMSHandler shutdown RawStore null set thread local
+Bench4BL/Apache/HIVE	3408	STP	5	5,148,324	Hive race condition HashSet QueryPlan
+Bench4BL/Apache/HIVE	4000	NL	269	269,1168,3161	Hive client infinite loop static HashMaps race conditions
+Bench4BL/Apache/HIVE	7011	PE	1	1	split generation inputformat cache HiveInputFormat Tez thread safe concurrent access
+Bench4BL/Apache/HIVE	7341	PE	1	1,2,3,271,560,663,746	supporting table replication across HCatalog instances in IR-based systems.
+Bench4BL/Apache/HIVE	8440	STP	4	4,34,161,232,252,359,366,398,811,822,3240	Hiveserver block handling concurrent requests in HiveServer: org.apache.hadoop.hive.ql cause Hiveserver heap large number of ETL tasks in queue Hadoop cluster slots free.
+Bench4BL/Apache/HIVE	9199	null	2	2	excessive exclusive lock in DummyTxnManager for DDLs with unnecessary locking contention caused by complete writeEntity in createTable operation
+Bench4BL/Apache/HIVE	9598	STP	-1		java.lang.IllegalMonitorStateException java.util.concurrent.locks.ReentrantLock$Sync.tryRelease ResultSet.closed called Statement.close called
+Bench4BL/Apache/HIVE	10483	PE	2	2,6,11,3990	insert overwrite partition deadlocks with DbTxnManager S X locks on select statement
+Bench4BL/Apache/HIVE	11036	PE	6	6,10,119,157,634	DataNucleus race condition Metastore hang concurrent query workload deadlock
+Bench4BL/Apache/HIVE	11616	STP	4	4,33,49,142,147,285	DelegationTokenSecretManager objectstore concurrency issues metastore log exception hivemetastore saslServer.startDelegationTokenSecretManager baseHandler.getMS ServerMode.METASTORE concurrent issue
+Bench4BL/Apache/HIVE	12238	STP	459	459	Thread-safety errors VectorUDFDate IR-based
+Bench4BL/Apache/HIVE	12248	STP	4	4,10,66,86,94	DBTokenStore RawStore ObjectStore thread-safe race condition DN PersistenceManager ThreadLocal org.apache.hadoop.hive.metastore.model.MDelegationToken detached
+Bench4BL/Apache/HIVE	12266	NL	2	2	ACID locks locks locking enabled client Hive CLI Beeline command shell release timeout hooks dies
+Bench4BL/Apache/HIVE	12409	PE	68	68	SessionState.initTxnMgr thread safety synchronized HS2 multiple threads HIVE-11402
+Bench4BL/Apache/HIVE	12529	PE	7	7,17,22,70,450,469,576,628,780	HiveTxnManager.acquireLocks method with max-wait-time timeout exception
+Bench4BL/Apache/HIVE	12620	PE	1	1,4,5	Acid module improvements: DBLockManager unlock failure due to timeout Logic to detect interleaved transactions locks in read-only auto-commit mode TxnHandler checkLock using 1 connection TxnHandler timeOutLocks refactoring for lock expiration logging TxnHandler getTxnIdFromLockId inclusion if lock id not found TxnHandler checkRetryable exception logging TxnHandler lock with MetaException including lockid
+Bench4BL/Apache/HIVE	12768	NL	5	5	thread safety binary sortable serde decimal deserialization static decimal buffer issues
+Bench4BL/Apache/HIVE	12797	STN	1	1	Synchronization issues tez llap session pool hs2 HIVE-12674 shutting down session pools issues
+Bench4BL/Apache/HIVE	12904	STN	1	1,7	LLAP deadlock in task scheduling in Hadoop Hive involving synchronized blocks in TaskWrapper FinishableStateTracker classes.
+Bench4BL/Apache/HIVE	12926	STN	3	3	synchronization issue tez llap session pool hs2 HIVE-12674 shut down issues
+Bench4BL/Apache/HIVE	12927	PE	10	10,734	HBase metastore getNextSequence concurrency issues with multiple sequences in one row HBase increment API usage recommended
+Bench4BL/Apache/HIVE	12996	NL	1	1,8	temp table locking
+Bench4BL/Apache/HIVE	13013	PE	1	1,9,52,72	TxnHandler concurrency Serializable isolation READ_COMMITTED SELECT FOR UPDATE deadlocks DBs
+Bench4BL/Apache/HIVE	13213	PE	1	1,2,3,5	DbLockManager not acquiring Exclusive lock for non-ACID resource in insert into statement
+Bench4BL/Apache/HIVE	13395	PE	1	1,2,3,6,7,9,13,18,25,26,52,86,106,114,137,205,245,272,406,1929	Lost Update problem ACID users concurrent update T set x  x  1 Hive 1.2 Driver.recordValidTxns Driver.compile locks MVCC architecture start commit time write-set tracking multi-statement txns R W lock manager Hives semi-shared
+Bench4BL/Apache/HIVE	13458	PE	1	1,13,23,38,49,236,559,737,1669,1906	heartbeat fail query heartbeat fails to locate lock stopHeartbeat bug query fails assumption cause query to fail
+Bench4BL/Apache/HIVE	13512	NL	80	80	Initializing dag ids TezWork thread safe parallel compilation concurrent running threads same dag id counter not thread safe AtomicInteger.
+Bench4BL/Apache/HIVE	13599	STN	1	1,4	preemption queue handling finishable state updates testing preemption exception race condition removing items from preemption queue
+Bench4BL/Apache/HIVE	13699	PE	13	13	thread safe JavaDataModel get parallel compilation
+Bench4BL/Apache/HIVE	13725	NL	1	1,8,422,1842	ACID Streaming API synchronization multiple threads endpoint metastore client RPC thread safety API methods different threads sample use case out of sequence response.
+Bench4BL/Apache/HIVE	13753	PE	1	1,5	Metastore client thread safety in DbTxnManager multiple threads RPC to Thrift out of sequence response race condition synchronize methods.
+Bench4BL/Apache/HIVE	13833	NL	1	1	Initial delay  starting heartbeat  scheduling of heartbeat  lock acquisition  unnecessary to send heartbeat  acquired locks  skip
+Bench4BL/Apache/HIVE	13858	PE	8	8,21,22,62,75,239	LLAP preempted task completeInitialization interrupt HDFS IO blocking
+Bench4BL/Apache/HIVE	14357	PE	1	1,24	TestDbTxnManager2 testLocksInSubquery failing in branch-2.1 checkCmdOnDriver
+Bench4BL/Apache/HIVE	14400	NL	39	39	search handling concurrent insert with dynamic partition
+Bench4BL/Apache/HIVE	14463	STP	97	97	hcatalog server extensions  test cases getting stuck  TestMsgBusConnection  thread dump after it got stuck
+Bench4BL/Apache/HIVE	14739	PE	1	1,13,14,65,73,109,218,257,261,298,556	deadlock hive cli hadoop runtime shutdown hooks ShutdownHookManager
+Bench4BL/Apache/HIVE	14778	PE	4	4,5	documentation for the IR-based threading model of Streaming API which includes information on the use of MetaStoreClient objects TransactionBatch creation concurrency of threads accessing TransactionBatch including one thread dedicated to calling TransactionBatch.heartbeat.
+Bench4BL/Apache/HIVE	14924	STN	1	1	MSCK REPAIR TABLE null pointer exception single threaded mode
+Bench4BL/Apache/HIVE	15090	PE	2	2	ExpiredTokenRemover thread Temporary DB failure HIVE-13090 close metastore unexpected exception running metastore running loop recover
+Bench4BL/Commons/CODEC	96	STP	1	1	Base64 encode method thread-safe issue commons-codec 1.4 BinaryEncoder instance variables streaming support CODEC-69 not shared Javadoc regression
+Bench4BL/Commons/COLLECTIONS	384	PE	11	11	org.apache.commons.collections.MapUtils synchronizedMap Javadoc comment code inconsistency IllegalArgumentException NullPointerException suggested fixes
+Bench4BL/Commons/COMPRESS	302	PE	1	1	ArchiveStreamFactory immutability thread-safety encoding COMPRESS-180 constructor setEntryEncoding patch
+Bench4BL/Commons/COMPRESS	303	PE	1	1	CompressorStreamFactory immutability thread-safety restoration r1453945 volatile field decompressConcatenated conditional immutable COMPRESS-302 setDecompressConcatenated API-break release
+Bench4BL/Commons/COMPRESS	357	PE	4	4	BZip2CompressorOutputStream unsynchronized finished method finalize method output stream garbage collector bad data fix synchronize finish call finish from finalize workaround override finalize method
+Bench4BL/Commons/CONFIGURATION	344	PE	1	1,2,3	deadlock  refresh properties  Commons configurations  Managed reloading strategy  fireEvent  reload method  synchronized getNodeCombiner Combined configuration listeners  event  processing invalidate  quick fix  Pavel  Configuration  Reload code
+Bench4BL/Commons/CONFIGURATION	407	PE	1	1,3	hierarchical INI configuration exception global section ViewNode thread-safe synchronization
+Bench4BL/Commons/IO	99	PE	1	1,23	FileCleaner thread never ending and memory leak in AS solution not provided to end thread undeployed app leaves thread alive and causes classloader leak leading to OutOfMemoryError API extension suggested commons IO cleanup class needed
+Bench4BL/Commons/IO	136	PE	1	1	HexDump static StringBuffers thread-safe private static dump method alter static instances of StringBuffer dump modifies static StringBuffer variable lbuffer returning lbuffer dump modifies static StringBuffer variable cbuffer returning cbuffer public static dump multiple threads calling the public dump method mixed up data result in a bug
+Bench4BL/Commons/IO	201	PE	1	1,2	CountingInputStream CountingOutputStream partially synchronized synchronization removed functionality shared stream thread-safe volatile read count field
+Bench4BL/Commons/IO	207	PE	4	4	race condition in forceMkdir when multiple processes or threads call the function with the same directory resulting in IOException
+Bench4BL/Commons/IO	216	PE	1	1	delete files exception thrown initialization LockableFileWriter report lock file deletion failure lockFile.delete return code file.delete returns false fix needs to take this into account
+Bench4BL/Commons/LANG	367	PE	1	1	FastDateFormat thread safety HashMaps not final patch SimpleDateFormat instances shared between threads not documented thread-safe assumption validity unclear
+Bench4BL/Commons/LANG	459	PE	2	2	HashCodeBuilder multi-threaded high load problem test case isRegistered HashSet ArrayList identityHashCode unique values List Set fix verification Andrew
+Bench4BL/Commons/LANG	481	NL	6	6	race-conditions suspicious hashCode methods incomplete hash unlucky timing affected classes DoubleRange FloatRange IntRange LongRange NumberRange Range possible fix temporary variable assignment
+Bench4BL/Commons/LANG	584	PE	1	1	ExceptionUtils mutable lock target removeCauseMethodName addCauseMethodName CAUSE_METHOD_NAMES modify immutable
+Bench4BL/Commons/LANG	1230	PE	1	1,2	Registry lookup synchronization in EqualsBuilder and HashCodeBuilder causing contention issues and identified as unnecessary due to thread safety of ThreadLocals and IDKey's object identity. Issue may have been introduced in LANG-586 and affects versions 2.5 and newer
+Bench4BL/Commons/LANG	1251	PE	1	1	SerializationUtils.ClassLoaderAwareObjectInputStream static initializer primitiveTypes map thread safety java.util.HashMap
+Bench4BL/Commons/MATH	505	NL	255	255	TestUtils thread-hostile mutable static fields not synchronized not volatile partially updated object mutable object single thread usage unpredictable results
+Bench4BL/Commons/MATH	899	PE	23	23	MersenneTwister random crash java.lang.ArrayIndexOutOfBoundsException 624 MersenneTwister.java line 253 multi-thread mode
+Bench4BL/Commons/MATH	1134	PE	1	1,11,13	unsafe initialization BicubicSplineInterpolatingFunction thread safe partialDerivatives constructor computePartialDerivatives partialDerivative
+Bench4BL/Commons/MATH	1294	PE	1	1	Data race PolynomialUtils buildPolynomial Concurrency issue in PolynomialUtilsTest due to incorrect coefficient list building Synchronized block missing in PolynomialsUtils.java
+Bench4BL/Spring/AMQP	125	PE	4	4,5,12,22,197	SimpleMessageListenerContainer unreliable lock algorithm leads to container not waiting for stop if listeners fail
+Bench4BL/Spring/AMQP	190	PE	12	12,22,24,33,40	CachingConnectionFactory leaks channels TransactionManager RabbitTemplate convertAndSend channelTransacted channel leak spring-integration
+Bench4BL/Spring/AMQP	223	PE	1	1	Too Many Threads Running SimpleListenerContainer doStart spring-integration-amqp adapter externally defined listener container acks run consumers multiple times
+Bench4BL/Spring/AMQP	243	PE	2	2	AmqpAppender log4j synchronization issues messages loss routing key badly generated
+Bench4BL/Spring/AMQP	249	PE	2	2,12	RabbitTemplate Temporary Reply Queues autoAck=false unacked count Rabbit admin race condition timeout exceeded consumer thread hang put take issue
+Bench4BL/Spring/AMQP	260	PE	5	5,15,82	RabbitTransactionManager listener container channelTransacted hanging thread message not acknowledged AMQP-190 sample demo project zip file 1.1.1.RELEASE 1.1.2.BUILD-SNAPSHOT
+Bench4BL/Spring/AMQP	262	STP	1	1,15	ConcurrentModificationException in publish confirm code when sending messages from multiple threads Thread-safety issue in PublisherCallbackChannelImpl.addPendingConfirm Synchronize access to this.pendingConfirms in PublisherCallbackChannelImpl.addPendingConfirm Fix ConcurrentModificationException in PublisherCallbackChannelImpl.addPendingConfirm
+Bench4BL/Spring/AMQP	274	PE	3	3,5,7,9,10	Listener Container local transactions not properly set up local transactions external tx manager exposeListenerChannel synchronized resource synchronizedWithTransaction property RabbitTemplate channel close
+Bench4BL/Spring/AMQP	275	NL	2	2,71,87,157	race condition stopping listener container cancel consumer first drain queue reject requeue
+Bench4BL/Spring/AMQP	331	NL	7	7	java.lang.Error OutOfMemory threads abort expected
+Bench4BL/Spring/AMQP	355	PE	6	6	Race Condition Test Case ErrorHandler not called when container inactive stopped 3rd message received verify fails called twice
+Bench4BL/Spring/AMQP	365	PE	1	1,2,4,5,17	Fixing Race Condition in Consumer Recovery Test Cases Search for analysis of test cases sending multiple messages with manual ack double ack causing channel closure race between broker listener solution involving counting down latch only for non-redelivered messages adding messages to a set to prevent duplicate countdowns.
+Bench4BL/Spring/AMQP	469	PE	-1		Erlang Thread safety safety of ErlangTemplate ErlangTemplate.executeErlangRpc ErlangRpc SingleConnectionFactory SimpleConnectionFactory connection.sendRPC connection.receiveRPC interleaved thread bug issue problem
+Bench4BL/Spring/AMQP	506	PE	1	1,2,44	ConcurrentModificationException RabbitTemplate.getUnconfirmed synchronized on pendingConfirms maps fail to synchronize iterating removing
+Bench4BL/Spring/AMQP	532	STP	1	1,2,5,14	ConcurrentModificationException in PublisherCallbackChannelImpl testing continuous publishing to a RabbitMQ node network partition pendingConfirms map synchronizing on the map accessed are synchronized on the PublisherCallbackChannelImpl Stacktrace
+Bench4BL/Spring/AMQP	551	STP	6	6,12,17,34,39,47,57,63	intermittent build failure non-thread-safe Mockito multi-threaded usage test failures limitations of concurrency testing WrongTypeOfReturnValue spy is stubbed doReturn|Throw family of methods javadocs for Mockito.spy method
+Bench4BL/Spring/AMQP	648	PE	2	2,348	VESC-715 Container Fails to Recover  Container configured to listen on multiple queues  Delete a queue suspend the consumer thread in handleCancel Stop start the broker  issue with detecting other queues attempting to cancel consumers  failure to cancel properly
+Bench4BL/Spring/BATCH	170	PE	7	7,30,51,101,254,349,829,1094,1407	Concurrent modification of StepExecution OR Use of hibernateJobDao StaleObjectStateException asynchronous step operation
+Bench4BL/Spring/BATCH	449	PE	-1		skip synchronization reader writer skip call
+Bench4BL/Spring/BATCH	603	PE	1	1,2,24,157,370,376,1013	JobExecution fields  modified  Thread  not volatile
+Bench4BL/Spring/BATCH	782	PE	275	275	synchronization issue in ItemOrientedStep due to exception in chunk processing causing concurrent access persistence of step execution
+Bench4BL/Spring/BATCH	912	PE	1	1	JobRegistryBackgroundJobRunner thread safety issue without synchronization between threads modifying accessing errors variable may cause visibility issues requires a fix Possible solution is to replace private static List.Exception errors new ArrayList with private static List errors Collections.synchronizedCollectionnew ArrayListException obRegistryBackgroundJobRunner thread safety issue with errors variable without synchronization.
+Bench4BL/Spring/BATCH	1272	PE	6	6,12,15,24,165,169,207,251,409,511,713,1284,1362,1462	multi-threaded step write skips FaultTolerantChunkProcessor not fault tolerant
+Bench4BL/Spring/BATCH	1278	PE	1	1,2,3,7,210	RepeatTemplate aborts early multiple threads ignorable exceptions underlying cause BATCH-1272
+Bench4BL/Spring/BATCH	1362	NL	3	3,41,52	multi-threaded step threads spinning finished
+Bench4BL/Spring/BATCH	1526	PE	1	1	Tomcat memory leak ChunkMonitor ThreadLocal null fix 6.0.24 web deployment caught by leak detection
+Bench4BL/Spring/BATCH	1542	PE	6	6,7,9,38,63,68,113,124,510,519,644	JobExecution StepExecution collections thread safety copy-on-write concurrency protection MapJobRepository BATCH-1541 fast step job executions
+Bench4BL/Spring/BATCH	1572	PE	3	3,58,112,350,353,1574	unexpected rollback exception  transaction timeout  batch processing  losing records in chunk.
+Bench4BL/Spring/BATCH	1709	PE	1	1,36	BeanWrapperFieldSetMapper race condition cache concurrency bug
+Bench4BL/Spring/BATCH	1724	NL	17	17,102,133,135,274	multithreaded step re-processing chunk failure
+Bench4BL/Spring/BATCH	1725	PE	-1		SubclassClassifier using ConcurrentHashMap
+Bench4BL/Spring/BATCH	2126	PE	122	122	DefaultJobParametersConverter SimpleJobOperator thread-safe SimpleJobOperator JobParametersConverter instance variable thread-safe SimpleJobOperator TaskExecutor asynchronous thread-safe Fixing thread safety issue in SimpleJobOperator for asynchronous TaskExecutor Evaluation of setup for SimpleJobOperator to work with asynchronous TaskExecutor
+Bench4BL/Spring/BATCH	2153	PE	7	7	StepSynchronizationManager NullPointerException java.util.HashMap thread safety solution
+Bench4BL/Spring/BATCH	2156	STP	5	5	ConcurrencyFailureException in org.springframework.batch.core.repository.dao.JdbcExecutionContextDao during update of PREFIX STEP_EXECUTION_CONTEXT table Synchronization needed to prevent concurrency failures during updateExecutionContext method Already implemented in JdbcStepExecutionDao.updateStepExecution method at line 162 Error occurs during processing of multithreaded tasklet
+Bench4BL/Spring/BATCH	2313	STP	107	107	Possible race condition NullPointerException SynchronizationManagerSupport Spring Batch 3.x migration multithreading inconsistency synchronization bug
+Bench4BL/Spring/DATACMNS	65	PE	1	1	ConcurrentModificationException BasicPersistentEntity addPersistentEntity MongoTemplate getPersistentEntity doWithProperties PersistentProperties ConcurrencyProblem
+Bench4BL/Spring/DATACMNS	362	PE	4	4	Concurrency issues Repositories getRepoInfoFor iterating key set cached eagerly return RepositoryInformation second thread lookupRepositoryFactoryInformationFor writes instance variable ConcurrentModificationException reported issue
+Bench4BL/Spring/DATACMNS	390	STP	1	1,124	ConcurrentModificationException in MappingContextTypeInformationMapperresolveTypeFrom Spring Data AbstractMappingContext getPersistentEntities data race read lock HashMap persistentEntities modify values iteration JavaDoc undefined case solution
+Bench4BL/Spring/DATACMNS	831	PE	1	1	AbstractMappingContextgetPersistentEntity multiple threads empty entity race condition addPersistentEntity method read lock
+Bench4BL/Spring/DATAGRAPH	876	PE	1	1,2,6,146	thread safety issue in filter values of Derived Finder CypherFinderQuery causing unpredictable query execution
+Bench4BL/Spring/DATAJPA	268	PE	-1		LockModePopulatingMethodInterceptor PermGen space OutOfMemoryError org.springframework.data.jpa.repository.support.LockModeRepositoryPostProcessor.LockModePopulatingMethodIntercceptor.invoke MethodInvocation org.springframework.transaction.support.TransactionSynchronizationManager.bindResource org.springframework.transaction.support.TransactionSynchronizationManager unbindResource Object Thread threadLocals Heap dump
+Bench4BL/Spring/DATAJPA	359	PE	2	2,6	Lock annotation findOne method findOneAndLock findAll CRUD methods Derby MySQL Hibernate logging for update suffix
+Bench4BL/Spring/DATAJPA	620	PE	1	1	Infinite loop Unsynchronized HashMap CrudMethodMetadataPostProcessor Thread-safe Spring-Data-JPA-Queries Concurrent calls java.util.HashMap Infinite loop Hashmap-Lookup metadataCache.get method Known problem Thread-safe java.util.concurrent.ConcurrentHashMap
+Bench4BL/Spring/DATAMONGO	199	STN	-1		performance tests synchronization blocked threads jmeter read-only queries
+Bench4BL/Spring/DATAMONGO	532	PE	1	1	Multithreading authentication issue MongoDbUtils doGetDB synchronized block java mongo driver spring-mongo upgrade
+Bench4BL/Spring/DATAMONGO	622	PE	4	4,5	MongoTemplate.doSaveVersioned insert vs save usage for unversioned object to avoid race conditions on concurrent inserts
+Bench4BL/Spring/DATAMONGO	737	STP	1	1,4	MongoSynchronization IllegalStateException multiple Mongo databases transactional test case DATAMONGO-546 MongoDbUtils TransactionSynchronizationManager working theory cause MongoDbUtils doGetDB register one MongoSynchronization per Mongo submitting patch
+Bench4BL/Spring/DATAREDIS	310	PE	1	1	RedisCache related to lock safety race conditions in put clear get evict methods with serialization process
+Bench4BL/Spring/SEC	188	PE	88	88	JavaDoc error SecurityContextHolder InheritableThreadLocal org.acegisecurity.context.SecurityContextHolder
+Bench4BL/Spring/SEC	192	PE	-1		concurrent login issue with CAS authentication provider calling setDetails on newly created CASAuthenticationToken AbstractAuthenticationProvider.authenticate common for all providers.
+Bench4BL/Spring/SEC	197	PE	4	4,21,63	ConcurrentSessionController count non-expired Sessions enable ConcurrentSession support close browser without logging out logout active user SessionInformation.expireNow getAllSessions count non-expired sessions allow user to log back in abandoned HttpSession bug localization.
+Bench4BL/Spring/SEC	328	PE	1	1	AbstractUserDetailsAuthenticationProvider cache failure retrieveUser double check
+Bench4BL/Spring/SEC	356	PE	-1		HttpSessionContextIntegrationFilter SecurityContextHolder#setContext simultaneous requests same SecurityContext object authentication changes leak into synchronous requests
+Bench4BL/Spring/SEC	398	PE	-1		HttpSessionContextIntegrationFilter AuthenticationProcessingFilter thread concurrency issue redirecting to login page rather than protected resource after successful authentication delay redirects until HttpSessionContextIntegrationFilter updates SecurityContext.
+Bench4BL/Spring/SEC	423	PE	-1		CLONE -SEC 356 authentication leak HttpSessionContextIntegrationFilter SecurityContextHolder setContext simultaneous requests same SecurityContext object authentication change org.acegisecurity.intercept.AbstractSecurityInterceptor access gain
+Bench4BL/Spring/SEC	444	STP	-1		Race condition unsynchronized sequence SessionAlreadyUsedException ConcurrentSessionControllerImpl registerSuccessfulAuthentication
+Bench4BL/Spring/SEC	618	PE	2	2	 What is the issue with the authentication details object concurrent session control in ProviderManager How can the copyDetails method be implemented to ensure that the authentication details object is available Is an AbstractAuthenticationManager necessary for this process
+Bench4BL/Spring/SEC	670	PE	1	1	 deadlocks ACL_OBJECT_IDENTITY load testing concurrent deletes JdbcMutableAclService MS SQL server 2000 database selects deletes interleaving foreign key synchronized hierarchical ACLs primary key
+Bench4BL/Spring/SEC	809	STP	-1		Concurrent Session Control OpenID Incompatibility OpenIDAuthenticationProcessingFilter authenticationManager stack trace.
+Bench4BL/Spring/SEC	1396	PE	-1		HttpSessionContextIntegrationFilter SessionFixationProtectionFilter race condition
+Bench4BL/Spring/SEC	2067	PE	3	3,26,39,67,85,139,197,202,246,271,405	asynchronous servlet security context removed from session Spring Security flush SaveContextOnUpdateOrErrorResponseWrapper SaveContextServletOutputStream SaveToSessionResponseWrapper saveContext thread local holder Atmosphere Comet library SEC-776 SEC-1587 SEC-1735
+Bench4BL/Spring/SEC	3108	PE	1	1,17	DigestAuthenticationFilter using SecurityContextHolder.createEmptyContext SessionContextHolder.getContext.getAuthentication with incorrect authorities HttpServletRequest.isUserInRole returning falsely with incomplete Authentication object due to two-step construction in Digest authentication process createAuthenticatedToken true not checking user flags
+Bench4BL/Spring/SEC	3109	PE	237	237,244,299,319,447	Concurrent ThreadPoolTaskScheduler DelegatingSecurityContextExecutor not working issue in Spring Boot setup using a ReschedulingRunnable with cron triggers
+Bench4BL/Spring/SECOAUTH	311	PE	1	1,18,247,250	AbstractJaxbMessageConverter thread safety issue caching error with JAXB marshallers unmarshallers causing ArrayIndexOutOfBoundsException
+Bench4BL/Spring/SGF	231	NL	3	3,24,26,46	Serial GW Sender ordering policy error GemFire gateway sender configuration multiple dispatcher threads ordering policy java.lang.IllegalArgumentException
+Bench4BL/Spring/SGF	280	PE	1	1,11,19,23,32,138	ContinuousQueryListenerContainer class Thread-safety synchronization issues start stop methods running instance variable
+Bench4BL/Spring/SHDP	374	STP	3	3,8	Race condition overwrite org.springframework.data.hadoop.store.output.AbstractDataStreamWriter.getOutput default create Path method multiple writers hadoop exception
+Bench4BL/Spring/SPR	7688	PE	4	4	NullPointerException synchronized pvs InjectionMetadata.checkPropertySkipping IBM JVM does not allow null
+Bench4BL/Spring/SWF	976	PE	1	1,3	SimpleELContext thread-safe javax.el.Context ELContext object thread-safe ELDelegatingPropertyResolver ELDelegatingVariableResolver NullPointerException getItemLabel patch
+Bench4BL/Spring/SWF	1437	PE	4	4,48	concurrent threads override evaluation context NullPointerException org.springframework.expression.spel.ast org.springframework.binding.expression.spel.SpringELExpression update evaluation context with root object thread safety
+Bench4BL/Spring/SWS	334	PE	10	10	AbstractStandaloneMessageReceiver lifecycleMonitor.notifyAll superfluous no threads call wait
+Bench4BL/Spring/SWS	613	PE	1	1,2,4	Jaxp13XPathTemplate XPathFactory thread-unsafety concurrency issues with respect to XPathFactory.newInstance method instance methods
+Bench4BL/Spring/SWS	947	STN	-1		race-condition breaks dynamic WSDL Spring Webservices Tomcat Docker container stacktrace
+Bench4BL/Wildfly/WFCORE	132	PE	28	28	BoundedQueueThreadPoolWriteAttributeHandler undefined core-threads behavior handling undefined values matching max-threads default value for attribute in add method.
+Bench4BL/Wildfly/WFCORE	196	STP	33	33,46,151	org.jboss.as.host.controller.ManagedServer CTRL-C hang thread dump blocking closed channel process shutdown 
+Bench4BL/Wildfly/WFCORE	202	STN	7	7,20,28	deadlock Wildfly server CLI client connection upstream issue BZ1142538
+Bench4BL/Wildfly/WFCORE	553	PE	1	1,2,3,14,47	ModelControllerClientOperationHandler not managing clientRequestExecutor properly creating ThreadPoolExecutor without cleaning it up per channel suggested fix creating per ModelControllerClientOperationHandlerFactoryService cleaning up in stop but pool settings may not be appropriate
+Bench4BL/Wildfly/WFCORE	997	PE	378	378	Security realm ldaps SSL handshake stuck thread EAP ldap server killed LdapLoginModule connect timeout solution
+Bench4BL/Wildfly/WFCORE	1002	STP	1	1	What is causing an NPE in sendResponse when assertions are disabled COMPLETE_TX_REQUEST EXECUTE_TX_REQUEST are processed by TransactionalProtocolOperationHandler.AbortOperationHandler in a particular order that causes the ExecuteRequestContext to not be initialized How can this issue be resolved
+Bench4BL/Wildfly/WFCORE	1025	STP	1	1,2,4,9,28	ManagementRequestContext executeAsync hides RejectedExecutionException  caller thread waits for a latch to be tripped  testsuite hang  server not stopping due to locked org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestContext  RejectedExecutionException indicating thread pool shutdown  JIRA filed for prevention  executeAsync return boolean
+Bench4BL/Wildfly/WFLY	1810	PE	1	1	SFSB tx lock not released exception thrown Synchronization callback owning tx never pushed into OwnableReentrantLock ownership stack org.jboss.as.ejb3.component.stateful.StatefulSessionSynchronizationInterceptor.handleThrowableInTxSync causing subsequent Lock.tryAcquire.. to fail for different tx
+Bench4BL/Wildfly/WFLY	2016	PE	3	3	security context ejb asynchronous invocation corruption caller thread servlet role propagation
+Bench4BL/Wildfly/WFLY	2065	PE	2	2,6,11,14	jboss-transaction-spi  Update interface method test suite TM transaction reaper thread afterCompletion synchronization callback hard coding reaper thread name brittle
+Bench4BL/Wildfly/WFLY	2458	STN	-1		redeployment clustered application race-condition infinispan
+Bench4BL/Wildfly/WFLY	2467	PE	-1		search query for Deadlock on startup if configured with 8 transactional Infinispan caches installation of CacheConfigurationService using AsynchronousService wrapper
+Bench4BL/Wildfly/WFLY	2954	PE	62	62	Transaction synchronization registration issue with injected JMSContext using TransactionSynchronizationRegistry
+Bench4BL/Wildfly/WFLY	3259	STP	6	6,8,6360	Race condition ServletContextListeners WeldComponentIntegrationProcessor WeldStartService built-in components Mojarra CDI deployment timing UndertowDeploymentService
+Bench4BL/Wildfly/WFLY	3280	PE	27	27	thread locking app server shutdown remoting thread MSC service thread deadlocked integration arquillian tests EAP 6.3.0 engineering releases jar file jdbc driver deployments folder server log file thread dump lock occurs remoting queue DeploymentRepository object synchronized keyword methods remove listeners quick fix jboss-eap 6.x ejb3 Trouble in remoting MSC component jira type
+Bench4BL/Wildfly/WFLY	3338	PE	-1		JMSContext thread safety in WildFly its impact on concurrent use of session transactions Any workaround available
+Bench4BL/Wildfly/WFLY	3381	NL	-1		remote process cancellation request race managed domain operation request cancellation fail ActiveOperation tx commit rollback hang
+Bench4BL/Wildfly/WFLY	3396	STP	6	6	NPE TimerResourceDefinition race conditions Arquillian Wildfly 8.1.0.CR2 scheduled EJB Stacktrace FileDeploymentScanner configuration closed source error
+Bench4BL/Wildfly/WFLY	3517	PE	-1		DeploymentMountProvider leaks thread pools start Executors.newScheduledThreadPool stop shutdown the pool slow thread leak OOM
+Bench4BL/Wildfly/WFLY	3548	PE	4	4,269,323	JTA synchronization incorrect TCCL resulting in NameNotFoundException for UserTransaction JNDI lookup ISE with org.jboss.weld.Container org.jboss.as.weld.services.ModuleGroupSingletonProvider.TCCLSingleton.
+Bench4BL/Wildfly/WFLY	3695	PE	1	1,10,13,14,17,172	Distributed web session expiration ScheduledExecutorService thread leak undeploy SessionExpirationScheduler shutdown setExecuteExistingDelayedTasksAfterShutdownPolicyfalse
+Bench4BL/Wildfly/WFLY	3715	PE	2	2,3,6,9,13,19,21,33,35,36,37,76,78,87,90,93,112,118,119,135,136,140,144,149,157,175,192,242,252,263,286,413,556,702	Async servlets  lock timeouts  distributable sessions  Infinispan  BatchContainer  thread locals  Batcher  ejb clustering  web clustering  refactoring
+Bench4BL/Wildfly/WFLY	3727	STP	35	35	race condition channel NPE WildFly thread Protocol.up_prot GlobalComponentRegistryService.start Channel.connect volatile
+Bench4BL/Wildfly/WFLY	3731	STP	20	20	org.jboss.as.ejb3.component.stateful.StatefulSessionSynchronizationInterceptor transaction rolled back scottmarlow transactiontimeout_clientut
+Bench4BL/Wildfly/WFLY	3942	NL	-1		race condition clean shutdown mod_cluster session draining WF validate logic bug
+Bench4BL/Wildfly/WFLY	4133	NL	6	6,2693	Hanging EJB threads persistent timer failed deployment time service pending timeouts bad redeploy worker threads server
+Bench4BL/Wildfly/WFLY	4310	PE	-1		race condition registering resource adapters startup Upstream Jira
+Bench4BL/Wildfly/WFLY	4511	PE	5	5	stale code CMTTxInterceptor.invokeInOurTx ApplicationDeadlockException retry failure CMTTxInterceptor
+Bench4BL/Wildfly/WFLY	4844	PE	170	170,400,519,680,767	Wildfly EJB timer not fully committing transaction Singleton EJB timer not seeing changes committed by current run Transaction not fully committed when EJB timer finishes EJB timer causing premature transaction start CMTTxInterceptor applied before ContainerManagedConcurrencyInterceptor causing transaction start too early.
+Bench4BL/Wildfly/WFLY	5186	STN	40	40,113,251,283,503,820,845,930,1264,5459,5637,5896	TimeoutException Unable to acquire lock after 15 seconds ejb-ejbservlet-shutdown-repl-async ejb-ejbservlet-jvmkill-repl-async http-session-shutdown-repl-async-tcpStack http-session-undeploy-dist-sync failover NOT nodes warning logged 505 times
+Bench4BL/Wildfly/WFLY	5449	PE	5	5,55,134	How to set custom socket factory correctly in Wildfly's JGroups subsystem JChannel to avoid race condition where the factory gets overwritten during channel start
+Bench4BL/Wildfly/WFLY	5596	PE	6	6	 MessageDrivenComponent thread safe MDB activation WFLY-4470 flag protection XA resources recovery manager wrong order AtomicBoolean synchronized block exclusive lock deadlock risk
+Bench4BL/Wildfly/WFLY	5770	STP	1	1,18,21,46,58,68,401,410,436	Lock TimeoutException CacheRegistry close test node shutdown
+Bench4BL/Wildfly/WFLY	6127	PE	1	1,2,3,7,15,158	JTA transaction unsynchronized persistence context IllegalStateException synchronized persistence context
+Bench4BL/Wildfly/WFLY	6215	PE	1	1,16,24,89,1419	SessionSynchronization callbacks concurrent access SFSB EAP5 JBPAPP-11239 local container managed transactions calling bean managed transactions timeout abort transaction reaper thread afterCompletion execute concurrently
+Bench4BL/Wildfly/WFLY	6405	PE	2258	2258	Bug in WeldDeployment.getBeanDeploymentArchive method synchronization during performance test with JMeter on Wildfly 10.0.0.FINAL
+Bench4BL/Wildfly/WFLY	6776	NL	26	26	multiple thread pools same type work manager unclear error message long-running thread pool creation failure configuration change java.lang.IllegalArgumentException
+Bench4BL/Wildfly/WFLY	6877	STP	2	2,203	Wildfly locking timeout exception caused by Fine session attributes on Infinispan cache due to multiple PutKeyValueCommand calls on same session key
+Bench4BL/Wildfly/WFLY	7282	PE	5	5,38,94	Deadlock in BasicAction jboss remoting JTA EJBRemoteTransactionPropagatingInterceptor double diamond problem jboss-support-transactions list double diamond transaction propagation problem remote calls 2PC timed-out recovery process IIOP JTS
+GitHub/druid	582	PE	1	1,7,286,609	hadoop indexing race condition jar upload fs.create classpath same cluster AM failure better locking separate directory
+GitHub/druid	812	PE	18	18	realtime task redundancy in server view callback causing merge push thread errors abandonment of segment release of locks in indexing service
+GitHub/druid	1014	NL	32	32,41,44,48,50,69,148,201,214,448,504,2332,3522,4204,4711	real time node kafka message regex filter thread race condition Druid query result null value dimension empty result
+GitHub/druid	1210	STN	-1		race condition coordinator stopped responding
+GitHub/druid	1360	NL	2	2,80	autoscaling terminates nodes assigned tasks race condition indexing service task status running tasks middle-managers killed nodes.
+GitHub/druid	1715	NL	1	1,2,15,181	zombie task acquiring locks after failure overlord issue disconnect task still running for 45 mins failed lock acquire request submitted but not cleaned up
+GitHub/druid	2793	STP	4	4,273,301	duplicate primary key error TaskQueue big lock retry backlog
+GitHub/druid	2842	STN	1	1,2,13,198	NPE RTR multiple threads task assignment  2521
+GitHub/druid	2991	PE	2	2	IncrementalIndex OnheapIncrementalIndex addToFacts race condition unaggregated metrics weird situations LongMax LongSum initial value multi-thread adds
+GitHub/druid	3063	NL	66	66,305,488,848,1461	threads coordinator post  druid listen v1 lookup load lock held jetty threads nonblocking requests insert into queue concurrent requests
+GitHub/druid	3393	STP	-1		handling channel disconnected in NettyHttpClient or Druid race condition DirectDruidClient NettyHttpClient.go method channelDisconnected callback query failure retry internally channel.write httpRequest .addListener historical server pool channel closed retry trace
+GitHub/druid	3459	STN	82	82,83,91,355,364,375,519,725,872,2696,3848,4011,6170,6342	deadlock global lookup cache java-level deadlock query node Java stack information
+GitHub/druid	3593	STN	1	1,3,4,5,6,7,8,12,13,32,53,937,1703,5766	Deadlock in offheap cache java.util.concurrent.locks.ReentrantLock NonfairSync qtp1930842682-69 NamespaceExtractionCacheManager-0 java.util.concurrent.atomic.AtomicBoolean
+GitHub/druid	3600	STN	1	1,6,157,516	race condition updating DataSource Metadata Kafka Indexing Service Metamx common ISE Transaction failure publishing segments overlord log qtp370356001-171 qtp370356001-152 commit_metadata_payload DB updateDataSourceMetadataWithHandle method retryTransaction RuntimeExceptionthrown.
+GitHub/druid	3608	PE	53	53,341	race condition IngestSegmentFirehoseFactory task id reindex segment download clobbered fail datasource cross locking real task id task work directories
+GitHub/druid	3772	PE	5	5	race condition KafkaLookupExtractorFactory
+GitHub/druid	4226	STN	5	5,6,36,114,236,249,622,662,892,984,1439	druid-lookups-cached-global race condition realtime node starts Tranquility storm segment publication lookup failure realtime task log 36 seconds delay
+GitHub/druid	4296	STP	2704	2704,2831	BufferUnderflowException in HLL segment of realtime indexing tasks in Druid related to issue  3560 fix  3578. Querying timeseries data results in BufferUnderflowException errors eventually from peon nodes. MiddleManager configuration includes indexing realtime tasks events pushed from applications using tranquility Setting druid.indexer.fork.property.druid.processing.numThreads resolves the issue but not ideal for efficiency Upgraded to 0.10.0 with no resolution
+GitHub/druid	4984	PE	380	380	Callback race start cachingCost balancer
+GitHub/druid	5338	PE	-1		HttpPostEmitter high CPU usage upgrade to 0.11.0 emitter thread DruidCoordinator while true  loop batch.tryAddEvents method return false concurrentBatch concurrency issue
+GitHub/druid	6020	STP	1	1,29	TaskMaster  overlord becomes leader OR DruidLeaderSelector.Listener.becomeLeader OR taskRunner initialization OR Optional.of throws NPE
+GitHub/druid	6028	STP	33	33	SqlMetadataRuleManagerTest deadlock error
+GitHub/druid	6139	STP	3	3	Kafka Supervisor Test race in testCheckpointForUnknownTaskGroup Assert.assertNotNull serviceEmitter.getStackTrace
+GitHub/druid	6201	STP	7	7	deadlock overlord HttpRemoteTaskRunner java.lang.Object io.druid.concurrent.LifecycleLock
+GitHub/druid	6287	PE	1	1	Race condition Kafka Indexing Service verifyAndMergeCheckpoints KafkaSupervisor Futures.addCallback taskSequences.sort o1.rhs.firstKey o2.rhs.firstKey
+GitHub/druid	6826	PE	4306	4306	Concurrency bug DruidSchema.refreshSegmentsForDataSource segmentMap created outside of lock SegmentMetadataHolder holder dataSourceSegments.get segment  segment could be already removed NPE
+GitHub/druid	6867	STP	-1		DruidStatement deadlock
+GitHub/druid	7400	PE	42	42,519,1242,3183,3679,3843,4237	provider  metadata username  PasswordProvider  hardcode  restart Druid  change user Druid  change druid.metadata.storage.connector.user property  change while running  single provider  avoid race condition  PasswordProvider for username password.
+GitHub/druid	8622	PE	97	97,116,121,197,2647,4247,5900	What is the proposal for IR-based involving the concept of supervisor type task slots for resolving parallel task deadlocks
+GitHub/druid	9292	PE	-1		CoordinatorRuleManager.rules ConcurrentHashMap HashMap race condition  6898
+GitHub/druid	10005	PE	2	2,5,13,62,91,124,443	API to verify availability of published segments for a datasource with optional time interval API to verify published segments availability for datasource with time interval  optional  forceMetadataRefresh  optional
+GitHub/grpc	17	PE	4	4,6,7,13,49,126	Netty cancel stream creation race bug OkHttp transport AbstractClientStream
+GitHub/grpc	120	PE	2	2,5,6,18,95	NettyClientTransport blocking HEADERS frame write causing QPS Client performance issue EventLoop deadlock
+GitHub/grpc	238	PE	9	9	race in server handler initialization OR startAsync transport handler registration race OR Discarded inbound message during channel pipeline with SimpleLeakAwareByteBuf awaitRunning initChannel fix
+GitHub/grpc	330	PE	1	1	OkHttpClientTransport.onGoAway startPendingStreams race issue failPendingStreams integration
+GitHub/grpc	583	PE	3	3,24,104,259	OkHttp cancellation synchronization issue with finishStream transportReportStatus
+GitHub/grpc	605	PE	2	2	NettyClientHandler channelInactive Http2ConnectionHandler BaseDecoder BufferingHttp2ConnectionEncoder shutdown improperly race condition active stream closure GRPC reproduce potential fixes
+GitHub/grpc	696	STN	1	1,17	In-process transport deadlock during shutdown Java-level deadlock io.grpc.ChannelImpl io.grpc.transport.inprocess.InProcessTransport deadlock
+GitHub/grpc	887	STP	6	6,27	OkHttp sendCancel sendFrame race NPE caused by sendFrame after sendCancel called before stream start.
+GitHub/grpc	999	PE	4	4	race condition ServerImpl start stop concurrent shared executor release ThreadSafe annotation
+GitHub/grpc	1253	STP	1	1,3,56,80,86	ClientCallImpl  race  Context cancellation be60086 stream  request sendMessage  halfClose IllegalStateException louiscryan  PR  fix
+GitHub/grpc	1343	PE	1	1	OkHttp deadline scheduling potential NullPointerException in stream listener notification
+GitHub/grpc	1408	PE	5	5,10,13,17,31,45,51,53,77,96,129,136,145,172,198,211,224,227,1174	Risk of deadlock in calling listeners under locks solution with serialized executor
+GitHub/grpc	1510	PE	10	10	DelayedClientTransport InProcessTransport deadlock pull 1503
+GitHub/grpc	1549	null	-1		
+GitHub/grpc	1981	PE	1	1,2,7,8,13,14,16,56,61,118,169,194,662	ClientCallImpl related to executor channel shutdown in gRPC library
+GitHub/grpc	2152	STP	351	351,447	deadlock TransportSet benchmark client server calls failed unavailable detector
+GitHub/grpc	2246	STP	-1		deadlock TransportSet Grpc RoundRobinLB custom NameResolver bug localization
+GitHub/grpc	2388	STP	-1		TransportSet deadlock v1.0 2258 cherry-pick GrpcTimer
+GitHub/grpc	2453	PE	46	46	Threading of StatsTraceContext in RPC application with potential synchronization errors data race
+GitHub/grpc	2562	PE	4	4,8,33,111	transport shutdown newStream delay solution clientTransportProvider retry newStream channel shutdown.
+GitHub/grpc	2865	PE	4	4,10,15,16,19,27,37,46,55,58,63,195,634,1189	race condition in Client occurring with or without compression in RPC transport to server using DelayedClientTransport resulting in stream callbacks failing on channel executor threads causing data frame decompression to fail leading to failure in stream queued callback execution. Possible solution suggested involves using AbstractClientStream2 moving decompression to stream.
+GitHub/grpc	3084	PE	3	3,5,149	deadlock potential callbacks lock thread-safety OkHttp ChannelExecutor
+GitHub/grpc	3207	STP	5	5	Data race TestServiceImpl bug localization
+GitHub/grpc	5015	PE	11	11,12,17,19,26,28,38,41,55,57,70,119,125,138,270	LoadBalancer API threading model thread-safety SubchannelPicker thread-safety Helper thread-safety Subchannel thread-safety LoadBalancer wrapping LoadBalancer delegate LoadBalancer always call createSubchannel from SynchronizationContext Helper Subchannel non-thread-safe implementor burden Subchannel.requestConnection critical path SynchronizationContext
+GitHub/grpc	5450	PE	178	178	Data race NameResolve.Listener.onError
+GitHub/grpc	6601	STP	15	15,156	deadlock on start gRPC server race condition synchronization ServerImpl NetServer.start vertx nettty event loops thread dumps ServerListenerImpl.transportCreated channelzFuture.await
+GitHub/grpc	6641	PE	1	1,3,12,18,20,38,53,65,72,80,93,100,174,246,247,326,383,541,1014,1143	deadlock in server transport with multiple ports
+GitHub/grpc	8190	STP	1	1	grpc hang ELG thread placement NameResolver refresh method version of gRPC operating system CustomizedNameResolver override refresh method grpc call hang indefinitely thread dump analysis placement of grpc call worker thread NameResolver document
+GitHub/grpc	8536	PE	1	1,3,870	IR-based BinderChannel flow control gRPC-Java Android processes DEADLINE_EXCEEDED errors TRANSACTION_BYTES_WINDOW transmitWindowFull acknowledgedOutgoingBytes
+GitHub/grpc	8565	STP	57	57	RetriableStream.onReady data race MessageFramer.java
+GitHub/grpc	8642	PE	1	1,2,3,85	CsdsService bug getSubscribedResourcesMetadata getCurrentVersion synchronization issue with XdsClient atomicity needed
+GitHub/grpc	8914	STP	1	1,2,9,11,52,544	android binder deadlock due to unexpected re-entrancy of transactions in process-local binder unique object identity of IBinder instances within process causing BinderTransport locking issues multiple instances of BinderClientTransport BinderServerTransport running handleTransaction on different threads leading to deadlock steps to reproduce including creating a Channel to android.app.Service hosted by same process repeatedly sending messages from different threads
+GitHub/presto	1614	PE	-1		
+GitHub/presto	1689	STN	-1		
+GitHub/presto	3629	STP	-1		
+GitHub/presto	3647	PE	-1		
+GitHub/presto	4869	NL	-1		
+GitHub/presto	5005	PE	-1		
+GitHub/presto	5110	STN	-1		
+GitHub/presto	5116	STP	-1		
+GitHub/presto	5735	PE	-1		
+GitHub/presto	6196	STN	-1		
+GitHub/presto	6319	PE	-1		
+GitHub/presto	6755	PE	-1		
+GitHub/presto	6923	PE	-1		
+GitHub/presto	7667	PE	-1		
+GitHub/presto	7689	PE	-1		
+GitHub/presto	8716	PE	-1		
+GitHub/presto	9881	STP	-1		
+GitHub/presto	11253	PE	-1		
+GitHub/presto	13142	STP	-1		
+GitHub/pulsar	1117	STN	1	1,2,6,25,285	Exception namespace bundle split automatic initiation race condition bundle cache update invalid bundle range
+GitHub/pulsar	2141	PE	52	52	race condition in reconnection after managed ledger is fenced in SequenceIdWithErrorTest
+GitHub/pulsar	3768	STP	2	2,496	pulsar-function intermittent test failure deadlock org.apache.pulsar.functions.worker.PulsarWorkerAssignmentTest.shutdown function-worker time-out 60000
+GitHub/pulsar	4447	STP	127	127,131,214,259,459,494,685,806,950,985,1014,1085,1432,1440,1466,1468,1776,2922	Broker gets stuck when getting partitioned stats Brokers in cluster get stuck executing internalGetPartitionedStats Pulsar broker PersistentTopicsBase.java thread dump unable to reproduce bug
+GitHub/pulsar	4635	NL	110	110	Bookie down deadlock broker server ZK log thread dump Pulsar bug
+GitHub/pulsar	4707	STP	-1		bug related to PulsarKafkaProducer not being thread safe in sending messages to multiple topics causing NullPointerException in version 2.3.2 later which may be caused by a change made in a certain PR The bug can be found in the PulsarKafkaProducer class located in the pulsar-client-kafka module
+GitHub/pulsar	5585	PE	4	4,32	non-persistent topic replication deadlock non-persistent replicator disable batching batch message producer acquire release num meta ackreceived sendasync pulsar-io-22-8 pulsar-io-22-12 jstack log broker
+GitHub/pulsar	8050	PE	5	5,31	PulsarClientImpl using thread safe set instead of IdentityHashMap for storing reference of producers consumers for better performance
+GitHub/pulsar	8293	PE	9	9	race condition updating ManagedCursorImpl.readPosition
+GitHub/pulsar	9109	STP	38	38,92,133	pulsar-timer-4-1 blocked at redeliver UnacknowledgedMessages broker crash restart consumer rateOut decrease to 0 auto recover without restart consumer process thread pulsar-timer-4-1 stack blocked UnAckedMessageTracker add method writeLock consumer thread blocked in production
+GitHub/pulsar	10170	PE	2	2	AuthenticationAthenz lock optimization bug Inconsistent synchronization of AuthenticationAthenz roleToken bug
+GitHub/pulsar	10235	PE	157	157,248	deadlock monitoring thread leaderService.isLeader metrics query Gateway timeout heap dumps stack traces prometheus-stats thread hung waiting lock pulsar-external-listener deadlock condition becomeInactive
+GitHub/pulsar	10767	STP	264	264	Java client deadlock Pulsar Client ConsumerBatchReceiveTest
+GitHub/pulsar	11379	STN	2	2,2830	Directory race condition  NarUnpacker Pulsar function parallelism unable to delete TMP directory
+GitHub/pulsar	11605	PE	8	8,84,93	race condition concurrent  schema deletion apache pulsar broker service  deleteSchema getSchema deleteSchemaStorage  ledgers  bookkeeper
+GitHub/pulsar	11689	PE	1	1,13,17,246,283,380,466	Java Consumer batchReceive bug race condition peekNextBatchReceive poll forever
+GitHub/pulsar	11690	STP	2	2,218	LockManagerTest revalidateLockOnDifferentSession flaky fails sporadically bug localization IR-based
+GitHub/pulsar	11966	STN	10	10,127	Proxied admin endpoint connections timeout missing
+GitHub/pulsar	12723	PE	39	39,41,74	PersistentTopic addReplicationCluster race condition ConcurrentOpenHashMap method thread safe
+GitHub/pulsar	12885	PE	37	37,70	race condition KeySharedSubscriptionTest PersistentDispatcherMultipleConsumers consume client
+GitHub/pulsar	12929	STP	110	110	deadlock in internalDeleteSubscription in metadata-store callback thread
+GitHub/pulsar	13004	STP	2	2	race condition ResourceLockImpl#revalidate LockManagerTest updateValueWhenKeyDisappears exception MetadataStore get DelayInjectionMetadataStore lock.updateValue
+GitHub/pulsar	13923	STP	16	16,24,28,36,57,68,103,105,119,134,148,214,408	Pulsar Proxy race condition UnsupportedOperationException geo-replication logs bug localization
+GitHub/pulsar	13964	STP	47	47	PulsarClientImpl.close hang forever deadlock Flaky test PulsarClientImpl.close in ClientDeduplicationFailureTest with deadlock issue
+GitHub/pulsar	13986	PE	21	21	performance bottleneck TransactionBufferHandler synchronization timeout run method sync locks
+GitHub/pulsar	14362	PE	2	2,191,239,307,424,766,1103	race conditions in brokers health endpoint issues exposed by behavior NPE blocking a pulsar thread fixing endpoint for concurrent calls reproduce behavior resulting stack trace expected behavior for health check endpoint
+GitHub/pulsar	14413	PE	7	7	ConsumerBuilderImpl.subscribeAsync blocking thread DLQ Retry topics backwards-compatibility check getPartitionedTopicMetadata blocking calling thread subscribeAsync non-blocking pool deadlock subscribeAsync blocking even when retry DLQ names specified proposal to restructure subscribeAsync to chain getPartitionedTopicMetadata calls flag to disable compatibility check in ConsumerBuilderImpl.
+GitHub/pulsar	14438	STP	6	6,342	DeleteTopicForcefully block forever dump thread wait forever
+GitHub/pulsar	14633	STP	14	14	setupTopicPublishRateLimiterMonitor deadlock metadata operations block forever
+GitHub/pulsar	17446	PE	5	5,77	Permanent block issue in Producer due to chunking messages with blockIfQueueFull enabled
+GitHub/pulsar	17913	STP	-1		deadlock Schema BookKeeper PulsarRegistrationClient MetadataCache ZK Datastax BookKeeper Zk Registration Driver blocking call discover ZKRegistrationClient.
+GitHub/pulsar	18196	PE	1	1	Bug locallyAcquiredLocks leak OwnershipCache search issues locallyAcquiredLocks.remove bundle
+GitHub/pulsar	18988	STN	321	321	 Deadlock pulsar-io  metadata-store  transactions enabled search issues no similar results 2.10 version current master not able to reproduce  minimal reproduce step  not able to reproduce programatically
+GitHub/redisson	39	STN	7	7,23,175,1343	Locking on Jersey  Lock Unlock on Jersey Resource System LOCK  System UNLOCK  POST request system crashes while loop  different Threads
+GitHub/redisson	40	NL	11	11,14	Lock TTL Time-based Lock Deadlock in Lock Operation Thread Deadlock in Lock
+GitHub/redisson	67	PE	2	2	RedissonList concurrency problem safe to rely on RedissonList.size calling subList 0 size  two consecutive calls to hasNext on the iterator potential exception
+GitHub/redisson	83	STN	116	116	deadlock obtaining lock redis redisson version 1.1.5 keys L* returns empty list
+GitHub/redisson	89	STP	49	49	RedissonLock locks up  production  stalls  Redisson 1.1.5  thread locked  release a lock  30 other threads locked  jstack  Rediss state  separate lock
+GitHub/redisson	106	PE	28	28	RedissonList iterator race condition NoSuchElementException
+GitHub/redisson	169	PE	71	71	ConnectionManager hanging forever due to exception during Command processing with RedissonMap JsonJacksonCodec
+GitHub/redisson	199	STP	444	444	Redisson performance concurrency issues thread pool Executors.newFixedThreadPool Deque exceptions
+GitHub/redisson	254	STP	1	1,120,144,293,294,295,298,299,300,301,303,304,305,331,332,391,563	Redisson RLock SerializationCodec EOFException concurrent threads Lock object CountDown.
+GitHub/redisson	455	STN	4	4,228,893,934,974	Redis distributed lock implementation with long latency issue during load test waiting threads
+GitHub/redisson	486	NL	27	27,636,709,1718,1755	Reddisson Rlock performance issue Latency issue with Reddisson Rlock cluster setup Latency issue with Reddisson Rlock when acquiring releasing lock Performance issue with Reddisson Rlock in Java thread pool accessing Redis Reddisson Rlock latency with larger thread pool size Reddisson Rlock issue with high thread count Improving Reddisson Rlock performance when locking unlocking.
+GitHub/redisson	491	PE	1595	1595	Deadlock in RedissonLock due to heavy concurrency how to prevent solve by applying TTL algorithm in RedissonLock.get
+GitHub/redisson	530	PE	992	992	deadlock on lock remote server CommandAsyncService.get Future  stuck on l.await line incomplete mainPromise object difficulty analyzing due to spaghetti code
+GitHub/redisson	533	PE	3	3,4,248,1589,1651,1747	RedissonMultiLock exception  with Redlock algorithm RedisConnectionException
+GitHub/redisson	543	STP	10	10,154,190	RLock trylock blocks forever Elasticache AWS command timeouts
+GitHub/redisson	757	NL	1	1,41,96	unlock FairLock delay thread
+GitHub/redisson	758	PE	4	4,1564,1644	RReadWriteLock not being reentrant
+GitHub/redisson	775	STN	17	17,56,61,87,116	master slave failover indefinite lock lost update failure thrown exception
+GitHub/redisson	828	PE	-1		thread safety issues related to URIBuilder java.net.URL.factory
+GitHub/redisson	889	STN	230	230,315	Redisson 2.7.4 JCache Provider slow cache ops async EJB http-executor threads in same state possible lock issue
+GitHub/redisson	891	PE	1	1,102	RReadWriteLock incompatible reentry r w op bug confusion logic problem IllegalMonitorException read unlock delete lock
+GitHub/redisson	1048	STP	289	289	Redisson hang on RBatch.execute Redisson RBatch causing thread hang java.util.concurrent.CountDownLatch Sync causing Redisson hang
+GitHub/redisson	1104	NL	1	1,2	RFairLock dead lock issue redisson version 3.3.2 to 3.5.4 timeout queue future 3 instances application killed by operating system
+GitHub/redisson	1268	STP	48	48,108,531	org.redisson.RedissonTopic.removeAllListeners blocked CountDownLatch.await Subscribe timeout 9500ms CommandAsyncService.syncSubscription Redission Redis Client
+GitHub/redisson	1433	PE	75	75,1308	handling exceptions in concurrent calls to RemoteService with Redisson configuration concurrent calls RemoteService exception Redisson configuration.
+GitHub/redisson	1602	PE	383	383,1743,1811,1871	Redisson version 2.11.5 unlock fail expirationRenewal still execute network problem
+GitHub/redisson	1626	STP	9	9,26,176,275	RedissonLock deadlock issue in JCache implementation using bucket4j with AWS ElastiCache Redis 3.2.4 Redisson 3.5.4 3.8.0 caused by the watchdog thread continuously renewing the lock lease indefinitely resulting in threads waiting forever for the lock. The unlock method can also fail leaving the watchdog thread holding the lock indefinitely. Expected behavior includes the use of a lease time with an atomic check at update time a configurable lock timeout. Issues can be verified via Redisson code review can be reproduced by forcing a Redis timeout on the unlock call.
+GitHub/redisson	1950	STP	70	70	PriorityBlockingQueue lock release issue on network reconnection with redisson_sortedset_lock testqueue not released due to a network disconnect
+GitHub/redisson	1966	NL	16	16	Redisson deadlock after timeout Redisson lock renewal causing deadlock Redis timeout resilient behavior Redisson lock scheduling task Redis client pause causing timeout Test application for Redisson lock
+GitHub/redisson	2099	PE	1	1,2	RedissonFairLock timeout drift timeout gradually increasing deadlock-like situation redisson_lock_queue redisson_lock_timeout fair lock wait queue  issue problem error fix test case
+GitHub/redisson	2278	PE	1	1,4	RedissonFairLock deadlock upgrade to 3.11.2 from 3.10.7 FairLock without lease time high load system thread stuck reproduce
+GitHub/redisson	2355	STP	53	53	RedissonLock.unlock hangs infinitely waiting for RedissonPromise  threads locked forever waiting inside calls to RedissonLock.unlock  NullPointerException in RedissonLock.java due to missing timeout object inside task  cancelExpirationRenewal method fails with an exception  Experienced after upgrading to Redisson 3.11.4 from Redisson 3.8.0  Unable to reproduce the problem on own computer  Root cause of task.getTimeout returning null  Request for null check for timeout inside ExpirationEntry object  Returned to 3.8.0 version due to severity of problem
+GitHub/redisson	2575	PE	2	2,61,62,459,779	RedissonLock unsubscribe  channel lock acquired  pub sub  unsubscribed  no longer needed  connection leak  subscribe timeout  subscriptionsPerConnection  subscriptionConnectionPoolSize  reproduce  test case  lock keys  active locks  leaked subscriptions  RedissonLock implementation
+GitHub/redisson	2690	STP	1	1	RedissonSessionRepository topic listeners initialization race condition NPE Spring sessions
+GitHub/redisson	2692	STP	1	1	RedissonSession changeSessionId expiredKey race condition  production instances same session multiple servers PTTL
+GitHub/redisson	2714	PE	7	7,119	 RedissonLock.tryLock interrupted watchdog keeps renewing lock infinite lock
+GitHub/redisson	2883	PE	6	6,18,26,28	RedissonFairLock deadlock endLok RedissonLock print
+GitHub/redisson	3484	PE	1	1,4,5,6	org.redisson.RedissonLock#tryLockInnerAsync concurrency problems leaseTime threadId RedisStrictCommand invalid watchDog expired
+GitHub/redisson	4033	PE	2	2,7,12,19	multilock fail lock fail multi lock case Steps to reproduce waitTime=0 RedissonMultiLock Line 413
+GitHub/redisson	4064	STP	9	9,42,94,821,1679	Thread safe problem acquiring locks RedissonLock pubsub channel not unsubscribed error locking subscribe timeout exception logging test case failed state
+GitHub/rocketmq	1986	PE	1	1,145,214,1516,1573	IndexService getAndCreateLastIndexFile threadsafe issue bug report environment logs related issues feature request getAndCreateLastIndexFile execute in thread ReputMessageService readWriteLock IndexFile proposed use case importance workarounds subtask
+GitHub/rocketmq	4143	PE	1	1,5,10	Unnecessary file lock IndexFile IndexService remove
+GitHub/rocketmq	4686	PE	6	6	lock released wrong position org.apache.rocketmq.namesrv.kvconfig.KVConfigManager putKVConfig lock not released exception acquired environment thread interrupted state
+GitHub/rocketmq	5039	STP	1	1	stuck localHostName when constructing BrokerIdentity object frequent initialization of InetAddress instance
+GitHub/trino	2962	STP	1	1,5162	Deadlock Thead starvation in Hive loadPartitionByName getTable causing Presto coordinator to queue queries but not execute possible race condition traced back to loadTable call not being executed due to all executors being used introduced by 1921
+GitHub/trino	6202	PE	1	1,2,27	LogTestDurationListener full stacktrace  test hang  TestClass@2a78dd6a  limited to 8 frames
+GitHub/trino	6389	STP	1	1	deadlock SqlServerClient getTableProperties failure
+GitHub/trino	7454	PE	393	393	Join spill bug localization with IR Join spill race condition causing dispose not called on spilled partition join spill race condition Bug localization in io.trino.operator.HashBuilderOperator io.trino.operator.PartitionedLookupSourceFactory
+GitHub/trino	7872	STP	-1		Flaky Test SqlServerTypeMapping Transaction deadlocked Deadlock victim
+GitHub/trino	9741	STP	1	1,2215,2314,3436,5354	TestSqlServerConnectorTest.testSelectInformationSchemaColumns failing in 2019-CU13-ubuntu-20.04 due to deadlock
+GitHub/trino	11798	NL	71	71	Hive lock waiting state indefinitely timestamp NULL exclusive table lock Trino shared_read lock cancelled release workaround script
+GitHub/trino	13212	PE	1	1	DirectExchangeClient lock congestion caused by setBytes move in 5832a59 in Trino
+GitHub/trino	14132	PE	1	1,2,3861	Hive metastore missing manifest file release lock failure NoSuchLockException metastore timeout HiveMetastoreTableOperations Iceberg commit handling
+GitHub/trino	14605	STP	1	1	occasional search queries getting stuck in pipelined execution of query failure path involving io.trino.faulttolerant.iceberg.TestIcebergTaskFailureRecoveryTest.testExplainAnalyze
+GitHub/vertx	1247	STP	17	17	deadlock HttpClient Vert.x 3.2 lock 1 lock 2 ClientConnection HttpClientImpl
+GitHub/vertx	1302	STP	15	15,55,157	EventLoop thread blocked on Vertx.clusteredVertx Vertx 3.2.1 Vertx.clusteredVertx called on main java thread on application startup
+GitHub/vertx	1355	STP	83	83	Deadlock between ClientConnection HttpClientRequestImpl Exception handling request response reset connection load balancer ACE module 3.2.0 code JVM 1.8_74 RHEL 6.5 jstack information vert.x-eventloop-thread-0 vert.x-eventloop-thread-7
+GitHub/vertx	1466	STP	35	35	Deadlock in ServerConnection HttpClientRequestImpl Java-level
+GitHub/vertx	1469	PE	-1		HttpClientMetrics createEndpoint multiple times ConnQueue constructor leaked resources closeEndpoint not called
+GitHub/vertx	1573	STP	6	6,7	blocked thread warning AsyncFile opening closing Windows shared drive slow network filesystem.
+GitHub/vertx	1598	STN	16	16,45	asynchronous read write wrong thread open close address 1573 blocking.
+GitHub/vertx	1633	PE	-1		Context executeBlocking does not log blocked threads
+GitHub/vertx	1742	PE	13	13,126	File caching implementation not thread safe in Vert.x framework.
+GitHub/vertx	1834	PE	8	8,21,37	HttpServerRequest ServerWebSocket deadlock SockJSSocket synchronized lock Netty close event
+GitHub/vertx	1892	PE	11	11	compositefuture all race condition thread futureimpl
+GitHub/vertx	2012	PE	1	1	Race condition AsyncFileImpl writesOutstanding invalid state different thread fix AtomicLong
+GitHub/vertx	2370	PE	309	309	HttpClient pool inconsistent synchronous connection failure underlying ConnectionProvider asynchronous DNS resolver JVM synchronous resolver host cannot be resolved
+GitHub/vertx	2418	PE	55	55,68	Possible deadlock when trying to get multiple locks Consumer verticle HazelcastClusterManager IgniteClusterManager
+GitHub/vertx	2670	PE	6	6,24,42,61,272,485	client connections on GlobalEventExecutor thread not propagated to application in Netty bootstrap leading to Event loop context executing with wrong thread failure on Vertx
+GitHub/vertx	2684	STP	16	16	executeBlocking callback run on wrong thread asynchronous future resolution Mongo client stack trace.
+GitHub/vertx	2773	PE	16	16,25,27,36,71,74,136,149	HttpClient race condition connection pool closed
+GitHub/vertx	2916	NL	12	12,25,54,67,131,161,163,189,208,270,286,778	HTTP event handler lock deadlocks remove
+GitHub/vertx	2982	STN	14	14,27,57,62,77,90,108,131,290,311,663,849	deadlock http client eventloops blocked Vert.x 3.7.0 io.vertx.core.http.impl.HttpClientRequestImpl Http1xClientConnection threaddump
+GitHub/vertx	3064	PE	63	63,64,303	HttpServerResponse failure when stream is closed ended improvements in related response methods in Vert.x 4 using synchronous operation Future result
+GitHub/vertx	3140	PE	1	1,13	AsyncFile handler calls lock synchronized block
+GitHub/vertx	3142	NL	58	58,67,263,768	deadlock regression on 3.8.2 due to 3117 in deployment of multiple verticle instances starting net server.
+GitHub/vertx	3232	STP	12	12,32	Vertx close Future never completes thread pool shut down Sync.await blocking method setHandler output never completes.
+GitHub/vertx	3335	PE	109	109	FileSystemImpl.existsInternal vertx.filesystem.exists resolveFile event loop thread worker thread blocking BlockedThreadChecker
+GitHub/vertx	3468	STP	79	79	Vert.x 4.0.0 milestone 5 HttpClient thread blocked getConnection okapi
+GitHub/vertx	3469	NL	58	58	HTTP client retry same host self deadlock
+GitHub/vertx	3658	STP	2	2,767	CompositeFuture.all race condition unhandled exception version 3.9.2 newer
+GitHub/vertx	4024	PE	1	1	concurrency issue in TCPServerBase listen with race condition in bindFuture.addListener method sharedNetServers.put using id field without volatile synchronized
+GitHub/vertx	4069	STP	6	6,76,149	Vertx deadlock when closing Vertx WorkerExecutor concurrently
+GitHub/vertx	4104	STP	781	781	WorkerExecutor.executeBlocking deadlock caused by multiple threads running on the same WorkerExecutor instances in different orders
+GitHub/vertx	4221	NL	1	1,2	HttpClient NPE due to null connection from pool lease delivery race
+GitHub/vertx	4275	PE	1	1	ConnectionBase exception handler should not be called within the synchronized block
+GitHub/vertx	4278	STN	1	1	ArrayList concurrency error deployment verticles
+LtR/AspectJ	59599	NL	151	151	race condition test suite incremental ajcTests.xml failing tests directory contents compilation candidate fixes
+LtR/AspectJ	59909	PE	2	2,5,1858,1870,1953,2341	CFlowStack hashtable threads remove late problem memory out of memory error patch free scheme
+LtR/AspectJ	155148	STN	4	4,59,319,1001	jdk14 trace deadlock OC4J Oracle Aj class threads loader toString method Oracle ClassLoader thread dump Java-level deadlock Oracle OC4J server PolicyClassLoader WorkExecutorWorkerThread-1
+LtR/AspectJ	269867	STP	11	11	WeakHashMap infinite loop non synchronized access AjTypeSystem.getAjType clazz  static instance thread dump stuck line 355
+LtR/AspectJ	318878	NL	385	385	pertarget aspect thread safe ajc compiler
+LtR/AspectJ	320468	STP	-1		thread safety issue in ModifiersPattern.getModifierFlag in org.aspectj.weaver_1.6.0.20080423100000.jar causing ConcurrentModificationException in multi-threaded environment with Spring DM PointcutParser.parsePointcutExpression potentially leading to incorrect values being used
+LtR/AspectJ	340806	PE	16	16	JavaLangTypeToResolvedTypeConverter race condition bug Spring AOP
+LtR/AspectJ	408721	STN	742	742	java.util.ConcurrentModificationException multiple threads weaver AspectJ 1.7.1 internal state initializing
+LtR/Birt	123840	PE	16	16,527,1185	How to fix Data Engine classes in org.eclipse.birt.data.engine.script.NEvaluator FilterPassController that use static class fields leading to data corruption in the presence of concurrent requests in the same JVM
+LtR/Birt	195335	PE	1	1	HTMLServerImageHandler static hashmap not synchronized multiple times IR-based multithreading
+LtR/Birt	208512	PE	17	17,25,159	org.eclipse.birt.data.engine.odaconsumer classes packages multithread thread issues thread-safety debugging error identification
+LtR/Birt	284367	PE	43	43,68	org.eclipse.birt.data.engine.executor.DataSourceFactory thread safety
+LtR/Birt	287102	PE	1	1	Classloader deadlock org.eclipse.birt.core.framework.osgi.OSGILauncher ChildFirstURLClassLoader
+LtR/Birt	314645	PE	321	321	XML Datasource Thread-Safe IRunTask multi-threaded application corrupted setAppContext Reproducible xml parsing rptdocument files corrupted files
+LtR/Platform	6623	STP	2	2	Threading problems on plugin startup caused by UI-thread call of AbstractUIPlugin.refreshPluginActions.
+LtR/Platform	15379	PE	17	17	WorkingSetManager resource change listener thread safe Resource changes any thread resource change listener installed WorkingSetManager UI thread ResourceNavigator working set changes update its viewer illegal thread access exception SWT reproduce java project working set navigator packages view show only delete project log
+LtR/Platform	33942	PE	14	14	IDecoratorManager update thread restriction SWTException Javadoc
+LtR/Platform	46562	STN	204	204	Deadlock in modal CVS dialog Update Overwrite conflicting resource sync view I20031111
+LtR/Platform	48382	NL	-1		Deadlock  automated tests  I20031209
+LtR/Platform	54450	PE	-1		request job API race condition with requestInUI call null return value, caused by deep logic async job execution. General purpose error dialog not helpful. NullPointerException due to null choice var after requestInUI call. Prompt technique for user request still under development? Code running on M7 I20040310.
+LtR/Platform	59782	STP	72	72,175,293,323,623	Deadlock reentrant workspace.runbuild eclipse Java perspective project packager explorer Window > Preferences Workbench page progress dialog waiting user operation waiting workspace build
+LtR/Platform	67053	PE	4	4	locking fails exception wrong message Location lock false IOException 3.0 RC2
+LtR/Platform	74185	PE	1	1	UIJobTest potential concurrency failure volatile boolean
+LtR/Platform	76378	PE	5	5,20	bug localization deadlock ModalContext UIThread NotifyJob UILockListener eclipse.ui JUnit test patch
+LtR/Platform	84141	PE	19	19,68	DecorationScheduler UI Thread lock scheduling rule
+LtR/Platform	108162	PE	8	8,11	deadlock MoveFilesAndFoldersOperation refactoring participant org.eclipse.ui.actions
+LtR/Platform	113582	STN	102	102	deadlock Eclipse update marker list during builds
+LtR/Platform	114527	PE	15	15	Race condition intermittent crashes Workbench org.eclipse.ui.startup
+LtR/Platform	114813	PE	2	2	synchronization registry listener failure JUnit DynamicPluginsTestSuite org.eclipse.ui.tests.dynamicplugins bundle addition removal
+LtR/Platform	118414	STP	11	11	Deadlock AbstractWorkingSetManager I20051129-0800 startup AbstractWorkingSetManager deadlock I20051129-0800 startup Deadlock caused by AbstractWorkingSetManager on startup I20051129-0800 Workspace deadlock caused by AbstractWorkingSetManager I20051129-0800
+LtR/Platform	136855	PE	58	58,2756	deadlock caused by IDEIdleHelper HeapStatus calls to System.runFinalization from UI thread in Eclipse 3.2 with multi-threaded access to a COM server dll with ThreadingModel Apartment IUnknown Release calls from MTA to STA objects owned by Eclipse's main thread's dispatch loop.
+LtR/Platform	164361	PE	1	1	Task name not shown user job progress dialog race condition optimization ProgressMonitorDialog SWT.Show handler isVisible set message configureShell next milestone help
+LtR/Platform	168806	PE	18	18	Realm.ensureWorkerThreadIsRunning does not start new thread
+LtR/Platform	171452	NL	1	1	deadlock on startup I20070123-1030 syncExec Splash handler trace
+LtR/Platform	230472	NL	29	29	Expression controlled Activities synchronization issue when persisted reloaded with internal enabled list
+LtR/Platform	248908	PE	2	2	BusyIndicator deadlock UI thread Build ID 3.4.0 PROP_DIRTY events Form editor setBusy method synchronized setBusy
+LtR/Platform	258352	PE	7	7	synchronization ProgressManager expensive
+LtR/Platform	262032	PE	5	5	DeadlockDetector create deadlock
+LtR/Platform	273752	PE	1204	1204	org.eclipse.ui.internal.navigator.NavigatorContentService.getSourceOfContribution Object   deadlock in test suite  Platform UI test suite  org.eclipse.ui.tests.dynamicplugins.EditorTests.testEditorClosure  PACKAGES_REFRESHED event not fired
+LtR/Platform	296056	PE	1	1,48	deadlock between syncExec IJobManager.beginRule. Search for case producing deadlock since N20091120-2000 where UI is waiting to begin scheduling rule thread owning scheduling rule attempts syncExec.
+LtR/Platform	296822	PE	6	6,7,40	null progress monitor thread safety synchronization volatile
+LtR/Platform	302536	PE	1	1	Broken double checked locking MarkerSupportRegistry
+LtR/Platform	306738	PE	-1		synchronization issue of ToolItem selection state with MToolItem in an app with MToolBar radio tool items not reflecting changes upon quitting
+LtR/Platform	307405	PE	16	16,78	NavigatorContentServiceContentProvider deadlock stack trace
+LtR/Platform	312063	PE	-1		SelectionServiceImpl ListenerList HashSet thread-safe event order
+LtR/SWT	176792	PE	24	24	org.eclipse.swt.internal.ole.win32.ComObject misbehavior in multithreaded application Enclosing constructor code in synchronized block related issue of constructor accessing Callbacks ObjectMap static fields leading to SWTError exceptions with message No more callbacks
+LtR/SWT	183830	PE	789	789	Xlib unexpected async reply deadlock GLX.glXMakeCurrent int OpenGL program Linux
+LtR/SWT	188320	PE	8	8	JFace ModalContext deadlock Linux GTK block method asyncExec sleep not return
+LtR/SWT	264399	NL	481	481	Deadlock automated testing SWT application
+LtR/SWT	338965	NL	409	409	Deadlock Hang UI Thread bug localization

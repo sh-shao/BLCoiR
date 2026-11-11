@@ -1,0 +1,5 @@
+99	leak thread webapp outofmemoryerror filecleaner asfilecleaner io server user common application api solution memory classloader
+136	stringbuffer dump hexdump stringbuffers method bug outputstream thread instance datum use time
+201	stream countinginputstream countingoutputstream synchronize count thread loss synchronization operation field functionality sense volatile
+207	forcemkdir process race condition chance directory ioexception thread
+216	delete file failure lockablefilewriter lockfile code lock account exception initialization fix time deletion n.b

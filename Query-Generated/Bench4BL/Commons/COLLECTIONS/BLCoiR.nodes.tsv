@@ -1,0 +1,11 @@
+bug_id	term	types	pagerank	degree	freq	first_sentence	surface	cr_degree
+384	javadoc	OTN	0.555682	1	2	0	javadoc	0
+384	comment	OTN	2.386362	5	2	0	comment	0
+384	code	OTN	0.970146	2	1	0	code	0
+384	synchronizedmap	COE	0.975211	2	1	0	synchronizedmap	0
+384	map	OTN	0.971527	2	2	0	map	0
+384	maputils	COE	0.555682	1	1	0	orgapachecommonscollectionsmaputils	0
+384	state	OTN	0.555682	1	1	1	states	0
+384	method	OTN	0.557062	1	1	1	method	0
+384	throw	OTV	1.915586	4	1	1	throws	0
+384	illegalargumentexception	EXC	0.557062	1	1	1	illegalargumentexception	0

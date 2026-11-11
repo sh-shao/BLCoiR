@@ -1,0 +1,6 @@
+367	instance hashmaps thread fastdateformat simpledateformat document patch share attribute safety guarantee assumption
+459	problem method system identityhashcode list toidentityhashcodeinteger fix hashcodebuilder line isregistered load hashset arraylist usage object submit code change issue multi-threaded downside test bore value hashcode loop suspicion andrew
+481	hashcode value method race condition calculation range
+584	removecausemethodname lock addcausemethodname exceptionutils targetexceptionutils target cause_method_names method
+1230	equalsbuilder hashcode hashcodebuilder threadlocals issue lookup thread redundant synchronization access value identity version contention re-reading idkey object call unregister consequence synchronize lang registry
+1251	classloaderawareobjectinputstream primitivetypes map serializationutils hashmap thread safety constructor initializer

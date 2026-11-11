@@ -1,0 +1,694 @@
+project	bug_id	category	first_rank	gold_ranks	query
+BLIZZARD/ecf	125572	PE	8	8	Generic for ECF From while two mutexes generic Lock the provider ClientSOContainer following Client 
+BLIZZARD/ecf	223484	PE	198	198,723,858,925,930	Closer server disconnect though Start Bundle was threads run Repeat Data done the More Several and State following Running from XMPP 
+BLIZZARD/ecf	229237	PE	5	5	container given retrieveServices this for addContainer immediately list via the newly connected xmpps When and associated block after adds 
+BLIZZARD/ecf	232530	STP	1	1,2,3	which very uncaught cases read death frequently this any lead exceptions out the and causes from subclasses Session 
+BLIZZARD/ecf	265413	PE	15	15	JMDNSDiscoveryContainer objects threads dead issues originating the that same calls Intermittent and lock from must between 
+BLIZZARD/ecf	265415	PE	1	1,2	Dead Canceler before unregisterService run dead occurs obtains ServiceInfo the JmDNSImpl synchronization lock 
+BLIZZARD/ecf	267035	STP	2	2	More synchronized safe  toString toString information ReplicaSharedObjectDescription 
+BLIZZARD/ecf	273357	PE	1	1,2,22,287,427,2006,2106,2114	SocketChannel side data Alice more for the Bob above course from socket 
+BLIZZARD/ecf	273819	NL	34	34,304,1552	Somehow kind tell Containers this wrong the The dialog are and opens wizard per every user 
+BLIZZARD/ecf	299849	PE	230	230	disconnect NPE will another this RegistrySharedObject received main handle message remoteServerID null and This  handleAddRegistrationcan Main close 
+BLIZZARD/ecf	321468	PE	43	43	Currently access dispatch will listener this registered invoke deadlock inside IRemoteServiceListener remote via the The call result that service This attempts 
+BLIZZARD/ecf	321469	PE	27	27,636	stopped explicitly created DiscoveredServiceTracker this clean ListenerQueue distribution when done the never are cleanup and This ThreadGroup bundle 
+BLIZZARD/ecf	323208	STN	6	6	BundleStatusException more for While loading DiscoveredServiceTrackerImpl when Created the AbstractBundle with existing attachment Distribution DiscoveredEndpointEvent jar bundle 
+BLIZZARD/ecf	326949	PE	1	1,10,11,13,36,38,42,43	getRemoteServiceReferences container add Currently adapter synchronous methods needed One additional one IRemoteServiceContainerAdapter remote two are service there 
+BLIZZARD/ecf	337973	STP	2	2,2093	process zoodiscovery SyncConnected isConnected start for For the WatchedEvent null and quite because 
+BLIZZARD/ecf	341818	PE	325	325,776	Steps new internal using r_osgi was error sample when System out the proxy times native provider loop create Always has close consumer 
+BLIZZARD/ecf	348487	STN	46	46	stopped Reference for monitor the that runnable Signal and MultiThreadedHttpConnectionManager 
+BLIZZARD/ecf	432662	STP	200	200,1402	synchronized printStackTrace manifest modifier for show schemes instantiate nested the found same Unable HttpClient solves from after 
+BLIZZARD/eclipse.jdt.core	29585	STN	1	1,12,218	container resourceChanged classpath resource processResourceDelta for tree initializing run initializeRoots broadcastChanges notify The getResolvedClasspath endOperation Model initialize locked modifications Core 
+BLIZZARD/eclipse.jdt.core	58314	STN	1	1,6,7,9,10,19,20,22,23,24,27,29,30,31,32,33,34,35,42,44,48,53,57,62,63,64,65,66,68,69,74,76,77,83,84,85,88,89,92,93,96,101,103,106,107,110,113,116,117,122,126,130,132,139,143,606	cursor console AST visiting n t multiple this for save threads ASTs the The that readers does safe came managment from 
+BLIZZARD/eclipse.jdt.core	291322	NL	54	54	issue several freed Windows immediately when delete running the tests file Some tear known calls and get subsequent This hence JDT errors Core 
+BLIZZARD/eclipse.jdt.core	327143	PE	1	1	next called Right The into that number and loop awaiting case new consequence manager jobs was touch index accept the call never null processing job 
+BLIZZARD/eclipse.jdt.core	421473	PE	20	20,97,125,131,622,707,1357	all annotation side clients this for least annotations handle type getAnnotations the that condition and there scope from block returns since 
+BLIZZARD/eclipse.jdt.core	431275	STP	173	173	product DeltaProcessingState this was bugzilla collected addPackageFragmentRoot Lock the call JavaModelManager headless with and well 
+BLIZZARD/eclipse.jdt.core	464570	STP	134	134,327	    which shared static may caused weblogic index fixes the reproduce with such multi threads This jdt case AIOOBE conflict 
+BLIZZARD/eclipse.jdt.debug	7392	NL	167	167	tries stack  not responding  our when JDIThreads out incompatible are startup get model state because thinks synch threads suspended the Some 
+BLIZZARD/eclipse.jdt.debug	8683	STP	1	1	over attempting stack NPE assumes SignalDispatcher Suspend Our the that Hit system top there Select step suspending after frame 
+BLIZZARD/eclipse.jdt.debug	12695	NL	2	2,47,346	temporary adapter adapters debug one for then our breakpoint the super that hit When top get only from breakpoints user order 
+BLIZZARD/eclipse.jdt.debug	16930	NL	73	73	which manually InvalidThreadStateException expected perform for error breakpoint the evaluation better incompatible does and state after user 
+BLIZZARD/eclipse.jdt.debug	21801	PE	1	1,43	parent data for ThreadGroupReference each command the that current These library related there client base group 
+BLIZZARD/eclipse.jdt.debug	22005	PE	88	88,109,493	necessary asynchExec run Review via the that performance post calls and review synchExec runnables little 
+BLIZZARD/eclipse.jdt.debug	24579	PE	101	101	new CVS waiting ModalContext another steps Open The Create blocking lock perspective anonymous until Exact checkout connect 
+BLIZZARD/eclipse.jdt.debug	33297	PE	1	1	displayed Unneccessary manager EvaluationListener  resolveFormatter when two suspended the formatter evaluation places There logged logging from toString user errors  evaluationComplete 
+BLIZZARD/eclipse.jdt.debug	33712	STP	260	260	                                              ENTRY for ARCH specified point The the MESSAGE library en_US following linux from jar locked Mar gtk 
+BLIZZARD/eclipse.jdt.debug	43197	PE	13	13,32,41,42,377,413,786,1048	termination process debug last called for the that same and tracker term after event different Job terminated 
+BLIZZARD/eclipse.jdt.debug	52474	NL	14	14,22	CVS projects Exploring more work module this pattern opened during point nice out the number that smoothly Perspective blocked scenario workbench 
+BLIZZARD/eclipse.jdt.debug	57467	NL	1	1,2	which stack debug frames race old for preserve underlying then our two something the The re use previously and invalid frame 
+BLIZZARD/eclipse.jdt.debug	64951	NL	5	5,6	condition IBM will screen evaluating while suspended labels shot 
+BLIZZARD/eclipse.jdt.debug	65107	STN	308	308,352	here watches discovered this had switch breakpoint the total and            following processing DebugView between 
+BLIZZARD/eclipse.jdt.debug	65149	STP	30	30	date some CVS other resource log for tree Resource project replacing Got local the The with following ResourceException after locked initializeProblemHandling modifications 
+BLIZZARD/eclipse.jdt.debug	66413	STN	9	9,14,135	restarting conditional log Illegal was this error when suspended the The with dialog condition times Further and startup debugging 
+BLIZZARD/eclipse.jdt.debug	78534	STP	2	2	dispatching ConcurrentModificationException ENTRY debug test occurred this while got STACK MESSAGE core ThreadMonitorManager debugging case events 
+BLIZZARD/eclipse.jdt.debug	88923	PE	17	17,25	All asynchronously expression before methods performing Evaluations  evaluate expressions done The evaluation the compiled IEvaluationEngine processing create 
+BLIZZARD/eclipse.jdt.debug	101118	STN	267	267	debug ENTRY line nothing source when BootLoader the async Command and trying processing 
+BLIZZARD/eclipse.jdt.debug	125868	STN	59	59	resulted happen access debug session this launch Subsequent when launching exceptions the and Running only jdt first Invalid 
+BLIZZARD/eclipse.jdt.debug	148006	STP	10	10	waiting for monitor deadlock Full autobuild ins the binary Worker Class plug ConsoleDocument 
+BLIZZARD/eclipse.jdt.debug	161781	PE	4	4,63	suspend Status ignored initial before debugger remote the The with current function connection state status 
+BLIZZARD/eclipse.jdt.debug	165174	NL	135	135	using turned will show launch screenshot stepping sync the into with view selection lost following block after monitors 
+BLIZZARD/eclipse.jdt.debug	169542	NL	12	12	debug will more one careful least start its the nor mode More appear view and checked ThreadGroup under first group 
+BLIZZARD/eclipse.jdt.debug	178912	STN	2	2	here new deal everyone instances methods Potential list around AbstractVMInstallType the createVMInstall that impl with condition  id  and variable member fVMs 
+BLIZZARD/eclipse.jdt.debug	182237	STN	20	20,52	variables been access when exceptions the Variables these getting view updating SWTException Since first open Invalid 
+BLIZZARD/eclipse.jdt.debug	187000	NL	1	1,200,1278	over stack debug again tree focus expands many the The with that More times and machine step older press 
+BLIZZARD/eclipse.jdt.debug	229394	STN	173	173	editor NPE another multiple while cell when the entry with view array Command outside from plug value chars 
+BLIZZARD/eclipse.jdt.debug	312038	STP	7	7	very stat more again for RUNNABLE directory out the result that shows attachment and than NFS JREContainer 
+BLIZZARD/eclipse.jdt.debug	343039	NL	244	244	sessions including debugger this show was deadlock Please the The how default and turning owned debugging JDT ability benefitted monitors 
+BLIZZARD/eclipse.jdt.debug	446040	STP	633	633	move package access for whiteboard Please the how field and following information plug from user Invalid 
+BLIZZARD/eclipse.jdt.debug	506865	PE	16	16	synchronized checking may created for existence being two done the createVMInstall with condition same outside Race block VMs creation since 
+BLIZZARD/eclipse.jdt.ui	12996	NL	18	18,729	editor Creation project Error when click mulitpage example the into file multipage and Export Jar JAR jar finish File open Invalid 
+BLIZZARD/eclipse.jdt.ui	29531	STP	1970	1970	editor select package Preview JavaColorManager non opening without refactoring Move Build NullPointerException activate initialized Caused different press open 
+BLIZZARD/eclipse.jdt.ui	75843	PE	72	72	pending createMethodEntryBreakpoint our syncExec required breakpoint the The into dialog component IResourceChangeEvent following Runnable few displaying IResource 
+BLIZZARD/eclipse.jdt.ui	79793	PE	1	1	Deadlock will deadlocked JavaWorkingSetUpdater 
+BLIZZARD/eclipse.jdt.ui	103450	NL	3	3,200	surrounding synchronized remove with would Fix fix statement block just option 
+BLIZZARD/eclipse.jdt.ui	125013	STP	30	30	localhost waits for threads main target the JavaModelManager trace firePropertyChangeEvent came from Suspended workbench RunnableLock 
+BLIZZARD/eclipse.jdt.ui	179109	NL	134	134,144,149,366,1015	editor AST stack was threads while two the that twice computing times same are and there creating concurrently finish after 
+BLIZZARD/eclipse.jdt.ui	261198	PE	241	241	CVS using Synchronize changes project the with view Repository and missing Model This Team 
+BLIZZARD/eclipse.jdt.ui	272742	STP	1	1	over editor called getNewFile more FileNotFoundException threads had real type steps the The path view ImageLoader 
+BLIZZARD/eclipse.jdt.ui	291996	STP	432	432	some access JavaMergeViewer extracting during source error dialog SWTException and presented disappeared from after Invalid was Error the with shell compilation closed errors 
+BLIZZARD/eclipse.jdt.ui	296794	PE	4	4,22,485,1701	Steps new this run DocumentChange when wizard_title SAVE_ALL the refactoring This try wizard Always because 
+BLIZZARD/eclipse.jdt.ui	297709	NL	67	67	some other before link when newly same after JDT class synchronize editor new item package autocomplete resource change opened opening the with Always actions option 
+BLIZZARD/eclipse.jdt.ui	300536	STN	71	71	access previous this dead used then error while Got undo SWTException fix and fixed state undoing Invalid 
+BLIZZARD/eclipse.jdt.ui	301242	PE	1186	1186	editor test beginning more Ctrl Created hold out the The attachment and validateMatchRule spaces Save press workbench class open 
+BLIZZARD/eclipse.jdt.ui	319689	STP	21	21,323,819	access shuting this while down solely really  ve the that stacktrace ProblemMarkerManager          from SDK just Invalid 
+BLIZZARD/eclipse.jdt.ui	336841	NL	5	5,125	n t test classpath work for Synchronize Created the that view file attachment does Show Package Explorer open 
+BLIZZARD/eclipse.jdt.ui	347599	PE	1	1,2,11,13,14,17,19,27,33,45,206,740,1378,2845	pretty C   refactorings virtually methods createChange multiple life way out Created The the that places attachment RefactoringHistoryWizard calls and dispose Refactoring case 
+BLIZZARD/eclipse.jdt.ui	411636	NL	102	102	maybe about for main With Created the Project that same attachment and action Package Explorer 
+BLIZZARD/eclipse.jdt.ui	411841	STP	2	2,54	process stack test launch during menu launching rerun the view When JUnit build delegating context from happening config results selecting 
+BLIZZARD/eclipse.jdt.ui	417765	STP	360	360	here new using access Access the The SWT that There Bndtools causes perspective This create brand key case Invalid 
+BLIZZARD/eclipse.pde.ui	149900	NL	157	157,252,260,313,478,3838,4434,4481,4524,4570,4627	Add process plugins this deps cry girl when required responsiveness PDE with ton and adding Watch lock sweet little 
+BLIZZARD/eclipse.pde.ui	158326	STN	55	55	cursor normal for main heavily while flashes the Trace looks blocked and Build busy creates beween page RunnableLock 
+BLIZZARD/eclipse.pde.ui	186963	STN	155	155	ConcurrentModificationException Schema about Tools choose the PDE dialog Here CDT what background SDK did addition EMF 
+BLIZZARD/eclipse.pde.ui	281923	PE	4	4	test line Mode this Plug Run testApplication check command without target the The with More nonuithreadtestapplication Headless workbench coretestapplication 
+BLIZZARD/eclipse.pde.ui	291528	NL	2	2,5,14,20,324,4811	settings some will warnings for batch specify project error specific the PDE Build warning ability JDT compiler support errors properties levels 
+BLIZZARD/tomcat70	39769	PE	1	1	all always give getLoader classloader destroy executing windows when any the and David Best 
+BLIZZARD/tomcat70	40380	PE	2	2	syncro expiring boolean manager null expire Potential 
+BLIZZARD/tomcat70	42530	STP	2	2	synchronized sessions processExpires ManagerBase line session remove the such operations and processing lock from results Session 
+BLIZZARD/tomcat70	45453	STP	1	1	all server other hang access hangs for threads PreparedStatement DIGEST two JDBCRealm plus the that driver DigestAuthenticator and synchronization try authentication getRoles 
+BLIZZARD/tomcat70	47158	PE	1	1	declared think variables race this volatile rid AccessLogValve article these condition get has Based class 
+BLIZZARD/tomcat70	47524	PE	5	5,43,143	proposal Trunk issue this for its diff Bugzilla attaching Created the The file attachment executor McastServiceImpl class events 
+BLIZZARD/tomcat70	48172	PE	29	29	other read getter could tell multiple then when the nor field AtomicInteger are from fields just Various 
+BLIZZARD/tomcat70	48234	PE	1	1	parent sure methods logger Similar for getLogger Javadoc wrong considerations the The that logName and synchronised This returns subclasses 
+BLIZZARD/tomcat70	48248	PE	4	4,23,51,75	running communicate threads run volatile used between 
+BLIZZARD/tomcat70	48249	PE	104	104	running communicate threads run volatile used between 
+BLIZZARD/tomcat70	48399	PE	4	4,30	diffLock used Lock Created that attachment field protected and mutable final lock details fields Patch 
+BLIZZARD/tomcat70	48790	PE	2	2,22	add ManagerBase this createSession Ljava Lock HttpServletRequest field and statement http setId lang Session maxActive 
+BLIZZARD/tomcat70	48843	PE	43	43	threads curThreadsBusy requests mailing any out the The into calls and http processing block returns after 
+BLIZZARD/tomcat70	48895	PE	1	1,117,131	other threads protection the that leak ThreadLocals and there clears ThreadLocalMap synchronization state because 
+BLIZZARD/tomcat70	49129	PE	162	162	static correct incorrect lazy multiple threads volatile possible processor the unsynchronized field This initialized initialization completely Findbugs non volatile 
+BLIZZARD/tomcat70	49144	PE	264	264	very other static called threads then accessed any the that into field else and stored until from fields Findbugs 
+BLIZZARD/tomcat70	49567	NL	16	16,44,69,356,359	amount Start tomcat Internal thrown when printing Created the The async attachment there GET attached starting demonstrating 
+BLIZZARD/tomcat70	49730	PE	1	1,151	memory issue For resources less requests serve the offer The that with same and than increasing page 
+BLIZZARD/tomcat70	49905	STP	135	135,1129	tomcat DeltaManager AFTER threads during WebAppClassLoader overriden Created running leak null attachment and context This addIfUnderCorePoolSize 
+BLIZZARD/tomcat70	49985	PE	1	1,3,5	init race data lazy AstInteger line AstString concurrent getInteger respectively Data getString any without AstFloatingPoint Lazy number variable synchronization lines 
+BLIZZARD/tomcat70	49987	PE	2	2,5	private read race concurrent Data ApplicationContext null variable write Map parameters results 
+BLIZZARD/tomcat70	50138	STP	222	222	synchronized access HashMap tomcat this RUNNABLE threads processor The the javadoc runnable spin synchronization SecurityUtil map hash 
+BLIZZARD/tomcat70	50293	PE	6	6	add next CompositeELResolver change update then check updates Created the The with default size attachment array synchronization fails 
+BLIZZARD/tomcat70	50352	PE	3	3,7	request void though called servlet Using when the HttpServletRequest async protected Example AsyncListener true MyServlet asyncSupported from after complete value 
+BLIZZARD/tomcat70	50353	PE	15	15	IllegalStateException called servlet Calling instead timeout the The HttpServletRequest async null following MyServlet asyncSupported returns case 
+BLIZZARD/tomcat70	50459	PE	16	16	bindThread side tomcat methods commit instead both the call current bind found unbind and effect unbindThread 
+BLIZZARD/tomcat70	50547	PE	1	1	cluster session for DeltaManager during patch these The nor that are and startup Best timestamp CHANGE_SESSION_ID add sessions received message Neither the SESSION_EXPIRED synchronization messages 
+BLIZZARD/tomcat70	50554	PE	30	30	getClass some instance objects classes Using for replacing concurrency The getInitialContext lock block Class different class simply subclasses 
+BLIZZARD/tomcat70	50629	NL	1	1	bindThread other Tomcat methods about for listener their two that protected and initialization unbindThread those latest new making start the loadOnStartup filter 
+BLIZZARD/tomcat70	51185	PE	1	1	synchronized Tomcat for synchro used without that fine and JDBC new think DataSourceProxy more grained this  createPool synchronisation lots since 
+BLIZZARD/tomcat70	51197	PE	6	6,39,63	very server Tomcat n t test for sendError AsyncContext any setHeader the with that and absolutely stuck there from connection every hunky changed 
+BLIZZARD/tomcat70	51212	NL	1	1	add which Philippe for multiple Atomic approach Created heavy Sql number with executions performance same attachment QueryStats synchornisation SlowQueryReport failure and 
+BLIZZARD/tomcat70	51467	PE	154	154	completion below usage start for instead rid the most runnable StandardContext few  run lines just  join since 
+BLIZZARD/tomcat70	51545	PE	2	2	request tomcat discussed available Threadname mailinglist users Created the usable that attachment served details ExtendedAccessLogValve threadname 
+BLIZZARD/tomcat70	51688	PE	1	1	webapp which new memory getDefaultToolkit will against this capture simple Windows Any the that calls ContextClassLoader JreMemoryLeakPreventionListener after AWT creation undeploy 
+BLIZZARD/tomcat70	52055	PE	4	4,21,36,143	request server side servlet InputStream for HTTP the The with input post stream bytes chunking following After from endChunk 
+BLIZZARD/tomcat70	52091	PE	2	2,145	stress synchronized using log this ReentrantReadWriteLock when that environment field Profiler are web causes lock concurrently block from parameters 
+BLIZZARD/tomcat70	52213	PE	3	3	synchronized flag access this pattern detect volatile Keshmesh Therefore used enabled concurrency properly Field boolean sufficient protect accesses 
+BLIZZARD/tomcat70	52259	NL	48	48,146	Tomcat including lib tomcat for dead when directory with web port are and contact details just 
+BLIZZARD/tomcat70	52356	PE	9	9	shared synchronized Tomcat access data race thus developers inside remove ChannelMessage the Field getSize condition size races and potential 
+BLIZZARD/tomcat70	52777	PE	14	14,31,152	JVM sessions Christopher counts count listener for resources suppose down the these that parallel and starts events deployment 
+BLIZZARD/tomcat70	52999	PE	9	9	That container request pretty critical fireContainerEvent session StandardSession myfaces during list the with that into array copying said class 
+BLIZZARD/tomcat70	53173	STP	1	1,2,3,6,16,531	parking Connector configuration fairly this for RejectedExecutionException the minSpareThreads The into condition Executor SocketStatus maxThreads connectionTimeout maxConnections SocketWrapper 
+BLIZZARD/tomcat70	53450	STP	75	75	parking read then ReentrantReadWriteLock the The Violeta condition following context lock from write every 
+BLIZZARD/tomcat70	53498	PE	70	70,487	line another concurrent mining look the attachment and than name attributes from executes hashmap misusages putIfAbsent 
+BLIZZARD/tomcat70	53624	PE	43	43	which dispatch issue against line was instead sendRedirect the The that RedirectA scenario and Servlet ServletContext creates page 
+BLIZZARD/tomcat70	53843	PE	1	1,6	container actual dispatch initiated For this soon isAsyncStarted becomes the begins async that calls Without processing after DispatcherType 
+BLIZZARD/tomcat70	54045	PE	9	9	always other static work for TcpFailureDetector best membership list without the with node missing member TcpPingInterceptor from SEND_OPTIONS_USE_ACK replicated map since 
+BLIZZARD/tomcat70	54086	STP	1	1,931	cluster ConcurrentModificationException sets tomcat the The with iterator are and safe directly close key 
+BLIZZARD/tomcat70	54521	PE	2	2,9	request cache instance data one requests nonce two the The with into Concerned same writing digest well client fails 
+BLIZZARD/tomcat70	55267	NL	64	64,79,656	disconnect some test got users that load NIO and Basically stuck locked just simulate connect Did 
+BLIZZARD/tomcat70	55309	PE	1	1	server issue within TagPluginManager Concurrent One concurrent two when specified Created the such with PageInfo attachment unless there ServletContext page 
+BLIZZARD/tomcat70	55521	PE	89	89,119	some new weeks session For this protection message Created the The that condition file attachment only fixation user flow 
+BLIZZARD/tomcat70	55524	STP	9	9	Scheduler Websockets monitor deadlock during Shared Created the AsyncOp attachment Atmosphere WsOutbound lock This AtmosphereResourceImpl write 
+BLIZZARD/tomcat70	55582	PE	1	1	JspServletWrapper all given issue Concurrent this concurrent threads A jsp Two two Created TagFileProcessor duplicated The the null attachment and following from B jsp C tag 
+BLIZZARD/tomcat70	55684	PE	1	1	parent Tomcat access granted The either permissions root ThreadGroup order all which may start threads SecurityException list the getThread avoid 
+BLIZZARD/tomcat70	55799	STP	156	156,321	over Basic SEVERE large more this several then instead message the that nio and  sendText 
+BLIZZARD/tomcat70	55996	STN	9	9	Context request side this continu AsyncContext message around the The with public Async and processing client Based publishing 
+BLIZZARD/tomcat70	56042	STP	42	42,599	very actual before asyncComplete clear bit startAsync the The valid that with even response and Async 
+BLIZZARD/tomcat70	56082	PE	11	11,13	getLoggerNames Tomcat tomcat reproduced Created JDK lot the with into ClassLoaderLogManager attachment and webapps attached 
+BLIZZARD/tomcat70	56518	PE	3	3,24,40,46,114,138,185,195,203,210,250,301,377,421,471,653,898,1637	webapp some oracle tomcat HTTP when the jdk async attachment and above client 
+BLIZZARD/tomcat70	56577	STP	3	3	parking WsServerContainer SendHandler stack methods for threads any example daemon the The trace condition following send 
+BLIZZARD/tomcat70	56653	PE	36	36,40	Context Tomcat test foo For for contexts instead when the The with field and following there updated between 
+BLIZZARD/tomcat70	56724	NL	16	16	some issue for several start backgroundProcess script OnOutOfMemoryError via compounding the with that JMX and else effect after errors 
+BLIZZARD/tomcat70	56746	PE	12	12	webapp access line loader classloader secure The accessing SecureIOThreadFactory websocket context client from new thus AsyncChannelWrapperSecure this Removing resources threads them Webssocket the calling 
+BLIZZARD/tomcat70	56857	STP	35	35	all performs RUNNABLE CPU accessed these runnable and AND than get safe modified ConcurrentHashMap per invokeMethod 
+BLIZZARD/tomcat70	56907	PE	80	80	very new using issue will this threads destroy program jvisualvm URL the Threads that with non existent calls and connection 
+BLIZZARD/tomcat70	57265	STN	5	5,8	behind handler server some Tomcat using read race hiden occurrence when the with NIO nio NGINX and http 
+BLIZZARD/tomcat70	57338	PE	1	1,3,7,238,321	cluster Tomcat ClusterSingleSignOn session come when sync any out the The single that nodes When are SingleSignOnEntry action online state after valve 
+BLIZZARD/tomcat70	57340	PE	8	8	atmosphere forks internal read nginx for handle when the The NioEndpoint AttachmentKey same closing and get close Poller 
+BLIZZARD/tomcat70	57420	STP	3	3	always process resource more classes debugger this for list error when the ContextConfig that with DirContextURLConnection class URL_ENCODER 
+BLIZZARD/tomcat70	57681	NL	265	265	Tomcat loader classes Parallel loading specific Source Created patch the that attachment fix web parallel synchronizing supports class 
+BLIZZARD/tomcat70	57683	STN	1	1	request keyboard Tomcat stockticket byte stockticker this AsyncContext error example the The JDK with async into handled 
+BLIZZARD/tomcat70	57779	STP	15	15	using AbstractQueuedSynchronizer for For non container monitor both the blocked and lock holds handling write SocketWrapper 
+BLIZZARD/tomcat70	57943	STP	4	4	poller process tomcat log one this error when soon the NioEndpoint nio http connection has 
+BLIZZARD/tomcat70	57959	PE	1	1	ensures read correct race tomcat log rotated way the The valid and Despite This lock writer write latest 
+BLIZZARD/tomcat70	57977	PE	14	14	been n t before against loader bound Request invoke had used trunk Created the Response The that current bind attachment has Webapp 
+BLIZZARD/tomcat70	58179	PE	210	210	snippet line two The the later same null and else name well 
+BLIZZARD/tomcat70	58522	PE	1	1	some jsp duplicating The Entry children are and directories from included others multiple representing this war the newer entries following calling http 
+BLIZZARD/tomcat70	58946	STP	138	138	    enforced this for ParameterMap used forwarded The the Returns that    page following class 
+BLIZZARD/tomcat70	59138	PE	-1		over some SEVERE configuration for their IMO basis the startStop ThreadLocal checkThreadLocalMapForLeaks and Third anonymous warning List per party key 
+Bench4BL/Apache/CAMEL	140	PE	1	1	That instance n t XsltBuilder more used ResultHandler transformation unsafe hold the result never same and variable reset cleared 
+Bench4BL/Apache/CAMEL	510	PE	-1		InAggregator rid MultiCastAggregatorTest out The patch output that There aggregating Intermittent are aggregators test race also both the condition attached unused exchange 
+Bench4BL/Apache/CAMEL	574	NL	2	2	loan using mulitcast added for parallelly enough broker improvement when example the Multicast into default performance When parallel there After CAMEL processing create 
+Bench4BL/Apache/CAMEL	715	STP	2917	2917	very process ConcurrentModificationException void Processor ThreadProcess run simple defining multicore Stack Exchange with routing runTask public systems ThreadProcessor 
+Bench4BL/Apache/CAMEL	803	PE	29	29,996	shared ValidatingProcessor issue created another this error each The locally solution would fix easiest stored errorHandler information written 
+Bench4BL/Apache/CAMEL	1199	NL	1	1,6	across throttle throttling multiple threads appears instead per Throttler 
+Bench4BL/Apache/CAMEL	1270	PE	10	10	using bee ctrl countdown run Camel MainSupport when seen The camel stopping from Then latch hanging Main class 
+Bench4BL/Apache/CAMEL	1401	PE	1	1,11,6149	new request Marshaller getter instance instances lazy custom parse our JaxbDataFormat SAXException explicit the with that Due well every 
+Bench4BL/Apache/CAMEL	1510	PE	5	5,206,850	over side queuing untested establishing this its continuously exceptions concurrency the The that BatchProcessor sender and following effect connection 
+Bench4BL/Apache/CAMEL	1565	STN	509	509,1064	which called DeadLetterChannel for XSD while Logger two the endpoint contains hit camel safe ERROR flow first validation 
+Bench4BL/Apache/CAMEL	1583	NL	5	5	all server process LDAP will temporarily JNDI requests possible when directory required the The with existing across component ldap context 
+Bench4BL/Apache/CAMEL	1604	NL	42	42,49,55,95,416,484,497,523,557,2625,3505,11287	add UnitOfWork nabble registering custom for synchronization callbacks DSL processor easy 
+Bench4BL/Apache/CAMEL	1641	PE	1	1,3,5,19,25,142,252,265,754,1875,2688,3956	new ftp instance created for discussion each FTPClient component nabble camel does Basically safe http producer consumer 
+Bench4BL/Apache/CAMEL	1650	PE	76	76,93,102,418,619,830,2109,2679,2914,13187,13330,13572	which based some illustrates address clustered locking message extended the that with database environment condition mechanism IdempotentConsumer 
+Bench4BL/Apache/CAMEL	1670	PE	1	1,2,4,6,16,17,30,51,80,208,241,1069,1234,3387,3877,12842	all behind was start The the Components route file myBean left and files lock leaving OverlappingFileLockException File errors 
+Bench4BL/Apache/CAMEL	1795	PE	1	1	new bad want listener maxMessagesPerTask message when wrong the jms receiving default defaults camel only per messageJmsConfiguratiuon strict 
+Bench4BL/Apache/CAMEL	1930	PE	14	14,1154	XPathExpression some using Messages natural objects one multiple for concurrent contention Camel message resulting the these jms JMS xpath Synchronized are and consumers According 
+Bench4BL/Apache/CAMEL	1966	PE	459	459	which the CamelNamespaceHandler Here mail discusses about safe 
+Bench4BL/Apache/CAMEL	2049	PE	6	6,8,22,2606	tcp lazySessionCreation acceptor instances pool Camel MINA used sync both proxying file known and true attached well 
+Bench4BL/Apache/CAMEL	2175	PE	1	1,27	Initialization other cxfBinding pass will this multiple HeaderFilterStrategyAware threads CXF cxf the that with camel true safe initialized getAndSet 
+Bench4BL/Apache/CAMEL	2496	STP	3	3,23,205,10577	through week test this several threads directory the patch that with Attached symptom condition what shows file StreamCache following seda 
+Bench4BL/Apache/CAMEL	2824	PE	68	68,1842,2560,3584,12748	luck this for Aggregator deadlock while any without testcase running with route camel far failing After DefaultTimeoutMap processdump full 
+Bench4BL/Apache/CAMEL	2935	PE	17	17,46,494,754,1838,2383,2659,3053,3712,12373	other asynchronously test before asyncCallback methods for impossible Synchronization via the patch that fix and report messages course 
+Bench4BL/Apache/CAMEL	2986	STP	3	3,35	resume suspend completion IllegalStateException initial leading isInitial executed executing heavy the async that and than concurrently block Jetty under 
+Bench4BL/Apache/CAMEL	2994	STP	2	2,467,1386,10431	wanting instance Message test InputStream one INFO Logger the Exchange CXF cxf routing with such CxfClientCallback only complete Body 
+Bench4BL/Apache/CAMEL	3216	PE	1	1,508	all ScheduledPollConsumer new re schedule die ftp throwable being poll polling then kept JDK the that runnable stop due and scheduledscheduled This consumers 
+Bench4BL/Apache/CAMEL	3277	PE	8	8	which issue converter for several type loading around attempt the loaders The patch fail with cast load abort camel and attached converters 
+Bench4BL/Apache/CAMEL	3349	NL	28	28	proceed below performing for binding sync instanceof the getting invocation endpoint would and getBinding Race following getAndSet under 
+Bench4BL/Apache/CAMEL	3493	STP	47	47	ConcurrentModificationException other methods one multiple this threads removing the route are various following get synchronization Caused from removeRouteDefinitions definitions 
+Bench4BL/Apache/CAMEL	3528	PE	165	165,2446,2579	created needed writers when hold The cxf CXF readers and camel HybridSourceDataBinding schemas safe must state properties 
+Bench4BL/Apache/CAMEL	7116	PE	249	249	CamelContext doStop one another for direct its threads generateHttpUrl JIRA example with route closing When does client from Where poolCase 
+Bench4BL/Apache/CAMEL	7161	STN	1	1	init using BLOCKED start dozer its monitor then springWhen the call spring with into stop camel and lock getBean 
+Bench4BL/Apache/CAMEL	7239	PE	3	3,13834	SchemaFactory issue Address work threads the safe avoid ValidatorProcessor addition 
+Bench4BL/Apache/CAMEL	7318	PE	4	4,37,38,81,95,115,131,355	add other will false HDFS this IOException two the transfer carries Consumer fix rename and consumers after ioe order 
+Bench4BL/Apache/CAMEL	7321	PE	104	104	some other separate environments The running that his JUnit order Jiang all processes test within pass this was the JcrConsumer with tests Willem following 
+Bench4BL/Apache/CAMEL	7364	PE	1	1,3,6,58,85,109,146,155,185,300,498,756,969,993,1013,1027,1059,1068,1454,1639,1726,1961,2004,2453,2510,2693,2736,2852,4430,4551,4939,5453,6320,9778,9806,11006,11177,11179,11727,11732,11762,12468,12563,12925,14071,14495	JpaMessageIdRepository reason change for this constructor non our required strange each the The that EntityManager safe assigned 
+Bench4BL/Apache/CAMEL	7556	NL	4	4,22,143	listening Multiple concurrent multiple threads rabbitmq Allow the single JMS endpoint camel queue consumer 
+Bench4BL/Apache/CAMEL	7715	PE	3	3,17	new stopped still SjmsConsumer instance for pool ThreadPool Camel when component endpoint removed even and context producer SjmsProducer every consumer 
+Bench4BL/Apache/CAMEL	7795	PE	135	135	some may correct caused lose values underlying MDC without odd the The that such async system regression commits from after mechanism first 
+Bench4BL/Apache/CAMEL	7968	PE	1	1	singleton race Instead Instance multiple concurrent Containers handle when approach undefined concurrency the The that Container ContainerRegistry what behaviour 
+Bench4BL/Apache/CAMEL	7973	PE	2	2,4	proposal CircuitBreaker circuit configuration this raised processor CircuitBreakerLoadBalancer the The Exchange async behave This after case 
+Bench4BL/Apache/CAMEL	7988	NL	3	3,6	next phaned read could for was thrown call the file causing abort eligible lock This camelLock consumer case 
+Bench4BL/Apache/CAMEL	8088	PE	33	33	FTP waiting initial this for ilk IOException soTimeout the condition ftpClient connection where socket further reply connect 
+Bench4BL/Apache/CAMEL	8134	PE	1	1,28	issue limited unlimited could about this false OOM error redelivery HttpProducer CachedOutputStream the into with endpoint Here even does synchronization exchange closedOnCompletion option 
+Bench4BL/Apache/CAMEL	8146	STN	387	387,1906	parking suspend resume AbstractQueuedSynchronizer start TIMED_WAITING SFTP threads Camel something the condition route stop and stopping sftp 
+Bench4BL/Apache/CAMEL	8200	PE	5	5	    very memory for this executed setMessageId message body processInOut redundant that JMS null response and calling 
+Bench4BL/Apache/CAMEL	8241	PE	2	2,13,36,39,896	Unix test issue before will tested this command the that into environment updating attached well case exec 
+Bench4BL/Apache/CAMEL	8268	PE	6	6,94,499,706,1419,1922,6939	values scan concurrent used when The endpoint same camel passed because between using will Cloning threads FilterList list wrong the filter safe 
+Bench4BL/Apache/CAMEL	8353	PE	1	1,3,203	defer till Instead release channel when acquire The that closing would and only lock FileLockExclusiveReadLockStrategy released acquired the invalid closed open 
+Bench4BL/Apache/CAMEL	8673	PE	76	76	here slightly ConcurrentModificationException still ticket when The the routes refers fix and addRouteCollection CAMEL creating dynamic routesThis 
+Bench4BL/Apache/CAMEL	8713	PE	1	1	still for pool aggregation run then setting aggregate the that fly ParallelAggregate parallel even true CAMEL only processing worker 
+Bench4BL/Apache/CAMEL	8885	PE	2	2	ConsumeLockEntity select beginning wan false update then without wrong the that condition and function ConsumeDeleteI lock consumeDelete locked just entity 
+Bench4BL/Apache/CAMEL	8954	PE	7	7,8,522	completion using markerFile strategies readLock For two locks Lock the file When common b fileName and synchronizations there only lock This information share FileLockExclusiveReadLockStrategy after 
+Bench4BL/Apache/CAMEL	9199	PE	8	8,18,172	implements very Serializable objects non when soon The that Consumer fix and sending consumer add will this threads serializable RabbitMQ contains tests partially 
+Bench4BL/Apache/CAMEL	9311	NL	48	48,565	shared vice instance more for HTTP contexts any two the originating with routes router endpoint differently calls Concurrency and dynamic bean case versa 
+Bench4BL/Apache/CAMEL	9319	PE	309	309,372,603	ProducerTemplate memory SshClient for when Any reproduce are and subsequent from together new execution using issue more threads profiler being the with These 
+Bench4BL/Apache/CAMEL	9331	PE	24	24	shared httpClient using manager doStop this when the does builder Also client http closed connection close 
+Bench4BL/Apache/CAMEL	9738	PE	34	34	which doStop for several started invoke While the call unbind web camel IoAcceptor from dispose after 
+Bench4BL/Apache/CAMEL	9951	PE	2	2,8,38	getThreadPool some Websocket previous will minThreads for WebSocket these connected cosumer component default These websocket and camel maxThreads Setup properties 
+Bench4BL/Apache/CAMEL	9970	PE	27	27,78,235,258,368,14091	next CamelFileLength for update Camel when long granted The file and writing get lock exclusive write fails read stores length its the someone lastModified parameters 
+Bench4BL/Apache/CAMEL	10024	PE	2	2,7,60,566,1298,2846,3013,3016,3991,5833	next disconnect CloseFuture will setting the The call with true closed after ExchangeTimedOutException close errors connections 
+Bench4BL/Apache/CAMEL	10215	PE	1	1	synchronized cache instance static race afterPoll will ordering EventDrivenPollingConsumer For used  receive poll the with same and DefaultConsumerTemplate returning beforePoll client ConsumerCache 
+Bench4BL/Apache/CAMEL	10229	STP	1	1	channel For message rabbitmq the The RabbitMQ Consumer stopping destinationQueue following behaviour close consumer 
+Bench4BL/Apache/CAMEL	10273	PE	4	4	flag level configuration custom for ThreadPool pool simple possible check instead the take that Endpoint just account 
+Bench4BL/Apache/HBASE	543	PE	29	29,55	synchronized some access encapsulates validates For changes multiple HBase the lot these that provide and HMaster state region conditions class possibility 
+Bench4BL/Apache/HBASE	659	STP	81	81,1428	checking cache enwiki more batchUpdate two the that condition and retiringRegions region 
+Bench4BL/Apache/HBASE	663	PE	1	1	all which some cache before for its during updatesLock updates each flushed the The with number that are startup lock assumption flushAn HStore acquired 
+Bench4BL/Apache/HBASE	699	PE	334	334	That address fixing before old was for scan relocateRegion hudson out the tried threaddump region hanging table first hbase taking 
+Bench4BL/Apache/HBASE	818	STP	1	1	handler for monitor deadlock WriteState the HRegion with regionserver Flusher lock uploading IPC HashSet 
+Bench4BL/Apache/HBASE	950	PE	1	1,65,353	new hang expires works commit update then the getting into with that existing proceeds rowlock and now lock This until row passed 
+Bench4BL/Apache/HBASE	1569	STN	2	2,202,482,2692	Luckily Call cluster hours race import seemed this clean IllegalAccessError down heavy the regionserver condition load rare after first open 
+Bench4BL/Apache/HBASE	1740	NL	1	1,10,40,77	which here read production more one One memstore hfile the The condition high load and get This under ICV snapshot 
+Bench4BL/Apache/HBASE	1840	STP	-1		which using debug IndexTableThe loads update thrown includes used IndexedTable when Line with unit tests fix stacktrace following row apos RowLock Invalid 
+Bench4BL/Apache/HBASE	1869	STP	-1		through delete when conjunction public and lock row Will just Invalid RowLock which void test testing packaging IOException throws the TestIndexedTable with following final shortly 
+Bench4BL/Apache/HBASE	2023	NL	-1		all other regions one this threads requests the offline locateRegionInMeta and get client few userRegionLock block region thousand highly 
+Bench4BL/Apache/HBASE	6565	PE	8	8	some for used unsafe repeated coprocessor happened the result found tests Coprocessor multithreading different results exec 
+Bench4BL/Apache/HBASE	8923	PE	61	61,286	however cluster tries test may last race before chaosmonkey start also recovery when ExitCodeException moment the with ChaosMonkey due teardown happens 
+Bench4BL/Apache/HBASE	13606	PE	3	3	regions submit expected two specified both the HRegionInfo path async bulkAssignThresholdRegions servers public and List behavior assign 
+Bench4BL/Apache/HBASE	13662	PE	3	3	    scan HBASE inside throws any the that with callSeq failure scanner has seems OutOfOrderScannerNextException 
+Bench4BL/Apache/HBASE	13959	NL	7	7	all splitting involves more this about for bit each the these single The most with fail split common size and setup region storefile table 
+Bench4BL/Apache/HBASE	13988	NL	2	2	handler server alive more for threads INFO the from lease exiting 
+Bench4BL/Apache/HBASE	14178	STN	31	31,98	cache waiting for monitor off the lot regionserver Entry blocked WAITING client block because table offsetLock 
+Bench4BL/Apache/HBASE	14241	PE	-1		obtain cluster stack debug Root level one monitor deadlock during output RpcClientImpl MASTER_META_SERVER_OPERATIONS and connection 
+Bench4BL/Apache/HBASE	14359	PE	2	2	all decTaskCounter will for unchecked during HTable error observed the The task and  close until AsyncProcess close 
+Bench4BL/Apache/HBASE	14463	PE	2	2,11,322	using read offset bad IdReadWriteLock each the bucket performance same array and machine BucketCache online from implement class much 
+Bench4BL/Apache/HBASE	14555	STN	30	30	handler test port BLOCKED this toString Waited MVCC Blocked queue Just 
+Bench4BL/Apache/HBASE	14812	STP	9	9,19	BufferedMutatorImpl WAITING monitor deadlock ResultBoundedCompletionService prio worker daemon 
+Bench4BL/Apache/HBASE	14926	STP	7	7,13,22	All server side readingThrift RUNNABLE this HBASE got patch runnable BufferedInputStream stuck thrift client worker since changed 
+Bench4BL/Apache/HBASE	15001	PE	2	2,59,77	sink for multiple For possible the The zero that size are and leads edits following HBaseInterClusterReplicationEndpoint This verification 
+Bench4BL/Apache/HBASE	15030	STP	2	2	TableNamespaceManager ownable ProcedureExecutor for this monitor deadlock ReentrantReadWriteLock running synchronizer 
+Bench4BL/Apache/HBASE	15093	PE	1	1,2,23,124,150	performs MetricsSource  setSizeofLogQueue incorrect log multithreaded for instead when enabled setting the multiwal into non trivial decrementing size and  decrSizeofLogQueue This queue 
+Bench4BL/Apache/HBASE	15146	NL	8	8,17,49,60,90,266,272,508,641,1077	new dispatch rpc acks epoll queueBlocking down capacity the scheduler The lots schedulers slows readers blocking and trying block different everything Those 
+Bench4BL/Apache/HBASE	15650	PE	1	1,2,4,8,12,29,31,37,47,53,106,135,136,225,297,544,611,628,641,685,846,1100,1528	about threads reading Store also contention Remove many HBASE when point writing StoreFile TimeRangeTracker 
+Bench4BL/Apache/HBASE	15957	PE	386	386	some parent alive will for HBASE the result shouldCloseConnection never and markClosed interrupt This connection handling writer close connections 
+Bench4BL/Apache/HBASE	16081	PE	1	1,6,21	WAL remove_peer gigantic same and blocking peer WALs from finish gracefully  take all which will ReplicationSourceManager underlying the rollingWe with take When  recordLog CompletionService HBaseInterClusterReplicationEndpoint Replication 
+Bench4BL/Apache/HBASE	16144	PE	13	13,22,473,1318	other will before old finally claimQueues false then clean when multi the useMulti nodes prematurelyIn acquiring and lock Replication from forever operation queue 
+Bench4BL/Apache/HBASE	16304	STP	95	95	handler datanode AbstractQueuedSynchronizer waiting monitor ReentrantReadWriteLock Full HRegion runnable port SynchronousQueue queue 
+Bench4BL/Apache/HBASE	16367	PE	1	1,4	server cluster log before reach start was being HRegionServer that premature abort and HMaster initialization region dies hbase between since 
+Bench4BL/Apache/HBASE	16429	STP	1	1,133	all parking handler called waiting SafePointZigZagLatch for deadlock FSHLog the with jstack runnable buffer rollWriter apos experienced 
+Bench4BL/Apache/HBASE	16699	PE	2	2,31,104,997,2111,2620,2751,3339,3429	&apos;s new byPass other cases unconfigured Once issue more For concurrent unittest simpler wrong Please the places and following getWaitInterval lines 
+Bench4BL/Apache/HBASE	16721	PE	4	4,16,180	some cluster WAL max this multiple for the split flush Too due region flusher logs 
+Bench4BL/Apache/HBASE	16788	PE	1	1	compacted instead removing the call regionserver archived with closeAndArchiveCompactedFiles same calls are abort and compactedfiles calling files copy close HStore removeCompactedfiles 
+Bench4BL/Apache/HIVE	545	NL	45	45,123,133,154,167,171,191,200,203,225,245,286,306,399,449,473,537,633,641,733,775,808,874,946,1077,1100,1137,1181,1238,1274,1336,1628,1819,1853,2034,2086,2722,2730,2737,3233,3568,3641,3945,4562,4762	equivalent using efficient more sometimes ArrayList instead the codeMost single that Hive roughly This except threaded Vector class 
+Bench4BL/Apache/HIVE	3057	PE	1	1	may threadLocalMS getMS raw Subsequent HiveMetaStore store RawStore local wrong the The null calls does function variable HMSHandler 
+Bench4BL/Apache/HIVE	3408	STP	6	6,224,293	race within caused RUNNABLE QueryPlan mailing The with runnable are and following updateCountersInQueryPlan 
+Bench4BL/Apache/HIVE	4000	NL	209	209,656,691	race infinite jobs multiple several threads HashMaps loops lead MapReduce the The getting that into Hive When are stuck client progress conditions those 
+Bench4BL/Apache/HIVE	7011	PE	1	1	generation cache access n t will against concurrent Tez inputformat the HiveInputFormat split parallel safe protect 
+Bench4BL/Apache/HIVE	7341	PE	1	1,2,3,5,6,11,14	schema interfaces couple instance cleaner for HCatTable HCatCreateTableDesc Falcon the The with that and from HCatalog between composing 
+Bench4BL/Apache/HIVE	8440	STP	2	2,243,318,430,451,793,928,974,1000,1039,1383	compileMonitor more Hadoop Hiveserver pool BLOCKED for monitor our number approximately and than reduces block from ETL per 
+Bench4BL/Apache/HIVE	9199	null	2	2	which some needed locking For Excessive for unnecessary its contention instead DDL output DummyTxnManager the with database DDLs exclusive lock complete WriteEntity table 
+Bench4BL/Apache/HIVE	9598	STP	4	4	SQLException main catch IllegalMonitorStateException 
+Bench4BL/Apache/HIVE	10483	PE	1	1,6,188,4324	side read select part for insert Insert simpler the More with partition same and xxxx lock xxx from where join overwrite 
+Bench4BL/Apache/HIVE	11036	PE	4	4,5,199,225,251	query concurrent makes workload deadlocked gets high condition Metastore DataNucleus Race hangUnder moderate 
+Bench4BL/Apache/HIVE	11616	STP	8	8,68,499,1041,1144,4502	NucleusTransactionException here     which metastore issue log below will this cocurrent issues concurrency the DelegationTokenSecretManager that same hivemetastore after objectstore state has Invalid 
+Bench4BL/Apache/HIVE	12238	STP	797	797,1674	    input safety more VectorUDFDate For NumberFormatException Caused errors Vectorization 
+Bench4BL/Apache/HIVE	12248	STP	16	16,49,99,140,1369,1616	which ObjectStore access race Following this type Detached The the with condition MDelegationToken DataNuclues multi threads backend DBTokenStore 
+Bench4BL/Apache/HIVE	12266	NL	1	1	some before release for proper run locks when acquires enabled that same and hooks add Beeline issue possible command the shell until much 
+Bench4BL/Apache/HIVE	12409	PE	8	8	synchronized sure initTxnMgr may this multiple threads run HIVE safe since Session 
+Bench4BL/Apache/HIVE	12529	PE	1	1,3,5,9,14,41,65,68,73	all competing away signature will max this for locks timeout how current There until written 
+Bench4BL/Apache/HIVE	12620	PE	3	3,4,6	new Acid log detect DBLockManager instead locks refactor that TxnHandler removed due interleave lock debugging from logic 
+Bench4BL/Apache/HIVE	12768	NL	5	5	static serde sortable issues due safety binary deserialization buffer decimal 
+Bench4BL/Apache/HIVE	12797	STN	1	1	session part pool tez changes pools used Synchronization while when issues shutting down The HIVE with introduced are causes llap 
+Bench4BL/Apache/HIVE	12904	STN	2	2,2045	other line blocks for deadlock entire the TaskExecutorService  bci LlapDaemonProtocolProtos well apos frame 
+Bench4BL/Apache/HIVE	12926	STN	1	1	issue session part tez changes pool pools used while when issues shutting down The HIVE with introduced are causes synchronization llap Another 
+Bench4BL/Apache/HIVE	12927	PE	2	2,725	all metastore one increment sequences any HBase concurrency safe row per presence 
+Bench4BL/Apache/HIVE	12996	NL	1	1,3	temp NULL n t session created for multiple them inside acid the that tables hour tmp today only lock table 
+Bench4BL/Apache/HIVE	13013	PE	1	1,2,68,739	all     Serializable still will FOR isolation them run SELECT concurrency the that number TxnHandler operations Further There few This UPDATE deadlocks support 
+Bench4BL/Apache/HIVE	13213	PE	1	1,2,4,6	    ACID work Exclusive values for resources insert non acid acquire example Read into DbLockManger lock table 
+Bench4BL/Apache/HIVE	13395	PE	25	25,33,90,107,155,175,205,280,290,334,693,696,717,835,1167,1333,1558,1645,2461,2633	the The which with issue and for this rows table 
+Bench4BL/Apache/HIVE	13458	PE	1	1,13,22,45,62,146,273,489,559,684	which sure n t heartbeat will query additional stopHeartbeat sent really the that fail current does and lock stops thing Another 
+Bench4BL/Apache/HIVE	13512	NL	49	49	next rather objects for concurrent dag used The running that same parallel than This because obtain query initializing counter the compilation safe ids TezWork 
+Bench4BL/Apache/HIVE	13599	STN	1	1,40	pre emption some Scheduler updates down removing the scheduler with condition Incorrect following ERROR handling from UncaughtExceptionHandler items Queue queue preemption 
+Bench4BL/Apache/HIVE	13699	PE	272	272	for JavaDataModel two when attempt The that same parallel because class etc  static may  get query threads the call compilation safe 
+Bench4BL/Apache/HIVE	13725	NL	1	1,8,132,596	Streaming for batch multiple threads txn the relevant that calls and vice versa client from different synchronize 
+Bench4BL/Apache/HIVE	13753	PE	1	1,3	server request for used error DbTxnManager The that same Race client from different Thrift which That metastore side multiple threads sharing the response safe 
+Bench4BL/Apache/HIVE	13833	NL	1	1	Add heartbeat initial this unnecessary skip immediately when locks the delay scheduling lock Since after acquisition starting happens send acquired 
+Bench4BL/Apache/HIVE	13858	PE	4	4,8,12,151,225,243	cluster attempting some instead preempt completeInitialization the running task what else blocking there get interrupt ended end skipping 
+Bench4BL/Apache/HIVE	14357	PE	7	7,8	all test this understand while upon locks closer these failing This try case order jira 
+Bench4BL/Apache/HIVE	14400	NL	5	5	issuing side imagine will For multiple insert example the with such partition same effect from different apos table realize 
+Bench4BL/Apache/HIVE	14463	STP	3683	3683	InactivityMonitor AbstractQueuedSynchronizer DataFileAppender this monitor used ActiveMQ space RMI The runnable SynchronousQueue 
+Bench4BL/Apache/HIVE	14739	PE	14	14,18,49,83,120,273,694,769,1209,3261,3962,4009	hive through deadlock running that Runtime causing and Chris FileSystem throughout hadoop hooks order based cli Nauroth Hadoop runtime Deepesh queries the  Cache ShutdownHookManager runs 
+Bench4BL/Apache/HIVE	14778	PE	3	3,17	all actual given other outstanding heartbeat TransactionBatch for StreamingConnection both most the reference these and else MetaStoreClients closed concurrently model Thrift 
+Bench4BL/Apache/HIVE	14924	STN	2	2	Null pointer MSCK Pointer run while command TABLE single mode running throwing reproduce with REPAIR null and threaded table order 
+Bench4BL/Apache/HIVE	15090	PE	1	1	metastore process could unexpected inside hope without token the running ExpiredTokenRemover that Temporary loop and failure there from 
+Bench4BL/Commons/CODEC	96	STP	1	1	which Streaming shared means instance For this commons the with BinaryEncoder safe class 
+Bench4BL/Commons/COLLECTIONS	384	PE	1	1	Suggested synchronized given synchronizedMap beginning below  throws backed body when the null public and NullPointerException map Map IllegalArgumentException  param synchronize 
+Bench4BL/Commons/COMPRESS	302	PE	9	9	immutability which new restore setEntryEncoding for encoding follow way setting the patch The constuctor field adding ctor takes support 
+Bench4BL/Commons/COMPRESS	303	PE	1	1	immutability making CompressorStreamFactory technique volatile removing preparation COMPRESS the suggested same field prior safety decompressConcatenated safe 
+Bench4BL/Commons/COMPRESS	357	PE	14	14	which some this about garbage finished the The output sequence unsynchronized null stream various and finish 
+Bench4BL/Commons/CONFIGURATION	344	PE	1	1,2,3	listeners reloading BLOCKED deadlock when gets Commons owned trying stuck Total http Relevant information strategy Combined properties Managed 
+Bench4BL/Commons/CONFIGURATION	407	PE	1	1,3	which new read configuration this representing for multiple section global error the The these node that unit synchronizing ViewNode operation happens properties 
+Bench4BL/Commons/IO	99	PE	1	1,12	Theno still for commons extended the The better that leak solution and undeployed end cleans everything class FileCleaner user 
+Bench4BL/Commons/IO	136	PE	1	1	static StringBuffers Multiple cbuffer OutputStream mixed these the lbuffer StringBuffer public returning and calling variable HexDump Both 
+Bench4BL/Commons/IO	201	PE	4	4,26	other read could one count CountingInputStream threads sense functionality underlying then without The the correctly stream only between safely 
+Bench4BL/Commons/IO	207	PE	1	1	forceMkdir other processes chance will created one threads IOException two directory the with that correctly same throw Race there 
+Bench4BL/Commons/IO	216	PE	3	3	was this thrown during any delete LockableFileWriter the into take file fix deletion failure there lock files returns fails account quietly 
+Bench4BL/Commons/LANG	367	PE	1	1	all assumes static provided this several HashMaps why FastDateFormat the that same are documented safe attributes class SimpleDateFormat Patch 
+Bench4BL/Commons/LANG	459	PE	1	1	other suspicion HashCodeBuilder about this loads Kindest the The with high load and multi threaded unique than under 
+Bench4BL/Commons/LANG	481	NL	7	7	Affected very Possible classes false range the The parallel hashCode and now unlucky hash assign 
+Bench4BL/Commons/LANG	584	PE	1	1	That removeCauseMethodName n t targetExceptionUtils methods addCauseMethodName ExceptionUtils then locks out target modify take immutable and does mutable lock uses CAUSE_METHOD_NAMES 
+Bench4BL/Commons/LANG	1230	PE	2	2,4	re reading lookup access HashCodeBuilder unnecessary registered possible contention recursive the The nor ThreadLocals into are and identity synchronization This value 
+Bench4BL/Commons/LANG	1251	PE	1	1	static ClassLoaderAwareObjectInputStream HashMap break constructor initializing initializer the would safety safe initialize because map primitiveTypes 
+Bench4BL/Commons/MATH	505	NL	427	427	which will another tell this volatile the single TestUtils only mutable fields updated full 
+Bench4BL/Commons/MATH	899	PE	218	218	very probably generatorThere about generator error The most mode random that and arises following only completely MersenneTwister multy 
+Bench4BL/Commons/MATH	1134	PE	1	1,4,7	which other functions may will multiple threads BicubicSplineInterpolatingFunction partialDerivatives any the array and computePartialDerivatives initialization initialized partialDerivative non null partial 
+Bench4BL/Commons/MATH	1294	PE	1	1	PolynomialUtilsTest given other access race incorrect created degree this for Data list when with ComparisonFailure polynomial there buildPolynomial concurrently coefficients block primary 
+Bench4BL/Spring/AMQP	125	PE	3	3,7,9,15,322	container some waiting listeners Unreliable for SimpleMessageListenerContainer failed stop leads lock algorithm 
+Bench4BL/Spring/AMQP	190	PE	1	1,3,20,24,62	RabbitTemplate synchronized more channel for natively when Forum the The that with TransactionManager publishes channelTransacted hence tag 
+Bench4BL/Spring/AMQP	223	PE	5	5	container adapter amqp acks multiple SimpleListenerContainerIf two each the running spring that declares Too externally doStart integration This uses protect 
+Bench4BL/Spring/AMQP	243	PE	2	2	badly add consequence EnhancedPatternLayoutlike another PatternLayout pattern JavaDoc AmqpAppender issues the The routing generated and lost synchronization messages because lossThe key 
+Bench4BL/Spring/AMQP	249	PE	2	2,20	RabbitTemplate autoAck race Issues channel Rabbit count admin QueuesTemporary accounting put the take with Temporary cached Queues unacked reply just consumer 
+Bench4BL/Spring/AMQP	260	PE	5	5,7,36	container using SNAPSHOT issue test configuration was listener project done when both the The with RabbitTransactionManager When Hanging and channelTransacted where 
+Bench4BL/Spring/AMQP	262	STP	3	3,5	template ConcurrentModificationException using multiple threads possible the random with pendingConfirms same publish rabbit confirms messages sending from just 
+Bench4BL/Spring/AMQP	274	PE	1	1,8,10,11,14	RabbitTemplate synchronized using Listener downstream channel Local transactions exposeListenerChannel the Transactions Container external default When Properly and synchronizedWithTransaction true property This close 
+Bench4BL/Spring/AMQP	275	NL	2	2,61,78,139	container cancel Listener before rejected Stopping during The Container blocking reject Race where consumer was requeued message the requeue with canceled When stop messages queue first 
+Bench4BL/Spring/AMQP	331	NL	1	1	OutOfMemory that When abort will expected this threads occurs situation 
+Bench4BL/Spring/AMQP	355	PE	2	2	container small ErrorHandler active received message soon the exit that and there only verify onMessage from possibility 
+Bench4BL/Spring/AMQP	365	PE	1	1,2,3,4,14	waiting channel listener ack manual down The Consumer and Race only This latch consumer fails test double countdown received message broker redelivered the messages closed 
+Bench4BL/Spring/AMQP	469	PE	-1		this interleaved used requests executeErlangRpc the The result with that ErlangTemplate calls and safety receiveRPC end connection sendRPC 
+Bench4BL/Spring/AMQP	506	PE	2	2,10,24	synchronized ConcurrentModificationException maps values Although while getUnconfirmed removing the fail pendingConfirms iterating  re are and those synchronize 
+Bench4BL/Spring/AMQP	532	STP	1	1,2,10,38	other ConcurrentModificationException below line testing this source accessed network the that node pendingConfirms places itself null are continuous PublisherCallbackChannelImpl map 
+Bench4BL/Spring/AMQP	551	STP	6	6,9,24,35,44,66,125,144	container read methods wrongly javadocs listener error the getting The with Mockito failure multi threaded WrongTypeOfReturnValue above This syntax mock apos 
+Bench4BL/Spring/AMQP	648	PE	2	2,356	cancel configured suspend other issue Stop detect basicCacncel broker the The with that handleCancel handleCancelOk queues there get consumers consumer queue those 
+Bench4BL/Spring/BATCH	170	PE	34	34,36,76,87,355,454	Concurrent operationUse eventually StepExecution when modification running asynchrounous step hibernateJobDao StaleObjectStateException results operation 
+Bench4BL/Spring/BATCH	449	PE	-1		always item threw previous will reader caused ahead one makes skip error both the that and calling synchronization writer ItemSkipPolicyItemHandler between 
+Bench4BL/Spring/BATCH	603	PE	2	2,3,47,263,485,498,1185	JobExecution are and could another modified volatile fields 
+Bench4BL/Spring/BATCH	782	PE	10	10	execution some for SimpleAsyncTaskExecutor the into such and synchronizer above semaphore step from case 
+Bench4BL/Spring/BATCH	912	PE	1	1	all making will confident this least during list accessed without the that performance fix JobRegistryBackgroundJobRunner variable context errors 
+Bench4BL/Spring/BATCH	1272	PE	6	6,7,26,27,45,88,95,281,285,327,511,1408,1535,1623	explain Write tolerant work FaultTolerantChunkProcessor multiple threads fault run strange the skips once and multi threaded apparently This step hard 
+Bench4BL/Spring/BATCH	1278	PE	1	1,2,3,5,201,1557	multiple for threads underlying exceptions RepeatTemplate the throw This BATCH ignorable aborts early 
+Bench4BL/Spring/BATCH	1362	NL	5	5,12,37,1424	over visible last rather asking infinite want One commit threads its FINISHED the The that apparently multi threaded and than spinning step between 
+Bench4BL/Spring/BATCH	1526	PE	25	25	big detection Tomcat deal one this for ChunkMonitor local The the leak existing re deployment web from 
+Bench4BL/Spring/BATCH	1542	PE	4	4,13,17,28,102,119,123,157,196,493,632	protection inside StepExecution really concurrency anyway the The JobExecution executions collections and safety effect only safe BATCH copy job MapJobRepository write 
+Bench4BL/Spring/BATCH	1572	PE	4	4,68,97,215,377,429	read reader loosing chunk come out the The ExceptionHandler and failing lock UnexpectedRollbackException Collection step transaction 
+Bench4BL/Spring/BATCH	1709	PE	1	1,16	distance about concurrent Must caching setting are and limit occasionally fails cache race column duplicate strange BeanWrapperFieldSetMapper concurrency the with condition names even exact messages properties 
+Bench4BL/Spring/BATCH	1724	NL	3	3,168,241,520,753,797	still critical rather least for this sort without the same failure and limit step queue retry since 
+Bench4BL/Spring/BATCH	1725	PE	-1		otherwise concurrent used when modification exceptions SubclassClassifier there concurrently ConcurrentHashMap 
+Bench4BL/Spring/BATCH	2126	PE	1	1	which instance dateFormat work longNumberFormat any the properly with TaskExecutor Thus due and asynchronous variable setup evaluated 
+Bench4BL/Spring/BATCH	2153	PE	1	1	static works HashMap Hashtable maven for start multiple project increment possible the with minimal fix and NullPointerException decrement attached produces threadsafe Replacing TestStepSynchronizationManagerMain 
+Bench4BL/Spring/BATCH	2156	STP	1	1	STEP_EXECUTION_ID SERIALIZED_CONTEXT multithreaded tasklet deadlock updates JobRepository two nested our when concurrency The exit Transaction due PREFIX ConcurrencyFailureException UPDATE ABORTed SHORT_CONTEXT order 
+Bench4BL/Spring/BATCH	2313	STP	15	15	couple hasn Ended main during contexts Spring error Flow the with number that AbstractJob into NullPointerException apos 
+Bench4BL/Spring/DATACMNS	65	PE	1	1	over     some getPersistentEntity discovered thus semi parsed already PersistentEntity additional BasicPersistentEntity makes the PersistentProperties and addPersistentEntity This properties 
+Bench4BL/Spring/DATACMNS	362	PE	2	2	which instance upfront issue lookupRepositoryFactoryInformationFor already instances this Potential RepositoryInformation the that into eagerly repositories variable writes RepositoriesgetRepoInfoFor 
+Bench4BL/Spring/DATACMNS	390	STP	1	1,11	over ConcurrentModificationException issue HashMap values another AbstractMappingContext this modifies collection Spring while the persistentEntities that iterator following lock 
+Bench4BL/Spring/DATACMNS	831	PE	1	1	getPersistentEntity populating another one sometimes multiple this threads when any without empty the with addPersistentEntity from entity properties 
+Bench4BL/Spring/DATAGRAPH	876	PE	1	1,2,7	execution shared making Derived query unpredictable values threads finder filter across are safe CypherFinderQuery different 
+Bench4BL/Spring/DATAJPA	268	PE	-1		all otherwise cases alive PermGen loader about its MethodInvocation hot space  link out the bindResource web and service LockModePopulatingMethodInterceptor spaceIn case 
+Bench4BL/Spring/DATAJPA	359	PE	5	5,39	annotation Derby more least this for its  Lock the The with and effect operation class apos 
+Bench4BL/Spring/DATAJPA	620	PE	1	1	 invoke Hashmap non thread safe HashMap CrudMethodMetadataPopulatingMethodIntercceptor this concurrent when the encountered The More unsynchronized get concurrently Lookup ConcurrentHashMap apos since 
+Bench4BL/Spring/DATAMONGO	199	STN	23	23	Below read several BLOCKED during During The the with Field tests performance were only lock http exec status 
+Bench4BL/Spring/DATAMONGO	532	PE	1	1	which authenticate issue will link isAuthenticated each the The and doGetDb CannotGetMongoDbConnectionException 
+Bench4BL/Spring/DATAMONGO	622	PE	3	3,25	doSave using race rather created concurrent insert store unversioned instead doSaveVersioned uses doInsert avoid conditions inserts 
+Bench4BL/Spring/DATAMONGO	737	STP	1	1,76	MongoSynchronizations TransactionSynchronizationManager issue Mongo one bound for two the The that database does and only options 
+Bench4BL/Spring/DATAREDIS	310	PE	1	1	RedisCache before keys start For del put multi call serialize and from after value key exec deserialize 
+Bench4BL/Spring/SEC	188	PE	1	1	which given execution new may acegisecurity InheritableThreadLocal for threads JavaDoc used errorFrom any the with current longer spawn Associates and SecurityContextHolder SecurityContext 
+Bench4BL/Spring/SEC	192	PE	-1		all checking AuthenticationException probably Concurrent created getDetails login newly The the with CAS provider Authentication setDetails CASAuthenticationToken providers authentication since 
+Bench4BL/Spring/SEC	197	PE	10	10,13,28	ConcurrentSessionController bascially HttpSession session this abondonded many him checkAuthenticationAllowed out the hits how non expired SessionInformation system and ConcurrentSession from after user expireNow 
+Bench4BL/Spring/SEC	328	PE	1	1	snippet  ll cache double this your two when that and useless retrieveUser case 
+Bench4BL/Spring/SEC	356	PE	-1		request some using access n t synchronous simultaneous for threads Http requests the that such into Authentication HttpSessionContextIntegrationFilter SecurityContextHolder from authentication 
+Bench4BL/Spring/SEC	398	PE	-1		using resource back wrapper Redirect login the j_acegi_security_check protected post redirects doFilter response than GET HttpSessionContextIntegrationFilter SecurityContext block page updated successful 
+Bench4BL/Spring/SEC	423	PE	-1		request using access n t synchronous simultaneous for threads Http requests the that such into Authentication HttpSessionContextIntegrationFilter SecurityContextHolder from authentication 
+Bench4BL/Spring/SEC	444	STP	339	339	other ConcurrentSessionControllerImpl rapid Inside inside strack The the single fail entry sequence trace same Authentication Race http commands Session authentication 
+Bench4BL/Spring/SEC	618	PE	7	7	which given n t called before session classes concurrent AbstractAuthenticationManager the how into with provider Authentication there This details place authentication successful little 
+Bench4BL/Spring/SEC	670	PE	1	1,266	some select ACL_OBJECT_IDENTITY deleteChildren one another this for ACL the that following from row key potentially 
+Bench4BL/Spring/SEC	809	STP	-1		based before openid uNcode for this getDetails sample good OpenID way required the The authenticationManager suggests Here Control what fix and 
+Bench4BL/Spring/SEC	1396	PE	4	4,13,58	request markup session created SessionFixationProtectionFilter this Spring way the The with that and response HttpSessionContextIntegrationFilter processing attributes user 
+Bench4BL/Spring/SEC	2067	PE	2	2,8,85,138,170,173,374,384,395,923,966,1042	localhost instructions using servlet Only admin login follow the actually SEC into that shows and exact attached from flushing 
+Bench4BL/Spring/SEC	3108	PE	1	1,8	request Digest DigestAuthenticationFilter session another threads the with into that same are scenario and now following user fully authentication 
+Bench4BL/Spring/SEC	3109	PE	1	1,4,6,9,107	stopped Concurrent DelegatingSecurityContextExecutor pool triggers Spring Boot the SEC enableOnOriginalThread with that random were now scheduling setup subsequent DelegatingSecurityContextRunnable 
+Bench4BL/Spring/SECOAUTH	311	PE	1	1,166,174,281	which may caches ArrayIndexOutofBoundsExceptions unmarshaller AbstractJaxbMessageConverter The the incorrectly amongst and safe Class marshaller class others 
+Bench4BL/Spring/SGF	231	NL	6	6,8,9,59,287	Policy init thus more batch for specify threads Tested nested the Sender sender parallel than Ordering property senders queue gateway policy 
+Bench4BL/Spring/SGF	280	PE	1	1,5,22,26,41,130,294	instance methods start proper around running the The stop and does variable safe synchronization ContinuousQueryListenerContainer class addition 
+Bench4BL/Spring/SHDP	374	STP	2	2,46	all which Path using race saved for multiple Request default same file and mismatch Race create opens This from conditions overwrite overwriting 
+Bench4BL/Spring/SPR	7688	PE	15	15	JVM allow synchronized null does could NullPointerException thrown pvs checkPropertySkippingIBM 
+Bench4BL/Spring/SWF	976	PE	1	1,3	which all Context ELDelegatingVariableResolver development more ELDelegatingPropertyResolver testing this for Attachment got users single patch with and This Class SimpleELContext usually helps 
+Bench4BL/Spring/SWF	1437	PE	4	4,59	resolves getValueInternal expression ast package classes this for threads PropertyOrFieldReference the evaluation with Wrong NullPointerException root context from evaluating flow 
+Bench4BL/Spring/SWS	334	PE	4	4	call that are AbstractStandaloneMessageReceiver notifyAll Calls superfluous threads because 
+Bench4BL/Spring/SWS	613	PE	100	100,236,833	which other instance methods deviates Any the nor such field etc from threadsafe case 
+Bench4BL/Spring/SWS	947	STN	718	718	container couple race breaks almost Spring the these fail condition stacktrace nio NullPointerException http dynamic from complete 
+Bench4BL/Wildfly/WFCORE	132	PE	41	41	add assumes n t will threads runtime required undefined the The with that default same BoundedQueueThreadPoolWriteAttributeHandler does and fixed attribute value 
+Bench4BL/Wildfly/WFCORE	196	STP	3	3,10,133,417	server process ManagedServer killing for monitor then the CTRL closed soft 
+Bench4BL/Wildfly/WFCORE	202	STN	4	4,107,350	optionally clear threads monitor deadlock ByteBuffer execute the with that times client lock five apos 
+Bench4BL/Wildfly/WFCORE	553	PE	1	1,3,4,8,10	ModelControllerClientOperationHandler cleaning carefully least pool for channel requests remote the that service and ModelControllerClientOperationHandlerFactoryService client handling per 
+Bench4BL/Wildfly/WFCORE	997	PE	3128	3128,3246	handshake server for ldaps Security During timeout seconds security ldap and stuck value Same using Possible Causing the provide failover response realm forever 
+Bench4BL/Wildfly/WFCORE	1002	STP	27	27	MANAGEMENT original before will this main Remoting three cancelling With the slave task Without cancelled assertions respond outcome 
+Bench4BL/Wildfly/WFCORE	1025	STP	1	1,2,7,10,12	which parking handler waits filed for RejectedExecutionException the The number itself caller condition ManagementRequestContext handling executeAsync apos 
+Bench4BL/Wildfly/WFLY	1810	PE	1	1	stack SFSB for OwnableReentrantLock into lock This subsequent different released will was thrown Synchronization the fail never Because ownership owning callback pushed 
+Bench4BL/Wildfly/WFLY	2016	PE	3	3	over which role servlet foo expected run invokes when propagated invocations the The async with invocation and asynchronous EJB assume runs 
+Bench4BL/Wildfly/WFLY	2065	PE	1	1,6,45,6629	for Update SPI out The that same jboss does jar hard latest marked timed test testing the suite name integration job transaction since 
+Bench4BL/Wildfly/WFLY	2458	STN	-1		RpcDispatcher registry Channel start Stopping Service Processing the JGroups weld Services entries null service and ear Starting missing dependents deployment AppOneBean 
+Bench4BL/Wildfly/WFLY	2467	PE	-1		AsynchronousService configured Deadlock installed using startup cachesCacheConfigurationService wrapper Infinispan transactional 
+Bench4BL/Wildfly/WFLY	2954	PE	190	190	using issue instead Synchronization JSMContextProducer switch The the JMSContextProducer with Transaction syncs TransactionSynchronizationRegistry injected registers must registration directly JMSContext register 
+Bench4BL/Wildfly/WFLY	3259	STP	162	162,172,6844	test built Failed start for contexts deploy the RuntimeException service and ear scope ContextNotActiveException WeldStartService MSC deployment 
+Bench4BL/Wildfly/WFLY	3280	PE	5232	5232	server some for jdbc remoting when the that file fix and integration lock from MSC directly starting 
+Bench4BL/Wildfly/WFLY	3338	PE	-1		test will two Section spec the The same and than JMSContext transaction Transactional 
+Bench4BL/Wildfly/WFLY	3381	NL	-1		rollback request process will Possible ActiveOperation received immediately sends that never cancellation and managed domain cancelled sending initiating receipt after operation 
+Bench4BL/Wildfly/WFLY	3396	STP	1020	1020	checkSuccessful test this dist the ManagementClient XNIO management name from apos 
+Bench4BL/Wildfly/WFLY	3517	PE	-1		eventually The result leaks leak that reload does results DeploymentMountProvider will newScheduledThreadPool pool start OOM command the stop slow calls effect 
+Bench4BL/Wildfly/WFLY	3548	PE	80	80,104,1086	which means incorrect for distributed the with that JTA Singleton trying synchronizations synchronization ClassLoader This processing transaction RequestProcessor TCCL 
+Bench4BL/Wildfly/WFLY	3695	PE	1	1,15,46,52,59,318	all however ScheduledExecutorService explicitly will scheduled session pool false threads attempt execute SessionExpirationScheduler the leaks undeployThe web unless Distributed expiration uses after 
+Bench4BL/Wildfly/WFLY	3715	PE	2	2,3,7,10,15,23,31,33,38,76,93,94,102,107,110,136,139,149,152,161,165,167,179,182,187,220,223,258,369,430,452,472,591,722,1957,3055,3269,3543,3801,4431,4800,4892,6078,6167	for timeouts BatchContainer used these relies web Async lock This because ejb new sessions distributable capabilities the These Batcher servlets clustering Infinispan locals 
+Bench4BL/Wildfly/WFLY	3727	STP	28	28	registry below CacheException one start channel this EmbeddedCacheManagerStartupException invoke during type any the JGroups that Race starts 
+Bench4BL/Wildfly/WFLY	3731	STP	6	6	IllegalStateException count for RUN INFO timeout running invocation caller task Transaction public repeating doCancellations state EJB transaction status 
+Bench4BL/Wildfly/WFLY	3942	NL	3237	3237	Probably mod_cluster race issue will session for clean the with condition same revalidate and Race draining well exists logic conditions 
+Bench4BL/Wildfly/WFLY	4133	NL	3	3,774	server hang bad pending timeouts threads failed the with timer When Hanging and service there redeploy because worker EJB persistent deployment 
+Bench4BL/Wildfly/WFLY	4310	PE	-1		adapters adapter for threads possible check the that Additional Ironjacamar and following well try apos 
+Bench4BL/Wildfly/WFLY	4511	PE	28	28	this the ApplicationDeadlockException How ApplicationDeadlockExceptionDescription stale EAP and raises block catch Visual transaction retry 
+Bench4BL/Wildfly/WFLY	4844	PE	21	21,47,111,387,653	which Wildfly committed issue necessary before ContainerManagedConcurrencyInterceptor this IMHO run when the The that Here earlier too are Singleton than CMTTxInterceptor EJB transaction early 
+Bench4BL/Wildfly/WFLY	5186	STN	635	635,876,997,1084,4373,5452,5587,5592,5669,5809,6592,6674	log GlobalTransaction exactly remote WARN local the The Unable and came only few from ERROR 
+Bench4BL/Wildfly/WFLY	5449	PE	85	85,198,778	factory correctlyWildfly other race custom channel for Custom started two when the The JGroups condition same and overwritten there only 
+Bench4BL/Wildfly/WFLY	5596	PE	27	27	Possible could methods invoking one change multiple concurrent threads MDBs deactivate the effects calls lock from simultaneously startDelivery order 
+Bench4BL/Wildfly/WFLY	5770	STP	1130	1130,1185,1406,1412,1720,1765,3381,3793,4650	marked channel for Stopping transactions RollbackException INFO local the JGroups web are ERROR Pool MSC Final Current Undertow 
+Bench4BL/Wildfly/WFLY	6127	PE	1	1,2,3,4,7,315	SYNCHRONIZED synchronized REQUIRED UNSYNCHRONIZED TRANSACTION type any without target the component JTA and there context persistence from transaction 
+Bench4BL/Wildfly/WFLY	6215	PE	2	2,22,142,5549,6900	SessionSynchronization SFSB before JBPAPP for concurrent executing local whilst the SFSBIssue managed and calling has transaction 
+Bench4BL/Wildfly/WFLY	6405	PE	4	4	synchronized limitation Wildfly this getBeanDeploymentArchive getBeanManager sense any both workaround the The STACK with into following locked 
+Bench4BL/Wildfly/WFLY	6776	NL	10	10,635,5830	configuration Failed another change for pools threads description long the running same failure marshal creating create workmanager persist queue 
+Bench4BL/Wildfly/WFLY	6877	STP	5	5,5519	cache read log below more keys change another for our acquire the that trace and than XXX Fine key TimeoutException 
+Bench4BL/Wildfly/WFLY	7282	PE	1	1,22,24	IIOP correct resource double one this recovery deadlock used then transactions remote when remoting the diamond same jboss and JTA Current transaction 
+GitHub/druid	582	PE	1	1,67,475,1325,1579	through cluster using indexing separate upload jobs JobHelper Hadoop its during something the same create jar hadoop 
+GitHub/druid	812	PE	15	15	server realtime still will this historical local redundant the loaded task and segment merge Race final callback This files 
+GitHub/druid	1014	NL	10	10,11,33,73,144,167,289,368,429,479,1707,1878,3591,5391,6264	request race query for this real error lead empty the result node regex condition and kafka DESCENDING value 
+GitHub/druid	1210	STN	2137	2137	SASL server coordinator negotiated ClientCnxn error INFO timeout unknown the The and from connection did 
+GitHub/druid	1360	NL	1	1,30	indexing about this run the running that task nodes are were and service Race Running assigned autoscaling worker workers updated tasks status 
+GitHub/druid	1715	NL	1	1,2,8,412	log RemoteTaskRunner for multiple was its say acquire locks long running the task index_realtime_REDACTED cleanup failure TaskLockbox lock from after 
+GitHub/druid	2793	STP	1	1,362,386	big for its backlog than TaskQueue lock Duplicate ms  key errors primary addition 
+GitHub/druid	2842	STN	1	1,3,13,44	NPE been Multiple RemoteTaskRunner assignment pending multiple for threads while taskRunnerWorkItem running RTR with rtr introduced task RemoteTaskRun tasks assign 
+GitHub/druid	2991	PE	5	5	some new fact IncrementalIndex query for LongMax then any facts aggregate the IncremetalIndex with weird from unaggregated multi thread value 
+GitHub/druid	3063	NL	63	63,127,413,888,1076,1283,1731,3652	flight new lookup Possible held rather more work Unloadable requests the The than After lock 
+GitHub/druid	3393	STP	-1		NettyHttpClient cluster finally channel channelDisconnected historical retVal the better Druid disconnected and future This from ChannelException 
+GitHub/druid	3459	STN	1	1,2,3,4,10,14,20,23,31,58,4878,5006,5328,6479	ReentrantLock ownable node cache topN_REDACTED NamespaceExtractionCacheManager issue synchronizer for deadlock 
+GitHub/druid	3593	STN	1	1,2,3,9,10,11,18,33,43,54,97,207,4891,6475	ReentrantLock ownable cache for monitor offheap deadlock Deadlock the AtomicBoolean NamespaceExtractionCacheManager synchronizer lock 
+GitHub/druid	3600	STN	10	10,77,1307,3040	All IndexerSQLMetadataStorageCoordinator metadata read old commit for this threads TaskLocation segments the task and else host FiniteAppenderatorDriver beat 
+GitHub/druid	3608	PE	9	9,244	all factory putting work advantage One one for cross reindexing two the IngestSegmentFirehoseFactory into same task and datasource get This fixed tasks together 
+GitHub/druid	3772	PE	1	1	issue about  gvsmirnov KafkaLookupExtractorFactory forget condition Race FYI creating comment just order 
+GitHub/druid	4226	STN	1	1,3,48,283,338,921,1437,2044,2426,2767,4664,4868,6116,6164	lookups all using advertiser_account_manager_id aprox for Source the node found druid Unknown too from 
+GitHub/druid	4296	STP	2349	2349,4449	stack indexing issue HLL numThreads the duration into null timeseries and from tranquility BufferUnderflowException 
+GitHub/druid	4984	PE	15	15	small cluster happen  dgolitsyn missed start callbacks cachingCost segments the that number view balancer Callback  leventov too trying initialization Inventory 
+GitHub/druid	5338	PE	-1		new tryAddEvents some issue line batch CPU while the reference high and loop  bci After emitter concurrentBatch 
+GitHub/druid	6020	STP	1	1,54	which leader variables interfaces stack Optional throws when taskMaster becomes the The public only initialized after taskRunner  TaskRunner  overlord 
+GitHub/druid	6028	STP	1	1	elapsed TABLE Errors SqlMetadataRuleManagerTest and datasource Skipped waiters obtained SELECT DROP 
+GitHub/druid	6139	STP	34	34	all testCheckpointForUnknownTaskGroup called test issue this for WTH the The stacktrace null corresponding among KafkaSupervisorTest 
+GitHub/druid	6201	STP	1	1	HttpRemoteTaskRunner pending BLOCKED for monitor the with entry lock hrtr ConcurrentHashMap overlord LifecycleLock 
+GitHub/druid	6287	PE	2	2	been issue may before Kafka its Service verifyAndMergeCheckpoints completed sort used are firstKey Race KafkaSupervisor where has results Indexing 
+GitHub/druid	6826	PE	3965	3965	NPE below already could refreshSegmentsForDataSource holder the segmentMap removed Concurrency outside FYI segment get SegmentMetadataHolder lock  surekhasaharan 
+GitHub/druid	6867	STP	7	7	stack HashMap level one exhaust for monitor deadlock the DruidStatement and DruidConnection above lock information 
+GitHub/druid	7400	PE	79	79,1017,2845,3015,3254,5302,6437	metadata other separate for interact during two without Druid password and hardcoding restart change them store PasswordProvider each users the condition PasswordProviders uses connecting user username 
+GitHub/druid	8622	PE	11	11,75,280,952,4247,5369,5949	which always spawned for For them deadlock supervisorCapacity middleManagers capacity running slots task would and there ParallelIndexSupervisorTask This Since further possibility supervisor tasks 
+GitHub/druid	9292	PE	3	3	n t HashMap replace proper rules simple into fix and does now action modified after because ConcurrentHashMap assigning race AtomicReference store CoordinatorRuleManager the actually with never 
+GitHub/druid	10005	PE	3	3,12,14,60,142,167,311	new will query available dataSourceName segments the The number load public and datasource following segment This interval returns from ingestion full 
+GitHub/grpc	17	PE	5	5,6,11,52,96,397	cancel opposed created for transport any simpler sendCancel the such More OkHttp stream due and Race Netty This Both 
+GitHub/grpc	120	PE	9	9,11,16,33,727,1189	very NettyClientTransport less completed OOM our people the The EventLoop task blocked flush and blocking able parts This from who 
+GitHub/grpc	238	PE	80	80	handler incoming Server DefaultChannelPipeline PooledUnsafeDirectByteBuf transport your message the most pipeline widx  nmittler initialization client connection ridx connections 
+GitHub/grpc	330	PE	1	1	new necessary startPendingStreams onGoAway streams goAway also failed the with that into due cleanup and races final things lock creates under phases 
+GitHub/grpc	583	PE	1	1,3,6,75	all n t data held within for its finishStream the OkHttp with calls DATA and lock sending end except after much 
+GitHub/grpc	605	PE	2	2	created streams for this channel active Potential isActive bit fixes each channelInactive with condition There stream handling try 
+GitHub/grpc	696	STN	3	3,13	which server process InProcessTransport listener for monitor deadlock transport transportShutdown while both the same and calling ChannelImpl lock client holds 
+GitHub/grpc	887	STP	14	14,16	NPE race called before will for started timeout sendCancel example the OkHttp sendFrame stream and following between 
+GitHub/grpc	999	PE	5	5	annotation shared actual may called race Possible against ThreadSafe start this possible the that stop ServerImpl and does executor get between 
+GitHub/grpc	1253	STP	1	1,2,52,54,155	Context request IllegalStateException will sendMessage started encounter when soon With ClientCallImpl the with operations cancellation halfClose stream following 
+GitHub/grpc	1343	PE	1	1	small very went race before  carl the The with that never would stream due and hung FYI logging completes because deadline 
+GitHub/grpc	1408	PE	1	1,14,16,21,23,29,30,31,54,58,133,150,163,169,176,301,311,316,424	which listeners locking channel listener for transport possible while layer the into that ServerTransportListener and today lock from under order 
+GitHub/grpc	1510	PE	2	2,155,199,1215	with means pull InProcessTransport chance There DelayedClientTransport and deadlock when linked 
+GitHub/grpc	1549	null	-1		
+GitHub/grpc	1981	PE	1	1,2,3,4,21,24,32,73,223,241,329,349,1093	all shared for listener channel people closes ClientCallImpl the nor call timer and executor try passed after who potentially 
+GitHub/grpc	2152	STP	90	90,111	here server started deadlock around grpc the running owned than there client benchmarks net detector 
+GitHub/grpc	2246	STP	-1		level one custom this monitor deadlock when grpc the timer with and lock TransportSet NameResolver 
+GitHub/grpc	2388	STP	-1		for monitor deadlock grpc the timer and above lock information under GrpcTimer consumer 
+GitHub/grpc	2453	PE	70	70	which some etc  maybe reads callEnded also them check without wireBytesSent the StatsTraceContext would There fine preconditions synchronization closed from different 
+GitHub/grpc	2562	PE	1	1,25,46,65,914	subchannel Channel Right for started transport Step around steps the mode The longer delay stream and stopping ManagedChannelImpl between 
+GitHub/grpc	2865	PE	8	8,15,17,18,21,28,29,44,93,96,301,476,679,1025	server race RPC queued for this executed onHeaders without the The stream and callback client well from compression Client 
+GitHub/grpc	3084	PE	2	2,35,407,515	issue maybe this direct InProcessServerStream For callbacks while locks the call holding into calls and lock callback subsequent from under 
+GitHub/grpc	3207	STP	58	58	Generated race data Stub Data pid TestServiceImpl mutexes WARNING ThreadSanitizer Read size Previous write 
+GitHub/grpc	5015	PE	9	9,10,14,19,25,44,62,63,68,123,178,190,218,250,849	checking called created more for about For their the Helper path with and Subchannel safe easier from initialize 
+GitHub/grpc	5450	PE	157	157	onError data race may called threads Data the impl following concurrently different 
+GitHub/grpc	6601	STP	10	10,179	server n t os_prio start this monitor your Vertx remote gRPC the that ServerImpl coudl and loop lock try threaded 
+GitHub/grpc	6641	PE	2	2,4,24,37,41,71,82,90,147,153,191,193,270,290,300,456,512,718,731,1137	server some other usecase start multiple for deadlock transport ports the with that holding runnable causing calls port lock This mechanism awaits 
+GitHub/grpc	8190	STP	15	15	ELG hang customized AbstractQueuedSynchronizer What grpc gRPC the call and service explanations worker NameResolver 
+GitHub/grpc	8536	PE	1	1,2,1160	BinderTransport server similar other acknowledged debugger start transmitWindowFull your the Response that Binder field Linux and response stuck from after under  sendTransaction 
+GitHub/grpc	8565	STP	23	23,211,400,673,696,723	std lambda cpp create_thread race  null  absl unsigned ThreadSanitizer 
+GitHub/grpc	8642	PE	5	5,8,458,772	That CsdsService issue initial methods ListenersConfigDump for this two the The with calls ldsConfig from those 
+GitHub/grpc	8914	STP	1	1,2,3,18,27,984	BinderTransport process other  transact the Outbound core calls and obj lock prio re entrancy 
+GitHub/presto	1614	PE	1	1	unlock race will added caused this Driver source updates the The noMoreSplits machine and design newSources get state because forever TaskSource 
+GitHub/presto	1689	STN	-1		IllegalStateException test issue fairly query for run Stack the that regularly condition found Race above This from buffer different fails 
+GitHub/presto	3629	STP	1	1	some likely pretty race frequently kind expected false non deterministically FAILURE sec found testSetIf TestStateMachine true This 
+GitHub/presto	3647	PE	758	758	access ensure atomicity issue race this guarantee then possible put the Line operations and exclusive ConcurrentHashMap 
+GitHub/presto	4869	NL	387	387,2231	orderkey orderstatus originalConstraint dependency totalprice double varchar Potential orderdate shippriority orderpriority clerk The with edge field custkey tpch Output scheduling comment bigint 
+GitHub/presto	5005	PE	246	246	silently thoughts doing other race goes For main any somewhere the call The running and loop get interrupt 
+GitHub/presto	5110	STN	482	482,1419,3237,3242,7274	Query called before double was non deterministically concat exceptions anything Presto size closeEntry and Race from written array_concat 
+GitHub/presto	5116	STP	1472	1472	Expected pretty test expected count non deterministically repro testTaskHandle the with invocation found AssertionError Race This fails 
+GitHub/presto	5735	PE	73	73,1392	here all  cberner methods this delta memoryReservation with caller public There and setMemoryReservation 
+GitHub/presto	6196	STN	4	4	all one this monitor deadlock ContinuousTaskStatusFetcher out RootResourceGroup lock HttpRemoteTask worker ResourceGroup presto 
+GitHub/presto	6319	PE	2	2,46,101	AccumuloClient which normal instance HashMap classes IndexLookup several multiple getTabletSplits any without the AccumuloConfig safety and This synchronization from different since 
+GitHub/presto	6755	PE	3	3	DbResourceGroupConfigurationManager manager  elonazoulay pool Potential two something these file InternalResourceGroup memory_change_listener_lambda unless root AbstractResourceConfigurationManager missing lock situation group setSoftMemoryLimit 
+GitHub/presto	6923	PE	1	1,19,109,344,516,947	very this From  appendTo the PartitionedLookupSource with profiling else regression and synchronization from OUTER Performance factor 
+GitHub/presto	7667	PE	326	326,785,786,1130,2145,6437	issue query one change this error out the condition same assert failure only This state testBasic after 
+GitHub/presto	7689	PE	280	280,302,303,974,1883,5888,7140,7337	here execution variables testQueryLoggingCount counters issue race Flaky query listener counter the sleep that condition tests There rely and assertion state 
+GitHub/presto	8716	PE	-1		using AbstractTransfer infinite  waitForCompletion waitForCompletion uploads with that condition load calls  setFuture parallel loop sdk SDK under aws AWS 
+GitHub/presto	9881	STP	9	9,5800	still caused might counts outer this OuterPositionTracker error while the reference Here iterator due are Race there tearing where position fetched 
+GitHub/presto	11253	PE	1	1,2,6,232	colocated more for frequent this queuedDrivers the The pendingSplitsByPlanNode that addExchangeLocations nodes stage and completeSources than scheduling join recent 
+GitHub/presto	13142	STP	81	81	race Skipped QueryStateTimer Failures Tests elapsed Errors negative trino ERROR Backport trinodb value backport 
+GitHub/pulsar	1117	STN	1	1,3,10,34,1657	boundary all race will automatically upper for was particular any the The that current split namespace This ERROR bundle updated validate Invalid pulsar 
+GitHub/pulsar	2141	PE	20	20	ledger checking fenced failures test SequenceIdWithErrorTest for intermittent was While broker both  ve the reconnecting that condition and managed failing producer after consumer case 
+GitHub/pulsar	3768	STP	18	18,36	test issue within for intermittent this Error deadlock the into due once failure enable function now finish has worker pulsar 
+GitHub/pulsar	4447	STP	9	9,16,29,30,94,108,117,118,129,131,136,138,159,162,212,242,587,755	parking cluster Broker executing our the CompletableFuture condition web internalGetPartitionedStats CentOS pulsar 
+GitHub/pulsar	4635	NL	53	53	watcher session invoking deadlock broker down remaining the servers reconnect expired ZooKeeperSessionWatcher due This connect pulsar 
+GitHub/pulsar	4707	STP	-1		cluster document this used Please the The that and kafka name safe client pulsar 
+GitHub/pulsar	5585	PE	4	4,5	sendAsync NonPersistentReplicator log maybe release batch deadlock message any batching int put the Non persistent ProducerImpl jstack and meta there topic numMessages between pulsar 
+GitHub/pulsar	8050	PE	13	13,70	new newSetFromMap below IdentityHashMap for good producers the with stored safe consumers ConcurrentHashMap map 
+GitHub/pulsar	8293	PE	1	1	setAcknowledgePosition for concurrent possible publicly readPosition the The that condition field from position conflict 
+GitHub/pulsar	9109	STP	91	91,100,3196	the parking CompletableFuture condition blocked below and topic inside consumer pulsar 
+GitHub/pulsar	10170	PE	7	7	here Expected access about please your iOS screenshots the The AuthenticationAthenz what concise and Medium context lock information 
+GitHub/pulsar	10235	PE	95	95,501,2390,3130	stack other waiting could additional traces was deadlock Review somewhere Lock the that condition what hung there lock prometheus 
+GitHub/pulsar	10767	STP	26	26	ownable Expected test for was TIMED_WAITING monitor deadlock ReentrantReadWriteLock the ConsumerImpl synchronizer Client pulsar 
+GitHub/pulsar	11379	STN	28	28,251	some functions parallelism this threads parse delete directory the pojo with number file worker happens nar pulsar 
+GitHub/pulsar	11605	PE	33	33,83,118	ledger schema cluster some Expected Broker brokers least For this multiple two the with schemaRegistryService topic from every Bookies 
+GitHub/pulsar	11689	PE	1	1,6,11,28,311,343,514,784	very Expected another this pendingBatchReceives poll Removed when peek the The sleep and causes block from consumer queue 
+GitHub/pulsar	11690	STP	1	1,412,598,611,703,823,836,912,2849	test Flaky Skipped run revalidateLockOnDifferentSession Failures LockManagerTest sporadically Tests example elapsed The Errors present value 
+GitHub/pulsar	11966	STN	27	27,2930	some Expected observation for this monitor the The that web Example WAITING pasted base Another 
+GitHub/pulsar	12723	PE	10	10,669,955	Expected other PersistentReplicator applied this For localCluster mac multi the these measures Additional PersistentTopic safe non null class 
+GitHub/pulsar	12885	PE	2	2,3	previous will for this instead the The with PersistentDispatcherMultipleConsumers messages happens consumer case 
+GitHub/pulsar	12929	STP	60	60	parking metadata store iOS the The CompletableFuture condition operations and context topic easily 
+GitHub/pulsar	13004	STP	1	1	Call stack one iOS LockBusyException the with path DelayInjectionMetadataStore that condition ResourceLockImpl revalidate Additional following LockManagerImpl above  revalidate because locked Current 
+GitHub/pulsar	13923	STP	2	2,3,7,10,24,26,38,50,64,68,97,237,286,1665,2428,2869,3140,3193,3263	replication all very the UnsupportedOperationExceptions Geo geo pipeline that with proxy Proxy null and namespace connection Pulsar logs connections 
+GitHub/pulsar	13964	STP	50	50	parking Flaky hangs sometimes possible deadlock threadawaiting example Native CompletableFuture condition There WAITING close 
+GitHub/pulsar	13986	PE	31	31	request added TransactionBufferHandler for run your enhancement Transactiion timeout The solution bottleneck lock will sync Please the performance due synchronization processing Performance 
+GitHub/pulsar	14362	PE	6	6,16,26,48,482,594,1291	NonDurableCursorImpl reader ServerCnx BrokerServiceException for INFO cnx Subscribing the healthcheck ManagedLedgerException topic persistent pulsar 
+GitHub/pulsar	14413	PE	31	31	topics for this pool DLQ getPartitionedTopicMetadata any specified the subscribeAsync The that with are blocking and calling than Retry retry 
+GitHub/pulsar	14438	STP	177	177,613	the parking CompletableFuture internal condition web will WAITING many forever our pulsar 
+GitHub/pulsar	14633	STP	3	3,3262	Expected metadata for BLOCKED monitor store deadlock the entry reliable operations causing This lock block BrokerService 
+GitHub/pulsar	17446	PE	12	12,123	reason similar sendAsync large this for message the The too and else true sending obtained 
+GitHub/pulsar	17913	STP	-1		parking similar Schema BookKeeper main broker the Deadlock that with CompletableFuture condition else from 
+GitHub/pulsar	18196	PE	2	2,1780	similar submit before nothing instead Minimal What issues the reproduce leak OwnershipCache found else and Search bundle did 
+GitHub/pulsar	18988	STN	100	100	the reproduce similar metadata stdout and else owned store transactions 
+GitHub/redisson	39	STN	14	14,41,1468,1669	some request User already POST LOCK Resource Unlock System The incomplete and from Jersey complete different UNLOCK stuff 
+GitHub/redisson	40	NL	6	6,16	add n t resource dead deadlock Any TTL tryLock Lock with confuse refer leave and where locked plan operation situation 
+GitHub/redisson	67	PE	59	59	which subList RedissonList technically when each concurrency that invocation what size would calls This different value normally 
+GitHub/redisson	83	STN	23	23	cli another monitor while obtaining redis Redisson empty The same State and name WAITING lock 
+GitHub/redisson	89	STP	134	134	may line imprecise about this Redis long redis Compiled the with Interpreted trying  bci lock information frame 
+GitHub/redisson	106	PE	36	36	which next tries race will RedissonList emptied list the with iterator condition and keep Race Iterator between NoSuchElementException 
+GitHub/redisson	169	PE	332	332,1987	request called will for Redis proving the call that with fix and get calling block forever class 
+GitHub/redisson	199	STP	363	363,396	which IllegalStateException very exceptionCaught range INFO the that nioEventLoopGroup ton and 
+GitHub/redisson	254	STP	18	18,45,103,104,105,106,107,108,109,110,111,112,115,116,624,1570,1713,1877	unlock this Similar concurrent exceptionCaught instead sync issues Redisson Lock the pipeline with default nioEventLoopGroup and EOFException After 
+GitHub/redisson	455	STN	432	432,1496,1555,1691	SINGLE almost latency about Redis tcpdump redis the call mode are and DefaultPromise following than WAITING Many just 
+GitHub/redisson	486	NL	84	84,123,292,450,1809	unlock work for pool Rlock when reddison the better with that delay performance size lock key 
+GitHub/redisson	491	PE	1721	1721	which very Dead waits this for dead Happen Locks subscription used heavy the and lock after 
+GitHub/redisson	530	PE	1591	1591	very big claster understand impossible futures Any heavy the with and only This Future from 
+GitHub/redisson	533	PE	63	63,64,67,160,590,717	all server using instance For timeout RedissonMultiLock the single The random node and lock from talk value 
+GitHub/redisson	543	STP	235	235,285,286,801,1632,1646	LockPubSub this pool BLOCKED for monitor command the lot and lock RLock 
+GitHub/redisson	757	NL	1	1,39,127	all some private unlock test log available threads Logger actually that Attempting delay executor Example get there final lock from until 
+GitHub/redisson	758	PE	4	4,161,275	mine clause read reentrancy wiki for least this Javadoc redisson ReentrantReadWriteLock RReadWriteLock the ReadWriteLock emphasis reentrant 
+GitHub/redisson	775	STN	3	3,73,161,320,373	chaos for indefinitely update timeout the The call with failover KEYS Indefinite lock key ARGV 
+GitHub/redisson	828	PE	-1		new factory cluster original start instead URL URIBuilder multi the null newFactory and currentFactory handlers from case 
+GitHub/redisson	889	STN	385	385,820	the async NonfairSync some AbstractQueuedSynchronizer too for redisson Semaphore EJB queue 
+GitHub/redisson	891	PE	1	1,99	unlock read this about check without RReadWriteLock current ops and succeed lock every 
+GitHub/redisson	1048	STP	688	688	hang several for redisson stacktrack two our During There multi threaded Then commands test lower batch this the help calling first 
+GitHub/redisson	1104	NL	31	31,58	keys about mylock Two any redis both the RFairLock and assuming lock quite 
+GitHub/redisson	1268	STP	83	83,216,335	parking server other last issue removeAllListeners before one this pool timeout happened the single The caller condition there 
+GitHub/redisson	1433	PE	85	85,579	Steps Expected test configuration Concurrent Redis Redisson reproduce result RemoteService calls Actual behavior case 
+GitHub/redisson	1602	PE	162	162,346,733,797	Steps configuration connectionPoolSize recovery redis timeout expirationRenewal network Redisson reproduce database and connectTimeout client case Expected still unlock test Redis connectionMinimumIdleSize execute throw service Actual 
+GitHub/redisson	1626	STP	2	2,37,61,69	the with RedissonLock unlock RedisTimeoutException for lock Redis attempt key timeout 
+GitHub/redisson	1950	STP	253	253	ImmediateEventExecutor test promise redisson your redis network Redisson Unable lock ERROR blow netty 
+GitHub/redisson	1966	NL	41	41	server critical timeout remove Redisson The and client lock after between normal unlock test Redis command pause CLIENT the task Single even due operation 
+GitHub/redisson	2099	PE	1	1,2	test documentation this for threads then replicates timeout the that servers and roughly following lock queue 
+GitHub/redisson	2278	PE	1	1,3	MILLISECONDS test Fair many Redisson the The reproduce high load and ExecutorService Seems lock from RedissonFairLock different case 
+GitHub/redisson	2355	STP	96	96	receive couple unlock for threads inside attempt our Redisson the null After from after order 
+GitHub/redisson	2575	PE	8	8,194,361,962,1706	all server this used timeout Redisson the these with RedissonLock channels size unsubscribe and connection after limits 
+GitHub/redisson	2690	STP	1	1	all using sessions race listeners issue conditional before intermittent for right Spring our the condition same RedissonSessionRepository topic initialization onMessage after first 
+GitHub/redisson	2692	STP	1	1	receive ERR race redacted session psetex one our number condition  changeSessionId expire invalid changeSessionId This from RedissonSession expiredKey 
+GitHub/redisson	2714	PE	7	7,279,522	Expected renewing n t test this Redis interrupted when tryLock Redisson ifinite reproduce default watchdog too and does keep than lock Actual renew case 
+GitHub/redisson	2883	PE	1	1,43	spring running sleep test than SECONDS ExecutorService testRedisson program RedissonFairLock 
+GitHub/redisson	3484	PE	2	2,3,5,10	bigger internalLockLeaseTime then the call same and KEYS than lock exists 
+GitHub/redisson	4033	PE	1	1,37,41,97	Expected test Redis remainTime Redisson multi RedissonMultiLock single the reproduce get lock until Actual waitTime case first flow successful 
+GitHub/redisson	4064	STP	2	2,17,109,903,1617	the test pool channel lock ReddisTest locks when timeout case Redisson 
+GitHub/rocketmq	1986	PE	15	15,141,970,1513,1558	which some issue IndexService for description your any the The related feature and following function there report RIP create 
+GitHub/rocketmq	4143	PE	2	2,7,13	The file IndexService and IndexFile FileLock unnecessary lock used remove Unnecessary 
+GitHub/rocketmq	4686	PE	2	2	item about putKVConfig being interrupted your explanation What Please The the fix related due Value information after Other 
+GitHub/rocketmq	5039	STP	58	58	os_prio RUNNABLE BrokerController main many BrokerIdentity when The the runnable stuck every InetAddress 
+GitHub/trino	2962	STP	1746	1746,5530	parking all hive using fulfill delete the call that condition Hive getTable and loadPartitionByName calling This executors behaviour directly 
+GitHub/trino	6202	PE	1	1,2,5	here hang test one pool monitor stacktraces the tests owned apparently LogTestDurationListener owns from information every who full 
+GitHub/trino	6389	STP	1	1,426,638,1530,1534	partitions more another JOIN Process FROM deadlock object_id SELECT chosen the result with statement lock transaction INNER 
+GitHub/trino	7454	PE	122	122	which  release Each Partition spill unblocks SpilledLookupSourceHandle operator spilled call with never disk partition Spilled This finishes finish join  disposeRequested PartitionedLookupSourceFactory gracefully HashBuilderOperator 
+GitHub/trino	7872	STP	1	1	    another Similar deadlocked Process chosen the with DATABASE Transaction READ_COMMITTED_SNAPSHOT SQLServerException statement lock transaction 
+GitHub/trino	9741	STP	427	427,3858,3956,4821,7374	Expected image columns testSelectInformationSchemaColumns another deadlocked FROM deadlock SELECT chosen SQL the The Transaction succeed lock transaction 
+GitHub/trino	11798	NL	95	95	finance_dh hive NULL select held query possible locks  findepi the The  losipiuk Hive There ACQUIRED WAITING missing Trino lock booking_f state timestamp 
+GitHub/trino	13212	PE	1	1	setBytes which likely critical  pollPage caused moved DirectExchangeClient section significant  addPages Lock most and lock This congestion 
+GitHub/trino	14132	PE	2	2,13,6104	new using Query releaseLock format HiveMetastoreTableOperations done the TABLE Hive total file Metastore related and get only lock table case tbl status 
+GitHub/trino	14605	STP	37	37	broken actual execution chance test query pool RUNNABLE run recovery got something the getting The that path There failure stuck prio 
+GitHub/vertx	1247	STP	782	782	the Interpreted line get  bci lock This used good frame Compiled 
+GitHub/vertx	1302	STP	2	2,65,225	called main run handle checker Source Native BlockedThreadChecker blocked Unknown startup limit 
+GitHub/vertx	1355	STP	29	29	HttpClientRequestImpl JVM Server line this deadlock the getlock total handleException and response  bci ClientConnection frame 
+GitHub/vertx	1466	STP	43	43	HttpClientRequestImpl level one this dangerous for ServerConnection monitor deadlock instead two something the glitch lock behaviour per just 
+GitHub/vertx	1469	PE	476	476	 createEndpoint called multiple HttpClientMetrics for threads resources HTTP SPI QueueManager the The leak same  getConnQueue client from different fresh implementations acquired ConnQueue 
+GitHub/vertx	1573	STP	13	13,18	shared stack One Windows when example closing blocked and AsyncFile issue more was opening filesystem the nbd with mapped drive Blocked user 
+GitHub/vertx	1598	STN	3	3,77	Asynchronous still been read for vertx wrong The blocked eventloop Async blocking limit has write close open 
+GitHub/vertx	1633	PE	-1		Context blocked log does provided  executeBlocking description threads 
+GitHub/vertx	1742	PE	4	4,12	here over similar cache read will instances Sample multiple the The that such file cached verticle This try FileResolver case 
+GitHub/vertx	1834	PE	11	11,16,48	handler request synchronized HttpServerRequest loops run SockJSSocket when the holding reconnects and websocket handlers HttpServer context Netty connection event under close 
+GitHub/vertx	1892	PE	115	115,118,148	all setHandler completion handler based within our the prints The that and asynchronous After different 
+GitHub/vertx	2012	PE	1	1	for also counter writesOutstanding when long the that into AsyncFileImpl and Race get context invalid This from because complete updated write 
+GitHub/vertx	2370	PE	385	385	which resolver will synchronous pool underlying inconsistent when ConnectionProvider the The that asynchronous failure HttpClient host callback connection case resolved 
+GitHub/vertx	2418	PE	95	95,105	which new using illustrates acuires Possible multiple messagesToSend locks when gets the The same Consumer and trying get stuck verticle IgniteClusterManager HazelcastClusterManager 
+GitHub/vertx	2670	PE	18	18,36,86,120,211,796	boostrap this when propagated wrong the with that are loop and GlobalEventExecutor Netty event Client notifications 
+GitHub/vertx	2684	STP	34	34	    happen execution race Mongo for Handler  T  when resolution off the trace future asynchronous and Future This callback completes runOnContext executeBlocking 
+GitHub/vertx	2773	PE	13	13,21,23,36,98,100,144,244	all request delivery Currently race pool this when without hold the better valid with condition and there context client connection close connections between 
+GitHub/vertx	2916	NL	16	16,42,55,104,121,146,173,198,298,309,390,410	which handler still called HTTP them while when lead remove that holding are handlers lock event deadlocks 
+GitHub/vertx	2982	STN	12	12,59,70,88,99,104,187,275,334,415,417,800	the HttpClientRequestImpl some pretty os_prio BLOCKED for http monitor simple relative 
+GitHub/vertx	3064	PE	47	47,65,150	here some other synchronous methods this for failed then when the result that same related stream HttpServerResponse Future responses operation case 
+GitHub/vertx	3140	PE	2	2,32	handler synchronized Currently for reading them used when the file calls and handlers calling only This synchronization lock AsyncFile block useful 
+GitHub/vertx	3142	NL	94	94,157,420,790	Deadlock server instances regression deploying several verticle This starting net when 
+GitHub/vertx	3232	STP	7	7,10	setHandler works main promise Vertx down The the output these with that executor VertxTest future  close Future from event complete terminated 
+GitHub/vertx	3335	PE	75	75	Steps execution for instead any the blocked loop and resolveFile above Invoking This block unpause because event worker runs existsInternal 
+GitHub/vertx	3468	STP	14	14	Ubuntu mixed OpenJDK Source openjdk blocked Unknown HttpClientDoubleFail Test build Running complete 
+GitHub/vertx	3469	NL	90	90	performs before indefinitely when The same and does host client after because close retry will pool HTTP the fail failure retrying callback self 
+GitHub/vertx	3658	STP	1	1,9	likely making unexpected least this false mixed the unhandled with fail and future well block List situation isComplete 
+GitHub/vertx	4024	PE	1	1	synchronized race listener this outer while when without the with that even port future context debugging after TCPServerBase 
+GitHub/vertx	4069	STP	1	1,2,5	CloseFuture instance WorkerExecutor WorkerExecutorImpl one monitor deadlock Vertx VertxImpl the into looks and above lock close 
+GitHub/vertx	4104	STP	2	2	other WorkerExecutorImpl carefully false this right breakpoint the call running sleep that and lock executeBlocking 
+GitHub/vertx	4221	NL	1	1,2	here became NPE pool executed slot instead meantime when the that post null Leases get reported This action connection from lease 
+GitHub/vertx	4275	PE	1	1	the synchronized handler called within block ConnectionBase 
+GitHub/vertx	4278	STN	4	4,117	DeploymentManager additional this any our when required the The DeploymentOptions null name quite from class registerVerticleFactory verticles 
+LtR/AspectJ	59599	NL	420	420	which give test waiting for fixes andy home the candidate environment condition suite what are compilation and tweak This complete 
+LtR/AspectJ	59909	PE	1	1,3,1572,1593,1672,2131	Added memory cases till more this threads our CFlowStack the lot Varaibles than This quite from after different table 
+LtR/AspectJ	155148	STN	1533	1533,1624,2368,2447	other one for threads monitor each the hashcodes system identity and WorkExecutorWorkerThread lock class 
+LtR/AspectJ	269867	STP	106	106	synchronized access infinite RUNNABLE threads The the runnable loop get from clazz WeakHashMap 
+LtR/AspectJ	318878	NL	337	337	void static this for threads mixed sun target the The with public and aspect following ajc partially 
+LtR/AspectJ	320468	STP	1	1	modifierFlags ConcurrentModificationException static incorrect this guarantee threads thrown them Spring nested the are Sometimes calling there Since FactoryBean behavior Map erroneous 
+LtR/AspectJ	340806	PE	15	15	through AOP condition Race exposed Spring JavaLangTypeToResolvedTypeConverter potentially 
+LtR/AspectJ	408721	STN	669	669	next some internal multiple threads initializing Occasionally when Source the Unknown null related state enter weaver AspectJ 
+LtR/Birt	123840	PE	623	623,1647,6093	JVM all Each request instance data proessing query classes its requests the These same and report FilterPassControllerData fields per different DataEngine 
+LtR/Birt	195335	PE	8	8	which synchronized images been static may issue multiple HTMLServerImageHandler the that disk times same are leads handled has class write hashmap Multithreads 
+LtR/Birt	208512	PE	8	8,5929,7318	odaconsumer package multithreads issuesClasses are safe Classes 
+LtR/Birt	284367	PE	1	1	DataSourceFactory n t safe 
+LtR/Birt	287102	PE	1	1	related OSGILauncher Classloader ChildFirstURLClassLoader deadlock 
+LtR/Birt	314645	PE	213	213,452,629	process memory data Argument InputStream for during sort parsing setAppContext when sample resulting the The shows Sometimes XML xml files errors 
+LtR/Platform	6623	STP	1	1	getSelectionFromWidget access called getLaunchElement removeDeletedHistories refreshPluginActions run then getDelegate Threading Compiled the plugin startup fails Invalid Plugin 
+LtR/Platform	15379	PE	6	6	which viewer ResourceNavigator log listener changes project packages WorkingSetManager the The that view and only working from 
+LtR/Platform	33942	PE	306	306	requirements other IDecoratorManager this for Javadoc then  update mention The call the javadoc SWTException form get restriction threading state updated 
+LtR/Platform	46562	STN	11	11	cvs Reference Full the mode Signal runnable from Client prio modal 
+LtR/Platform	48382	NL	-1		which attempting stack before problematic another this for deadlock while both the The running automated trace tests releasing due are marker join ILock 
+LtR/Platform	54450	PE	-1		seemed work observation this Only requestInUI the call that dialog what and getWorkbench from join job info Another 
+LtR/Platform	59782	STP	50	50,160,627,4092,4148	All Types ImplicitJobs Reference Dispatcher Full the runnable Caching came perspective YJP 
+LtR/Platform	67053	PE	3	3	nature false about IOException talking something both the failure trying Current case  lock Location 
+LtR/Platform	74185	PE	1	1	all test preventing within before this for UIJobTest main while concurrency the The altogether dual and failure booleans until join assertions job potential 
+LtR/Platform	76378	PE	97	97,359	otherwise allows held NotifyJob timing sometimes multiple locks nested UIThread patch the that notification JUnit background and interaction seems operation 
+LtR/Platform	84141	PE	3	3,66,106,968,1203,2435,2438,3390,3538,3788	Currently sometimes this rule decorations while instead locks remove the running DecoratorScheduler are and scheduling lock DecorationScheduler 
+LtR/Platform	108162	PE	64	64,514	new some using line for Resource resources deadlock our participant the The refactoring MoveFilesAndFoldersOperation Move managed  the active shell  following from plug class 
+LtR/Platform	113582	STN	606	606	Reference jobs during Full the runnable marker Worker well 
+LtR/Platform	114527	PE	26	26	condition startup leads Race intermittent Workbench crashes 
+LtR/Platform	114813	PE	163	163	registry called going added will before listener for simple getBundle the The that JUnit and Incorrect failure synchronization from events those 
+LtR/Platform	118414	STP	312	312	EventManager Reference Dispatcher Full each WorkingSetManager mode runnable startup State Client 
+LtR/Platform	136855	PE	985	985,4481	COM STA using Secondary dll objects deadlock Windows the The calls versions IBM and block 
+LtR/Platform	164361	PE	1	1	handler Task beginTask before for when dialog and get This one this isVisible check label message the with condition task name job user 
+LtR/Platform	168806	PE	14	14	new n t ensureWorkerThreadIsRunning does start 
+LtR/Platform	171452	NL	4	4	handler couple using will appears deadlock got syncExec the Deadlock that trace causing startup Splash from deadlocks 
+LtR/Platform	230472	NL	40	40	Activities synchronized internal n t reloaded list when enabled controlled the with correctly Expression are and persisted 
+LtR/Platform	248908	PE	6	6	dirty editor synchronized Form for false when the More setBusy calling true BusyIndicator locked PROP_DIRTY events 
+LtR/Platform	258352	PE	11	11,69	too ProgressManager synchronization expensive 
+LtR/Platform	262032	PE	6	6	may create deadlock DeadlockDetector 
+LtR/Platform	273752	PE	229	229	which fired test Platform probably PACKAGES_REFRESHED getSourceOfContribution deadlock testEditorClosure syncExec The the that suite getType event 
+LtR/Platform	296056	PE	1	1,21	perform rule deadlock beginRuleThe syncExec The the Deadlock that and following now scheduling owns begin between case attempts since 
+LtR/Platform	296822	PE	3	3,6,9	doing other isCanceled called methods usage for two The these that and than setCanceled which work expected one monitor volatile the field cancelled progress 
+LtR/Platform	302536	PE	1	1	double locking checked MarkerSupportRegistry Broken 
+LtR/Platform	306738	PE	-1		item change defining type tool radio the MToolBar with selection state written items ToolItem quitting 
+LtR/Platform	307405	PE	17	17,59	which stack NULL waiting one this NavigatorContentServiceContentProvider their deadlock our when users the Deadlock and Event starting Framework
+LtR/Platform	312063	PE	-1		ListenerList HashSetHashSets guarantee instead SelectionServiceImpl are and does safe event order 
+LtR/SWT	176792	PE	1	1	synchronized static added multithreaded more argCounts constructor with Callbacks ObjectMap and ComObject block fields
+LtR/SWT	183830	PE	3	3	Xlib unexpected debugger OpenGL deadlocked main deadlock program our int pause the async that and under reply GLX glXMakeCurrent 
+LtR/SWT	188320	PE	1255	1255	argument this least inner look continueEventDispatching the The sleep null readAndDispatch does and block event 
+LtR/SWT	264399	NL	44	44	SWT automated Linux testing deadlock during occurs GTK 
+LtR/SWT	338965	NL	-1		Hang Deadlock 

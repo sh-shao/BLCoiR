@@ -1,0 +1,694 @@
+project	bug_id	category	first_rank	gold_ranks	query
+BLIZZARD/ecf	125572	PE	1	1	thread client line run timesyncinitiator app syncsoclientcontainer clientsocontainer killconnection lock interlock provider id initsyncservice closesyncservice sendtimesyncmessage timesynctask isconnected ecf problem iconnectcontext wait socontainer iconnection time mutex version suspend server
+BLIZZARD/ecf	223484	PE	1	1,20,59,213,477	thread running docshare urlshare viewshare consoleshare screencaptureshare ichannelcontaineradapter dispatcher run server jmdns socketlistener manager level time file worker start xmpp repeat state data framework event bundle daemon discovery timer discoonect information
+BLIZZARD/ecf	229237	PE	3	3	retrieveservices multirosterview addcontainer asyncexec view container call mrv syncexec xmppconnectwizard performfinish openview showview block setuptreeviewer provider execute display account view_id connection list deadlock time effect remy fix ipresenceservice ipresenceservices xmpp ui existence
+BLIZZARD/ecf	232530	STP	1	1,2,8	exception idlethread chatsession read session problem ecf behavior method whitespace death message subclass
+BLIZZARD/ecf	265413	PE	1	1	jmdnsdiscoverycontainer jmdns object call issue lock thread
+BLIZZARD/ecf	265415	PE	1	1,2	jmdnsimpl unregisterservice serviceinfo lock object canceler synchronization jmdns
+BLIZZARD/ecf	267035	STP	1	1	tostring replicasharedobjectdescription synchronize information
+BLIZZARD/ecf	273357	PE	1	1,3,8,19,31,198,1194,1397	channelid thread sendmessage newchannelconfig createchannel createniochannel ichannellistener isopen socket sendrequest id invocation ichannelcontaineradapter store cycle api implementation ichannelconfig operation handshake problem work socketchannel file ichannelmessageevents connection property counterpart sense room improvement javadoc
+BLIZZARD/ecf	273819	NL	2	2,144,211	start thread bug wizard container user dialog containers time
+BLIZZARD/ecf	299849	PE	8	8	xmppcontainer getlocalcontainerid remoteserverid disconnect registrysharedobject npe id handleaddregistration xmppremoteserviceadapterfactory thread connection message method xmppregistrysharedobject container situation code packet
+BLIZZARD/ecf	321468	PE	3	3	dispatch registrysharedobject iremoteservicelistener fireremoteservicelisteners deadlock service listener event synchronous result listenerqueue code call asynchronously fix
+BLIZZARD/ecf	321469	PE	11	11,221	threadgroup discoveredservicetracker listenerqueue distribution bundle thread cleanup
+BLIZZARD/ecf	323208	STN	22	22	limit exception attachment provider service workspace jmdn host detail distribution startup time sec eclipse ecf problem machine zookeeper consumer testcase
+BLIZZARD/ecf	326949	PE	1	1,2,3,4,5,8,9,13	getremoteservicereferences invalidsyntaxexception idfilter iremoteservicereference containerconnectexception api target iremoteservicecontaineradapter string id clazz filter method service container adapter synchronous
+BLIZZARD/ecf	337973	STP	1	1	readkeeper readroot process zookeepers watchedevent removezookeeper bug java syncconnected method watchmanager condition list exception build identifier code moment service race reason probability error idea state zoodiscovery synchronize thread undiscovery severity major effect
+BLIZZARD/ecf	341818	PE	301	301	code provider time resource error r_osgi thread consumer loop system execute sample rs
+BLIZZARD/ecf	348487	STN	12	12	thread shutdown hotspot lock wait vm idleconnectiontimeoutthread simplefifoqueue dump process referencequeue reference time java tid prio eclipse nid bundle start shoul server mode tm jmdns discovery daemon periodic task condition
+BLIZZARD/ecf	432662	STP	5	5,381	ecfruntimeexception activator getlogservice httpclient cause printstacktrace problem exception period branch application multi-threaded method synchronize scheme startup master thread modifier bug
+BLIZZARD/eclipse.jdt.core	29585	STN	4	4,13,66	exception lock tree resource container java model core code modification
+BLIZZARD/eclipse.jdt.core	58314	STN	1	1,4,7,8,9,10,11,12,13,14,15,16,17,20,22,23,24,26,28,29,30,31,32,33,34,35,36,37,38,39,40,42,47,48,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,68,69,72,77,80,292	thread exception managment ast console cursor reader
+BLIZZARD/eclipse.jdt.core	291322	NL	417	417	test issue lock windows core exception call file pattern time jdt tear error
+BLIZZARD/eclipse.jdt.core	327143	PE	1	1	job call thread loop simulateexit simulaterestart manager number indexmanager file touch jar index processing wait await consequence
+BLIZZARD/eclipse.jdt.core	421473	PE	1	1,3,23,214,405,486,1451	getannotations localvariablebinding annotation declaringscope type scope assignment condition block binding handle effect race patch holder argument array method client lvb creation setting side solution local parameter code source java
+BLIZZARD/eclipse.jdt.core	431275	STP	7	7	deadlock javamodelmanager deltaprocessor addpackagefragmentroot perprojectinfo deltaprocessingstate product start monitor code addtoparentinfo stack patch bugzilla http thread name trace lock master run path stream version call method blocked wait java mode adopter ibm
+BLIZZARD/eclipse.jdt.core	464570	STP	88	88,99	codestream novisiblelocals init showing arrayindexoutofboundsexception conflict condition jar field use source file aioobe bytecode race jdt multi-thread java method stack make jsp fix
+BLIZZARD/eclipse.jdt.debug	7392	NL	46	46	exception suspend thread code frame startup state synch stack model jdithread
+BLIZZARD/eclipse.jdt.debug	8683	STP	1	1	thread step frame signaldispatcher vm suspend npe code stack hit system
+BLIZZARD/eclipse.jdt.debug	12695	NL	3	3,91,120	breakpoint set adapter thread event java list user top debug order suspend spot
+BLIZZARD/eclipse.jdt.debug	16930	NL	35	35	invalidthreadstateexception tostring suspend thread message area error state step eval breakpoint user evaluation
+BLIZZARD/eclipse.jdt.debug	21801	PE	2	2,12	group datum command client java implementation threadgroupreference library name parent number api jdi base jdwp time thread
+BLIZZARD/eclipse.jdt.debug	22005	PE	25	25,54,1282	display asynchexec synchexec performance ui thread call runnable review eclipse code
+BLIZZARD/eclipse.jdt.debug	24579	PE	29	29	modalcontext development eclipse org thread bug checkout control lock box block syncexec resources perspective wait project java workspace build step fork check problem ui note core cvs deadlock preferences plugin path
+BLIZZARD/eclipse.jdt.debug	33297	PE	1	1	error manager tostring evaluationlistener resolveformatter evaluationcomplete place user detail formatter evaluation thread suspend
+BLIZZARD/eclipse.jdt.debug	33712	STP	2	2	lock step javadebugoptionsmanager tree project comment resource modification log java bug method
+BLIZZARD/eclipse.jdt.debug	43197	PE	2	2,4,8,55,510,524,546	iconsolelinetracker call tracker event terminate method dispose term process race line lineappended message wait thread logic code termination worker condition debug listener console job launch time plugin care action mirror init
+BLIZZARD/eclipse.jdt.debug	52474	NL	30	30,100	perspective module start number work block lock eclipse repository ui cvs dialog pattern scenario workbench workspace fact checkout platform project java note point
+BLIZZARD/eclipse.jdt.debug	57467	NL	1	1,2	frame method currmethod equals lastmethod test computestackframes flastmethod issue condition exception index attempt tos jdithread time label thread info race transisent requestor debug ui background logic fix stack
+BLIZZARD/eclipse.jdt.debug	64951	NL	2	2,3	tostring thread variable shot label breakpoint frame loop condition screen line detail stack debugging suspend ibm
+BLIZZARD/eclipse.jdt.debug	65107	STN	246	246,315	classcastexception async thread debugview exception time stack frame code bug note watch processing queue
+BLIZZARD/eclipse.jdt.debug	65149	STP	2	2	javadebugoptionsmanager initializeproblemhandling exception date cvs log project resource
+BLIZZARD/eclipse.jdt.debug	66413	STN	9	9,27,41	condition time perspective problem exception workspace terminate state mode dialog startup error change java shutdown target thread re-launch log bp runtime
+BLIZZARD/eclipse.jdt.debug	78534	STP	1	1	concurrentmodificationexception threadmonitormanager hashmap clone exception test
+BLIZZARD/eclipse.jdt.debug	88923	PE	11	11,12	expression evaluation ievaluationengine thread method asynchronously processing ui evaluate
+BLIZZARD/eclipse.jdt.debug	101118	STN	38	38	exception async thread code multithreaded application problem version eclipse queue source processing sdk
+BLIZZARD/eclipse.jdt.debug	125868	STN	94	94	session launch start exception access head eclipse thread jdt debug
+BLIZZARD/eclipse.jdt.debug	148006	STP	38	38	hotspot lock start consoledocument information deadlock vm execution thread wait java project autobuild dump level plug worker client mode build ant monitor object stack tm
+BLIZZARD/eclipse.jdt.debug	161781	PE	2	2,16	status suspend eclipse suspend_status_suspended threadreference thread vm query resume waitfordebugger state call message socket connection suspendcount concept debugger count wait function idea jdwp port debug running time book order condition
+BLIZZARD/eclipse.jdt.debug	165174	NL	15	15	monitor code view selection block screenshot sync show launch
+BLIZZARD/eclipse.jdt.debug	169542	NL	13	13	threadgroup group thread view jvm build id workaround code start program mode debug variable bug parent hierarchy research opinion information
+BLIZZARD/eclipse.jdt.debug	178912	STN	1	1	vm createvminstall type abstractvminstalltype ivminstalltype api condition block method thread setinstalllocation vmlocation setname vmname vmid fvms synchronize list getter member variable object access safety problem implementation impl runtime everyone instance race call
+BLIZZARD/eclipse.jdt.debug	182237	STN	7	7,49	exception variable java thread access
+BLIZZARD/eclipse.jdt.debug	187000	NL	2	2,111,284	step worker press window suspend stack tree focus selection thread java time wait stick machine co enviroment problem release start mouse debugger stacktrace information
+BLIZZARD/eclipse.jdt.debug	229394	STN	179	179	jface view editor array npe code program value cell error type condition location thread entry problem breakpoint step plug race java check time debugging variable var
+BLIZZARD/eclipse.jdt.debug	312038	STP	2	2	lock context manifest mf time haschildren treeviewer isexpandable ui directory file isfile process thread result stat lockup automounter automount start tree issue backtrace example strace src.zip/src.jar nfs hang jrecontainer jdt source eclipse
+BLIZZARD/eclipse.jdt.debug	343039	NL	-1		session race use option monitor person debugger time jdt deadlock debugging ability thread du
+BLIZZARD/eclipse.jdt.debug	446040	STP	1	1	runtimeclasspathviewer preferencechange access thread
+BLIZZARD/eclipse.jdt.debug	506865	PE	1	1	abstractvminstalltype createvminstall vm block race condition existence creation synchronize id
+BLIZZARD/eclipse.jdt.ui	12996	NL	5	5,186	file editor error jar build export multipage access example creation eclipse workspace finish thread project type mpe
+BLIZZARD/eclipse.jdt.ui	29531	STP	-1		javacolormanager refactoring press preview thread cu editor move workspace
+BLIZZARD/eclipse.jdt.ui	75843	PE	108	108	display jdidebugmodel createmethodentrybreakpoint component iresourcechangeevent thread deadlock breakpoint workbenchcontentprovider resourcechanged process syncexec ui team solution chain execute rest folk situation creation snapshot processing freeze point reaction issue jdt method entry delay information
+BLIZZARD/eclipse.jdt.ui	79793	PE	1	1	javaworkingsetupdater deadlock
+BLIZZARD/eclipse.jdt.ui	103450	NL	2	2,101	fix statement synchronize block quick option
+BLIZZARD/eclipse.jdt.ui	125013	STP	1	1	wait preferencesadapter firepropertychangeevent call deadlock syncexec preferenceforwarder javamodelmanager thread trace result lock reconciler
+BLIZZARD/eclipse.jdt.ui	179109	NL	7	7,93,145,339,833	ast time dump editor type stack wait finish concurrently thread
+BLIZZARD/eclipse.jdt.ui	261198	PE	169	169	txt javasynchronizationcontentprovider synchronize change problem model structure view project java node eclipse team repository
+BLIZZARD/eclipse.jdt.ui	272742	STP	1	1	imagesonfilesystemregistry getnewfile thread time exception imageloader fimagecount view save bug problem javadoc editor type step concurrently
+BLIZZARD/eclipse.jdt.ui	291996	STP	364	364	error access javamergeviewer method source dialog thread shell compilation
+BLIZZARD/eclipse.jdt.ui	296794	PE	1	1,2,89,2128	thread change access documentchange swtexception point position eclipse refactoring document code
+BLIZZARD/eclipse.jdt.ui	297709	NL	96	96	synchronize item composite behavior tree opening change editor link result action jdt file java wizard autocomplete swt control error option moment resource
+BLIZZARD/eclipse.jdt.ui	300536	STN	363	363	fix access error state thread code
+BLIZZARD/eclipse.jdt.ui	301242	PE	460	460	searchpattern workbench lock editor undo attachment press validatematchrule beginning action detail stacktrace test ctrl space line save format ui dialog java user
+BLIZZARD/eclipse.jdt.ui	319689	STP	1	1,111	problemmarkermanager access thread
+BLIZZARD/eclipse.jdt.ui	336841	NL	3	3,353	file explorer view show java classpath synchronize
+BLIZZARD/eclipse.jdt.ui	347599	PE	1	1,2,3,8,11,13,14,23,34,83,1377,1631,1881,2148	refactoring release call method checkfinalconditions dispose error performrefactoringhistoryoperation checkinitialconditions createchange patch lock cycle refactoringhistorywizard uncertainty solution possibility none place object check conditions index end life eclipse situation scope problem rafactoring time cdt
+BLIZZARD/eclipse.jdt.ui	411636	NL	337	337	trace file explorer hang link cycle workspace action save project delay thread editor burn indigo stack java ui
+BLIZZARD/eclipse.jdt.ui	411841	STP	1	1,51	launch test build thread trace result rerun freeze debuguitools view bug config process menu junit sample stack patch context eclipse project ui
+BLIZZARD/eclipse.jdt.ui	417765	STP	2	2	access imagedescriptorregistry hookdisplay workspace bndtools project newjavaprojectwizardpagetwo eclipse kepler stack trace perspective osgi key swt thread invalid problem workaround brand
+BLIZZARD/eclipse.pde.ui	149900	NL	151	151,255,259,349,448	lock plugin ton responsiveness process ui time pde girl dep
+BLIZZARD/eclipse.pde.ui	158326	STN	14	14	build properties checkboxtreeviewer lock block flash ui cursor runnablelock beween trace child plug
+BLIZZARD/eclipse.pde.ui	186963	STN	95	95	exsd subsystemconfiguration releng tools subsystemconfigurations editor concurrentmodificationexception synchronize diff dialog perspective sdk pde addition background workspace eclipse schema ctrl shift type question cdt emf file
+BLIZZARD/eclipse.pde.ui	281923	PE	1	1	testapplication run application workbench parameter test check id thread mode nonuithreadtestapplication coretestapplication platform line plug ide set box build ga target command junit exception ui headless sense information
+BLIZZARD/eclipse.pde.ui	291528	NL	2	2,9,17,213,427,1199	build error properties synchronize setting compiler support ability file warning project level batch jdt pde bug
+BLIZZARD/tomcat70	39769	PE	2	2	servlet unload destroy thread standardcontext problem classloader standardwrapper standardcalssloader myservlet getloader directory currentthread webapp getclass code app getcontextclassloader webapploader getclassloader variable david gagnon loader execute application method window web instance understanding
+BLIZZARD/tomcat70	40380	PE	2	2	expire standardsession problem syncro notify
+BLIZZARD/tomcat70	42530	STP	1	1	session managerbase processexpires backgroundprocess nullpointerexception findsession acquire findsessions invalidate execute add operation hashmap concurrenthashmap line method manner synchronize lock string tomcat servlets time result testservletf
+BLIZZARD/tomcat70	45453	STP	1	1	jdbcrealm hang getroles executequery stmt synchronization preparedstatement preparedroles thread setstring wait block driver username response digestauthenticator authentication object cache jdbc server digest db
+BLIZZARD/tomcat70	47158	PE	1	1	accesslogvalve locking condition issue usage problem race pattern judging article
+BLIZZARD/tomcat70	47524	PE	6	6,11,25	receiverbase mcastserviceimpl dispatch bug branch executor procedure proposal issue queue bugzilla trunk thread code event ariel
+BLIZZARD/tomcat70	48172	PE	1	1	jspruntimecontext jspreloadcount value atomicinteger getjspreloadcount volatile synch constructor javadoc instance thread getter field codesource problem synchronize
+BLIZZARD/tomcat70	48234	PE	1	1	containerbase logger getlogger logname access method javadoc unsynch consideration synch thread subclass parent
+BLIZZARD/tomcat70	48248	PE	1	1,11,12,20	run messagedispatchinterceptor volatile thread
+BLIZZARD/tomcat70	48249	PE	1	1	run blockpoller nioblockingselector volatile thread
+BLIZZARD/tomcat70	48399	PE	1	1,46	deltasession difflock field lock patch
+BLIZZARD/tomcat70	48790	PE	1	1,213	managerbase maxactive race condition java problem block snip manner execute statement fix synchronize detector field atomic tomcat code datum
+BLIZZARD/tomcat70	48843	PE	2	2	getworkerthread worker thread request condition execute jioendpoint java maxthreads recycleworkerthread curthreadsbusy await wait instance sequence block createworkerthread processsocket database code statement list section archive port workerthread tomcat scope method loop race event
+BLIZZARD/tomcat70	48895	PE	2	2,16,19	thread leak webappclassloader threadlocals threadlocalmap threadlocal clearreferencesthreadlocals remove instance problem clearthreadlocalmap issue state expungestaleentries load protection application task barrier concurrency structure clearing method detection memory request pool synchronization production worker webapp idea
+BLIZZARD/tomcat70	49129	PE	32	32	digestauthenticator field volatile initialization compiler object initialisation findbugs method problem thread processor instruction unsynchronized non-volatile
+BLIZZARD/tomcat70	49144	PE	1	1	bootstrap daemon contextconfig contextdigester field initialization method update bug thread findbugs object setting multithreading unsynchronized location value
+BLIZZARD/tomcat70	49567	NL	1	1,9,74,181,186	startasync start error amount bug doposts thread status code testcase exception tomcat server time async
+BLIZZARD/tomcat70	49730	PE	3	3,4	thread standardthreadexecutor page taskqueue issue resource connection minsparethreads call request parent getactivecount offer keepalivetimeout start keepalive browser safari poolsize task threadpoolexecutor pool leak getpoolsize java execute keep time wait source timeout condition
+BLIZZARD/tomcat70	49905	STP	10	10,570	threadfactory deltamanager start thread leak standardcontext webappclassloader contextclassloader threadpoolexecutor method application bindthreads creation tomcat newthread setcontextclassloader classloader session instance redeployment message tribe memory apache jdk webapplication solution override context node web creditdev
+BLIZZARD/tomcat70	49985	PE	1	1,2,3	astinteger getinteger astfloatingpoint aststring synchronization race getfloatingpoint getstring concurrent line write initialization datum init method lazy number
+BLIZZARD/tomcat70	49987	PE	1	1,20	result concurrent applicationcontext race concurrenthashmap map parameter datum read write mergeparameters method
+BLIZZARD/tomcat70	50138	STP	42	42	objectcache hashmap securityutil access thread synchronize map spin concurrenthashmap solution javadoc lack symptom synchronization implementation processor hash change concurrently
+BLIZZARD/tomcat70	50293	PE	4	4	compositeelresolver add change synchronization issue synchronize
+BLIZZARD/tomcat70	50352	PE	1	1,8	feature asynclistener oncomplete asynccontext complete async thread servlet method
+BLIZZARD/tomcat70	50353	PE	4	4	asynccontext getresponse timeout thread servlet spec example npe async behavior reference illegalstateexception
+BLIZZARD/tomcat70	50459	PE	3	3	standardcontext bindthread unbindthread thread
+BLIZZARD/tomcat70	50547	PE	1	1	message change_session_id session_expired deltamanager session startup patch synchronization timestamp cluster
+BLIZZARD/tomcat70	50554	PE	1	1	getclass javaurlcontextfactory getinitialcontext bug pattern plugin code lock block program subclass instance object use future concurrency java keshmesh eclipse source synchronize method hashtable behavior
+BLIZZARD/tomcat70	50629	NL	1	1	bindthread start unbindthread method work loadonstartup code container tomcat thread listener filter initialization
+BLIZZARD/tomcat70	51185	PE	1	1	createpool synchronize impact concern jdbc pool datasourceproxy synchronisation method component enhancement tomcat code getter grained synchro creation performance philippe
+BLIZZARD/tomcat70	51197	PE	6	6,31	senderror sendredirect asynccontext
+BLIZZARD/tomcat70	51212	NL	1	1	querystats atomic field failure approach slowqueryreport issue execute result test reason query number execution synchronize add load performance patch thread time synchornization use
+BLIZZARD/tomcat70	51467	PE	83	83	thread run method join wait mistake start standardcontext usage line completion
+BLIZZARD/tomcat70	51545	PE	4	4	extendedaccesslogvalve attachment threadname user mailinglist detail tomcat request thread
+BLIZZARD/tomcat70	51688	PE	1	1	jrememoryleakpreventionlistener toolkit getdefaulttoolkit thread webapp creation awt windows contextclassloader addition xawt condition memory undeploy
+BLIZZARD/tomcat70	52055	PE	1	1,2,4,55	chunkedinputfilter request code post endchunk inputstream flag nextrequest abstractinputbuffer server side buffer http chunking debugging servlet asynchronous result
+BLIZZARD/tomcat70	52091	PE	1	1,4	taghandlerpool standardwrapper lock resolve test application field change getinitparameter block issue policy reentrantreadwritelock following log instance environment patch stress web profiler synchronize parameter concurrently
+BLIZZARD/tomcat70	52213	PE	5	5	fastqueue enabled code volatile pattern plugin flag access program keshmesh concurrency bug field java eclipse source thread concurrently synchronize
+BLIZZARD/tomcat70	52259	NL	11	11,69	file shutdown sh issue tomcat request wait script configuration application directory build info freeze startup process error log http port host web synchonization lock realm lib setup jar problem nuance
+BLIZZARD/tomcat70	52356	PE	1	1	fastqueue remove size getsize channelmessage add interceptorpayload race synchronize condition access field bug developer tomcat datum member
+BLIZZARD/tomcat70	52777	PE	1	1,17,22	version deployment parallel
+BLIZZARD/tomcat70	52999	PE	3	3	firecontainerevent copy readwritelock context containerbase array request list standardsession loop getapplicationeventlisteners code issue problem access session map listener locking operation attribute place candidate container put tomcat helper enhancement dev event write performance
+BLIZZARD/tomcat70	53173	STP	1	1,2,3,6,12,620	maxconnections hang jioendpoint rejectedexecutionexception fix configuration thread connector place handling scenario workaround patch usage nio jio acceptor administrator error use test edge connection system setting
+BLIZZARD/tomcat70	53450	STP	8	8	containerbase java removecontainerlistener accessloglistener standardengine reentrantreadwritelock nonfairsync uninstall deployment context firecontainerevent application lock acquire parking wait call root hang write
+BLIZZARD/tomcat70	53498	PE	32	32,125	concurrenthashmap tomcatattributes execute concurrent misusage violation bug thread code atomicity java/org/apache/catalina/core/applicationcontext.java collection contextname dose research java hashmap line file snapshot performance mining patch library tomcat java/org/apache/catalina/ha/context/replicatedcontext.java name java/org/apache/catalina/startup/hostconfig.java
+BLIZZARD/tomcat70	53624	PE	28	28	dispatch page redirecta webappinitializer setupredirectscenario issue forwardingasyncservlet servlet servletcontext redirectc thread sendredirect asynccontext scenario call servletc dispatchingasyncservlet rendering output code repro forward source build detail redirectb application line jsp project tomcat log
+BLIZZARD/tomcat70	53843	PE	1	1,2	dispatch isasyncstarted start thread call request asynccontext processing dispatchertype value container async operation period spec application
+BLIZZARD/tomcat70	54045	PE	1	1	tcpfailuredetector channel membership performbasiccheck getmembers node memberalive getmember call issue check send_options_use_ack send_options_default abstractreplicatedmap replicatedmap heartbeat method performforcedcheck configuration code tomcat map value fix member side memberimpl hasmembers thread tcppinginterceptor checkmembers effect
+BLIZZARD/tomcat70	54086	STP	1	1,71	concurrentmodificationexception nioreceiver use set method iterator selector replication thread issue code exception receiver key selectionkey javadoc briefly synchronize shutdown log cluster session node text access concurrent clustering remove
+BLIZZARD/tomcat70	54521	PE	1	1,4	request nonceinfo length noncecountvalid client digestauthenticator overwrite generatenonce instance noncecount nonce authentication header cache method datum index thread digest key millisecond array multithreaded multi-threaded map asynchronous nc component scenario problem count conclusion
+BLIZZARD/tomcat70	55267	NL	27	27,141	stick thread test user dump load nio lock
+BLIZZARD/tomcat70	55309	PE	1	1	tagpluginmanager pageinfo servletcontext page issue concurrent patch
+BLIZZARD/tomcat70	55521	PE	2	2,27	session invalidate sessionfixationprotectionstrategy condition httpservletrequest file httpsession request thread change message getsession parallel call java exec race flow fixation attack command protection security state issue code core log user id week spring
+BLIZZARD/tomcat70	55524	STP	4	4	wsoutbound asyncop deadlock lock thread information websocket atmosphere dump write atmosphereresourceimpl operation issue scheduler framework java level tomcat application wait monitor object shared stack deadlocked
+BLIZZARD/tomcat70	55582	PE	1	1	rctxt jspservletwrapper jspruntimecontext getwrapper ctxt getruntimecontext wrapper issue wrapperuri jsp tagfileprocessor line code runtimecontext instance concurrent scenario thread unsynchronized synchronize
+BLIZZARD/tomcat70	55684	PE	1	1	threadgroup securityexception webappclassloader getthread access thread start tomcat method permission order root parent
+BLIZZARD/tomcat70	55799	STP	47	47,448	send remoteendpoint websocket basic sendtext xhtml chatannotation call problem time synchronize chat connection illegalstateexception getbasicremote example thread javadoc tomcat issue method ioexception session connector closedchannelexceptions message attempt action browser concurrently corruption reply
+BLIZZARD/tomcat70	55996	STN	56	56	client illegalstateexception processing request run problemservlet asynccontext timeout loop variant async servlet exception connector tomcat message stream method java implementation issue http codebase release context based start connection server thread nio apache
+BLIZZARD/tomcat70	56042	STP	10	10,38	startasync response request illegalstateexception asynccontext setstatus httpservletresponse sc_bad_request trace issue error thread spec must_dispatch asynccomplete dispatch state stack scenario servlet async jetty reason
+BLIZZARD/tomcat70	56082	PE	1	1,2	getloggernames logmanager logger getlogger classloaderlogmanager concurrentmodificationexception tomcat getlogmanager result copy webapp concurrentmodification download output test issue thread string system target run mvn source war instance start jdk maven
+BLIZZARD/tomcat70	56518	PE	1	1,6,11,23,40,45,60,85,137,143,160,193,346,475,880,914	call maxconnections niochannel closedbyinterruptexception resp flushbuffer server xml thread webapp req startasync root war connector abstractendpoint countdownconnection logic limit config nioendpoint processsocket selectionkey code tomcat client bug hang limitlatch countdown ctx complete
+BLIZZARD/tomcat70	56577	STP	11	11	sendhandler send timeoutexception wsservercontainer corepoolsize value thread remote maximumpoolsize parameter method sendasync executor service message issue context effect client session queue state
+BLIZZARD/tomcat70	56653	PE	1	1,6	contextlist mapper context removecontextversion contexts nesting code removecontext issue foo field map request tomcat problem webapp test bar application list root delay behaviour trunk concurrency example
+BLIZZARD/tomcat70	56724	NL	1	1	thread start containerbackgroundprocessor outofmemoryerror onoutofmemoryerror error backgroundprocess flag restart issue list stackoverflowerror script strategy oome death xx stack mailing time jmx tomcat admin effect log delay jvm container background
+BLIZZARD/tomcat70	56746	PE	1	1	thread method loader resource secureiothreadfactory asyncchannelwrappersecure client websocket context webapp webssocket
+BLIZZARD/tomcat70	56857	STP	1	1	hashmap thread applicationcontextfacade issue concurrenthashmap invokemethod singleton access hang servletcontext remedy member change non-threadsafe objectcache safety status cpu indicator dump synchronization map object webapp synchronize stack
+BLIZZARD/tomcat70	56907	PE	2	2	connection wswebsocketcontainer thread executors newfixedthreadpool error asyncchannelwrappersecure executorservice secureiothreadfactory websocket attempt implementation clientendpointconfiguration endpoint issue source url program executor application time leak version creation method page situation jvisualvm leakage path result
+BLIZZARD/tomcat70	57265	STN	4	4,254	usesendfile problem start hiden connector server rate nginx output condition occurre tomcat nio occurrence script file homepage code race
+BLIZZARD/tomcat70	57338	PE	1	1,2,6,155,171	synchronize node cache state list discussion valve clustersinglesignon singlesignonentry startup sync action sign mailing tomcat session moment cluster start
+BLIZZARD/tomcat70	57340	PE	2	2	close poller niochannel thread nioconnector actioncode comet_close java cache nioendpoint corrupt read abstractprotocol socketchannel connection channel process attachmentkey selectionkey atmosphere reference nginx code tomcat fork comet concurrent response object stuff closing request
+BLIZZARD/tomcat70	57420	STP	1	1	url_encoder dircontexturlconnection name
+BLIZZARD/tomcat70	57681	NL	418	418	loading implementation port file loader parallel object synchronize tomcat source patch classloading tc web application
+BLIZZARD/tomcat70	57683	STN	31	31	async example log thread tomcat crash issue stockticker esc request indicator bug wait key page counter response exception console status connection behaviour handling file regression ise webapp progress browser keyboard jdk start
+BLIZZARD/tomcat70	57779	STP	46	46	servletoutputstream thread lock abstractqueuedsynchronizer conditionobject code block object operation wait error write deadlock socketwrapper version client connection end output servlet synchronize source socket tomcat parking issue io example
+BLIZZARD/tomcat70	57943	STP	3	3	thread nioendpoint tomcat log exception error connection request poller
+BLIZZARD/tomcat70	57959	PE	1	1	filehandler java lock deadlock condition release acquire race tomcat code issue log file apache order org juli write comment
+BLIZZARD/tomcat70	57977	PE	1	1	persistentvalve invoke loader thread bind method patch trunk request response webapp
+BLIZZARD/tomcat70	58179	PE	2	2	execute violation line university fellow snippet guangdong java/org/apache/catalina/core/applicationcontext.java beforecontextattributeadded oldvalue beforecontextattributereplaced event name key fire problem file atomicity bug national singapore research code bai thread value situation attribute
+BLIZZARD/tomcat70	58522	PE	1	1	entry wardircontext servletcontext getresourcepaths centos arrays java children problem file list call child trace corrupt project corruption code tomcat request jasperexception directory error array jsp method zip resource stack flow compliation test
+BLIZZARD/tomcat70	58946	STP	4	4	jsp map javadoc application servletrequest getparametermap applicationhttprequest parametermap review list start issue request example tomcat dev response site message thread immutability behaviour oracle code user root web problem
+BLIZZARD/tomcat70	59138	PE	-1		threadlocal warning reference leak library message subclass checkthreadlocalmapforleaks positive threadlocalmap application key issue loader use output comment basis thread configuration name code value example bug compromise integer list time web instance heuristic
+Bench4BL/Apache/CAMEL	140	PE	1	1	xsltbuilder instance result resulthandler variable transformation reset time
+Bench4BL/Apache/CAMEL	510	PE	-1		condition patch multicastaggregatortest inaggregator failure copy test method exchange aggregator output race
+Bench4BL/Apache/CAMEL	574	NL	7	7	broker processing excecutor improvement example thread loan parallel performance mulitcast code camel
+Bench4BL/Apache/CAMEL	715	STP	527	527	threadprocessor concurrentmodificationexception routing system multicore
+Bench4BL/Apache/CAMEL	803	PE	9	9,1183	validatingprocessor process errorhandler error execute information method concurrently thread
+Bench4BL/Apache/CAMEL	1199	NL	4	4	throttler thread
+Bench4BL/Apache/CAMEL	1270	PE	29	29	main hang countdown camel mainsupport thread start run bee ctrl
+Bench4BL/Apache/CAMEL	1401	PE	1	1,3,1256	instance jaxbdataformat classcastexception saxexception implementation exception synchronization method thread marshaller unmarshaller getter jaxb custom request time jaxbcontext
+Bench4BL/Apache/CAMEL	1510	PE	1	1,34,61	interrupt exchange queue batchprocessor result thread loop sender middle connection list effect testing method processing sample exception enqueueexchange control processor queuing access consequence jms sleep analysis activity batch addition concurrency asynchronous ssl
+Bench4BL/Apache/CAMEL	1565	STN	6	6,176	schemafactory exception validation endpoint thread schema fix flow start initialization xsd camel time request
+Bench4BL/Apache/CAMEL	1583	NL	62	62	component context release thread connection jndi server application ldap instantiation share time camel request addition object directory socket
+Bench4BL/Apache/CAMEL	1604	NL	17	17,33,189,193,250,383,444,867,1299,2201	processor unitofwork synchronization callback nabble custom dsl
+Bench4BL/Apache/CAMEL	1641	PE	1	1,4,5,22,57,116,412,507,606,1436,2248,3535	component ftp nabble producer camel discussion consumer http ftpclient instance
+Bench4BL/Apache/CAMEL	1650	PE	3	3,5,7,119,122,174,178,188,1016,1472,1503,1566	idempotentconsumer repository check idempotentconsumertest memoryidempotentrepository version id mechanism condition database problem messageidrepository issue implementation locking race thread parallel insert solution test instance message time code environment
+Bench4BL/Apache/CAMEL	1670	PE	2	2,3,25,29,77,88,89,94,110,112,1299,2284,4366,5235,5251,13790	overlappingfilelockexception route file call lock error start directory multithreaded thread component source
+Bench4BL/Apache/CAMEL	1795	PE	3	3	message defaultmessagelistenercontainer messagejmsconfiguratiuon jm thread listener camel maxmessagespertask
+Bench4BL/Apache/CAMEL	1930	PE	1	1,53	xpathexpression threadlocal contention synchronize evaluation routing synchronization object consumer xpathbuilder expression specification message xml choice concurrent access xpath jms camel jm cheer fabrice
+Bench4BL/Apache/CAMEL	1966	PE	501	501	camelnamespacehandler thread mail
+Bench4BL/Apache/CAMEL	2049	PE	1	1,7,9,1322	lazysessioncreation mina endpoint producer scenario instance configuration connector acceptor application createsocketendpoint rule version dispatch producera minacomponent point patch file pool route thread camel parameter sync solution session sample tcp test behaviour consumer
+Bench4BL/Apache/CAMEL	2175	PE	2	2,975	getandset cxfbinding thread code cxf webserive getcxfbinding initialization camel sense
+Bench4BL/Apache/CAMEL	2496	STP	59	59,98,193	streamcache condition thread patch symptom test splitter race queue week time seda
+Bench4BL/Apache/CAMEL	2824	PE	376	376,1437,2467	defaulttimeoutmap route testcase camel aggregator deadlock processdump bug luck
+Bench4BL/Apache/CAMEL	2935	PE	1	1,3,21,167,224,235,607,2877,4411,4651	defaultproducertemplate java camelexecutionexception asynccallback synchronization onfailure exchange getexception defaultproducertemplateasynctest failure send patch fault defaultproucertemplate fix asynchronously producercache change method test problem onfailurethe opinion moment camel message
+Bench4BL/Apache/CAMEL	2986	STP	1	1,12	continuation illegalstateexception suspend resume camelcontinuationservlet loadreason execute callback race isinitial completion recommendation block handler thread fix async jetty concurrently
+Bench4BL/Apache/CAMEL	2994	STP	1	1,2	cxfclientcallback cxfwsdlonlytest expectedrun thread condition race error clientcallback cxf exchange test time camel
+Bench4BL/Apache/CAMEL	3216	PE	1	1,159	scheduledpollconsumer thread schedule consumer jdk ftp exception file cause polling throwable
+Bench4BL/Apache/CAMEL	3277	PE	4	4	load converter loading issue patch object synchronize route error method loader threadsafe type registry camel conversion
+Bench4BL/Apache/CAMEL	3349	NL	1	1	cxfrsendpoint headerfilterstrategy getbinding race thread invocation protocolheaders object overwrite async binding issue code exception condition site method headerstrategy copying sync absence atomic customer endpoint load startup request flag
+Bench4BL/Apache/CAMEL	3493	STP	188	188	concurrentmodificationexception defaultcamelcontext removeroutedefinitions exception definition synchronization route thread method
+Bench4BL/Apache/CAMEL	3528	PE	7	7	hybridsourcedatabinding cxf writer schema state property camel reader
+Bench4BL/Apache/CAMEL	7116	PE	1	1	jettyhttpproducer client dostop camelcontext generatehttpurl poolcase thread application shutdown pool subject example jira route
+Bench4BL/Apache/CAMEL	7161	STN	1	1	getbean springwhen deadlock spring stop lock dozer init method stuff start loader service camel ctr
+Bench4BL/Apache/CAMEL	7239	PE	8	8,13721	issue validatorprocessor schemafactory thread work addition
+Bench4BL/Apache/CAMEL	7318	PE	1	1,2,5,6,28,29,134,1356	consumer hdfsinputstream method team concurrency wait rename exception transfer parallel file hdfs hdf hdfsconsumer order
+Bench4BL/Apache/CAMEL	7321	PE	135	135	issue jcrconsumertest pom xml jcrconsumer test environment jiang problem fix maven freeze synchronization indicator pass ticket willem january time eclipse process multi-threading junit order
+Bench4BL/Apache/CAMEL	7364	PE	1	1,3,54,55,72,84,91,126,132,141,160,276,628,762,784,897,1149,1216,1431,1649,1722,3838,5871,6040,6344,6882,6956,7506,7536,10835,11007,11061,11309,11351,11515,11825,11851,12212,12276,13567,13811,14036,14228,14474,14514,14517	jpamessageidrepository entitymanager version behavior thread change product constructor method reason
+Bench4BL/Apache/CAMEL	7556	NL	1	1,19,57	thread endpoint rabbitmq queue jms camel concurrent consumer
+Bench4BL/Apache/CAMEL	7715	PE	2	2,22	sjmsconsumer executorservicemanager pool stop context threadpool sjmsproducer consumer camel producer time instance endpoint thread component
+Bench4BL/Apache/CAMEL	7795	PE	1	1	thread routeid response async camel threadpool mdc value mechanism regression request component implementation engine initialisation corethreads fact inheritablethreadlocal stack optimisation context endpoint routing situation system callback mdccallback cxf behaviour attempt parent
+Bench4BL/Apache/CAMEL	7968	PE	1	1	container containerregistry instance implementation singleton containers race behaviour threadsafe approach concurrency concurrent
+Bench4BL/Apache/CAMEL	7973	PE	2	2,3	rejectedexecutionexception circuitbreaker processor circuitbreakerloadbalancer error patch circuitbreakerloadbalancertest routebuilder configuration circuit exception asyncprocessorconverterhelper proposal use request test thread behaviour exchange opening breaker solution fix problem asynchronous misbehaviour async synchronous edit
+Bench4BL/Apache/CAMEL	7988	NL	1	1,6	file camellock exception acquire nabble lock consumer poll
+Bench4BL/Apache/CAMEL	8088	PE	1	1	remotefileproducer socket wait ftpclient defaulttimeout exception block condition connection sotimeout state connectifnecessary attempt ftp system await timeout account loggedin firewall blocking server thread property reply response method production ilk login traffic test
+Bench4BL/Apache/CAMEL	8134	PE	1	1,25	httpproducer closedoncompletion error option falsecachedoutputstream oom discussion issue synchronization redelivery cachedoutputstream endpoint synchronisation exchange
+Bench4BL/Apache/CAMEL	8146	STN	40	40,2200	thread route issue consequence suspend start file problem resume camel leak stop sftp cause result orphan type
+Bench4BL/Apache/CAMEL	8200	PE	1	1	problem setmessageid method jmsproducer processinout activemq response message dosend component body jms exchange transport pipelinehelper createnextmessage thread request condition messaging execute situation patch jm test invokation time callback race end camel vm
+Bench4BL/Apache/CAMEL	8241	PE	1	1,3,7,22,80	defaultexeccommandexecutor defaultexecutor test execute condition exec command failure race version time java stream exit error unix issue library environment common chance
+Bench4BL/Apache/CAMEL	8268	PE	1	1,5,44,240,485,1057,1598	list call thread filterlist hbase method camel scan concurrent endpoint problem value filter
+Bench4BL/Apache/CAMEL	8353	PE	1	1,6,292	lock channel nabble acquire method filelockexclusivereadlockstrategy release
+Bench4BL/Apache/CAMEL	8673	PE	14	14	concurrentmodificationexception routes removeroutecollection getroutes routesthis synchronize addroutecollection ticket parameter code fix cause camel route
+Bench4BL/Apache/CAMEL	8713	PE	1	1	thread pool parallel aggregate parallelaggregate camel option mode processing aggregation fly boss worker work
+Bench4BL/Apache/CAMEL	8885	PE	5	5	consumelockentity lock consumedeletei consumedelete condition beginning function entity
+Bench4BL/Apache/CAMEL	8954	PE	1	1,2,3407	exchange lock store markerfile markerfileexclusivereadlockstrategy filelock filelockexclusivereadlockstrategy uow release synchronization file_lock_file_acquired camelfilelockfileacquired file_lock_file_name camelfilelockfilename file_lock_exclusive_lock camelfilelockexclusivelock file_lock_random_access_file camelfilelockrandomaccessfile information dat route strategy component property file share example completion value read
+Bench4BL/Apache/CAMEL	9199	PE	2	2,4,8	rabbitmq crash object thread pr test consumer serializable
+Bench4BL/Apache/CAMEL	9311	NL	299	299,827	call router endpoint method route http bean instance versa state issue context service detail unit test vice dynamic concurrency message concurrently
+Bench4BL/Apache/CAMEL	9319	PE	1	1,12,16	producertemplate requestbody result ssh string leak command code resource thread sshclient memory execution issue discussion profiler machine call
+Bench4BL/Apache/CAMEL	9331	PE	17	17	dostop manager httpclient leak client connection http builder thread
+Bench4BL/Apache/CAMEL	9738	PE	2	2	dispose start dostop consumer doshutdown camelshutdownstrategy getacceptor method ioacceptor acceptor dostart overwrite thread stop bugfix application release shutdown leak web custom workaround unbind camel threadpool behavior address
+Bench4BL/Apache/CAMEL	9951	PE	2	2,60,219	runtimecamelexception minthreads getthreadpool property websocket maxthreads value component version cosumer camel setup thread attribute method jetty
+Bench4BL/Apache/CAMEL	9970	PE	17	17,25,88,162,637,12073	file lastmodified filegiven camelfilelength slowfile dat write length lock camel parameter header poll read time store solution patch
+Bench4BL/Apache/CAMEL	10024	PE	1	1,6,96,260,498,522,568,1025,1238,3274	close session maybedisconnectondone condition closefuture call exchangetimedoutexception error java start issue problem race await illegalstateexception unit testing log connection program iteration producer system message method line handler service pool use implementation fix
+Bench4BL/Apache/CAMEL	10215	PE	1	1	beforepoll eventdrivenpollingconsumer afterpoll thread instance suspend consumercache processing receive part aggregate condition pollingconsumer synchronize ordering defaultconsumertemplate endpoint race split datum parallel consumer client poll cache method
+Bench4BL/Apache/CAMEL	10229	STP	1	1	channel rabbitconsumer close basiccancel basicack deliverytag handledelivery message condition race wait thread destinationqueue sourcequeue consumer rabbitmq side effect duplicate tag exception state code console context example autoack camel behaviour
+Bench4BL/Apache/CAMEL	10273	PE	2	2	object enablejmx threadpool level flag pr configuration setthread check method listener pool thread setting custom jmx endpoint mbean issue account jetty correspondent component
+Bench4BL/Apache/HBASE	543	PE	8	8,33	unassignedregions state change condition solution place collection access regionmanager pendingregions regionstoclose closingregions regionstodelete patch map trunk hbase possibility synchronize region hole race master hmaster structure
+Bench4BL/Apache/HBASE	659	STP	4	4,977	block cacheflushlock region path hang close stick situation code log dump thread lock release split hlog
+Bench4BL/Apache/HBASE	663	PE	1	1	write lock number updateslock cache update hregion reconstruction hstore flushan use acquire startup log sequence snapshot assumption
+Bench4BL/Apache/HBASE	699	PE	98	98	hang testmigrate hudsonits process thread region relocateregion threaddump waiting unix scan address hbase table hudson
+Bench4BL/Apache/HBASE	818	STP	159	159	information flushsomeregions deadlock regionserver uploading java level mr stack thread region
+Bench4BL/Apache/HBASE	950	PE	1	1,10,165	rowlock htable commit rowlocks lock apiintroduced update hang row hbase
+Bench4BL/Apache/HBASE	1569	STN	13	13,344,860	condition load hour shutdown race regionserver cluster
+Bench4BL/Apache/HBASE	1740	NL	2	2,4,26,54	keyvalue condition code icv snapshot fix memstore production scan attempt timestamp su result memcache hfile issue value level race load start
+Bench4BL/Apache/HBASE	1840	STP	-1		rowlock indexedtable number exception fix test info load indextable unit debug line stacktrace sense row note
+Bench4BL/Apache/HBASE	1869	STP	-1		indexedtable test rowlock testindexedtable testing version conjunction exception packaging svn patch
+Bench4BL/Apache/HBASE	2023	NL	-1		block client region stick thread locateregioninmeta server lock issue access sync multi-threaded problem thrift request table solution wait multithreaded
+Bench4BL/Apache/HBASE	6565	PE	2	2	result treemap htable java size code environment test coprocessor thread program exec map bug multithreading example
+Bench4BL/Apache/HBASE	8923	PE	30	30,86	chaosmonkey recovery teardown exitcodeexception start race process rs status cluster test moment boom
+Bench4BL/Apache/HBASE	13606	PE	3	3	assignmentmanager assign sync behavior comment async pathfrom testcreatetableprocedure
+Bench4BL/Apache/HBASE	13662	PE	1	1	nextcallseq hasnextcallseq outoforderscannernextexception scan rsrpcservice request outoforder callseq failure patch exception discussion heartbeat error hbase outoforderscannernext failurewhile atomic stack scanner client concurrent id question date
+Bench4BL/Apache/HBASE	13959	NL	10	10	split ten exhaust size file storefile concurrency setup notservingregionexception store threadpool splitting time region family environment workload thread number fix operation count tracing column client retry write table logic average phase reference
+Bench4BL/Apache/HBASE	13988	NL	9	9	thread exception handler cluster server future prod region root debug lease log
+Bench4BL/Apache/HBASE	14178	STN	61	61,192	block offsetlock cache rpc timeout jstack regionserver wait thread client detail infomation ps table
+Bench4BL/Apache/HBASE	14241	PE	-1		closecaught testmastermetricswrapper deadlock lock rpcclientimpl connection dump metaservershutdownhandler setupiostreams concurrent output thread root cause object branch shutdown markclosed level debug close stack cluster java
+Bench4BL/Apache/HBASE	14359	PE	2	2	asyncprocess outofmemoryerror call tasksent taskdone dectaskcounter hang close error exception rejectedexecutionexception thread wait rpctimeout flushcommits go table env recommendation problem sendmultiaction waituntildone sendmultiactioncurrently htable task autoflush datum product rpc clause client hour
+Bench4BL/Apache/HBASE	14463	PE	1	1,26,35	read bucketcache idreadwritelock ioenging lrucache feature issue cause reentrantreadwritelock lock problem worker synchronize downgrade idlock execute reading datum rowkey engine start learning getlockentry copy performance hundred getblock hbase item parallel operation key
+Bench4BL/Apache/HBASE	14555	STN	18	18	tostring priorityrpcserver handler thread test deadlock mvcc branch queue port
+Bench4BL/Apache/HBASE	14812	STP	2	2,3	resultboundedcompletionservice deadlock
+Bench4BL/Apache/HBASE	14926	STP	1	1,2,10	thriftserver readingthrift thread socket crash side client hang hung thrift branch server worker log patch fb hbase timeout
+Bench4BL/Apache/HBASE	15001	PE	1	1,10,20	hbaseinterclusterreplicationendpoint replicationsinkmanager sink size replicationsource arraylist edit operation issue thread code batch problem retry number part list verification safety walprovider time idea shipping success example
+Bench4BL/Apache/HBASE	15030	STP	26	26	tablenamespacemanager integrationtestddlmasterfailover information reentrantreadwritelock procedureexecutor lock wait deadlock nonfairsync info jstack cluster master log java stack thread part synchronizer monitor object
+Bench4BL/Apache/HBASE	15093	PE	1	1,4,9,10,11	metricssource setsizeoflogqueue size incrsizeoflogqueue incrementing queue world source synchronize decrsizeoflogqueue log multithreaded multiwal replication operation method
+Bench4BL/Apache/HBASE	15146	NL	2	2,4,14,27,30,39,59,195,267,609	block queueblocking queue thread scheduler limit method reader blocking capacity dispatch ack epoll rpc
+Bench4BL/Apache/HBASE	15650	PE	1	1,2,3,6,9,10,26,32,37,47,90,103,104,120,127,168,374,557,1101,1106,1215,1293	timerangetracker storefile thread point contention hbase store
+Bench4BL/Apache/HBASE	15957	PE	354	354	connection markclosed rpcclientimpl close thread pool fix shouldcloseconnection start interrupt flag hbase time handling calling check bug circumstance writer parent result
+Bench4BL/Apache/HBASE	16081	PE	1	1,6,12	completionservice remove_peer block replicationsourcemanager rollingwe executor removepeer condition wal hbaseinterclusterreplicationendpoint lock take recordlog race call object situation shutdown thread peer replication
+Bench4BL/Apache/HBASE	16144	PE	4	4,30,99,360	claimqueues lock acquire queue prematurelyin usemulti crash rs node operation zk replication
+Bench4BL/Apache/HBASE	16304	STP	3	3	updateslock synchronousqueue transferstack abstractqueuedsynchronizer conditionobject reentrantreadwritelock nonfairsync lock handlefilenotfoundexception deadlock jvm stack parking wait hregion regionscannerimpl write
+Bench4BL/Apache/HBASE	16367	PE	1	1,2	race master hregionserver server snippet initializezookeeper log preregistrationinitialization id initialization thread line cluster start execution region hmaster hbase
+Bench4BL/Apache/HBASE	16429	STP	1	1,31	rollwriter stick appendsrecently safepointreleasedlatch wait buffer replacewriter deadlock ringbuffer next safepointzigzaglatch waiting targeting thread resolve problem issue ringbuffereventhandler handler consumer releasesafepoint jira fshlog release ut jstack process sync ring append
+Bench4BL/Apache/HBASE	16699	PE	1	1,2,3,11,693	overflow refill line bypass ratelimiters logic averageintervalratelimiter getwaitinterval issue check patch day concurrent behavior place
+Bench4BL/Apache/HBASE	16721	PE	6	6,10,37	flush problem cluster seqid datum issue tracking split flusher region wal file hundred max log time limit force rs concurrency regionserver memstore fshlog production start
+Bench4BL/Apache/HBASE	16788	PE	3	3	hstore closeandarchivecompactedfiles clearcompactedfiles archive hregionfilesystem removestorefiles close call defaultstorefilemanager lock file removecompactedfiles compactedfile threadb filenotfoundexception hfilearchiver archivestorefiles use cleanup change block threada service condition compactedhfilesdischarger readlock thread chore sequence operation removal option
+Bench4BL/Apache/HIVE	545	NL	51	51,69,80,91,96,127,143,167,230,291,295,322,356,368,477,575,584,618,625,645,901,929,954,966,1027,1050,1185,1434,1478,1502,1532,1883,1886,1940,1999	arraylist codemost hive code vector unsynchronized
+Bench4BL/Apache/HIVE	3057	PE	1	1	metastore hivemetastore rawstore variable function getms thread call threadlocalms object shutdown store
+Bench4BL/Apache/HIVE	3408	STP	1	1,278,549	extractcounters hashset hashmap getentry updatecountersinqueryplan queryplan classhive thread problem execute condition concurrently race list person part dump mailing hive object
+Bench4BL/Apache/HIVE	4000	NL	311	311,417,599	hashmaps thread stick condition client mapreduce job start progress race loop access lock cpu hive
+Bench4BL/Apache/HIVE	7011	PE	2	2	generation hiveinputformat cache access inputformat concurrent tez parallel split
+Bench4BL/Apache/HIVE	7341	PE	1	1,2,3,4,5,9,10	hcattable hcatclient schema resolve diff table dbname instance targettable serializetable hcatcreatetabledesc definition attribute updatetableschema patch sourcetable partition hcataddpartitiondesc metastore hcatpartition couple builder mechanism need deserializetable addpartitions source concern attempt change falcon condition
+Bench4BL/Apache/HIVE	8440	STP	1	1,13,177,182,263,459,527,684,707,1616,1723	hiveserver wait block job number request map problem ql slot query situation cause etl hadoop cluster schedule task concurrent heap code client day queue environment
+Bench4BL/Apache/HIVE	9199	null	1	1	writeentity dummytxnmanager lock writetype lockmode ddl contention locking createtable database table operation output example
+Bench4BL/Apache/HIVE	9598	STP	2	2	reentrantlock sync tryrelease resultset closed statement close illegalmonitorstateexception
+Bench4BL/Apache/HIVE	10483	PE	1	1,5,29	dbtxnmanagerinsert overwrite join lock insert deadlock conflict xxxx part partition side xxx ta tb shared txn query
+Bench4BL/Apache/HIVE	11036	PE	6	6,10,118,156,632	hangunder datanucleus deadlock concurrent condition metastore race workload query
+Bench4BL/Apache/HIVE	11616	STP	1	1,3,4,5,12	delegationtokensecretmanager issue conf saslserver startdelegationtokensecretmanager basehandler getms servermode metastore objectstore start log exception analysis hivemetastore concurrency lead
+Bench4BL/Apache/HIVE	12238	STP	531	531	error vectorudfdate thread safety vectorization
+Bench4BL/Apache/HIVE	12248	STP	4	4,10,249,373,406,526	objectstore dbtokenstore rawstore datanuclues persistencemanager condition mdelegationtoken multi-thread objectdetachedexception non-thread-safe object race db error implementation pm root threadlocal dn thread backend type operation
+Bench4BL/Apache/HIVE	12266	NL	2	2	lock release command start timeout acquire cli shell beeline issue client hook hive acid
+Bench4BL/Apache/HIVE	12409	PE	1	1	sessionstate inittxnmgr synchronize thread hive method session
+Bench4BL/Apache/HIVE	12529	PE	1	1,2,3,4,5,7,11,130,143	block lock time hivetxnmanager acquirelocks exception forevercurrently dbtxnmanager signature method timeout max wait client
+Bench4BL/Apache/HIVE	12620	PE	1	1,2,19	lock txnhandler dblockmanger dblockmanager unlock metaexception interleave gettxnidfromlockid exception checklock improvement module timeoutlocks log apo logic read refactor amp timeout statement attempt misc acid transaction id tracking checkretryable auto mode debugging connection
+Bench4BL/Apache/HIVE	12768	NL	3	3	buffer issue safety serde deserialization thread decimal
+Bench4BL/Apache/HIVE	12797	STN	1	1	pool issue llap part change tez synchronization session hive
+Bench4BL/Apache/HIVE	12904	STN	1	1,2	taskexecutorservice queryinfo block method synchronize sourcename handler sourcestateupdated unregisterforupdates logic total call deadlock executioncompletionthread finishablestateupdatehandler iswait lock issue server llap scheduling maybeunregisterforfinishedstatenotifications isinwaitqueue scope taskwrapper finishablestatetracker object sync org apache hadoop hive
+Bench4BL/Apache/HIVE	12926	STN	1	1	pool issue llap part change tez synchronization session hive
+Bench4BL/Apache/HIVE	12927	PE	1	1,1647	getnextsequence metastore api increment hbase sequence presence concurrency ioexception row
+Bench4BL/Apache/HIVE	12996	NL	2	2,4	table session statement definition functionality manager lock insert value thread query temp metastore acid
+Bench4BL/Apache/HIVE	13013	PE	1	1,24,62,143	txnhandler operation number read_committed support isolation deadlock db update concurrency serializable
+Bench4BL/Apache/HIVE	13213	PE	2	2,4,8,10	acquire dblockmanger table value lock resource acid example
+Bench4BL/Apache/HIVE	13395	PE	1	1,4,6,7,8,9,12,13,16,29,59,66,112,173,185,196,215,453,679,923	lock recordvalidtxns update currenttransactionid driver row write change txn originaltransactionid problem table hive time hive_locks set snapshot acquire txnid compile readerkey tracking migration id start pk issue level block run version execute
+Bench4BL/Apache/HIVE	13458	PE	1	1,5,18,34,445,505	heartbeat stopheartbeat query bug lock assumption heartbeater
+Bench4BL/Apache/HIVE	13512	NL	18	18	id thread atomicinteger compilation tezwork object counter parallel query dag concurrent running
+Bench4BL/Apache/HIVE	13599	STN	1	1,10	queue condition item exception handling update test pre-emption race llap state preemption
+Bench4BL/Apache/HIVE	13699	PE	66	66	javadatamodel thread method compilation issue parallel time query
+Bench4BL/Apache/HIVE	13725	NL	1	1,2,121,195	use call thread response synchronize client batch api method endpointcurrently endpoint heartbeat vice-versa streaming impl txn sequence synchronization acid rpc sample metastore
+Bench4BL/Apache/HIVE	13753	PE	2	2,3	client response thread condition request message server synchronize dbtxnmanager method side error thrift fact solution race rpc metastore sequence
+Bench4BL/Apache/HIVE	13833	NL	1	1	delay heartbeat start lock acquisition acquire time scheduling
+Bench4BL/Apache/HIVE	13858	PE	4	4,23,24,77,120,125	interrupt block end future completeinitialization task hiveprocessor abort io level call middle deadlock code part interruptan status preempt thread executor slot cluster wait llap result execute hdfs
+Bench4BL/Apache/HIVE	14357	PE	1	1,5	driver compileandrespond order checkcmdondriver testlocksinsubquery inspection jira somebody lock test branch
+Bench4BL/Apache/HIVE	14400	NL	5	5	alreadyexistsexception partition query insert condition concurrently effect time statement race example table side concurrent session metastore user
+Bench4BL/Apache/HIVE	14463	STP	140	140	hotspot taskqueue abstractqueuedsynchronizer conditionobject vm stick testmsgbusconnection test dump wait extension server problem thread lock parking day mode hcatalog java tm module environment
+Bench4BL/Apache/HIVE	14739	PE	1	1,3,9,12,35,56,66,89,183,475,495	filesystem close lock deadlock hook hive order shutdownhookmanager execute runtime cli query nauroth khandelwal priority shutdown cache hadoop chris deepesh code runnable java
+Bench4BL/Apache/HIVE	14778	PE	4	4,15	transactionbatch streamingconnection model heartbeat object thread document metastoreclients client metastoreclient reference threading apithe thrift rpc concurrently method
+Bench4BL/Apache/HIVE	14924	STN	2	2	thread table exception order command mode pointer msck repair error
+Bench4BL/Apache/HIVE	15090	PE	1	1	expiredtokenremover thread exception failure metastore removal db process loop fix token temporary hive
+Bench4BL/Commons/CODEC	96	STP	1	1	binaryencoder thread nullpointerexception codec instance support client user patch variable method common implementation commons usage code javadoc example regression
+Bench4BL/Commons/COLLECTIONS	384	PE	1	1	comment synchronizedmap illegalargumentexception maputils map code method javadoc state
+Bench4BL/Commons/COMPRESS	302	PE	2	2	field support immutability setentryencoding method archivestreamfactorycompress volatile safety setting thread constuctor patch synch ctor encoding factory
+Bench4BL/Commons/COMPRESS	303	PE	1	1	setdecompressconcatenated compressorstreamfactory field release thread decompressconcatenated immutability safety volatile preparation compress method future api technique
+Bench4BL/Commons/COMPRESS	357	PE	38	38	method stream unsynchronized output
+Bench4BL/Commons/CONFIGURATION	344	PE	1	1,2,3	configuration fireevent property stick reload synchronize strategy grab getnodecombiner lock information listener invalidate method deadlock fix access event code refresh commons pavel
+Bench4BL/Commons/CONFIGURATION	407	PE	1	1,2	node viewnode operation hierarchicaliniconfiguration section concurrently access synchronize configuration problem exception issue add test property probability error thread unit ini method root parent read
+Bench4BL/Commons/IO	99	PE	1	1,11	leak thread webapp outofmemoryerror filecleaner asfilecleaner io server user common application api solution memory classloader
+Bench4BL/Commons/IO	136	PE	1	1	stringbuffer dump hexdump stringbuffers method bug outputstream thread instance datum use time
+Bench4BL/Commons/IO	201	PE	2	2,4	stream countinginputstream countingoutputstream synchronize count thread loss synchronization operation field functionality sense volatile
+Bench4BL/Commons/IO	207	PE	14	14	forcemkdir process race condition chance directory ioexception thread
+Bench4BL/Commons/IO	216	PE	2	2	delete file failure lockablefilewriter lockfile code lock account exception initialization fix time deletion n.b
+Bench4BL/Commons/LANG	367	PE	1	1	instance hashmaps thread fastdateformat simpledateformat document patch share attribute safety guarantee assumption
+Bench4BL/Commons/LANG	459	PE	1	1	problem method system identityhashcode list toidentityhashcodeinteger fix hashcodebuilder line isregistered load hashset arraylist usage object submit code change issue multi-threaded downside test bore value hashcode loop suspicion andrew
+Bench4BL/Commons/LANG	481	NL	4	4	hashcode value method race condition calculation range
+Bench4BL/Commons/LANG	584	PE	1	1	removecausemethodname lock addcausemethodname exceptionutils targetexceptionutils target cause_method_names method
+Bench4BL/Commons/LANG	1230	PE	1	1,2	equalsbuilder hashcode hashcodebuilder threadlocals issue lookup thread redundant synchronization access value identity version contention re-reading idkey object call unregister consequence synchronize lang registry
+Bench4BL/Commons/LANG	1251	PE	1	1	classloaderawareobjectinputstream primitivetypes map serializationutils hashmap thread safety constructor initializer
+Bench4BL/Commons/MATH	505	NL	380	380	field testutils thread object update hostile volatile result guarantee
+Bench4BL/Commons/MATH	899	PE	27	27	mersennetwister generatorthere error thread java probability problem mode crash line generator upd multy arrayindexoutofboundsexception
+Bench4BL/Commons/MATH	1134	PE	1	1,5,8	partialderivatives initialization array start partialderivative bicubicsplineinterpolatingfunction thread check computepartialderivatives bivariatefunction function constructor problem derivative concurrently
+Bench4BL/Commons/MATH	1294	PE	1	1	polynomialutils buildpolynomial polynomialutilstest thread coefficient problem race degree synchronize list comparisonfailure method concurrently explanation building access datum block
+Bench4BL/Spring/AMQP	125	PE	5	5,7,11,30,86	algorithm simplemessagelistenercontainer wait container stop lock listener
+Bench4BL/Spring/AMQP	190	PE	1	1,7,21,24,50	transactionmanager channel leak channeltransacted side messagelistenercontainer rabbittemplate cachingconnectionfactory reference adapter message synchronize integration transaction convertandsend problem context exchange forum info pool time supply spring thread consumer publishing tag rabbit release
+Bench4BL/Spring/AMQP	223	PE	1	1	dostart container adapter simplelistenercontainerif integration amqp thread start ack asynchronously spring listener consumer time
+Bench4BL/Spring/AMQP	243	PE	1	1	amqpappender routingkeylayout format javadoc issue patternlayout lossthe routingkey logevent line message enhancedpatternlayoutlike synchronization routing pattern code problem string consequence
+Bench4BL/Spring/AMQP	249	PE	2	2,11	reply replyhandoff synchronizedqueue hang rabbittemplate queuestemporary problem issue channel condition thread nobody timeout admin autoack race temporary consumer take put rabbit accounting count queue
+Bench4BL/Spring/AMQP	260	PE	6	6,9,35	channeltransacted rabbittransactionmanager container hang thread listener
+Bench4BL/Spring/AMQP	262	STP	1	1,2	pendingconfirms publishercallbackchannelimpl addpendingconfirm message concurrentmodificationexceptions synchronize code access confirm processack thread template concurrentmodificationexception fix rabbit
+Bench4BL/Spring/AMQP	274	PE	1	1,4,5,9,10	transaction rabbittemplate synchronizedwithtransaction exposelistenerchannel resource property container manager channel synchronize listener tx
+Bench4BL/Spring/AMQP	275	NL	2	2,46,88,119	queue condition stop container requeue message listener blocking race consumer requeued
+Bench4BL/Spring/AMQP	331	NL	6	6	outofmemory error thread situation
+Bench4BL/Spring/AMQP	355	PE	2	2	errorhandler casethe time container condition onmessage method exit race possibility message test
+Bench4BL/Spring/AMQP	365	PE	1	1,3,4,5,40	message casesanalysis test broker race consumer condition listener ack recovery channel wait redelivery flag countdown solution
+Bench4BL/Spring/AMQP	469	PE	-1		connection erlangtemplate sendrpc executeerlangrpc safety receiverpc bug thread request erlangtemplateerlangtemplate interleave end result simpleconnectionfactory singleconnectionfactory code critical documentation
+Bench4BL/Spring/AMQP	506	PE	1	1,2,14	concurrentmodificationexception rabbittemplate getunconfirmed synchronize map pendingconfirms value
+Bench4BL/Spring/AMQP	532	STP	3	3,4,18,23	concurrentmodificationexception publishercallbackchannelimpl block pendingconfirms rabbitmq code map synchronize publishing node number network partition traffic place line source stacktrace
+Bench4BL/Spring/AMQP	551	STP	3	3,4,6,12,14,15,19,23	use mockito spy failure factorytests testfailover test tostring mockitolocalizedqueueconnection foo doreturn container syntax testing javadoc nature limitation family amp method usage apo faq multi-threaded behaviour string non-thread-safe stub problem concurrency error exception
+Bench4BL/Spring/AMQP	648	PE	1	1	queue handlecancelok basiccacncel suspend issue recovercontainer start handlecancel broker thread call consumer stop container failure vesc
+Bench4BL/Spring/BATCH	170	PE	21	21,45,96,101,257,341	staleobjectstateexception operationuse stepexecution hibernatejobdao modification operation step concurrent
+Bench4BL/Spring/BATCH	449	PE	-1		itemskippolicyitemhandler item reader writer error exception synchronization
+Bench4BL/Spring/BATCH	603	PE	1	1,3,21,163,366,379	jobexecution field thread volatile
+Bench4BL/Spring/BATCH	782	PE	2	2	exception synchronizer step abstractstep lock simpleasynctaskexecutor release execution issue error thread semaphore acquire processing optimisticlockingfailureexception itemorientedstep block persistence code problem access stuff api fatalexception locking processchunk id context concurrent execute fix synchronization
+Bench4BL/Spring/BATCH	912	PE	1	1	list error arraylist collections synchronizedcollection issue thread problem arraylistexception exception jobregistrybackgroundjobrunner volatile context visibility initialization synchronization safety application implication performance collection code theory
+Bench4BL/Spring/BATCH	1272	PE	2	2,27,34,43,93,116,159,353,369	faulttolerantchunkprocessor step thread multi-threaded
+Bench4BL/Spring/BATCH	1278	PE	1	1,3,8,10,155,791	repeattemplate cause exception thread batch
+Bench4BL/Spring/BATCH	1362	NL	1	1,17,32	thread spin scheduler wait step disparity count end loop chunk multi-threaded user effect jvm priority work worker
+Bench4BL/Spring/BATCH	1526	PE	1	1	chunkmonitor leak threadlocal deal user detection application web re-deployment deployment fix thread memory tomcat
+Bench4BL/Spring/BATCH	1542	PE	6	6,12,14,32,53,96,98,314,546,550,687	mapjobrepository jobexecution protection step collection safety copy execution stepexecution thread write effect job concurrency batch place
+Bench4BL/Spring/BATCH	1572	PE	2	2,18,26,56,435,818	fatalexceptionclasses unexpectedrollbackexception retrypolicy simpleretryexceptionhandler add binaryexceptionclassifier fatalexceptionclassifier exception java step exceptionhandler chunk transaction constructor release level record manager lock reader problem batch debug rollback database throwable ity collection
+Bench4BL/Spring/BATCH	1709	PE	1	1,10	beanwrapperfieldsetmapper bug setting condition limit property name message race concurrency caching distance column concurrent cache
+Bench4BL/Spring/BATCH	1724	NL	3	3,49,180,232,236,382	chunk step failure thread bug critical outcome multi-threaded limit queue processing background multithreaded time
+Bench4BL/Spring/BATCH	1725	PE	-1		exception subclassclassifier concurrenthashmap concurrently concurrent modification
+Bench4BL/Spring/BATCH	2126	PE	1	1	numberformat taskexecutor jobparametersconverter simpleasynctaskexecutor variable dateformat longnumberformat simplejoboperator setup usage instance asynchronous defaultjobparametersconverter thread
+Bench4BL/Spring/BATCH	2153	PE	1	1	nullpointerexception hashmap springframework context batch scope core stepsynchronizationmanager threadsorg hashtable start teststepsynchronizationmanagermain project increment threadsafe thread variable maven decrement fix solution
+Bench4BL/Spring/BATCH	2156	STP	2	2	updateexecutioncontext concurrencyfailureexception update failure stepexecution tableneed jdbcstepexecutiondao updatestepexecution execution synchronize jdbcexecutioncontextdao step_execution_context tasklet error multithreaded processing record context thread step line order method concurrency
+Bench4BL/Spring/BATCH	2313	STP	1	1	batch synchronizationmanagersupport nullpointerexception re-run condition running synchronize number count bug gridsize race multithreading assumption line context couple end field datum step system release synchronization npe decrement month thread failure increment year code
+Bench4BL/Spring/DATACMNS	65	PE	1	1	concurrentmodificationexception basicpersistententity object addpersistententity persistententity persistentproperties dowithproperties map problem scenario getpersistententity thread reference mappingcontext mongotemplate persistententities type property concurrency point concurrently self method entity algorithm
+Bench4BL/Spring/DATACMNS	362	PE	1	1	issue instance lookuprepositoryfactoryinformationfor repositoryinformation set concurrentmodificationexception block repositoriesgetrepoinfofor variable repository code thread concurrency
+Bench4BL/Spring/DATACMNS	390	STP	1	1,108	concurrentmodificationexception abstractmappingcontext progress javadoc hashmap persistententities mappingcontexttypeinformationmapper resolvetypefrom race value tt iteration lock data acquire release stacktrace possibility values result implementation code getpersistententities thread issue remove operation log collection spring iterator map
+Bench4BL/Spring/DATACMNS	831	PE	1	1	method addpersistententity abstractmappingcontext getpersistententity lock execute condition persistententities entity thread acquire race beginning property type write concurrently
+Bench4BL/Spring/DATAGRAPH	876	PE	2	2,5,10	value thread execution cypherfinderquery query finder filter
+Bench4BL/Spring/DATAJPA	268	PE	-1		thread leak transactionsynchronizationmanager invoke methodinvocation lockmodepopulatingmethodintercceptor bindresource lockmoderepositorypostprocessor permgen spacein dump outofmemoryerror lockmodepopulatingmethodinterceptor pool application mode object method stack server call locking unbindresource threadlocals loader space heap graph web vm environment classloader
+Bench4BL/Spring/DATAJPA	359	PE	3	3,7	findone acquire methodif mysql test application method derby lock annotation project eclipse issue findall suffix findoneandlock output operation effect db query maven doc sample update documentation repository crud ed example
+Bench4BL/Spring/DATAJPA	620	PE	1	1	hashmap crudmethodmetadatapostprocessor method crudmethodmetadatapopulatingmethodintercceptor call apo queries execute metadatacache loop concurrently problem invoke line concurrenthashmap lookup release behavior application version spring data jpa thread unsynchronized non-thread-safe amp concurrent
+Bench4BL/Spring/DATAMONGO	199	STN	-1		test status query thread block jmeter synchronisation performance stack
+Bench4BL/Spring/DATAMONGO	532	PE	1	1	call issue dogetdb mongodbutils version bug code check isauthenticated mongo exception thread method block username fix name upgrade db object repository statement driver need synchronize multithreading instance compromise git link java spring
+Bench4BL/Spring/DATAMONGO	622	PE	1	1,2	doinsert mongotemplate dosaveversioned condition concurrent object insert race dosave
+Bench4BL/Spring/DATAMONGO	737	STP	1	1,3	mongodbutils mongosynchronizations mongosynchronization transactionsynchronizationmanager illegalstateexception beforecompletion dogetdb database issue suspend unbindresource transactionsynchronizationutils triggerbeforecompletion resolution java patch trace completemultiple mongo transaction community cause feedback unbindresourceifpossible holder line end submit theory exception apo key
+Bench4BL/Spring/DATAREDIS	310	PE	1	1	connection rediscache lock multi exec serialize key value thread method condition inconsistency race call start put evict check saferediscache process del example
+Bench4BL/Spring/SEC	188	PE	3	3	securitycontext errorfrom securitycontextholder javadoc thread associate developer inheritablethreadlocal acegisecurity user execution spawn
+Bench4BL/Spring/SEC	192	PE	-1		casauthenticationtoken abstractauthenticationprovider authenticate provider setdetails login cas concurrent authentication
+Bench4BL/Spring/SEC	197	PE	3	3,5,9	user sessioninformation concurrentsessioncontroller httpsession expirenow session concurrentsession support checkauthenticationallowed lock method getallsessions invalidation admin object browser system function site sessions app
+Bench4BL/Spring/SEC	328	PE	1	1	retrieveuser abstractuserdetailsauthenticationprovider authenticate problem date failure authentication user usernamepasswordauthenticationtoken snippet additionalauthenticationchecks synchronization username cache check information acegi hit cachewasused
+Bench4BL/Spring/SEC	356	PE	-1		httpsessioncontextintegrationfilter change request object thread leak securitycontextholder abstractsecurityinterceptor securitycontext setcontext authentication functionality access synchronous session example run http context
+Bench4BL/Spring/SEC	398	PE	-1		dofilter httpsessioncontextintegrationfilter thread redirect securitycontext authenticationprocessingfilter resource issue login post j_acegi_security_check wrapper block request authentication page concurrency response delay solution
+Bench4BL/Spring/SEC	423	PE	-1		httpsessioncontextintegrationfilter change request object thread bug leak securitycontextholder abstractsecurityinterceptor sec securitycontext setcontext synchronous authentication functionality access session example run http context
+Bench4BL/Spring/SEC	444	STP	1	1	concurrentsessioncontrollerimpl sessionid registernewsession sessionregistry registersuccessfulauthentication sequence removesessioninformation trace sessionalreadyusedexception problem session command strack exception race condition unsynchronized usage user thread principal
+Bench4BL/Spring/SEC	618	PE	3	3	copy abstractauthenticationmanager object method abstractuserdetailsauthenticationprovider controller concurrentsessioncontroller checkauthenticationallowed authentication provider control copydetails providermanager detail problem casauthenticationprovider concurrent session check place access
+Bench4BL/Spring/SEC	670	PE	1	1,31	acl_object_identity acl_class deletechildren jdbcmutableaclservice deadlock wait objectidentity thread concurrent test key synchronize start deleteentries deleteobjectidentityandoptionallyclass table row call lock code use deleteacl server method testing manoeuvre problem insert parent_object acl reorganisation time
+Bench4BL/Spring/SEC	809	STP	-1		openid token setdetails authenticationdetailssource builddetails control openidauthenticationprocessingfilter post authenticationmanager call uncode configuration stack trace sample incompatibility bug req ss concurrent session detail solution
+Bench4BL/Spring/SEC	1396	PE	1	1,4,23	session sessionfixationprotectionfilter httpsession httpsessioncontextintegrationfilter processing illegalstateexception request senderror page response abstractsessionmanager httpsessioncontextintegration securitycontext onredirectupdatesessionresponsewrapper framework user authentication element protection condition sendredirect size token id object filter attribute handler application http web rememberme
+Bench4BL/Spring/SEC	2067	PE	4	4,26,34,37,56,95,119,200,535,614,727	servlet savetosessionresponsewrapper instance httpsession removeattribute springsecuritycontextkey httpsessionsecuritycontextrepository savecontext flush resp getoutputstream savecontextonupdateorerrorresponsewrapper savecontextservletoutputstream application security method library bug context sample error run holder thread session localhost atmosphere comet java instruction stream sec
+Bench4BL/Spring/SEC	3108	PE	1	1,3	request set object digestauthenticationfilter isenabled user securitycontext isuserinrole scenario authentication securitycontextholder createemptycontext sessioncontextholder getcontext httpservletrequest log flag authority isaccountnonexpired process response authorization header start createauthenticatedtoken abstractsecurityinterceptor comment getauthentication method step digest system
+Bench4BL/Spring/SEC	3109	PE	1	1,2,6,11,27	theadpooltaskscheduler threadpooltaskscheduler thread enableonoriginalthread boot delegatingsecuritycontextexecutor delegatingsecuritycontextrunnable issue security execute context delegatingsecuritycontextscheduledexecutorservice reschedulingrunnable job setup delegatingsecuritycontextexecutorwe trigger securitycontext concurrent mechanic cron property spring scheduling background method call sec pool
+Bench4BL/Spring/SECOAUTH	311	PE	1	1	abstractjaxbmessageconverter marshaller arrayindexoutofboundsexceptions thread cache jaxb unmarshaller
+Bench4BL/Spring/SGF	231	NL	5	5,6,7,16,209	illegalargumentexception error policy sender delivery gemfire thread queue state exception requirement selection parallel method configuration attribute event invocation name order documentation property gateway dispatch init application wan bean update startup ordering gw
+Bench4BL/Spring/SGF	280	PE	1	1,6,15,17,38	continuousquerylistenercontainer instance synchronization variable addition method start thread
+Bench4BL/Spring/SHDP	374	STP	2	2,6	overwrite abstractdatastreamwriter getoutput condition method exception file race path writer
+Bench4BL/Spring/SPR	7688	PE	1	1	nullpointerexception synchronize injectionmetadata checkpropertyskipping jvm ibm pv
+Bench4BL/Spring/SWF	976	PE	2	2,4	simpleelcontext getitemlabel eldelegatingpropertyresolver place singleton patch instance context nullpointerexception eldelegatingvariableresolver testing expression evaluation elcontext object user production string label attachment development bizzarre program application session state tostring thread bug
+Bench4BL/Spring/SWF	1437	PE	1	1,31	nullpointerexception thread propertyorfieldreference getvalueinternal ast springelexpression contextwhen context expression synchronize problem object evaluation flow rootobject example code method root concurrent result
+Bench4BL/Spring/SWS	334	PE	1	1	lifecyclemonitor notifyall call abstractstandalonemessagereceiver wait object thread
+Bench4BL/Spring/SWS	613	PE	6	6,16,40	xpathfactory threadsafe newinstance bug method template jdbctemplate documentation application field spring code sun jdk moment concurrency thread instance
+Bench4BL/Spring/SWS	947	STN	-1		container issue condition webservices wsdl couple start time bug race spring stacktrace tomcat attempt docker
+Bench4BL/Wildfly/WFCORE	132	PE	1	1	value boundedqueuethreadpoolwriteattributehandler thread behavior attribute add core max runtime
+Bench4BL/Wildfly/WFCORE	196	STP	3	3,142,158,225	domain sh usedit hostcontroller hang abstractqueuedsynchronizer conditionobject thread wait server lock channel pc shutdown managedserver process ctrl notification information response block dump parallel parking hc theory reason mode
+Bench4BL/Wildfly/WFCORE	202	STN	1	1,20,297	cli sh transport execute lock deadlock line client handleclose bytebuffer framedmessagechannel receive apo server java_opts admin stack instance trace information point connectioncreating port issue timeout receivemessage climodelcontrollerclient channelclosehandler remoteconnectionchannel channel wildfly receiver
+Bench4BL/Wildfly/WFCORE	553	PE	1	1,2,3,4,33	modelcontrollerclientoperationhandler modelcontrollerclientoperationhandlerfactoryservice threadpoolexecutor pool fix request channel clientrequestexecutor stop setting constructor instance client service thread management addition
+Bench4BL/Wildfly/WFCORE	997	PE	670	670,3023	timeout value ldaploginmodule problem realm thread hang handshake wait eap testing response ldap server time ssl failover solution option block security
+Bench4BL/Wildfly/WFCORE	1002	STP	1	1	abortoperationhandler complete_tx_request execute_tx_request sendresponse transactionalprotocoloperationhandler race assertion slave call line npe executerequestcontext executionrequestcontext response outcome hc log server op situation erc
+Bench4BL/Wildfly/WFCORE	1025	STP	1	1,2,3,19,20	rejectedexecutionexception executeasync thread notify transactionalprotocoloperationhandler executerequestcontext trip wait rejectedexecutionexceptionthe managementrequestcontext task response shutdown handler hang server impl pool number failure block caller result apo jira client async lock
+Bench4BL/Wildfly/WFLY	1810	PE	1	1	lock statefulsessionsynchronizationinterceptor handlethrowableintxsync tx tryacquire stack exception ownablereentrantlock callback release synchronization ownership sfsb
+Bench4BL/Wildfly/WFLY	2016	PE	1	1	invocation context thread instance run association corrupt role securitycontext ejb asynchronous foo servlet async object caller time security attribute update behaviour
+Bench4BL/Wildfly/WFLY	2065	PE	1	1,11,60,62	transaction method thread callback update name spi suite test bug aftercompletion jar testing job jira integration jpa synchonization jboss tm reaper
+Bench4BL/Wildfly/WFLY	2458	STN	-1		application file condition finish exception console undeployment infinispan beans start re-deployment deployment deployer marker mgmt race failure attempt behaviour
+Bench4BL/Wildfly/WFLY	2467	PE	-1		cachescacheconfigurationservice asynchronousservice deadlock wrapper infinispan startup
+Bench4BL/Wildfly/WFLY	2954	PE	25	25	issue jmscontext transaction synchronization registration
+Bench4BL/Wildfly/WFLY	3259	STP	4	4,26	weldstartservice servletcontextlisteners configurelistener dependency timing component weldcomponentintegrationprocessor undertowdeploymentservice race condition result deployment service cdi
+Bench4BL/Wildfly/WFLY	3280	PE	87	87	deploymentrepository problem thread file lock release type application listener server point fix arquillian driver folder deadlock test half trace synchronize method time dump object stick queue component msc trouble jira observation starting
+Bench4BL/Wildfly/WFLY	3338	PE	-1		instance jmscontext use call transaction jmscontextproducer jmscontextwrapper getdelegate thread bean section spec problem method time delegate code hornetq line part producer dependent scope jms test sessions message container workaround concurrently session concurrent
+Bench4BL/Wildfly/WFLY	3381	NL	-1		request hang rollback activeoperation operation process race receipt domain tx wait cancellation
+Bench4BL/Wildfly/WFLY	3396	STP	5	5	npe service test schedule release condition time app timerresourcedefinition error filedeploymentscanner wildfly relation ejb annotation race ear client source arquillian configuration step stacktrace
+Bench4BL/Wildfly/WFLY	3517	PE	-1		leak executors newscheduledthreadpool poolsdeploymentmountprovider start thread command shutdown deploymentmountprovider pool oom effect reload
+Bench4BL/Wildfly/WFLY	3548	PE	32	32,47,155	namenotfoundexception classloader usertransaction synchronization set modulegroupsingletonprovider tcclsingleton requestprocessor deployment container lookup transaction invocation means tccl thread result jta jndi java comp ise singleton weld context
+Bench4BL/Wildfly/WFLY	3695	PE	1	1,2,10,11,42,299	scheduledexecutorservice pool thread shutdown sessionexpirationscheduler setexecuteexistingdelayedtasksaftershutdownpolicy task session leak execute schedule web expiration
+Bench4BL/Wildfly/WFLY	3715	PE	7	7,12,14,17,22,23,33,34,35,39,70,88,124,151,155,160,163,200,212,261,284,336,360,416,456,502,513,699,742,779,939,1233,1413,1606,1715,2476,3008	batchcontainer timeout clustering local capability module servlet async infinispan thread batcher ejb web object lock session
+Bench4BL/Wildfly/WFLY	3727	STP	125	125	channel start npe channelservice connect protocol up_prot condition globalcomponentregistryservice wildfly volatile thread startup jchannel creation fact race variable hunch
+Bench4BL/Wildfly/WFLY	3731	STP	1	1	statefulsessionsynchronizationinterceptor transaction synchronization
+Bench4BL/Wildfly/WFLY	3942	NL	-1		mod_cluster condition shutdown issue session race wf logic
+Bench4BL/Wildfly/WFLY	4133	NL	17	17,1474	hang timeout thread service worker deployment time timer server ejb
+Bench4BL/Wildfly/WFLY	4310	PE	-1		log thread startupupstream condition archive execute interleave exception adapter excerpt check standalone xml description execution race server configuration synchronous jboss number apo show abstractresourceadapterdeploymentservicelistener config code register block result document url suggestion
+Bench4BL/Wildfly/WFLY	4511	PE	2	2	applicationdeadlockexception cmttxinterceptor invokeinourtx code object applicationdeadlockexceptiondescription result exception release component number problem beforecompletion git git.app.eng.bos.redhat.com/jbossas/jboss-as.git artifact synchronization eap transaction block version failure register inspection
+Bench4BL/Wildfly/WFLY	4844	PE	19	19,79,189,195,1332	finish ejb start lock cmttxinterceptor containermanagedconcurrencyinterceptor run issue transaction ejbreadwritelock wait timer test analysis write wildfly singleton imho change
+Bench4BL/Wildfly/WFLY	5186	STN	38	38,388,472,1092,1443,1816,1871,1995,2348,5568,5794,5959	tcpstack async timeoutexception log secondsseen acquire session error server time sync failover connection warning message shutdown repl lock testrun dist node http stacktrace ejb ejbservlet jvmkill run scenario
+Bench4BL/Wildfly/WFLY	5449	PE	1	1,65,71	jchannelfactory start factory jgroups channel condition custom socket transport subsystem api race time wildfly jchannel
+Bench4BL/Wildfly/WFLY	5596	PE	2	2	stopdelivery startdelivery thread resource code activation block deadlock deactivation protection risk manager effect messagedrivencomponent call synchronize lock functionality atomicboolean adapter wfly recovery concurrent container xa order mdb time endpoint change non-container method
+Bench4BL/Wildfly/WFLY	5770	STP	1	1,7,8,29,36,46,345,354,385	timeoutexception cacheregistry close shutdown node lock
+Bench4BL/Wildfly/WFLY	6127	PE	1	1,2,3,9,21,138	illegalstateexception synchronized unsynchronized synchronizationtype context contextspec transaction component pc synchronize bean type method tx jta target persistence session container exception
+Bench4BL/Wildfly/WFLY	6215	PE	1	1,7,24,91,972	sessionsynchronization thread access execute examplemethod sfsb aftercompletion transaction callback timesout customer jbpapp concurrent sfsbissue concurrently reaper worker container bean
+Bench4BL/Wildfly/WFLY	6405	PE	1	1	welddeployment getbeandeploymentarchive method performance synchronize
+Bench4BL/Wildfly/WFLY	6776	NL	2	2,1246,2459	thread illegalargumentexception pool jca message change workmanager error failure log length manager configuration description server queue work subsystem type running custom max
+Bench4BL/Wildfly/WFLY	6877	STP	2	2,770	use time cache mutate lock immutable exception key cause change object statement putkeyvaluecommand timeoutexception cacheentrymutator attribute system test session acquire serialize log locking timeout message call name async marshalledvalue pojo trace difference
+Bench4BL/Wildfly/WFLY	7282	PE	12	12,325,1075	transaction ejbremotetransactionpropagatinginterceptor problem deadlock process discussion stick implementation basicaction jts jboss server phase list jta handling call support diamond situation iiop issue flaw recovery resource propagation
+GitHub/druid	582	PE	1	1,6,23,77,127	fs jar upload job start create exists file indexing overwrite jobhelper locking race mtime path solution cluster time directory druid hadoop workingpath/classpath/jarname.jar
+GitHub/druid	812	PE	1	1	segment realtimeplumber callback thread push task service release abandonsegment merge race view merging indexing file lock server havoc node realtime
+GitHub/druid	1014	NL	68	68,74,82,144,212,218,286,390,466,529,969,2456	result lead time request filter system condition value message query node thread error dimension show race kafka problem regexp regex druid speed
+GitHub/druid	1210	STN	-1		condition node log coordinator coordniator broker race crazy
+GitHub/druid	1360	NL	3	3,56	task terminate worker status scaling service condition manager replica node race situation auto indexing middle spawn check account
+GitHub/druid	1715	NL	1	1,11,18,321	task acquire lock submit course failure issue request min execution hr overlord zombie
+GitHub/druid	2793	STP	27	27,47,617	taskqueue error lock backlog addition entry attempt diff
+GitHub/druid	2842	STN	1	1,4,8,153	npe thread assignment task rtr
+GitHub/druid	2991	PE	3	3	incrementalindex addtofacts fact onheapincrementalindex condition incremetalindex index race mapping multi-thread aggregate
+GitHub/druid	3063	NL	74	74,270,430,511,704,1257,3746,6476	block request thread listen lookup time minute post make queue acquire load stuff coordinator query nonblocking concurrent lock number forward work druid jetty flight solution
+GitHub/druid	3393	STP	-1		channel nettyhttpclient go write httpclient handler channeldisconnected condition httprequest cluster instance callback retval hundred query time method future directdruidclient addlistener race exception broker druid pool shape chance side server trace
+GitHub/druid	3459	STN	1	1,5,7,11,37,62,89,104,164,181,388,2447,5251,5351	reentrantlock deadlock information wait atomicboolean object node lock topn_redacted nonfairsync issue cache java level synchronizer parking lookup stack thread query kill namespaceextractioncachemanager
+GitHub/druid	3593	STN	1	1,2,4,13,14,28,34,46,87,97,121,221,1810,5063	reentrantlock information lock wait deadlock cache nonfairsync namespaceextractioncachemanager atomicboolean offheap qtl java stack thread synchronizer parking monitor object
+GitHub/druid	3600	STN	1	1,4,172,566	metadata updatedatasourcemetadatawithhandle service datasource segment indexersqlmetadatastoragecoordinator java failure synchronize ise runtimeexception retrytransaction commit_metadata_payload method replication log task number issue condition equivalent count thread access db race partition kafka indexing transaction publishing aborting
+GitHub/druid	3608	PE	10	10,56	ingestsegmentfirehosefactory task reindex condition datasource factory segment level id race locking time grain situation cross directory input toolbox
+GitHub/druid	3772	PE	4	4	kafkalookupextractorfactory race condition issue order gvsmirnov
+GitHub/druid	4226	STN	41	41,51,284,394,398,566,746,1289,1913,2608	node lookup condition start log task realtime query aprox race spawn time segment druid tranquility storm
+GitHub/druid	4296	STP	1968	1968,2133	issue query task bufferunderflowexception middlemanger thread condition group middlemanagers node indexing corrupt configuration user application efficiency release fix segment hll trace log error peon realtime tranquility cluster druid event google datum interval
+GitHub/druid	4984	PE	1	1	cachingcostbalancerstrategyfactory callback start cachingcost serverinventoryview number method balancerstrategyfactory balancer cluster race view segment inventory initialization constructor
+GitHub/druid	5338	PE	-1		datasource batch issue emit emitter tryaddevents servicemetricevent builder druidcoordinator setdimension concurrentbatch executor spin dump loop usage httppostemitter method suspicion build test thread bug deployment reference event cpu concurrency time
+GitHub/druid	6020	STP	1	1,17	listener taskrunner optional druidleaderselector becomeleader taskmaster npe trace variable taskqueue race stack code overlord leader
+GitHub/druid	6028	STP	2	2	sqlmetadatarulemanagertest lock deadlock error cycle waiter
+GitHub/druid	6139	STP	31	31	testcheckpointforunknowntaskgroup kafkasupervisortest race
+GitHub/druid	6201	STP	3	3	httpremotetaskrunner lock object lifecyclelock concurrenthashmap cluster deadlock overlord wait test
+GitHub/druid	6287	PE	2	2	issue tasksequences verifyandmergecheckpoints service futures addcallback firstkey kafkasupervisor condition compareto race kafka indexing result
+GitHub/druid	6826	PE	5	5	druidschema refreshsegmentsfordatasource bug concurrency
+GitHub/druid	6867	STP	2	2	druidstatement information druidconnection deadlock connection java level exhaust stack thread
+GitHub/druid	7400	PE	51	51,562,1144	user passwordprovider password username name condition metadata passwordproviders druid credentials store database property provider race field implementation operation description motivation
+GitHub/druid	8622	PE	20	20,72,224,1607,4975,6173,6176	task supervisorcapacity slot parallelindexsupervisortask middlemanagers deadlock issupervisor code cluster set spawn capacity pool supervisor remotetaskrunner work concept comment change test plan method middlemanager submit delegate start user configuration restriction subtask possibility parallel
+GitHub/druid	9292	PE	1	1	concurrenthashmap coordinatorrulemanager atomicreference condition rules race hashmap fix action
+GitHub/druid	10005	PE	1	1,2,8,11,14,392,558	segment api interval load datasource query forcemetadatarefresh time task week sqlsegmentsmetadatamanager cache start metadata coordinator timestamp datum poll use source percentage number value condition user memory ingestion information implementation loadstatus list replication
+GitHub/grpc	17	PE	2	2,4,11,14,63,121	cancel abstractclientstream okhttp stream thread race rst_stream allocation transport delay id synchronization sendcancel notify doc side max_concurrent_streams netty optimization issue problem header destruction server application comment expectation cancellation asynchronously creation wire
+GitHub/grpc	120	PE	1	1,6,22,29,237	eventloop block newstream issue thread blocking nettyclienttransport deadlock directexecutor frame call task cause oom part api person concurrent queue wait method client wire operation behavior asynchronous qps header scenario performance netty
+GitHub/grpc	238	PE	13	13	startasync initialization handler connection transport race client thread server
+GitHub/grpc	330	PE	1	1	ongoaway startpendingstreams goaway phase okhttpclienttransport call stream lock failpendingstreams transportreportstatus pendingstreams race terminate cleanup list
+GitHub/grpc	583	PE	1	1,2,12,17	finishstream rst_stream transportreportstatus okhttpclientstream sendcancel race frame thread synchronize okhttp lock cancellation stream usage datum code benefit data application transport synchronization
+GitHub/grpc	605	PE	1	1	channelinactive channel nettyclienthandler isactive onstreamclose nettyclienttransporttest bufferedstreamsshouldbeclosedwhentransportterminates basedecoder call stream closure handling effect condition fix shutdown race list inactivation check report side encoder grpc teardown
+GitHub/grpc	696	STN	1	1,2	lock channel shutdownnow deadlock transportshutdown information transport server accountserver shutdown listener java channelimpl inprocesstransport serverimpl inprocessserver level process time stack thread client wait monitor object
+GitHub/grpc	887	STP	2	2,17	sendframe sendcancel okhttp timeout start npe race stream example
+GitHub/grpc	999	PE	1	1	serverimpl threadsafe release start condition annotation executor race problem concurrently stop shutdown
+GitHub/grpc	1253	STP	1	1,3,61,90,95	sendmessage halfclose illegalstateexception race request clientcallimpl cancellation pr context operation stream
+GitHub/grpc	1343	PE	1	1	stream start notify timeout_on_sleeping_server nullpointerexception awaitcompletion schedule okhttp execute deadline carl mastrangelo timeout clientcallimpl listener test exception android cancellation race
+GitHub/grpc	1408	PE	1	1,4,7,9,10,11,30,42,47,49,53,57,61,62,106,121,124,132,359	listener call lock clienttransport order schedule issue layer servertransportlistener acquire code method base channel deadlock cost ordering transport locking reason need risk track requirement thread solution today rule turn executor hand option
+GitHub/grpc	1510	PE	9	9	delayedclienttransport inprocesstransport deadlock chance
+GitHub/grpc	1549	null	2	2,6,10	rxjava deadlock add async change call stub streaming request operation language pressure synchronous streamobserver issue pattern block streamobserve caveat control onnext runtime implementation mechanism java response observables alternative extension grpc api flow
+GitHub/grpc	1981	PE	1	1,2,4,6,8,23,40,128,165,277,391,403,425	clientcallimpl call rejectedexecutionexception sharedresourceholder destroy_delay_seconds executor shutdown scheduledexecutor schedule channel newcall start test failingclienttransport solution state listener managedchannelimpl usage race npe timer person pool maybeterminatechannel release issue behavior deadline termination application reference
+GitHub/grpc	2152	STP	260	260,270	start transportset deadlock benchmark call detector client server
+GitHub/grpc	2246	STP	-1		nameresolver roundrobinlb transportset deadlock side issue code grpc custom
+GitHub/grpc	2388	STP	-1		transportset grpctimer deadlock cherry
+GitHub/grpc	2453	PE	3	3	statstracecontext threading
+GitHub/grpc	2562	PE	1	1,9,20,23	shutdown transport clienttransportprovider newstream loadbalancer delay step channel time managedchannelimpl clientcallimpl timing stream start selection response mode position subchannel solution race pick state
+GitHub/grpc	2865	PE	5	5,6,9,21,23,25,34,60,75,79,106,116,275,627	thread callback header race frame client execute stream delayedclienttransport okhttp clientcallimpl compression root cause decompression onheaders clientinterceptors message condition transport server rpc start interceptor channel executor network app data datum solution
+GitHub/grpc	3084	PE	3	3,4,75,190	clientcall servercall inprocessclientstream inprocessserverstream close lock callback safety deadlock channelexecutor serverstreamlistener acquire executor okhttpclientstream transportdatareceived issue thread messageread clientstreamlistener okhttp clientrequested serverrequested application order code object synchronize locking method care example
+GitHub/grpc	3207	STP	4	4	testserviceimpl race datum
+GitHub/grpc	5015	PE	6	6,7,11,20,23,25,27,30,37,53,61,62,87,117,390	helper synchronizationcontext subchannel createsubchannel race loadbalancer grpc guarantee path healthcheckingloadbalancerfactory requestconnection thread argument request loadbalancers caller model checking mindset health threading side work developer issue subchannelpicker handlesubchannelstate api benefit synchronization implementation fact
+GitHub/grpc	5450	PE	51	51	onerror nameresolve listener race concurrently thread code impl datum
+GitHub/grpc	6601	STP	4	4,14	start netserver serverimpl await grpc thread loop deadlock condition bug server synchronization lock channelzfuture block dump serverlistenerimpl transportcreated race connection initchannel schedule problem execute vertx channel synchronize wait ggpr file time client
+GitHub/grpc	6641	PE	1	1,2,3,4,10,13,19,62,71,73,127,149,154,167,181,192,203,356,420,550	serverimpl lock serverlistenerimpl transportcreated deadlock start execute nettyserver eventloop acquire transport await usecase runnable port server submit task mechanism
+GitHub/grpc	8190	STP	4	4	nameresolver thread hang placement method elg
+GitHub/grpc	8536	PE	1	1,13,1144	transmitwindowfull acknowledgedoutgoingbytes bindertransport problem grpc stick interaction binderchannel start control transaction_bytes_window read process error update call message deadline_exceeded server telemetry transaction gettile java version numoutgoingbytes client resume handleacknowledgedbytes thread unsynchronized concurrent sendtransaction
+GitHub/grpc	8565	STP	1	1,11,21,32,123,201	threadsanitizer retriablestream onready messageframer java close isclosed framer closed trace race thread isready stack transport frame datum summary
+GitHub/grpc	8642	PE	1	1,2,7,47	xdsclient csdsservice version getsubscribedresourcesmetadata getcurrentversion issue code synchronize call method synchronization api atomic resource thread csds
+GitHub/grpc	8914	STP	1	1,2,4,6,34,295	transact outgoingbinder service binder instance handletransaction call bindertransport binderclienttransport binderservertransport deadlock process ontransact problem channel lock thread binderchannelbuilder client identity sendacknowledgebytes re-entrancy delivery transaction time locking peer assumption method server driver object
+GitHub/presto	1614	PE	1	1	tasksource processnewsources driverlockresult close update hang race nomoresplits newsources design unlock stick message driver state machine call lock task query source
+GitHub/presto	1689	STN	-1		condition ci test issue stack trace race query
+GitHub/presto	3629	STP	1	1	teststatemachine testsetif travis race
+GitHub/presto	3647	PE	4	4	concurrenthashmap issue report tool race use blackholemetadata
+GitHub/presto	4869	NL	1	1,104	scheduler join stage dependency graph edge deadlock schedule scheduling broadcast build
+GitHub/presto	5005	PE	2	2	close statementclient queryrunner interruptedioexception call thread httpclient execute advance problem interrupt exception bug race async hook query issue client cli loop status flag presto http handler shutdown change synch
+GitHub/presto	5110	STN	263	263,1440,1675,2905,7958	array_concat array version map exception race condition presto string type query
+GitHub/presto	5116	STP	516	516	testtaskexecutor testtaskhandle assertionerror count race test invocation
+GitHub/presto	5735	PE	1	1,55	setmemoryreservation memoryreservation operatorcontext thread freememory annotation threadsafe trysetmemoryreservation method transfermemorytotaskcontext resume reservation query atomiclongs problem atomiclong impact example scenario execute part code cc cberner hang memory caller change synchronization performance bug delta
+GitHub/presto	6196	STN	6	6	lock information resourcegroup httpremotetask continuoustaskstatusfetcher start info deadlock rootresourcegroup stack sqlstageexecution level java resourcegroupmanager production query client trace task thread wait monitor object
+GitHub/presto	6319	PE	3	3,8,16	indexlookup accumuloclient setauths gettabletsplits accumuloconfig store safety hashmap columncardinalitycache path instance singleton thread synchronization code
+GitHub/presto	6755	PE	1	1	manager abstractresourceconfigurationmanager internalresourcegroup thread configurechangedgroups memory_change_listener_lambda configuregroup setsoftmemorylimit group clustermemorymanager situation generalpoolmemoryfraction lock cc cberner deadlock pool db file root resource config dbresourcegroupconfigurationmanager
+GitHub/presto	6923	PE	1	1,2,62,201,225,815	outerlookupsource partitionedlookupsource synchronize regression usage outerpositiontracker problem method version cpu code task_concurrency query visitedpositions locking synchronization partitioning appendto time profiling performance outer join node core hash dain area factor array
+GitHub/presto	7667	PE	3	3,487,488,802,1580	testqueues testbasic check condition listener wait possibility machine test issue error change state waitforquerystate query race pattern log failure db line counter function assertion point
+GitHub/presto	7689	PE	136	136,182,254,255,375,1265	counter abstracttestdistributedqueries testqueryloggingcount listener callback change condition assertion execution issue test problem sleep query state race async variable
+GitHub/presto	8716	PE	-1		waitforcompletion copymonitor uploadmonitor uploadobject abstracttransfer sdk condition race upload hang call parallel setfuture loop aws proposal version load method aw
+GitHub/presto	9881	STP	165	165	outerpositiontracker iterator count error race condition query limit position reference stack
+GitHub/presto	11253	PE	2	2,3,15,16	bug queueddrivers node scheduling nomoresplits tasksource schedulingcomplete addexchangelocation pendingsplitsbyplannode stage finish completesources nodeassignmentstats gettotalsplitcount sqltaskexecution schedulepartitionedsource nodescheduler selectdistributionnodes task splits pipelinecontext getpipelinestatus order worker deadlock split schedule detail pressure outcome number scheduletask
+GitHub/presto	13142	STP	12	12	querystatetimer backport race failure trino trinodb
+GitHub/pulsar	1117	STN	1	1,3,4,25,277	split bundle condition exception range cache race result issue place namespace time
+GitHub/pulsar	2141	PE	3	3	condition sequenceidwitherrortest error producer failure ledger test race consumer broker topic fencing reconnection
+GitHub/pulsar	3768	STP	1	1,241	pulsarworkerassignmenttest shutdown failure worker deadlock error message function issue method time pulsar test
+GitHub/pulsar	4447	STP	69	69,99,316,506,547,913,1096,1142,1296,1327,1348,1411,1415,1421,1422,1433,2412,3052	internalgetpartitionedstats stick broker stats bug thread dump execute cluster pulsar/pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/persistenttopicsbase.java
+GitHub/pulsar	4635	NL	174	174	broker_threaddump txt broker server deadlock version bookie failure dump output log message zk hardware thread bug time pulsar cluster phenomenon
+GitHub/pulsar	4707	STP	-1		topic exception client kafka pulsarkafkaproducer kafkaproducer request cause thread message nullpointerexception object time code pulsar feature problem javadoc cluster change pr version document
+GitHub/pulsar	5585	PE	1	1,2	sendasync producerimpl block method nonpersistentreplicator message num acquire ack ackreceived pendingmessages deadlock replication pulsar io log broker meta semaphore batching batch release producer process topic effect put
+GitHub/pulsar	8050	PE	2	2,11	producer collections newsetfrommap set producers put concurrenthashmap pulsarclientimpl identityhashmap map reference pulsar performance list value thread consumer
+GitHub/pulsar	8293	PE	1	1	readposition managedcursorimpl setacknowledgeposition opreadentry condition update lock code synchronization thread race issue bug context clarification solution state problem link field fix resolution setreadposition markdeleteposition method read_position_updater loop discussion conflict slack example concurrency
+GitHub/pulsar	9109	STP	30	30,76,108	block consumer send rateout writelock unackedmessagetracker receive time process unacknowledgedmessages method producer wait timer crash thread bug stack topic step decrease redeliver broker acquire problem behavior code sample message auto pulsar add
+GitHub/pulsar	10170	PE	1	1	authenticationathenz access roletoken information java lock error synchronization log use bug problem context description efficiency medium ci desktop screenshot time unsynchronized line synchronize behavior
+GitHub/pulsar	10235	PE	1	1,2,5,11	leaderservice isleader thread deadlock monitoring
+GitHub/pulsar	10767	STP	9	9	reentrantreadwritelock lock consumerbatchreceivetest client deadlock thread wait information stall issue run java consumerimpl nonfairsync test branch timer pulsar level dump pr synchronizer parking master monitor object stack behavior
+GitHub/pulsar	11379	STN	1	1	narunpacker condition race directory
+GitHub/pulsar	11605	PE	12	12,14,50	zz start topic exception condition concurrently schemaregistryservice ledger bookie schema getschema abstracttopic nonode concurrent deleteschemastorage bug deleteschema thread service deletion broker race behavior cluster scenario bookkeeper execute schemas xx yy example phenomenon
+GitHub/pulsar	11689	PE	1	1,2,4,23,71,207,558,1157	consumer pendingbatchreceives batchreceive completablefuture java consumerbase thread call condition block peek concurrently fix bug peeknextbatchreceive race error message sleep issue wait concurrent entry poll queue time code behavior
+GitHub/pulsar	11690	STP	2	2,255,318,715	revalidatelockondifferentsession lockmanagertest method test example failure
+GitHub/pulsar	11966	STN	3	3,12	method code admin connection settimeout arraydeque timeout value hang adminproxyhandler thread servletconfig issue bug example stacktrace use call observation base wait block proxy proxied endpoint cleanup copy configuration state jetty place request
+GitHub/pulsar	12723	PE	6	6,41,58	persistenttopic thread persistentreplicator addreplicationcluster replicators remove concurrentopenhashmap condition replicator race bug code measure execute field non-null method example behavior
+GitHub/pulsar	12885	PE	1	1,2	readentriescomplete consumer readmoreentries testremovefirstconsumer persistentdispatchermultipleconsumers close receive message cursor asyncreplayentries persistentstickykeydispatchermultipleconsumers foreach addmessagetoreplay bug type wait call key_shared asyncreplayentriesinorder keysharedsubscriptiontest condition step log calculatetoread test setting sendmessagestoconsumers disorder getpendingacks loop retry subscription
+GitHub/pulsar	12929	STP	109	109	internaldeletesubscription thread deadlock callback store metadata
+GitHub/pulsar	13004	STP	1	1	resourcelockimpl updatevaluewhenkeydisappears lockmanagertest lockmanagerimpl lock updatevalue revalidate condition delayinjectionmetadatastore lockbusyexception exception metadatastore metadata bug handledatanotification success delay time chance race acquirewithnorevalidation error behavior digging test node unit method lockwasinvalidated acquire line stack
+GitHub/pulsar	13923	STP	13	13,17,56,83,109,110,133,157,219,326,327,427,572,579,644	cluster unsupportedoperationexceptions condition namespace replication log proxy topic bug connection pulsar partition broker issue behavior geo setup race
+GitHub/pulsar	13964	STP	2	2	pulsarclientimpl close clientdeduplicationfailuretest shutdown hang example test failure deadlock
+GitHub/pulsar	13986	PE	9	9	lock timeout bottleneck transactionbufferhandler method request processing synchronization solution enhancement problem transactiion performance run sync
+GitHub/pulsar	14362	PE	1	1,49,69,98,168,464,708	call endpoint race trace time broker condition build method block npe number start bug master observer log pulsar thread step behavior health check code subscription chance line custom reason stack issue trigger
+GitHub/pulsar	14413	PE	2	2	subscribeasync block pool call consumerbuilderimpl thread change check retry getpartitionedtopicmetadata fix result issue deadlock example decision signature lookup topic deadletterpolicy version concurrent name non-blocking project exporter bug pr scheme dlq completablefuture maintainer
+GitHub/pulsar	14438	STP	24	24,274	deletetopicforcefully block scene thread time wait
+GitHub/pulsar	14633	STP	17	17,371	setuptopicpublishratelimitermonitor block operation deadlock deployment bug metadata store production problem method behavior
+GitHub/pulsar	17446	PE	4	4,9	blockifqueuefull block maxpendingmessages semaphore message sendasync bug chunkmaxmessagesize number deadlock chunking acquire risk chunk issue reason time producer
+GitHub/pulsar	17913	STP	-1		pulsarregistrationclient bookkeeper metadatacache combination thread zk call registration schema block deadlock step fact broker stick driver client chance problem bug issue consequence method value
+GitHub/pulsar	18196	PE	1	1	locallyacquiredlocks ownershipcache remove bug leak bundle issue
+GitHub/pulsar	18988	STN	38	38	io store master issue metadata transaction step bug deadlock pulsar
+GitHub/redisson	39	STN	2	2,45	system unlock work lock attachment request loop jersey resource view point stuff user thread
+GitHub/redisson	40	NL	6	6,11	trylock lock situation thread resource ttl operation deadlock time plan
+GitHub/redisson	67	PE	5	5	sublist redissonlist size hasnext call exception problem iterator invocation value concurrency
+GitHub/redisson	83	STN	291	291	lock version thread stick cli key name redisson redis list jvm concurrently release deadlock
+GitHub/redisson	89	STP	121	121	lock thread use block state stall redissonlock redisson wait release redis application jstack output note production await key
+GitHub/redisson	106	PE	15	15	redissonlist iterator condition nosuchelementexception race set list date datum hasnext
+GitHub/redisson	169	PE	5	5	masterslaveconnectionmanager commandhandler hang connectionmanager call exception bug processing command
+GitHub/redisson	199	STP	185	185,406	pool executors newfixedthreadpool call issue code performance runnables concurrency runnable trace app ton state million deque exception experiment number end instance redisson thread string master build guy issues stack sec today test
+GitHub/redisson	254	STP	1	1,133,177,178,179,180,181,182,183,184,185,186,189,190,258,797,833,1905	jsonjacksoncodec thread countdown exception expiration version does't serializationcodec object redisson problem unlock sec issue lock code environment concurrent sync eofexception rlock
+GitHub/redisson	455	STN	256	256,596,678	test latency lock redis waiting issue project api latecy mode suggestion stack call query network tcpdump server check percent place redi time load redisson jstack thread
+GitHub/redisson	486	NL	132	132,227,228,307	lock thread pool issue rlock latency problem performance acquire setup redis delay code size cluster reddison zhxjouc unlock key unlocking java help
+GitHub/redisson	491	PE	800	800	thread java redissonlock wait lock park os_prio abstractqueuedsynchronizer lockinterruptibly redissonobject unsafe countdownlatch parkandcheckinterrupt state doacquiresharedinterruptibly await locksupport commandasyncservice prio listener unsubscribe acquiresharedinterruptibly subscribe nio subscription nid waiting time step algorithm issue response
+GitHub/redisson	530	PE	318	318	commandasyncservice await connection object stick lock deal bug async test claster future function thread logic release mainpromise load run task means deadlock server promise line exit issue redirection end junit client headache
+GitHub/redisson	533	PE	1	1,2,235	redissonmultilock exception
+GitHub/redisson	543	STP	119	119,203,256,523,660	trylock block cluster timeout thread note dump time wait rlock command environment instance elasticache aws stack
+GitHub/redisson	757	NL	1	1,21,36	unlock fairlock thread delay lock
+GitHub/redisson	758	PE	1	1,39,55	redislockservice lock reentrantreadwritelock rreadwritelock issue acquire object clause bug readwritelock success page mine thread reentrancy javadoc redisson warn use write reentrant wiki emphasis java configuration end writer vice-versa test
+GitHub/redisson	775	STN	8	8,19,33,85,128	failover lock attempt update master slave block renewal exception
+GitHub/redisson	828	PE	-1		url currentfactory factory newfactory cause setup uribuilder thread value cluster handler start call replaceurlfactory restoreurlfactory scenario
+GitHub/redisson	889	STN	221	221,576	thread threadpoolexecutor issue state dump provider worker executor execute queue cache pool op operation log jcache lock http redisson ejb async time
+GitHub/redisson	891	PE	2	2,119	rreadwritelock check illegalmonitorexception lock op write unlock bug time logic problem concurrent environment yesterday thread holding reentry
+GitHub/redisson	1048	STP	230	230	java wait thread park execute abstractqueuedsynchronizer state unsafe hang countdownlatch rbatch commandbatchservice parkandcheckinterrupt redissonbatch timeout doacquiresharedinterruptibly commandasyncservice await locksupport batch lockwatchdogtimeout acquiresharedinterruptibly waiting application time client parking redisson test method multi-threaded sync
+GitHub/redisson	1104	NL	1	1,3	issue timeout version problem lock rfairlock hour application start wait instance future system environment day zscore key queue thread time pst help command operating production redisson app year occurence locking michael
+GitHub/redisson	1268	STP	2	2,70	block redissontopic removealllisteners countdownlatch await
+GitHub/redisson	1433	PE	79	79	config usesingleserver setaddress remoteservice call exception redisson configuration redis concurrent behavior
+GitHub/redisson	1602	PE	166	166,387,840,939	redisson network unlock expirationrenewal connectionpoolsize connectionminimumidlesize address database password connecttimeout timeout client execute redis version exception problem service recovery configuration success behavior
+GitHub/redisson	1626	STP	16	16,59,249,447	lock thread redissonlock time jcache unlock timeout put elasticache number issue execute deadlock update lockwatchdogtimeout call release wait redis review key redisson bucket check implementation rate method instance failure reason lease expiration
+GitHub/redisson	1950	STP	128	128	release priorityblockingqueue network redisson_sortedset_lock blow lock wait code name cause boke minute testqueue
+GitHub/redisson	1966	NL	68	68	timeout lock deadlock unlock application task pause thread schedule test redis command force attempt critical redisson section feature client start locked response operation behavior
+GitHub/redisson	2099	PE	1	1,2	thread timeout lock time wait issue trylock example_fair_lock redissonfairlock queue redisson_lock_timeout server use set redisson_lock_queue hour acquire rlock change testtimeoutdrift acquirefailedasync sleep redissonfairlocktest condition usage threadid redisson range drift test work unlock
+GitHub/redisson	2278	PE	1	1,8	acquire redissonfairlock time start lock deadlock fairlock load key thread system change behavior lease redisson client
+GitHub/redisson	2355	STP	21	21	redissonlock unlock redissonpromise hang wait
+GitHub/redisson	2575	PE	4	4,243,382,628,709	redissonlock lock lockinterruptibly leak increase leasetime channel subscriptionsperconnection use bug implementation workaround timeout error java size timeunit subscriptionconnectionpoolsize acquire server unit limit parameter key connection subscription number wait sub client pool subscribe
+GitHub/redisson	2690	STP	1	1	redissonsessionrepository onmessage initialization condition listener topic session issue matching npe race spring startup order
+GitHub/redisson	2692	STP	1	1	changesessionid expiredkey redissonsession condition session race instance server number app pttl production
+GitHub/redisson	2714	PE	5	5,235,238	redissonlock trylock interrupt lock watchdog listener behavior
+GitHub/redisson	2883	PE	6	6,7,20,30	redissonfairlock redissonlock endlok print deadlock result use
+GitHub/redisson	3484	PE	1	1,8,9,11	leasetime waittime unit internallockleasetime trylockinnerasync tomillis invaild redissonlock lock problem thread redisstrictcommand watchdog command threadid time timeunit subject cam cause concurrency method redis
+GitHub/redisson	4033	PE	2	2,12,18,21	waittime redissonmultilock lock bug success line rlock multilock
+GitHub/redisson	4064	STP	4	4,12,321,475,586	lock subscriptionsperconnection channel thread exception timeout subscriptionconnectionpoolsize wait parameter acquire problem lockkey redissonlock key test increase pool pub sub state app issue error locking pubsub time behavior
+GitHub/rocketmq	1986	PE	1	1,212,271,637,1553	report issue use getandcreatelastindexfile suggestion thread readwritelock explanation indexfile reputmessageservice indexservice request blocker fix feature list task execute environment hint importance bug subtask tracker mailing mind raise sub detail lock mail collaboration
+GitHub/rocketmq	4143	PE	1	1,4,5	indexfile filelock indexservice lock file
+GitHub/rocketmq	4686	PE	1	1	release kvconfigmanager lock exception acquire bug report putkvconfig environment issue step thread state interrupt position layer
+GitHub/rocketmq	5039	STP	1	1	brokeridentity stick inetaddress instance localhostname idea object time
+GitHub/trino	2962	STP	86	86,891	gettable loadpartitionbyname execute issue condition thread deadlock call starvation race loadtable coordinator time executor dump query wait pool metastore hive method behaviour queue thead presto couple none
+GitHub/trino	6202	PE	1	1,2,4	stacktrace logtestdurationlistener test hang information frame monitor thread
+GitHub/trino	6389	STP	17	17,376,380,872	sqlserverclient gettableproperties deadlocked deadlock failure victim transaction query
+GitHub/trino	7454	PE	67	67	hashbuilderoperator join spill call partition partitionedconsumption spilledlookupsourcehandle release finish partitionedlookupsourcefactory spilledpartitions disposerequested unspillingrequested dispose block race side isblocked condition setpartitionspilledlookupsourcehandle operator finishprobeoperator set startmemoryrevoke instance order disk build future
+GitHub/trino	7872	STP	-1		testsqlservertypemapping deadlocked deadlock victim transaction
+GitHub/trino	9741	STP	17	17,1871	testsqlserverconnectortest testselectinformationschemacolumns cause test image deadlock ubuntu
+GitHub/trino	11798	NL	115	115	lock state shared_read acquired_at trino datum release hive timestamp script query step spark table cause workaround value wait acquire waiting
+GitHub/trino	13212	PE	1	1	setbytes directexchangeclient congestion addpages section pollpage critical lock
+GitHub/trino	14132	PE	1	1,2,5987	lock file runtimeexception releaselock aquirelock table hivemetastoretableoperations step metastore nosuchlockexception iceberg timeout exception release side level line execute hms snapshot block hive failure insert query reason
+GitHub/trino	14605	STP	101	101	failurerecoveryassert failswithoutretries testicebergtaskfailurerecoverytest testexplainanalyze failure run stick test execution query fault trace path capability recovery stack chance
+GitHub/vertx	1247	STP	3	3	close httpclientimpl clientconnection vert httpclient lock handleclosed checkclosed deadlock acquire connection thread
+GitHub/vertx	1302	STP	24	24,53,103	vertx clusteredvertx eventloop thread block startup method application java
+GitHub/vertx	1355	STP	2	2	clientconnection httpclientrequestimpl deadlock
+GitHub/vertx	1466	STP	2	2	serverconnection httpclientrequestimpl deadlock
+GitHub/vertx	1469	PE	6	6	instance acquire connectionmanager queuemanager connqueue implementation getconnqueue createendpoint client map httpclientmetrics constructor leak resource http none thread queue spi time endpoint closeendpoint
+GitHub/vertx	1573	STP	3	3,39	opening asyncfile filesystem stack drive warning user twickle windows issue block thread example trace nbd network detail
+GitHub/vertx	1598	STN	30	30,62	write read block async issue thread asynchronous
+GitHub/vertx	1633	PE	94	94	executeblocking description block thread context
+GitHub/vertx	1742	PE	2	2,4	jar file data implementation verticle filesystem action filelengthverticle java fileresolver issue vert instance yield copy size cache problem readfileblocking cp resolvefile mb output payload async concurrently run resolution use copying resource directory
+GitHub/vertx	1834	PE	19	19,32,111	sockjssocket lock serverwebsocket websocket event handler request httpserverrequest httpserver schedule tick loop deadlock context netty synchronize connection reconnect motivation change
+GitHub/vertx	1892	PE	9	9,29,31	sethandler thread implementation future problem compositefuture compositefutureimpl condition test race completion verticle function composition futureimpl situation atomic intention junit project understanding difficulty handler
+GitHub/vertx	2012	PE	1	1	writesoutstanding asyncfileimpl thread atomiclong write condition race context counter state caller
+GitHub/vertx	2370	PE	250	250	resolver connectionprovider failure httpclient pool callback asynchronous synchronous host dns jvm connection
+GitHub/vertx	2418	PE	1	1,26	hazelcastclustermanager problem igniteclustermanager verticle deadlock lock consumer acuire code
+GitHub/vertx	2670	PE	2	2,8,14,54,89,344	thread connection notify loop bootstrap context globaleventexecutor event execute application vertx notification client netty boostrap failure
+GitHub/vertx	2684	STP	9	9	asyncresult runoncontext executeblocking thread future race callback execute trace resolution client hand stack mongo execution handler asynchronous worker
+GitHub/vertx	2773	PE	6	6,13,14,64,89,98,164,179	pool connection request httpclient context race tick condition close schedule fact situation client delivery multiple vertx solution moment re-check
+GitHub/vertx	2916	NL	40	40,52,56,58,122,129,131,158,179,242,257,761	handler lock event deadlock http
+GitHub/vertx	2982	STN	1	1,22,30,56,95,102,111,117,127,221,241,605	lock vert block httpclientrequestimpl deadlock client stuff http wait reproducer eventloop threaddump
+GitHub/vertx	3064	PE	39	39,43,289	operation mistake stream result method behaviour vert httpserverresponse synchronously improvement response synchronous future user programming asynchronously
+GitHub/vertx	3140	PE	2	2,5	asyncfile handler lock block implementation synchronize file synchronization
+GitHub/vertx	3142	NL	105	105,167,208	deadlock instance verticle start server regression
+GitHub/vertx	3232	STP	7	7,8	vertx close sync await future method sethandler pool wait thread handler blocking output work
+GitHub/vertx	3335	PE	14	14	filesystemimpl existsinternal block loop thread event
+GitHub/vertx	3468	STP	51	51	block vert httpclient issue connectionmanager getconnection thread connection loop halt warning milestone result request event host client
+GitHub/vertx	3469	NL	83	83	deadlock callback pool host failure client http self
+GitHub/vertx	3658	STP	1	1,2	compositefuture exception composite iscomplete vertxunitrunner method thread future condition execute failure number tryfail race runwith block gap situation docomplete version bug test result execution synchronize unit time context
+GitHub/vertx	4024	PE	1	1	tcpserverbase listener bindfuture addlistener sharednetservers put dobind id race listen port issue wait code volatile field notify effect method synchronize debugging term concurrency context future verticle
+GitHub/vertx	4069	STP	1	1,9,14	vertx workerexecutor vertximpl close closefuture workerexecutorimpl lock thread deadlock callback issue eventloop copy concurrently wait release instance information createsharedworkerexecutor sharedworkerpool code backtrace jstack self block list java synchronize vert level version acquire
+GitHub/vertx	4104	STP	4	4	executeblocking workerexecutor asyncresulthandler run thread deadlock test block call execute fut oncomplete workerexecuteimpl sleep workerexecutorimpl timing requirement trace option blockingcodehandler breakpoint line reproducer order intellij lock instance junit reproduction stack synchronize blocking
+GitHub/vertx	4221	NL	1	1,3	npe action connection pool execute httpclient race slot lease meantime post
+GitHub/vertx	4275	PE	3	3	connectionbase exception handler block synchronize
+GitHub/vertx	4278	STN	7	7,39	arraylist name error registerverticlefactory verticle deploymentmanager deploymentoptions rxdeployverticle method option exception collection startup problem application piece code information attempt string concurrency analysis
+LtR/AspectJ	59599	NL	99	99	test condition ajctests xml contents wait suite pc desktop machine pointer environment fix race andy home compilation candidate linux directory
+LtR/AspectJ	59909	PE	1	1,2,112,241,2663,2694	cflowstack thread getthreadstack removesthreads size store call scheme memory patch lateproblem code error implementation varaibles production method hashtable version running table project cycle
+LtR/AspectJ	155148	STN	4	4,22,177,444	lock method trace information classloader deadlock thread server name workexecutorworkerthread policyclassloader identity tostring hashcode dump launcher java level oracle test system ctrl loader wait monitor object stack reason notice aj argument
+LtR/AspectJ	269867	STP	1	1	weakhashmap stick ajtypesystem getajtype access thread instance system start dump synchronize clazz threaded application loop object line
+LtR/AspectJ	318878	NL	260	260	aspect set method thread object ajc instance version target source advice vm problem code test compiler check size constructor sun application time value synchronize pertarget instantiation
+LtR/AspectJ	320468	STP	1	1	modifierspattern getmodifierflag method modifierflags map non-synchronized
+LtR/AspectJ	340806	PE	15	15	javalangtypetoresolvedtypeconverter aop race condition spring
+LtR/AspectJ	408721	STN	-1		aspectj exception thread concurrentmodificationexception state weaver
+LtR/Birt	123840	PE	1	1,133,140	nevaluator field use request instance datum dataengine process corruption query filterpasscontrollerdata filterpasscontroller engine concurrent bottom filter jvm report processing time multi-thread
+LtR/Birt	195335	PE	2	2	htmlserverimagehandler hashmap synchronize multithreads issue disk image time
+LtR/Birt	208512	PE	1	1,94	odaconsumer issue multithread thread
+LtR/Birt	284367	PE	1	1	datasourcefactory
+LtR/Birt	287102	PE	1	1	osgilauncher childfirsturlclassloader deadlock classloader
+LtR/Birt	314645	PE	104	104,822,1774	file application datum safe size xml process wait inputstream error argument datasource sample warnung exception memory vm log warning thread rptdocument attachment
+LtR/Platform	6623	STP	1	1	abstractuiplugin refreshpluginactions thread startup problem plugin ui
+LtR/Platform	15379	PE	8	8	listener workingsetmanager thread change resource
+LtR/Platform	33942	PE	23	23	idecoratormanager update requirement thread javadoc threading swtexception ui restriction
+LtR/Platform	46562	STN	444	444	view overwrite resource cvs lock dialog update sync deadlock dump
+LtR/Platform	48382	NL	-1		join work trace release test deadlock view worker job ilock stack marker pattern build
+LtR/Platform	54450	PE	-1		requestinui job feedbackmanager dialog nullpointerexception error development request execution api work call prompt impression user hint wait log info eclipsecon condition inui var technique tour debugger uijob logic top status process race
+LtR/Platform	59782	STP	19	19,177,200,437,693	workspace dialog runbuild page eclipse perspective operation build preference explorer deadlock wait start java window packager project workbench user pref progress
+LtR/Platform	67053	PE	1	1	lock exception code ioexception use workspace nature failure error message ui user location
+LtR/Platform	74185	PE	1	1	join uijobtest backgroundthreadfinished test failure testjobran testjob volatile delayjob loop assertion wait flag copy processor job concurrency fix
+LtR/Platform	76378	PE	5	5,160	thread notifyjob modalcontext deadlock operation notification uithread request test code change syncexec uilocklistener problem patch workspace lock background interaction junit timing ui
+LtR/Platform	84141	PE	5	5,23	decorationscheduler lock ui
+LtR/Platform	108162	PE	15	15,36	movefilesandfoldersoperation participant line deadlock resource actions plug refactoring code
+LtR/Platform	113582	STN	125	125	problem dirtyregionqueue deadlock list lock framework party marker editor jobs build job john tod stacktrace
+LtR/Platform	114527	PE	22	22	startup condition crash race workbench
+LtR/Platform	114813	PE	1	1	listener getbundle dosetup dynamicplugins synchronization objectcontributiontest testviewercontributions failure event instance dynamictestcase mechanism registry removebundle dynamicpluginstestsuite begining junit addition wait method solution bundle work time chain
+LtR/Platform	118414	STP	33	33	abstractworkingsetmanager deadlock start workspace startup
+LtR/Platform	136855	PE	7	7,468	runfinalization ideidlehelper heapstatus thread deadlock ui
+LtR/Platform	164361	PE	1	1	show isvisible progressmonitordialog handler condition iprogressmonitor begintask messagelabel swt dialog check name job progress setmessage configureshell race optimization message label user milestone task trimming
+LtR/Platform	168806	PE	1	1	realm ensureworkerthreadisrunning start thread
+LtR/Platform	171452	NL	1	1	syncexec deadlock handler trace couple startup splash
+LtR/Platform	230472	NL	25	25	activity synchronize list expression
+LtR/Platform	248908	PE	77	77	busyindicator application problem framework lock thread freeze ui deadlock bug rcp day eclipse editor time
+LtR/Platform	258352	PE	4	4	progressmanager synchronization
+LtR/Platform	262032	PE	5	5	deadlockdetector deadlock
+LtR/Platform	273752	PE	8	8	syncexec navigatorcontentservice getsourceofcontribution deadlock suite object test
+LtR/Platform	296056	PE	1	1,79	syncexec ijobmanager beginrulethe deadlock rule wait attempt ui scheduling thread
+LtR/Platform	296822	PE	3	3,5,8	iscanceled setcanceled nullprogressmonitor implementation thread synchronize access field volatile usage work progress monitor method use synchronization poll
+LtR/Platform	302536	PE	1	1	markersupportregistry locking
+LtR/Platform	306738	PE	-1		item state mtoolbar synchronize toolitem app application mtoolitem radio selection set change type delta renderer tool toolbar button result
+LtR/Platform	307405	PE	6	6,14	navigatorcontentservicecontentprovider deadlock
+LtR/Platform	312063	PE	-1		selectionserviceimpl listenerlist hashsethashsets order event thread
+LtR/SWT	176792	PE	1	1	comobject objectmap application misbehavior field callbacks constructor multithreaded
+LtR/SWT	183830	PE	3	3	glx glxmakecurrent reply async deadlock xlib
+LtR/SWT	188320	PE	8	8	display sleep modalcontext modalcontextthread asyncexec thread readanddispatch method snippet deadlock threadsafe event execute problem block synchronisation gtk execution syncexec wait fix run code argument linux task contrast jface swt continueeventdispatching
+LtR/SWT	264399	NL	41	41	testing application deadlock swt linux gtk
+LtR/SWT	338965	NL	371	371	thread deadlock hang ui

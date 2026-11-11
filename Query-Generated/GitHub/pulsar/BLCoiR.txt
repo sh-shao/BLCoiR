@@ -1,0 +1,33 @@
+1117	split bundle condition exception range cache race result issue place namespace time
+2141	condition sequenceidwitherrortest error producer failure ledger test race consumer broker topic fencing reconnection
+3768	pulsarworkerassignmenttest shutdown failure worker deadlock error message function issue method time pulsar test
+4447	internalgetpartitionedstats stick broker stats bug thread dump execute cluster pulsar/pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/persistenttopicsbase.java
+4635	broker_threaddump txt broker server deadlock version bookie failure dump output log message zk hardware thread bug time pulsar cluster phenomenon
+4707	topic exception client kafka pulsarkafkaproducer kafkaproducer request cause thread message nullpointerexception object time code pulsar feature problem javadoc cluster change pr version document
+5585	sendasync producerimpl block method nonpersistentreplicator message num acquire ack ackreceived pendingmessages deadlock replication pulsar io log broker meta semaphore batching batch release producer process topic effect put
+8050	producer collections newsetfrommap set producers put concurrenthashmap pulsarclientimpl identityhashmap map reference pulsar performance list value thread consumer
+8293	readposition managedcursorimpl setacknowledgeposition opreadentry condition update lock code synchronization thread race issue bug context clarification solution state problem link field fix resolution setreadposition markdeleteposition method read_position_updater loop discussion conflict slack example concurrency
+9109	block consumer send rateout writelock unackedmessagetracker receive time process unacknowledgedmessages method producer wait timer crash thread bug stack topic step decrease redeliver broker acquire problem behavior code sample message auto pulsar add
+10170	authenticationathenz access roletoken information java lock error synchronization log use bug problem context description efficiency medium ci desktop screenshot time unsynchronized line synchronize behavior
+10235	leaderservice isleader thread deadlock monitoring
+10767	reentrantreadwritelock lock consumerbatchreceivetest client deadlock thread wait information stall issue run java consumerimpl nonfairsync test branch timer pulsar level dump pr synchronizer parking master monitor object stack behavior
+11379	narunpacker condition race directory
+11605	zz start topic exception condition concurrently schemaregistryservice ledger bookie schema getschema abstracttopic nonode concurrent deleteschemastorage bug deleteschema thread service deletion broker race behavior cluster scenario bookkeeper execute schemas xx yy example phenomenon
+11689	consumer pendingbatchreceives batchreceive completablefuture java consumerbase thread call condition block peek concurrently fix bug peeknextbatchreceive race error message sleep issue wait concurrent entry poll queue time code behavior
+11690	revalidatelockondifferentsession lockmanagertest method test example failure
+11966	method code admin connection settimeout arraydeque timeout value hang adminproxyhandler thread servletconfig issue bug example stacktrace use call observation base wait block proxy proxied endpoint cleanup copy configuration state jetty place request
+12723	persistenttopic thread persistentreplicator addreplicationcluster replicators remove concurrentopenhashmap condition replicator race bug code measure execute field non-null method example behavior
+12885	readentriescomplete consumer readmoreentries testremovefirstconsumer persistentdispatchermultipleconsumers close receive message cursor asyncreplayentries persistentstickykeydispatchermultipleconsumers foreach addmessagetoreplay bug type wait call key_shared asyncreplayentriesinorder keysharedsubscriptiontest condition step log calculatetoread test setting sendmessagestoconsumers disorder getpendingacks loop retry subscription
+12929	internaldeletesubscription thread deadlock callback store metadata
+13004	resourcelockimpl updatevaluewhenkeydisappears lockmanagertest lockmanagerimpl lock updatevalue revalidate condition delayinjectionmetadatastore lockbusyexception exception metadatastore metadata bug handledatanotification success delay time chance race acquirewithnorevalidation error behavior digging test node unit method lockwasinvalidated acquire line stack
+13923	cluster unsupportedoperationexceptions condition namespace replication log proxy topic bug connection pulsar partition broker issue behavior geo setup race
+13964	pulsarclientimpl close clientdeduplicationfailuretest shutdown hang example test failure deadlock
+13986	lock timeout bottleneck transactionbufferhandler method request processing synchronization solution enhancement problem transactiion performance run sync
+14362	call endpoint race trace time broker condition build method block npe number start bug master observer log pulsar thread step behavior health check code subscription chance line custom reason stack issue trigger
+14413	subscribeasync block pool call consumerbuilderimpl thread change check retry getpartitionedtopicmetadata fix result issue deadlock example decision signature lookup topic deadletterpolicy version concurrent name non-blocking project exporter bug pr scheme dlq completablefuture maintainer
+14438	deletetopicforcefully block scene thread time wait
+14633	setuptopicpublishratelimitermonitor block operation deadlock deployment bug metadata store production problem method behavior
+17446	blockifqueuefull block maxpendingmessages semaphore message sendasync bug chunkmaxmessagesize number deadlock chunking acquire risk chunk issue reason time producer
+17913	pulsarregistrationclient bookkeeper metadatacache combination thread zk call registration schema block deadlock step fact broker stick driver client chance problem bug issue consequence method value
+18196	locallyacquiredlocks ownershipcache remove bug leak bundle issue
+18988	io store master issue metadata transaction step bug deadlock pulsar

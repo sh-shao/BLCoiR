@@ -1,0 +1,4 @@
+1986	report issue use getandcreatelastindexfile suggestion thread readwritelock explanation indexfile reputmessageservice indexservice request blocker fix feature list task execute environment hint importance bug subtask tracker mailing mind raise sub detail lock mail collaboration
+4143	indexfile filelock indexservice lock file
+4686	release kvconfigmanager lock exception acquire bug report putkvconfig environment issue step thread state interrupt position layer
+5039	brokeridentity stick inetaddress instance localhostname idea object time
